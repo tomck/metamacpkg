@@ -1,0 +1,43 @@
+:root { color-scheme: light; --ink: #1a1a1a; --muted: #555; --line: #ddd;
+        --accent: #1a5c2e; --accent-ink: #fff; --chip: #eef1ee; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+       color: var(--ink); max-width: 60rem; margin: 0 auto; padding: 1rem;
+       line-height: 1.45; }
+header { border-bottom: 2px solid var(--ink); padding-bottom: 1rem;
+         margin-bottom: 1rem; }
+h1 { font-size: 1.4rem; margin: 0 0 0.25rem; }
+header p { margin: 0 0 0.75rem; color: var(--muted); max-width: 44rem; }
+.controls { display: flex; gap: 1rem; align-items: end; flex-wrap: wrap; }
+label { display: grid; gap: 0.2rem; font-size: 0.85rem; color: var(--muted); }
+select, input[type="text"] { font: inherit; padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line); border-radius: 6px; background: #fff;
+  color: var(--ink); }
+#progress { font-size: 0.9rem; }
+.card { border: 1px solid var(--line); border-radius: 8px; padding: 1rem;
+        margin-bottom: 1rem; }
+.card h2 { margin: 0 0 0.25rem; font-size: 1.2rem; overflow-wrap: anywhere; }
+.chip { display: inline-block; background: var(--chip); border-radius: 4px;
+        padding: 0.05rem 0.4rem; font-size: 0.8rem; margin-right: 0.4rem; }
+.desc { margin: 0.5rem 0; }
+.meta { font-size: 0.85rem; color: var(--muted); }
+.meta a { color: inherit; }
+details { margin-top: 0.5rem; font-size: 0.85rem; }
+summary { cursor: pointer; color: var(--muted); }
+.cand { border-top: 1px solid var(--line); padding: 0.6rem 0; display: grid;
+        gap: 0.25rem; }
+.cand strong { overflow-wrap: anywhere; }
+.cand .row { display: flex; gap: 0.5rem; align-items: baseline; flex-wrap: wrap; }
+button { font: inherit; cursor: pointer; border: 1px solid var(--line);
+         border-radius: 6px; background: #fff; padding: 0.35rem 0.7rem; }
+button.confirm { background: var(--accent); border-color: var(--accent);
+                 color: var(--accent-ink); }
+button.danger { border-color: #a33; color: #a33; }
+.actions { display: flex; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap; }
+.searchbox { margin-top: 0.75rem; display: grid; gap: 0.4rem; }
+.searchbox ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.25rem; }
+.searchbox li button { width: 100%; text-align: left; }
+.searchbox li button[aria-pressed="true"] { outline: 2px solid var(--accent); }
+footer { border-top: 1px solid var(--line); margin-top: 1.5rem; padding-top: 0.75rem;
+         font-size: 0.85rem; color: var(--muted); display: grid; gap: 0.25rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none; animation: none; } }

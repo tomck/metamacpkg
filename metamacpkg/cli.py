@@ -50,6 +50,16 @@ def cmd_report(_):
     generate()
 
 
+def cmd_export_web(args):
+    from .webexport import export_web
+    export_web(None if args.pair == "all" else [args.pair])
+
+
+def cmd_import_issues(args):
+    from .issues import import_issues
+    import_issues(close=args.close, limit=args.limit)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="metamacpkg")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -65,9 +75,18 @@ def main(argv=None):
     p.add_argument("pair", help="e.g. brew-formula-to-macports")
     p.add_argument("--limit", type=int, default=30)
     sub.add_parser("report", help="regenerate mappings/REPORT.md")
+    p = sub.add_parser("export-web", help="write review-site data to docs/")
+    p.add_argument("--pair", default="all")
+    p = sub.add_parser("import-issues",
+                       help="import mapping-review issues to curated/pending.yaml")
+    p.add_argument("--close", action="store_true",
+                   help="comment on and close imported issues")
+    p.add_argument("--limit", type=int, default=100)
     args = ap.parse_args(argv)
     return {"build": cmd_build, "lookup": cmd_lookup, "search": cmd_search,
-            "review": cmd_review, "report": cmd_report}[args.cmd](args)
+            "review": cmd_review, "report": cmd_report,
+            "export-web": cmd_export_web,
+            "import-issues": cmd_import_issues}[args.cmd](args)
 
 
 if __name__ == "__main__":

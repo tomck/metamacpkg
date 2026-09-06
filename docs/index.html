@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>metamacpkg review queue</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>Package mapping review</h1>
+    <p>Help match packages across Homebrew, MacPorts, and Fink.
+       Pick the correct equivalent — your verdict opens a GitHub issue
+       a maintainer reviews before it enters the database.</p>
+  </div>
+  <div class="controls">
+    <label>Direction
+      <select id="pair">
+        <option value="brew-formula-to-macports">Homebrew formula → MacPorts</option>
+        <option value="brew-cask-to-macports">Homebrew cask → MacPorts</option>
+        <option value="brew-formula-to-fink">Homebrew formula → Fink</option>
+        <option value="brew-cask-to-fink">Homebrew cask → Fink</option>
+        <option value="macports-to-fink">MacPorts → Fink</option>
+        <option value="fink-to-macports">Fink → MacPorts</option>
+      </select>
+    </label>
+    <span id="progress" aria-live="polite"></span>
+  </div>
+</header>
+<main id="main"><p id="status">Loading queue…</p></main>
+<footer>
+  <span id="submitted"></span>
+  <span>Nothing is decided by clicking: every verdict becomes a public
+  <a href="https://github.com/tomck/metamacpkg/issues?q=label%3Amapping-review">mapping-review issue</a>.
+  Keys: 1–8 confirm · 0 no equivalent · → skip.</span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
