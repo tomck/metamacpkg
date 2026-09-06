@@ -1,7 +1,7 @@
 # metamacpkg migration report
 
 ## Homebrew formulae -> MacPorts ports
-8590 source packages: 3504 confident, 1963 need review, 3123 missing.
+8590 source packages: 3505 confident, 1962 need review, 3123 missing.
 
 <details><summary>Missing in macports (3123)</summary>
 
@@ -210,9 +210,9 @@
 </details>
 
 ## Homebrew casks -> MacPorts ports
-7724 source packages: 324 confident, 1074 need review, 6326 missing.
+7724 source packages: 324 confident, 1073 need review, 6327 missing.
 
-<details><summary>Missing in macports (6326)</summary>
+<details><summary>Missing in macports (6327)</summary>
 
 - `0-ad`
 - `115browser`
@@ -414,7 +414,7 @@
 - `appvolume`
 - `appzapper`
 - `aptakube`
-- ... and 6126 more (see mappings/brew-cask-to-macports.csv)
+- ... and 6127 more (see mappings/brew-cask-to-macports.csv)
 
 </details>
 

@@ -8,6 +8,7 @@ Files (YAML, comments welcome):
 Keys name a directed pair, e.g. `brew-formula-to-macports`.
 Package refs use the native name (`gtk+3`, `python@3.14`, `HandBrake`).
 """
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -53,6 +54,10 @@ def _parse_simple_yaml(text):
                 parent.append(_scalar(item))
         elif line.endswith(":") and ": " not in line:
             key = _scalar(line[:-1])
+            if not stack and key in root:
+                raise ValueError(
+                    f"line {lineno}: duplicate top-level key {key!r}; "
+                    f"use one list per pair")
             parent = stack[-1][1] if stack else None
             new = {} if _next_is_map(text, lineno) else []
             if isinstance(parent, dict):
@@ -112,6 +117,46 @@ def _scalar(s):
     if s in ("null", "Null", "~"):
         return None
     return s
+
+
+def _duplicate_sources(text, field):
+    """Sources listed twice under one pair block (dicts would hide these)."""
+    dupes = []
+    pair, seen = None, set()
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        mkey = re.match(r"^([A-Za-z0-9_-]+):$", raw)
+        if mkey:
+            pair, seen = mkey.group(1), set()
+            continue
+        m = re.match(r"^- " + field + r":\s*(.+)$", line)
+        if m and pair:
+            val = m.group(1).strip().strip("\"'")
+            if val in seen:
+                dupes.append(f"{pair}: duplicate {field} {val!r}")
+            seen.add(val)
+    return dupes
+
+
+def validate_curated(cur, texts=()):
+    """Reject duplicate decisions and relation/no-equivalent conflicts.
+
+    texts are (label, raw YAML) pairs for duplicate-source scanning;
+    parsed dicts cannot show those since duplicate keys collapse.
+    """
+    errors = []
+    for label, text in texts:
+        field = "from" if "relations" in label else "name"
+        errors.extend(f"{label} {d}" for d in _duplicate_sources(text, field))
+    for pair in set(cur.relations) & set(cur.no_equiv):
+        for source in set(cur.relations[pair]) & set(cur.no_equiv[pair]):
+            errors.append(f"{pair}: {source!r} has both a relation "
+                          f"and a no-equivalent")
+    if errors:
+        raise ValueError("curated validation failed:\n" + "\n".join(errors))
+    return True
 
 
 def load_curated(curdir=CURATED):

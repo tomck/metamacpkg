@@ -28,6 +28,22 @@ REPO = os.environ.get("TRIAGE_REPO", "tomck/metamacpkg")
 MAINTAINER = os.environ.get("TRIAGE_MAINTAINER", "tomck")
 REQUIRED_VOTES = int(os.environ.get("TRIAGE_REQUIRED_VOTES", "2"))
 
+# Test hook: triage_all/triage_issue pass None; tests inject a fake.
+_opener = None
+
+PAIR_TO = {"brew-formula": ("homebrew", "formula"),
+           "brew-cask": ("homebrew", "cask"),
+           "macports": ("macports", "port"),
+           "fink": ("fink", "package")}
+
+
+def _pair_to(pair):
+    try:
+        _, to = pair.split("-to-", 1)
+        return PAIR_TO[to]
+    except (ValueError, KeyError):
+        return None
+
 
 def _gh(*args, input_text=None):
     return subprocess.run(["gh", *args], check=True, capture_output=True,
@@ -75,6 +91,40 @@ def curated_existing(pair, source, decision, target):
     return None
 
 
+def target_exists(to_manager, to_type, name, opener=None):
+    """Live existence check for a proposed target. Unknown managers or
+    network failures fail open (True) with a log line; a confirmed 404
+    fails closed (False)."""
+    import urllib.request
+    from urllib.parse import quote
+    urls = {
+        ("macports", "port"): "https://ports.macports.org/api/v1/ports/{}/",
+        ("homebrew", "formula"): "https://formulae.brew.sh/api/formula/{}.json",
+        ("homebrew", "cask"): "https://formulae.brew.sh/api/cask/{}.json",
+    }
+    url = urls.get((to_manager, to_type))
+    if url is None:
+        print(f"no existence check for {to_manager}/{to_type}; skipping")
+        return True
+    req = urllib.request.Request(
+        url.format(quote(name, safe="")),
+        headers={"User-Agent": "metamacpkg-triage/0.1"})
+    import urllib.error
+    try:
+        if opener:
+            return bool(opener(req))
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status == 200
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        print(f"existence check for {name} failed open: HTTP {e.code}")
+        return True
+    except Exception as e:
+        print(f"existence check for {name} failed open: {e}")
+        return True
+
+
 def plus_one_voters(issue_number):
     out = _gh("api", f"repos/{REPO}/issues/{issue_number}/reactions",
               "--paginate", "--jq", ".[] | select(.content == \"+1\") | .user.login")
@@ -88,20 +138,56 @@ def open_review_issues(limit=100):
     return json.loads(raw)
 
 
+def insert_entry(text, pair, entry_lines):
+    """Append list items into the pair's existing list (one list per pair),
+    creating the block when absent. Pure text edit preserving comments."""
+    if not text:
+        return f"{pair}:\n" + "".join(entry_lines)
+    lines = text.splitlines(keepends=True)
+    if not text.endswith("\n"):
+        lines[-1] = lines[-1] + "\n"
+    try:
+        start = next(i for i, l in enumerate(lines)
+                     if re.match(rf"^{re.escape(pair)}:$", l.rstrip("\n")))
+    except StopIteration:
+        return text + ("\n" if not text.endswith("\n\n") else "") + \
+            f"{pair}:\n" + "".join(entry_lines)
+    end = start + 1
+    while end < len(lines) and (lines[end].strip() == "" or
+                                lines[end][0] in " \t"):
+        end += 1
+    return "".join(lines[:end] + entry_lines + lines[end:])
+
+
+def _texts():
+    d = ROOT / "curated"
+    out = []
+    for name in ("relations.yaml", "no_equivalent.yaml"):
+        p = d / name
+        out.append((name, p.read_text() if p.exists() else ""))
+    return out
+
+
+def _write_validated(path, pair, entry_lines):
+    text = path.read_text() if path.exists() else ""
+    path.write_text(insert_entry(text, pair, entry_lines))
+    from .curated import load_curated, validate_curated
+    cur = load_curated()  # raises on duplicate pair keys
+    validate_curated(cur, _texts())  # raises on dup sources/conflicts
+    return cur
+
+
 def append_relation(pair, source, target, comment):
-    path = ROOT / "curated" / "relations.yaml"
-    with open(path, "a") as f:
-        f.write(f"{pair}:\n  - from: {_q(source)}\n    to: {_q(target)}\n"
-                f"    comment: {_q(comment)}\n")
-    load_curated()  # fail loudly if the YAML no longer parses
+    _write_validated(
+        ROOT / "curated" / "relations.yaml", pair,
+        [f"  - from: {_q(source)}\n", f"    to: {_q(target)}\n",
+         f"    comment: {_q(comment)}\n"])
 
 
 def append_no_equivalent(pair, source, comment):
-    path = ROOT / "curated" / "no_equivalent.yaml"
-    with open(path, "a") as f:
-        f.write(f"{pair}:\n  - name: {_q(source)}\n"
-                f"    comment: {_q(comment)}\n")
-    load_curated()
+    _write_validated(
+        ROOT / "curated" / "no_equivalent.yaml", pair,
+        [f"  - name: {_q(source)}\n", f"    comment: {_q(comment)}\n"])
 
 
 def drop_queue_card(pair, source):
@@ -180,6 +266,13 @@ def triage_issue(issue, dry_run=False):
     assert verdict == "accept", verdict
     # accept
     target = proposal["target"] or "∅ (no equivalent)"
+    if proposal["decision"] != "no-equivalent" and not dry_run:
+        to = _pair_to(proposal["pair"])
+        if (to and not target_exists(to[0], to[1], proposal["target"],
+                                     opener=_opener)):
+            comment(n, f"Target {proposal['target']!r} is not in the current "
+                       f"{to[0]} catalog, so this needs a human look. Leaving open.")
+            return ("stale-target", n)
     credit = (f"Accepted from #{n} by @{author or 'unknown'} "
               f"({reason})" + (f": {proposal['comment'][:200]}"
                                if proposal.get("comment") else ""))

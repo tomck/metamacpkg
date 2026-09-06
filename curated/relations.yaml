@@ -14,7 +14,6 @@ brew-formula-to-macports:
   - from: gdk-pixbuf
     to: gdk-pixbuf2
     comment: same upstream (gtk.org); MacPorts carries the versioned port name only, so the pipeline leaves it needs-review
-brew-formula-to-macports:
   - from: "ansible@10"
     to: "ansible"
     comment: "Accepted from #1 by @tomck (maintainer approval)"

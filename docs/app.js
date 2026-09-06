@@ -9,6 +9,37 @@ const pairSel = document.getElementById("pair");
 const progressEl = document.getElementById("progress");
 let queue = [], idx = 0, done = 0;
 let proposed = null; // target selected via search
+let hist = [];       // previously viewed card indexes for ← back
+let notice = "";     // one-shot alert shown at the top of the card
+
+function save() {
+  try {
+    localStorage.setItem("pos:" + pairSel.value, String(idx));
+    localStorage.setItem("done:" + pairSel.value, String(done));
+  } catch {}
+}
+
+function restore() {
+  try {
+    idx = Math.max(0, parseInt(localStorage.getItem("pos:" + pairSel.value) || "0", 10) || 0);
+    done = parseInt(localStorage.getItem("done:" + pairSel.value) || "0", 10) || 0;
+  } catch { idx = 0; done = 0; }
+}
+
+function advance() {
+  hist.push(idx);
+  if (hist.length > 300) hist.shift();
+  idx++;
+  save();
+  render();
+}
+
+function goBack() {
+  if (!hist.length) return;
+  idx = hist.pop();
+  save();
+  render();
+}
 
 function seenKey(card) { return card.pair + ":" + card.source; }
 function isSeen(card) {
@@ -44,7 +75,7 @@ function issueUrl(card, decision, target) {
 
 function homepage(link, text) {
   if (!link) return "";
-  return `<a href="${esc(link)}" rel="noopener">${esc(text || link)}</a>`;
+  return `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(text || link)}</a>`;
 }
 
 function parseProposal(body) {
@@ -71,7 +102,8 @@ function existingState(card, existing) {
       locked.add(p.target);
     if (p.decision === "no-equivalent") noeq.locked = true;
     const what = p.decision === "no-equivalent" ? "no equivalent" : `→ ${p.target || "?"}`;
-    return `<li><a href="https://github.com/${REPO}/issues/${p.number}">#${p.number}</a> ` +
+    return `<li><a href="https://github.com/${REPO}/issues/${p.number}" ` +
+      `target="_blank" rel="noopener">#${p.number}</a> ` +
       `${esc(what)} by @${esc(p.user)}</li>`;
   }).join("");
   if (!existing.length) return { html: "", locked, noeqLocked: false };
@@ -105,6 +137,7 @@ function render() {
     </div>`; }).join("");
   main.innerHTML = `
     <div class="card">
+      ${notice ? `<p class="notice" role="alert">${esc(notice)}</p>` : ""}
       <h2>${esc(c.source)}</h2>
       <div><span class="chip">${esc(c.from.manager)} ${esc(c.from.type)}</span>
         <span class="chip">→ ${esc(c.to.manager)}</span>
@@ -134,7 +167,8 @@ function render() {
   const noeqBtn = document.getElementById("noeq");
   if (noeqBtn) noeqBtn.addEventListener("click", () => submit(c, "no-equivalent", ""));
   window.__current = { card: c, locked: st.locked, noeqLocked: st.noeqLocked };
-  document.getElementById("skip").addEventListener("click", () => { idx++; render(); });
+  notice = "";
+  document.getElementById("skip").addEventListener("click", advance);
   document.getElementById("other").addEventListener("click", () => {
     const box = document.getElementById("searchbox");
     box.hidden = !box.hidden;
@@ -147,10 +181,14 @@ function render() {
 }
 
 function submit(card, decision, target) {
+  const w = window.open(issueUrl(card, decision, target), "_blank", "noopener");
+  if (!w) {
+    notice = "Popup blocked — allow popups for this site, then confirm again. Your place is kept.";
+    render();
+    return;
+  }
   markSeen(card);
-  window.open(issueUrl(card, decision, target), "_blank", "noopener");
-  idx++;
-  render();
+  advance();
 }
 
 const shardCache = {};
@@ -181,11 +219,13 @@ async function search(text) {
 
 async function load() {
   document.getElementById("status") && (main.innerHTML = "<p>Loading queue…</p>");
-  idx = 0; done = 0;
+  hist = [];
+  restore(); // resume where this browser left off, per direction
   try {
     const r = await fetch(`data/queue-${pairSel.value}.json`);
     queue = (await r.json()).cards;
   } catch { queue = []; }
+  idx = Math.min(idx, Math.max(queue.length - 1, 0));
   render();
 }
 
@@ -228,11 +268,14 @@ document.addEventListener("keydown", e => {
   } else if (e.key === "0") {
     if (!cur.noeqLocked) submit(c, "no-equivalent", "");
   } else if (e.key === "ArrowRight") {
-    idx++; render();
+    advance();
+  } else if (e.key === "ArrowLeft") {
+    goBack();
   }
 });
 pairSel.addEventListener("change", load);
 load();
 fetchOpenProposals();
 if (typeof window !== "undefined")
-  window.__review = { issueUrl, parseProposal, findExisting, existingState };
+  window.__review = { issueUrl, parseProposal, findExisting, existingState,
+                      advance, goBack, submit };

@@ -84,6 +84,8 @@ brew-cask-to-macports:
     comment: brew=cloud drive (transip.nl); macports=Haskell Tool Stack (haskellstack.org)
   - name: timer
     comment: brew=alarm-clock app (apimac.com); macports=sleep-with-progress (caarlos0)
+  - name: "vscodium"
+    comment: "Accepted from #3 by @tomck (maintainer approval): verified absent; fuzzy lookalikes (R-sodium) are unrelated"
 # The rows below need no curation: the pipeline already reports them missing.
 # Kept as documentation of reviewed gaps:
 # - brew-formula-to-macports / git-svn: no such port (verified absent from
@@ -92,6 +94,3 @@ brew-cask-to-macports:
 #   lookalikes mmencode/gecode are unrelated)
 # - brew-cask-to-macports / macs-fan-control: no such port (verified absent;
 #   lookalike qmail-spamcontrol is a mail filter)
-brew-cask-to-macports:
-  - name: "vscodium"
-    comment: "Accepted from #3 by @tomck (maintainer approval): verified absent; fuzzy lookalikes (R-sodium) are unrelated"

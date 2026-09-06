@@ -7429,7 +7429,7 @@ voxql,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalik
 vpn-tracker-365,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,
 vrampro,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,
 vrew,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,
-vscodium,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,R-sodium
+vscodium,,1.0,curated,missing,Accepted from #3 by @tomck (maintainer approval): verified absent; fuzzy lookalikes (R-sodium) are unrelated,R-sodium
 vscodium@insiders,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,
 vsd-viewer,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,dspdfviewer
 vsdx-annotator,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,

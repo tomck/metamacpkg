@@ -138,6 +138,9 @@ def fetch_fink(outdir=RAW):
                     "origin", "master"], check=True, cwd=tmp)
     subprocess.run(["git", "checkout", "FETCH_HEAD"], check=True,
                    capture_output=True, cwd=tmp)
+    rev = subprocess.run(["git", "rev-parse", "FETCH_HEAD"],
+                         check=True, capture_output=True, text=True,
+                         cwd=tmp).stdout.strip()
     infos = sorted(tmp.rglob("*.info"))
     print(f"fink: {len(infos)} .info files")
     pkgs = {}
@@ -175,7 +178,8 @@ def fetch_fink(outdir=RAW):
     path = outdir / "fink.json"
     path.write_text(json.dumps(rows, indent=1) + "\n")
     print(f"fink: {len(rows)} packages -> {path}")
-    return {"url": FINK_GIT, "count": len(rows), "path": path.name}
+    return {"url": FINK_GIT, "revision": rev, "count": len(rows),
+            "path": path.name}
 
 
 def _parse_info(lines):
@@ -218,14 +222,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", choices=["brew", "macports", "fink"])
     args = ap.parse_args()
-    meta = {"fetched_at": datetime.now(timezone.utc).isoformat()}
+    prov_path = RAW / "provenance.json"
+    meta = json.loads(prov_path.read_text()) if prov_path.exists() else {}
+    meta["fetched_at"] = datetime.now(timezone.utc).isoformat()
     if args.only in (None, "brew"):
         meta.update(fetch_brew())
     if args.only in (None, "macports"):
         meta.update({"macports_api": fetch_macports()})
     if args.only in (None, "fink"):
         meta.update({"fink_git": fetch_fink()})
-    (RAW / "provenance.json").write_text(json.dumps(meta, indent=2) + "\n")
+    prov_path.write_text(json.dumps(meta, indent=2) + "\n")
     print("provenance written")
 
 

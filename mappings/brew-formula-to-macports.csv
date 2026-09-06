@@ -154,7 +154,7 @@ ansible-cmdb,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no l
 ansible-creator,,0.0,none,missing,no exact/normalized/alias/homepage evidence; no lookalikes either,
 ansible-language-server,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,yaml-language-server; bash-language-server; haskell-language-server
 ansible-lint,ansible-lint,1.0,exact,confident,name identical in both managers; homepages 'https://ansible-lint.readthedocs.io/' vs 'https://github.com/ansible/ansible-lint',
-ansible@10,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,ansible
+ansible@10,ansible,1.0,curated,confident,Accepted from #1 by @tomck (maintainer approval),
 ansible@12,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,ansible
 ansible@13,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,ansible
 ansible@9,,0.0,none,needs-review,no exact/normalized/alias/homepage evidence; fuzzy suggestions listed for review,ansible; py-ansible
