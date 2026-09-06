@@ -1,0 +1,15 @@
+# ---> Python / tooling
+__pycache__/
+*.pyc
+.venv/
+
+# Raw snapshots and full local builds are reproducible via `make fetch`
+# and `make build`. They are large, so they stay out of git.
+data/raw/
+data/packages.json
+data/catalog.json
+data/catalog.sqlite
+
+# Nested brew2port checkout: it is its own git repo, kept on the
+# `metamacpkg-db` branch (never merged to its main). See README.
+brew2port/

@@ -1,0 +1,84 @@
+kind,homebrew,recommended_port,confidence,reason,alternatives,review_status
+formula,apktool,apktool,1.0,exact name,atool; optool; R-maptools; epstool,recommended
+formula,asciidoc,asciidoc,1.0,exact name,asciidoctor; asciidoctorj; ascii; scdoc,recommended
+formula,at-spi2-core,at-spi2-core,1.0,exact name,bats-core; xapian-core; ALPSCore; epic-lore,recommended
+formula,azcopy,R-DNAcopy,0.714,heuristic,aop; comply; mactop; cl-metacopy,needs-review
+formula,boost,boost,1.0,exact name,R-mboost; R-boot; broot; R-RRBoost,recommended
+formula,brew2port,R-report,0.75,heuristic,R-qreport; R-regport; R-reportr; pub2port,needs-review
+formula,cargo-c,cargo-c,1.0,exact name,cargo; argocd; argc; croc,recommended
+formula,cmark,cmark,1.0,exact name,R-mark; cmake; mmark; cl-markup,recommended
+formula,curl,curl,1.0,exact name,R-curl; wcurl; R-RCurl; coeurl,recommended
+formula,dnsglobe,xglobe,0.714,heuristic,R-glober; dbus-glib; demangle; py-dnslib,needs-review
+formula,docker,docker,1.0,exact name,py-docker; dockerize; mockery; lazydocker,recommended
+formula,dos2unix,dos2unix,1.0,exact name,dcm2niix; dosmacux; R-unix; osx2x,recommended
+formula,emacs,emacs,1.0,exact name,xemacs; TeXmacs; emacs-app; emacs-w3m,recommended
+formula,ffmpeg,ffmpeg,1.0,exact name,ffmpeg4; ffmpeg6; ffmpeg7; ffmpeg8,needs-review
+formula,gcc,gcc5,0.857,heuristic,gcc6; gcc7; gcc8; gcc9,needs-review
+formula,gdk-pixbuf,gdk-pixbuf2,0.947,heuristic,rb-gdk_pixbuf2; rb31-gdk_pixbuf2; rb32-gdk_pixbuf2; rb33-gdk_pixbuf2,recommended
+formula,get_iplayer,get_iplayer,1.0,exact name,MPlayer; NicePlayer; spotify-player; R-timeplyr,recommended
+formula,gh,gh,1.0,exact name,R-gh; ghc; ghq; ghz,recommended
+formula,ghostscript,ghostscript,1.0,exact name,p5-postscript; rust-script; py-photoscript; p5.28-postscript,recommended
+formula,git,git,1.0,exact name,GitX; cgit; gitg; gitu,recommended
+formula,git-lfs,git-lfs,1.0,exact name,gitless; py-gitfs; git-cliff; git-tools,recommended
+formula,git-svn,gitsign,0.769,heuristic,git; git-cvs; git-lfs; gtk-vnc,needs-review
+formula,gnutls,gnutls,1.0,exact name,mod_gnutls; gc-utils; gputils; gnats,recommended
+formula,gpac,gpac,1.0,exact name,gpatch; gmpc; grpc; poac,recommended
+formula,gsettings-desktop-schemas,gsettings-desktop-schemas,1.0,exact name,gnome-settings-daemon,recommended
+formula,gtk+3,gtk3,0.96,normalized name,gtkmm3; p5-gtk3; rb-gtk3; gmtk,recommended
+formula,handbrake,HandBrake,0.96,normalized name,HandBrakeCLI; R-anesrake; R-drake; rb-rake,recommended
+formula,imagemagick,ImageMagick,0.96,normalized name,ImageMagick7; R-magick; php-gmagick; php-imagick,needs-review
+formula,iperf3,iperf3,1.0,exact name,gperf; py-erf; wiper; R-pipeR,recommended
+formula,jq,jq,1.0,exact name,ijq; jaq; jlq; jql,recommended
+formula,libexif,libexif,1.0,exact name,libheif; libelf; libemf; libewf,recommended
+formula,libgit2,libgit2,1.0,exact name,libgit2-glib; libggi; libgig; libgii,recommended
+formula,libid3tag,libid3tag,1.0,exact name,libvidstab; libcdata; libgdata; libident,recommended
+formula,liblqr,liblqr,1.0,exact name,liblrdf; liblxqt; R-libr; liblo,recommended
+formula,libmicrohttpd,libmicrohttpd,1.0,exact name,libhttpd; libcotp; lighttpd; libatomic_ops,recommended
+formula,libproxy,libproxy,1.0,exact name,libepoxy; libpoly; libproxy-vapi; libproj4,recommended
+formula,libraw,libraw,1.0,exact name,libabw; libkdcraw; libmwaw; libraqm,recommended
+formula,librist,libplist,0.8,heuristic,libproplist; libast; libint; libjit,needs-review
+formula,links,links,1.0,exact name,elinks; links1; blink; symlinks,recommended
+formula,mas,mas,1.0,exact name,mars; mask; R-MASS; R-maps,recommended
+formula,media-info,mediainfo,0.96,normalized name,mediainfo-gui; mediainfolib; R-mediation; R-Gmedian,recommended
+formula,minidlna,libdlna,0.667,heuristic,minisat; R-minimax; dominion; mindless,needs-review
+formula,mkp224o,,,,,needs-review
+formula,nano,nano,1.0,exact name,nanomq; nanorc; nanovg; nant,recommended
+formula,nghttp2,nghttp2,1.0,exact name,nghttp3; ngtcp2; nghttp2-tools; lighttpd,recommended
+formula,nmap,nmap,1.0,exact name,zenmap; R-NMA; mapm; nnap,recommended
+formula,node,ode,0.857,heuristic,renode; nodejs8; unicode; yencode,needs-review
+formula,ollama,ollama,1.0,exact name,R-ollggamma; R-LaMa; llama.cpp; clamav,recommended
+formula,openusage,OpenCSG,0.75,heuristic,py-envisage; openjade; openpace; opensaml,needs-review
+formula,pipx,pipx,1.0,exact name,pixz; plip; pipexec; R-pinp,recommended
+formula,pnpm,pnpm,1.0,exact name,nfpm; npm3; npm4; npm5,recommended
+formula,python@3.14,python314,0.96,normalized name,python34; python310; python311; python312,needs-review
+formula,qt,qt3,0.8,heuristic,qt5; qt6; qwt; R-qtl,needs-review
+formula,ruby,ruby,1.0,exact name,jruby; mruby; chruby; qtruby,recommended
+formula,rust,rust,1.0,exact name,R-rust; R-trust; R-ustfd; mrustc,recommended
+formula,speedtest-cli,speedtest-cli,1.0,exact name,detekt-cli; p5-test-lib; step-cli; p5-test-classapi,recommended
+formula,sphinx-doc,sphinx,0.8,heuristic,sphinx3; sphinx4; linuxdoc; py-sphinx,needs-review
+formula,swig,swig,1.0,exact name,swig-d; swig-r; swig3; sig,recommended
+formula,tarsnap,tarsnap,1.0,exact name,R-sna; R-parsnip; R-snfa; R-tsna,recommended
+formula,telnet,DateLine,0.714,heuristic,R-fwelnet; R-telefit; teleport; timeleft,needs-review
+formula,testdisk,testdisk,1.0,exact name,texstudio; R-testit; fatdisk; py-pytest-xdist,recommended
+formula,tor,tor,1.0,exact name,TOra; R-thor; stork; R-jstor,recommended
+formula,ufbt,ft,0.667,heuristic,uftp3; R-tufte; numbat; R-BT,needs-review
+formula,vcs,vcs,1.0,exact name,vcsh; vpcs; Vc; R-vctrs,recommended
+formula,wget,wget,1.0,exact name,gwget; wget2; aget; kget,recommended
+formula,youtube-dl,youtube-dl,1.0,exact name,youtube-upload; youtube-viewer; yewtube; yodl,recommended
+formula,yt-dlp,yt-dlp,1.0,exact name,yt-dlp-ejs; yelp; yodl; getdp,recommended
+cask,android-platform-tools,android-platform-tools,1.0,exact name,android-platform-tools-i386; android-platform-tools-latest; android-platform-tools-no_sse4; R-operator.tools,recommended
+cask,balenaetcher,janet-cipher,0.696,heuristic,alienblaster; balena-cli; p5-alien-patch; py-leather,needs-review
+cask,codex,codex,1.0,exact name,R-cOde; ode; codec2; gecode,recommended
+cask,docker-desktop,rdesktop,0.762,heuristic,gnome-desktop; dockerize; xfdesktop; docker,needs-review
+cask,feather,facter,0.769,heuristic,weathr; py-leather; weatherme; ethr,needs-review
+cask,handbrake-app,HandBrake,0.857,heuristic,HandBrakeCLI; HermesApp; R-anesrake; R-drake,recommended
+cask,losslesscut,ccls_select,0.667,heuristic,love_select; luarocks_select; ioflo_select; obspy_select,needs-review
+cask,macs-fan-control,qmail-spamcontrol,0.733,heuristic,dnscontrol; gsmartcontrol; py-cachecontrol; pavucontrol,needs-review
+cask,mkvtoolnix-app,mkvtoolnix,0.87,heuristic,mkvtoolnix-legacy; mkvtoolnix-devel; toluapp; vmdktool,recommended
+cask,muse-code,mmencode,0.75,heuristic,gecode; recode; Mousecape; dmidecode,needs-review
+cask,openusage,OpenCSG,0.75,heuristic,py-envisage; openjade; openpace; opensaml,needs-review
+cask,platypus,Platypus,0.96,normalized name,Platypus44; p5-ffi-platypus; p5.28-ffi-platypus; p5.30-ffi-platypus,needs-review
+cask,transmission-remote-gui,transmission-qt,0.743,heuristic,transmission; transmission-x11; R-missForest; R-poissonreg,needs-review
+cask,vesktop,rdesktop,0.8,heuristic,xfdesktop; nvtop; gnome-desktop; R-rvest,needs-review
+cask,vscodium,R-sodium,0.8,heuristic,libsodium; sc-im; php72-sodium; php73-sodium,recommended
+cask,zenmap,zenmap,1.0,exact name,nmap; zmap; cvemap; enigma,recommended

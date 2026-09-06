@@ -1,0 +1,94 @@
+# Confirmed-missing packages: reviewed by a human, not just unmatched.
+# Format mirrors relations.yaml. A package lands here when the catalog shows
+# no exact/normalized/alias/homepage evidence AND the fuzzy lookalikes are
+# verified to be different programs (check their homepages/descriptions).
+
+# Verified against the 2026-09-06 snapshots (muse verification run).
+# Section 1: same-name collisions — identical names, different programs
+# (descs/homepages compared pairwise; see mappings/REPORT.md review list).
+brew-formula-to-macports:
+  - name: abyss
+    comment: brew=genome sequence assembler (bcgsc.ca); macports=HTTP web server (abyss.sourceforge.net)
+  - name: anubis
+    comment: brew=scraper-bot shield (anubis.techaro.lol); macports=GNU outgoing mail processor (gnu.org)
+  - name: asar
+    comment: brew=SNES assembler; macports=Electron archive format (electronjs.org)
+  - name: atlas
+    comment: brew=database toolkit (atlasgo.io); macports=linear algebra library (math-atlas)
+  - name: bit
+    comment: brew=code component manager (bit.dev); macports=Git CLI experiment (github.com)
+  - name: bomber
+    comment: brew=SBOM scanner; macports=KDE arcade game (kde.org)
+  - name: bsc
+    comment: brew=Bluespec compiler; macports=block-sorting compressor (libbsc.com)
+  - name: dcd
+    comment: brew=D auto-complete; macports=Direct Connect hub daemon
+  - name: dune
+    comment: brew=OCaml build system (dune.build); macports=beach shell (github.com)
+  - name: electric
+    comment: brew=Postgres sync (electric-sql.com); macports=VLSI CAD (staticfreesoft.com)
+  - name: elvis
+    comment: brew=Erlang style reviewer; macports=vi/ex clone
+  - name: fabric
+    comment: brew=SSH library (fabfile.org); macports=AI augmentation framework (danielmiessler.com)
+  - name: fetch
+    comment: brew=GitHub asset downloader (gruntwork.io); macports=FreeBSD fetch utility (freebsd.org)
+  - name: flow
+    comment: brew=JS type checker (flow.org); macports=Fortran analyzer (netlib.org)
+  - name: g2
+    comment: brew=git client; macports=2-D graphics library (g2gl)
+  - name: glom
+    comment: brew=object transformer (glom.readthedocs.io); macports=database designer (glom.org)
+brew-cask-to-macports:
+  - name: docker-desktop
+    comment: proprietary Docker Desktop GUI; brew old_token 'docker' collides with MacPorts' docker CLI port (github.com/docker/cli) — related but not equivalent, must not auto-install
+  - name: acorn
+    comment: brew=image editor (flyingmeat.com); macports=Kubernetes deployment framework (docs.acorn.io)
+  - name: arc
+    comment: brew=Chromium browser (arc.net); macports=DOS .arc archiver (github.com)
+  - name: cutter
+    comment: brew=Rizin RE platform (cutter.re); macports=C unit-test framework (cutter.sourceforge.net)
+  - name: dash
+    comment: brew=docs browser (kapeli.com); macports=DASH shell descendant of ash
+  - name: deco
+    comment: brew=React Native IDE (decosoftware.com); macports=file extraction framework (github.com)
+  - name: exo
+    comment: brew=local AI models (exolabs.net); macports=Xfce application library (docs.xfce.org)
+  - name: freeze
+    comment: brew=Glacier client (freezeapp.net); macports=code-image generator (charmbracelet)
+  - name: fresh
+    comment: brew=recent-files tracker (ironicsoftware.com); macports=terminal text editor (getfresh.dev)
+  - name: glide
+    comment: brew=tiling WM (glidewm.org); macports=Go package manager (Masterminds)
+  - name: gnome
+    comment: brew=GIF menu-bar tool; macports=GNOME desktop mega-port (gnome.org)
+  - name: mos
+    comment: brew=mouse-scroll smoother (mos.caldis.me); macports=Mongoose OS CLI (mongoose-os)
+  - name: nightshade
+    comment: brew=anti-AI-training tool (uchicago.edu); macports=astronomy simulator (nightshadesoftware.org)
+  - name: orca
+    comment: brew=plotly chart images; macports=ORCa livecoding language (100r.co)
+  - name: pine
+    comment: brew=markdown editor; macports=Pine mail/news reader (washington.edu)
+  - name: qq
+    comment: brew=Tencent IM (im.qq.com); macports=config transcoder (JFryy)
+  - name: sakura
+    comment: brew=SakuraFrp launcher; macports=GTK terminal emulator (launchpad.net)
+  - name: scout
+    comment: brew=Sass processor (scout-app.io); macports=Rust fuzzy finder (jhbabon)
+  - name: sfm
+    comment: brew=sing-box proxy client; macports=unix file manager (afify)
+  - name: simple-web-server
+    comment: brew=local web-server app (simplewebserver.org); macports=C++ HTTP library (eidheim)
+  - name: stack
+    comment: brew=cloud drive (transip.nl); macports=Haskell Tool Stack (haskellstack.org)
+  - name: timer
+    comment: brew=alarm-clock app (apimac.com); macports=sleep-with-progress (caarlos0)
+# The rows below need no curation: the pipeline already reports them missing.
+# Kept as documentation of reviewed gaps:
+# - brew-formula-to-macports / git-svn: no such port (verified absent from
+#   the 52,671-port snapshot; fuzzy lookalike gitsign is keyless Git signing)
+# - brew-cask-to-macports / muse-code: no such port (verified absent;
+#   lookalikes mmencode/gecode are unrelated)
+# - brew-cask-to-macports / macs-fan-control: no such port (verified absent;
+#   lookalike qmail-spamcontrol is a mail filter)

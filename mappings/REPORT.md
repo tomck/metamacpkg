@@ -1,0 +1,4243 @@
+# metamacpkg migration report
+
+## Homebrew formulae -> MacPorts ports
+8590 source packages: 3504 confident, 1963 need review, 3123 missing.
+
+<details><summary>Missing in macports (3123)</summary>
+
+- `abi-dumper`
+- `abi3audit`
+- `abnfgen`
+- `abpoa`
+- `abricate`
+- `abyss`
+- `acronym`
+- `action-docs`
+- `action-validator`
+- `actions-batch`
+- `actions-up`
+- `activemq`
+- `activemq-cpp`
+- `ada-url`
+- `adamstark-audiofile`
+- `adapterremoval`
+- `adaptivecpp`
+- `adb-enhanced`
+- `add-determinism`
+- `addlicense`
+- `addons-linter`
+- `adios2`
+- `adr-viewer`
+- `adrs`
+- `advai-cli`
+- `aerleon`
+- `aescrypt-packetizer`
+- `aftman`
+- `agda`
+- `agedu`
+- `agent-browser`
+- `ahcpd`
+- `ahoy`
+- `aiac`
+- `aicommit`
+- `aicommit2`
+- `aicommits`
+- `aiken`
+- `airshare`
+- `airtable-mcp-server`
+- `aiven-client`
+- `akamai`
+- `akku`
+- `aklomp-base64`
+- `alda`
+- `alejandra`
+- `alevin-fry`
+- `algernon`
+- `algolia`
+- `aliae`
+- `aliddns`
+- `alive2`
+- `aliyun-cli`
+- `aliyunpan`
+- `all-repos`
+- `alloy-analyzer`
+- `allure`
+- `allureofthestars`
+- `alluxio`
+- `amazon-ecs-cli`
+- `ammonite-repl`
+- `ampl-asl`
+- `ampl-mp`
+- `amqp-cpp`
+- `amy`
+- `anchor`
+- `angular-cli`
+- `animdl`
+- `ansible-builder`
+- `ansible-cmdb`
+- `ansible-creator`
+- `ansiweather`
+- `antidote`
+- `antigen`
+- `anubis`
+- `any2fasta`
+- `anycable-go`
+- `anyenv`
+- `anyquery`
+- `anyzig`
+- `aoe`
+- `aoeui`
+- `apache-arrow-adbc-glib`
+- `apache-brooklyn-cli`
+- `apache-drill`
+- `apache-flink`
+- `apache-flink-cdc`
+- `apache-flink@1`
+- `apache-opennlp`
+- `apache-polaris`
+- `apache-pulsar`
+- `apache-spark`
+- `api-linter`
+- `apib`
+- `apibuilder-cli`
+- `apify-cli`
+- `apigeecli`
+- `apkleaks`
+- `apko`
+- `apng2gif`
+- `apngasm`
+- `appium`
+- `apprise`
+- `apptainer`
+- `appwrite`
+- `apt`
+- `apt-dater`
+- `aptly`
+- `aptos`
+- `aqtinstall`
+- `aqua`
+- `aravis`
+- `arcade-learning-environment`
+- `arcadedb`
+- `archey4`
+- `archi-steam-farm`
+- `arelo`
+- `arf`
+- `argocd-autopilot`
+- `argocd-vault-plugin`
+- `arjun`
+- `arrayfire`
+- `arttime`
+- `arx-libertatis`
+- `arxiv_latex_cleaner`
+- `asak`
+- `asar`
+- `asccli`
+- `ascii2binary`
+- `asciiquarium`
+- `asciitex`
+- `asm6809`
+- `asn`
+- `asroute`
+- `astgen`
+- `astra`
+- `astrometry-net`
+- `astroterm`
+- `asuka`
+- `async_simple`
+- `asyncapi`
+- `asyncplusplus`
+- `athenacli`
+- `atlantis`
+- `atlas`
+- `atmos`
+- `atomgit-cli`
+- `atomic_queue`
+- `ats2-postiats`
+- `attempt-cli`
+- `aube`
+- `audiowaveform`
+- `auditbeat`
+- `auditwheel`
+- `augustus`
+- `austin`
+- `authoscope`
+- `authz0`
+- `auto-editor`
+- `autobrr`
+- `autocannon`
+- `autocode`
+- `autocorrect`
+- `autocycler`
+- `autodiff`
+- `automysqlbackup`
+- `avanor`
+- `avce00`
+- `avfs`
+- `avimetaedit`
+- `avisynthplus`
+- `avra`
+- `aws-amplify`
+- `aws-c-auth`
+- `aws-c-cal`
+- `aws-c-common`
+- `aws-c-compression`
+- `aws-c-event-stream`
+- `aws-c-http`
+- `aws-c-io`
+- `aws-c-mqtt`
+- `aws-c-sdkutils`
+- `aws-cdk`
+- `aws-checksums`
+- `aws-crt-cpp`
+- `aws-elasticbeanstalk`
+- `aws-es-proxy`
+- `aws-rotate-key`
+- `aws-sam-cli`
+- `aws-sdk-cpp`
+- `aws-shell`
+- `aws-spiffe-workload-helper`
+- `aws-sso-cli`
+- `aws-sso-util`
+- `aws2-wrap`
+- `awscli-local`
+- `awsdac`
+- `awsume`
+- `awww`
+- `azcopy`
+- ... and 2923 more (see mappings/brew-formula-to-macports.csv)
+
+</details>
+
+## Homebrew casks -> MacPorts ports
+7724 source packages: 324 confident, 1074 need review, 6326 missing.
+
+<details><summary>Missing in macports (6326)</summary>
+
+- `0-ad`
+- `115browser`
+- `1kc-razer`
+- `1password@beta`
+- `1password@nightly`
+- `3dgenceslicer`
+- `4k-image-compressor`
+- `4k-slideshow-maker`
+- `4k-stogram`
+- `4k-tokkit`
+- `4k-video-downloader`
+- `4k-video-downloader+`
+- `4k-video-to-mp3`
+- `4k-youtube-to-mp3`
+- `4peaks`
+- `5ire`
+- `7777`
+- `86box`
+- `8bitdo-firmware-updater`
+- `8bitdo-ultimate-software`
+- `8bitdo-ultimate-software-v2`
+- `8x8-work`
+- `a-better-finder-attributes`
+- `a-better-finder-rename`
+- `abbyy-finereader-pdf`
+- `ableset`
+- `ableton-live-intro`
+- `ableton-live-intro@11`
+- `ableton-live-lite`
+- `ableton-live-lite@11`
+- `ableton-live-standard`
+- `ableton-live-standard@11`
+- `ableton-live-suite`
+- `ableton-live-suite@10`
+- `ableton-live-suite@11`
+- `abyssoft-teleport`
+- `accessmenubarapps`
+- `accord`
+- `accordance`
+- `accordance@13`
+- `ace-link`
+- `ace-studio`
+- `acorn`
+- `acreom`
+- `acronis-true-image`
+- `acronis-true-image-cleanup-tool`
+- `active-trader-pro`
+- `activedock`
+- `activitywatch`
+- `activitywatch@beta`
+- `actual`
+- `actual-odbc-pack`
+- `adapter`
+- `adguard`
+- `adguard-vpn`
+- `adguard-vpn@nightly`
+- `adguard@nightly`
+- `adium`
+- `adlock`
+- `adobe-acrobat-pro`
+- `adobe-acrobat-reader`
+- `adobe-air`
+- `adobe-connect`
+- `adobe-creative-cloud`
+- `adobe-creative-cloud-cleaner-tool`
+- `adobe-digital-editions`
+- `adobe-dng-converter`
+- `adrafinil`
+- `advanced-renamer`
+- `advancedrestclient`
+- `advantagescope`
+- `aerial@beta`
+- `aexol-remote-mouse`
+- `affinity-designer`
+- `affinity-designer@1`
+- `affinity-photo`
+- `affinity-photo@1`
+- `affinity-publisher`
+- `affinity-publisher@1`
+- `after-dark-classic`
+- `afterglow`
+- `agent-tars`
+- `agentide`
+- `agentkube`
+- `agentsmesh`
+- `agentsview`
+- `agi`
+- `aide-app`
+- `aifun`
+- `aigcpanel`
+- `aimersoft-video-converter-ultimate`
+- `aionui`
+- `air-video-server-hd`
+- `airbuddy`
+- `aircall`
+- `airdash`
+- `airflow`
+- `airmedia`
+- `airpass`
+- `airscroll`
+- `airtame`
+- `ajour`
+- `akiflow`
+- `aks-desktop`
+- `akuity`
+- `aldente`
+- `aleph-one`
+- `alex313031-thorium`
+- `alfaview`
+- `alfred`
+- `alfred@4`
+- `alfred@prerelease`
+- `algoapp`
+- `algodoo`
+- `alienator88-sentinel`
+- `alifix`
+- `alipay-key-tool`
+- `aliwangwang`
+- `aliworkbench`
+- `all-in-one-messenger`
+- `allen-and-heath-midi-control`
+- `alma`
+- `almighty`
+- `aloha-browser`
+- `alpha`
+- `alt-tab`
+- `altair-graphql-client`
+- `altar-ai`
+- `alternote`
+- `altersend`
+- `amadeus-pro`
+- `amadine`
+- `amazon-chime`
+- `amazon-music`
+- `amazon-photos`
+- `amazon-workspaces`
+- `amd-power-gadget`
+- `amethyst`
+- `amethyst-nostr`
+- `amiberry`
+- `amical`
+- `amie`
+- `amitv87-pip`
+- `ammonite`
+- `amneziavpn`
+- `ampps`
+- `ananas-analytics-desktop-edition`
+- `anchor-wallet`
+- `android-performance-analyzer`
+- `android-studio-preview@beta`
+- `android-studio-preview@canary`
+- `androidtool`
+- `angry-ip-scanner`
+- `anka-build-cloud-controller`
+- `anka-build-cloud-registry`
+- `anka-virtualization`
+- `ankama`
+- `ankerwork`
+- `anki`
+- `another-redis-desktop-manager`
+- `antconc`
+- `antigravity`
+- `antigravity-cli`
+- `antigravity-ide`
+- `anybar`
+- `anydesk`
+- `anydo`
+- `anylist`
+- `anypointstudio`
+- `anythingllm`
+- `anytype`
+- `anytype@alpha`
+- `anytype@beta`
+- `apidog`
+- `apidog-europe`
+- `apifox`
+- `apipost`
+- `app-buddy`
+- `app-cleaner`
+- `app-fair`
+- `app-tamer`
+- `apparency`
+- `appbox`
+- `appcleaner`
+- `appexindexer`
+- `appflowy`
+- `appgate-sdp-client`
+- `appgrid`
+- `appgridmac`
+- `appium-inspector`
+- `apple-hewlett-packard-printer-drivers`
+- `apple-juice`
+- `applepi-baker`
+- `applite`
+- `approf`
+- `apptivate`
+- `apptrap`
+- `appvolume`
+- `appzapper`
+- `aptakube`
+- ... and 6126 more (see mappings/brew-cask-to-macports.csv)
+
+</details>
+
+## Homebrew formulae -> Fink packages
+8590 source packages: 1124 confident, 1520 need review, 5946 missing.
+
+<details><summary>Missing in fink (5946)</summary>
+
+- `aamath`
+- `ab-av1`
+- `abcl`
+- `abcmidi`
+- `abduco`
+- `abi-dumper`
+- `abi3audit`
+- `abnfgen`
+- `abpoa`
+- `abricate`
+- `abseil`
+- `abyss`
+- `aces_container`
+- `acl`
+- `acl2`
+- `acpica`
+- `acronym`
+- `action-docs`
+- `action-validator`
+- `actionlint`
+- `actions-batch`
+- `actions-languageserver`
+- `actions-up`
+- `activemq`
+- `activemq-cpp`
+- `ada-url`
+- `adamstark-audiofile`
+- `adapterremoval`
+- `adaptivecpp`
+- `adb-enhanced`
+- `add-determinism`
+- `addlicense`
+- `addons-linter`
+- `adios2`
+- `admesh`
+- `adplug`
+- `adr-viewer`
+- `adrs`
+- `advai-cli`
+- `aerleon`
+- `aescrypt`
+- `aescrypt-packetizer`
+- `afflib`
+- `afl++`
+- `afsctool`
+- `aften`
+- `aftman`
+- `agda`
+- `age`
+- `age-plugin-se`
+- `age-plugin-yubikey`
+- `agent-browser`
+- `agg`
+- `aha`
+- `ahcpd`
+- `ahoy`
+- `ai-cli`
+- `aiac`
+- `aichat`
+- `aicommit`
+- `aicommit2`
+- `aicommits`
+- `aide`
+- `aider`
+- `aiken`
+- `ain`
+- `air`
+- `airshare`
+- `airspy`
+- `airspyhf`
+- `airtable-mcp-server`
+- `akamai`
+- `akku`
+- `aklomp-base64`
+- `alda`
+- `alejandra`
+- `alembic`
+- `alevin-fry`
+- `algernon`
+- `algol68g`
+- `algolia`
+- `ali`
+- `aliddns`
+- `alive2`
+- `aliyun-cli`
+- `aliyunpan`
+- `all-repos`
+- `alloy-analyzer`
+- `allure`
+- `allureofthestars`
+- `alluxio`
+- `alpscore`
+- `amass`
+- `amazon-ecs-cli`
+- `amber`
+- `amdatu-bootstrap`
+- `amfora`
+- `ammonite-repl`
+- `ampl-asl`
+- `ampl-mp`
+- `amqp-cpp`
+- `amy`
+- `anchor`
+- `ancient`
+- `angle-grinder`
+- `angular-cli`
+- `animdl`
+- `ansible-builder`
+- `ansible-cmdb`
+- `ansible-creator`
+- `ansible-language-server`
+- `ansible-lint`
+- `ansifilter`
+- `ansilove`
+- `ansiweather`
+- `antidote`
+- `antigen`
+- `anubis`
+- `any2fasta`
+- `anycable-go`
+- `anyenv`
+- `anyquery`
+- `anyzig`
+- `aoe`
+- `aoeui`
+- `aom`
+- `apache-arrow`
+- `apache-arrow-adbc`
+- `apache-arrow-adbc-glib`
+- `apache-arrow-glib`
+- `apache-brooklyn-cli`
+- `apache-drill`
+- `apache-flink`
+- `apache-flink-cdc`
+- `apache-flink@1`
+- `apache-geode`
+- `apache-opennlp`
+- `apache-polaris`
+- `apache-pulsar`
+- `apache-serf`
+- `apache-spark`
+- `apachetop`
+- `apcupsd`
+- `apgdiff`
+- `api-linter`
+- `apib`
+- `apibuilder-cli`
+- `apify-cli`
+- `apigeecli`
+- `apkleaks`
+- `apko`
+- `apm`
+- `apng2gif`
+- `apngasm`
+- `apophenia`
+- `apparix`
+- `appium`
+- `apprise`
+- `appstream`
+- `appstream-glib`
+- `apptainer`
+- `appwrite`
+- `aptly`
+- `aqtinstall`
+- `aqua`
+- `arabica`
+- `aravis`
+- `arcade-learning-environment`
+- `arcadedb`
+- `archey4`
+- `archgw`
+- `archi-steam-farm`
+- `archivemount`
+- `arduino-cli`
+- `arelo`
+- `ares`
+- `arf`
+- `argocd`
+- `argocd-autopilot`
+- `argocd-vault-plugin`
+- `argp-standalone`
+- `argtable`
+- `argtable3`
+- `argyll-cms`
+- `aribb24`
+- `arjun`
+- `arkade`
+- `arm-linux-gnueabihf-binutils`
+- `armadillo`
+- `arp-scan`
+- `arp-scan-rs`
+- `arpack`
+- `arping`
+- `arrayfire`
+- `arss`
+- `artillery`
+- `arttime`
+- `arturo`
+- `arx-libertatis`
+- `arxiv_latex_cleaner`
+- ... and 5746 more (see mappings/brew-formula-to-fink.csv)
+
+</details>
+
+## Homebrew casks -> Fink packages
+7724 source packages: 93 confident, 498 need review, 7133 missing.
+
+<details><summary>Missing in fink (7133)</summary>
+
+- `0-ad`
+- `010-editor`
+- `115browser`
+- `1kc-razer`
+- `1password-cli`
+- `1password-cli@1`
+- `1password-cli@beta`
+- `1password@7`
+- `1password@beta`
+- `1password@nightly`
+- `3dgenceslicer`
+- `4k-image-compressor`
+- `4k-slideshow-maker`
+- `4k-stogram`
+- `4k-tokkit`
+- `4k-video-downloader`
+- `4k-video-downloader+`
+- `4k-video-to-mp3`
+- `4k-youtube-to-mp3`
+- `4peaks`
+- `5ire`
+- `7777`
+- `86box`
+- `8bitdo-firmware-updater`
+- `8bitdo-ultimate-software`
+- `8bitdo-ultimate-software-v2`
+- `8x8-work`
+- `a-better-finder-attributes`
+- `a-better-finder-rename`
+- `abbyy-finereader-pdf`
+- `ableset`
+- `ableton-live-intro`
+- `ableton-live-intro@11`
+- `ableton-live-lite`
+- `ableton-live-lite@11`
+- `ableton-live-standard`
+- `ableton-live-standard@11`
+- `ableton-live-suite`
+- `ableton-live-suite@10`
+- `ableton-live-suite@11`
+- `abstract`
+- `abyssoft-teleport`
+- `accessmenubarapps`
+- `accord`
+- `accordance@13`
+- `ace-link`
+- `ace-studio`
+- `acorn`
+- `acreom`
+- `acronis-true-image`
+- `acronis-true-image-cleanup-tool`
+- `active-trader-pro`
+- `activedock`
+- `activitywatch`
+- `activitywatch@beta`
+- `actual`
+- `actual-odbc-pack`
+- `adapter`
+- `adguard`
+- `adguard-vpn`
+- `adguard-vpn@nightly`
+- `adguard@nightly`
+- `adium`
+- `adobe-acrobat-pro`
+- `adobe-acrobat-reader`
+- `adobe-air`
+- `adobe-connect`
+- `adobe-creative-cloud`
+- `adobe-creative-cloud-cleaner-tool`
+- `adobe-digital-editions`
+- `adobe-dng-converter`
+- `adrafinil`
+- `advanced-renamer`
+- `advancedrestclient`
+- `advantagescope`
+- `adze`
+- `aegisub`
+- `aerial`
+- `aerial@beta`
+- `aexol-remote-mouse`
+- `affine`
+- `affinity`
+- `affinity-designer`
+- `affinity-designer@1`
+- `affinity-photo`
+- `affinity-photo@1`
+- `affinity-publisher`
+- `affinity-publisher@1`
+- `after-dark-classic`
+- `afterglow`
+- `agent-tars`
+- `agentide`
+- `agentkube`
+- `agentsmesh`
+- `agentsview`
+- `agi`
+- `ai-studio`
+- `aide-app`
+- `aifun`
+- `aigcpanel`
+- `aimersoft-video-converter-ultimate`
+- `aionui`
+- `air-video-server-hd`
+- `airbuddy`
+- `aircall`
+- `airdash`
+- `airdroid`
+- `airflow`
+- `airfoil`
+- `airmedia`
+- `airparrot`
+- `airpass`
+- `airscroll`
+- `airserver`
+- `airstats`
+- `airtable`
+- `airtame`
+- `airtrash`
+- `airy`
+- `ajour`
+- `akiflow`
+- `aks-desktop`
+- `akuity`
+- `alacritty`
+- `aladin`
+- `alcom`
+- `aldente`
+- `aleph-one`
+- `alex313031-thorium`
+- `alfaview`
+- `alfred`
+- `alfred@4`
+- `alfred@prerelease`
+- `algoapp`
+- `algodoo`
+- `alienator88-sentinel`
+- `alifix`
+- `alipay-key-tool`
+- `alisma`
+- `aliwangwang`
+- `aliworkbench`
+- `all-in-one-messenger`
+- `allen-and-heath-midi-control`
+- `alma`
+- `almighty`
+- `aloha-browser`
+- `alpha`
+- `alt-tab`
+- `altair-graphql-client`
+- `altar-ai`
+- `alternote`
+- `altersend`
+- `altserver`
+- `amadeus-pro`
+- `amadine`
+- `amazon-chime`
+- `amazon-music`
+- `amazon-photos`
+- `amazon-workspaces`
+- `amd-power-gadget`
+- `amethyst`
+- `amethyst-nostr`
+- `amiberry`
+- `amical`
+- `amie`
+- `amitv87-pip`
+- `ammonite`
+- `amneziavpn`
+- `amore`
+- `ampps`
+- `ananas-analytics-desktop-edition`
+- `anchor-wallet`
+- `android-cli`
+- `android-commandlinetools`
+- `android-file-transfer`
+- `android-ndk`
+- `android-performance-analyzer`
+- `android-platform-tools`
+- `android-studio`
+- `android-studio-preview@beta`
+- `android-studio-preview@canary`
+- `androidtool`
+- `angry-ip-scanner`
+- `anka-build-cloud-controller`
+- `anka-build-cloud-registry`
+- `anka-virtualization`
+- `ankama`
+- `ankerwork`
+- `anki`
+- `annotate`
+- `another-redis-desktop-manager`
+- `antconc`
+- `antigravity`
+- `antigravity-cli`
+- `antigravity-ide`
+- `antinote`
+- `anybar`
+- `anydesk`
+- `anydo`
+- `anylist`
+- ... and 6933 more (see mappings/brew-cask-to-fink.csv)
+
+</details>
+
+## MacPorts ports -> Fink packages
+52671 source packages: 2873 confident, 5855 need review, 43943 missing.
+
+<details><summary>Missing in fink (43943)</summary>
+
+- `1password-cli`
+- `2048.c`
+- `2048.cpp`
+- `3mux`
+- `4th`
+- `54321`
+- `64tass`
+- `9e`
+- `ADMS`
+- `ADOL-C`
+- `ALPSCore`
+- `ALPSMaxent`
+- `Aerial`
+- `Aerofoil`
+- `AfterStep`
+- `Akumuli`
+- `AlphaSparse`
+- `AntTweakBar`
+- `AppCSXCAD`
+- `AppHack`
+- `AppKiDo`
+- `AppleCommander`
+- `AquaLess`
+- `Arduino`
+- `ArpSpyX`
+- `Aseprite`
+- `AssignmentTrackerX`
+- `AutoRaise`
+- `BGHUDAppKit`
+- `BRiAl`
+- `BWToolkit`
+- `Bear`
+- `BiggerSQL`
+- `BlackHole`
+- `BoCA`
+- `BrowserLauncher2`
+- `BwanaDik`
+- `CLI11`
+- `CSXCAD`
+- `Cenon`
+- `Chatty`
+- `Chmox`
+- `Cockatrice`
+- `CocoaDialog`
+- `CocoaRestClient`
+- `Coin-framework`
+- `ColPack`
+- `CoreOSMakefiles`
+- `CosmicDebris`
+- `CrimsonFields`
+- `CronniX`
+- `CsoundQt`
+- `CubicSDR`
+- `DSDP`
+- `DateLine`
+- `DepreciateForLedger`
+- `Deriv`
+- `DesktopManager`
+- `DiffPDF`
+- `DiskJockey`
+- `Djinn`
+- `DoCon`
+- `EFIAgent`
+- `EGSimulation`
+- `EqualX`
+- `Etoile-devel`
+- `FACE`
+- `FAudio`
+- `FFView`
+- `FTXUI`
+- `FatDriveSorter`
+- `FluffyDisplay`
+- `ForEx`
+- `FreeRDP`
+- `Freecell`
+- `GIMP-Lensfun`
+- `GMines`
+- `GNUMail`
+- `GNUMail-Aqua`
+- `GPGAppKit`
+- `GPXLab`
+- `GPXSee`
+- `GTDtoCSV`
+- `GTorrentViewer`
+- `GaussianLib`
+- `GeoLiteCity`
+- `GetPoints`
+- `GitUp`
+- `Gomoku`
+- `GrandPerspective`
+- `Gridlock`
+- `Gyoto`
+- `H5Part`
+- `HDF5-External-Filter-Plugins`
+- `HNHUi`
+- `HORTON`
+- `HaXml`
+- `Hackintool`
+- `HandBrake`
+- `HandBrake71`
+- `HandBrakeCLI`
+- `Heimdall`
+- `HexEditPowerPC`
+- `HexFiend`
+- `HiGHS`
+- `HideSysFiles`
+- `HighlighterKit`
+- `Hypr`
+- `IcyJuice`
+- `ImageSnap`
+- `JOSM`
+- `JSE`
+- `Jigsaw`
+- `JuffEd`
+- `KNBC`
+- `KeePassKit`
+- `KeePassXC-devel`
+- `KeyArcher`
+- `KissXML`
+- `KlustaKwik`
+- `KoLmafia`
+- `LBFGSpp`
+- `LORENE`
+- `LSQR`
+- `LanguageTool`
+- `LedgerScheduler`
+- `Legcord`
+- `LiDIA`
+- `LibVNCServer`
+- `LibreCAD-devel`
+- `LightGBM`
+- `Lingon`
+- `LucenePlusPlus`
+- `M2VDownsizer`
+- `M2VRequantiser`
+- `MMDAgent`
+- `MMTabBarView`
+- `MP4Joiner`
+- `MacBiff`
+- `MacOSX.sdk`
+- `MacOSX10.10.sdk`
+- `MacOSX10.11.sdk`
+- `MacOSX10.12.sdk`
+- `MacOSX10.13.sdk`
+- `MacOSX10.14.sdk`
+- `MacOSX10.15.sdk`
+- `MacOSX10.6.sdk`
+- `MacOSX10.7.sdk`
+- `MacOSX10.8.sdk`
+- `MacOSX10.9.sdk`
+- `MacOSX11.sdk`
+- `MacOSX12.sdk`
+- `MacPass`
+- `MacPorts`
+- `MacPorts_Framework`
+- `MacPorts_daemondo`
+- `MacVim`
+- `MachO-Explorer`
+- `MaciASL`
+- `MailHog`
+- `MailtoMutt`
+- `ManOpen`
+- `Maude`
+- `McBopomofo`
+- `MediaInfo-gui`
+- `MediathekView`
+- `MenuMeters`
+- `MeshesTools`
+- `MicroTeX`
+- `MiddleDrag`
+- `MinkowskiSum`
+- `MoarVM`
+- `MoltenVK`
+- `MoltenVK-1.0.41`
+- `MoltenVK-1.1.9`
+- `MoltenVK-latest`
+- `MongoExplorer`
+- `MongoObjCDriver`
+- `Mousecape`
+- `MultiMC5`
+- `MultiMC5-devel`
+- `MyLoss`
+- `MyPaint`
+- `MyPaint-devel`
+- `NTPoly`
+- `NanoVNA-QT`
+- `NanoVNASaver`
+- `NetSurf`
+- `NicePlayer`
+- `NotificationWatcher`
+- `OSXPal`
+- `OSXdg-icons`
+- `Obsession`
+- `Omega`
+- `OmegaT`
+- `OmegaT-latest`
+- `OpenBLAS-devel`
+- `OpenCSG`
+- `OpenCoarrays`
+- `OpenIPMI`
+- ... and 43743 more (see mappings/macports-to-fink.csv)
+
+</details>
+
+## Fink packages -> MacPorts ports
+10230 source packages: 2003 confident, 2691 need review, 5536 missing.
+
+<details><summary>Missing in macports (5536)</summary>
+
+- `0verkill`
+- `2mandvd`
+- `2mandvd-mac`
+- `3dpong`
+- `3to2-py%type_pkg[python]`
+- `3to2-py27`
+- `:Constants lists all the constants defined in a certain`
+- `a2wsgi-py%type_pkg[python]`
+- `aarch64-%type_pkg[platform]-binutils`
+- `abiword-docs`
+- `acetoneiso2`
+- `acme-metasyntactic-pm`
+- `acme-metasyntactic-pm%type_pkg[perl]`
+- `acme-metasyntactic-themes-pm%type_pkg[perl]`
+- `acoc`
+- `acqua-graphite`
+- `actionmailer-rb%type_pkg[ruby]`
+- `actionpack-rb%type_pkg[ruby]`
+- `actionwebservice-rb%type_pkg[ruby]`
+- `activerecord-rb%type_pkg[ruby]`
+- `activeresource-rb%type_pkg[ruby]`
+- `activesupport-rb%type_pkg[ruby]`
+- `actuarial-oct%type_pkg[oct]`
+- `ad-oct%type_pkg[oct]`
+- `adg`
+- `adonthell`
+- `aeneas`
+- `aeolus`
+- `affix-infix2postfix-pm`
+- `afni`
+- `afternoonstalker`
+- `aftp`
+- `agedu`
+- `ai-nnflex-pm`
+- `aiodns-py%type_pkg[python]`
+- `airspyone-host`
+- `akonadi-%type_pkg[akonadi]`
+- `alabaster-py%type_pkg[python]`
+- `algae`
+- `algorithm-c3-pm%type_pkg[perl]`
+- `algorithm-choosesubsets-pm%type_pkg[perl]`
+- `algorithm-combinatorics-pm%type_pkg[perl]`
+- `algorithm-dependency-pm%type_pkg[perl]`
+- `algorithm-diff-rb%type_pkg[ruby]`
+- `algorithm-diff-xs-pm%type_pkg[perl]`
+- `algorithm-merge-pm`
+- `algorithm-permute-pm%type_pkg[perl]`
+- `aliased-pm`
+- `alien-sdl-pm%type_pkg[perl]`
+- `almanah`
+- `alpine-alpha`
+- `altpdftex`
+- `amanith`
+- `amarok-core`
+- `amarok-engine-xine`
+- `amarok2-%type_pkg[kde]`
+- `amaya`
+- `amaze`
+- `amigadepacker`
+- `amigos`
+- `amiwm`
+- `amqplib-py%type_pkg[python]`
+- `amrnb`
+- `amyedit`
+- `android-completion`
+- `angband%type_pkg[-nox]`
+- `ann-oct305`
+- `annocpan-perldoc-pm%type_pkg[perl]`
+- `annocpan-perldoc-syncdb-pm%type_pkg[perl]`
+- `annogen`
+- `anonlog`
+- `ansible-py%type_pkg[python]`
+- `anthy`
+- `antiprism`
+- `any-moose-pm%type_pkg[perl]`
+- `anyevent-aio-pm%type_pkg[perl]`
+- `anyevent-pm%type_pkg[perl]`
+- `anyjson-py%type_pkg[python]`
+- `anyvc-py%type_pkg[python]`
+- `apache-dbi-pm%type_pkg[perl]`
+- `apache-forrest`
+- `apache-session-pm%type_pkg[perl]`
+- `apbs-mpi-%type_pkg[handler]`
+- `apf`
+- `apipkg-py%type_pkg[python]`
+- `aplus-fsf`
+- `app-cli-pm%type_pkg[perl]`
+- `app-cpanoutdated-pm%type_pkg[perl]`
+- `app-cpants-lint-pm%type_pkg[perl]`
+- `app-defaults`
+- `app-svn-bisect-pm%type_pkg[perl]`
+- `app-tools-py%type_pkg[python]`
+- `appdirs-py%type_pkg[python]`
+- `apple-gdb`
+- `appleotffonts`
+- `applesystemfonts`
+- `appnope-py%type_pkg[python]`
+- `apt`
+- `apt-cacher`
+- `apt-dater`
+- `apt-ftparchive`
+- `apt-zip`
+- `aptsh`
+- `apvlv`
+- `aquapfont`
+- `aranym`
+- `archive-any-lite-pm%type_pkg[perl]`
+- `archive-any-pm%type_pkg[perl]`
+- `archive-ar-pm%type_pkg[perl]`
+- `archive-extract-pm%type_pkg[perl]`
+- `archive-peek-pm%type_pkg[perl]`
+- `archive-tar-pm%type_pkg[perl]`
+- `archive-zip-pm%type_pkg[perl]`
+- `argcomplete-py%type_pkg[python]`
+- `argparse-py%type_pkg[python]`
+- `aria2fe-mac`
+- `aria2fe-x11`
+- `ario-player`
+- `arm-%type_pkg[platform]-binutils`
+- `arora-mac`
+- `arpack%type_pkg[-atlas]`
+- `arpack%type_pkg[-atlas]-oct%type_pkg[oct]`
+- `arpack%type_pkg[-blas]-oct%type_pkg[oct]`
+- `arpack-ng%type_pkg[-blas]`
+- `arpack-ng%type_pkg[-mpi]%type_pkg[-blas]`
+- `arpack-ng%type_pkg[-mpi]%type_pkg[-lapack]`
+- `arpack-ng-mpi`
+- `arpack-ng-mpi%type_pkg[-blas]`
+- `array-compare-pm%type_pkg[perl]`
+- `array-diff-pm%type_pkg[perl]`
+- `asciiquarium`
+- `asn1crypto-py%type_pkg[python]`
+- `asp2php`
+- `aspyct-py%type_pkg[python]`
+- `asr-manpages`
+- `associationsubscribersmanager`
+- `asteval-py%type_pkg[python]`
+- `astng-py%type_pkg[python]`
+- `astro-moonphase-pm`
+- `astroid-py%type_pkg[python]`
+- `asttokens-py%type_pkg[python]`
+- `async-interrupt-pm%type_pkg[perl]`
+- `async-py%type_pkg[python]`
+- `atpy-py%type_pkg[python]`
+- `attribute-handlers-pm%type_pkg[perl]`
+- `attrs-py%type_pkg[python]`
+- `audio-oct%type_pkg[oct]`
+- `audiofile-shlibs`
+- `authen-ntlm-pm%type_pkg[perl]`
+- `authen-pam-pm%type_pkg[perl]`
+- `authen-sasl-pm%type_pkg[perl]`
+- `autocutsel`
+- `autodie-pm`
+- `automat-py%type_pkg[python]`
+- `automoc-%type_pkg[automoc]`
+- `autoproject`
+- `autorevision`
+- `autostart`
+- `autotrace-shlibs`
+- `autotrace3-shlibs`
+- `autotrust`
+- `avalon-framework`
+- `avalon-logkit`
+- `avfs`
+- `axis`
+- `axyftp`
+- `b-compiling-pm%type_pkg[perl]`
+- `b-cow-pm%type_pkg[perl]`
+- `b-debug-pm`
+- `b-hooks-endofscope-pm%type_pkg[perl]`
+- `b-hooks-op-check-pm%type_pkg[perl]`
+- `b-utils-pm%type_pkg[perl]`
+- `babel-py%type_pkg[python]`
+- `backports.functools-lru-cache-py%type_pkg[python]`
+- `backports.lzma-py%type_pkg[python]`
+- `backports.os-py%type_pkg[python]`
+- `backports.shutil-get-terminal-size-py%type_pkg[python]`
+- `backports.ssl-match-hostname-py%type_pkg[python]`
+- `backports.unittest-mock-py%type_pkg[python]`
+- `backtickname`
+- `backupbouncer`
+- `bacula-gnome2-console`
+- `baghira`
+- `baloo-%type_pkg[kde]`
+- `balz`
+- `bandwidthcalc`
+- `bap`
+- `base-pm%type_pkg[perl]`
+- `bashcritic`
+- `basket4-mac`
+- `batrachians`
+- `battleworms`
+- `bbkeys`
+- `bbmail`
+- `bcel`
+- `bdec-py%type_pkg[python]`
+- `beaker-py%type_pkg[python]`
+- `beediff`
+- `beediff-aqua`
+- `beep-media-player`
+- ... and 5336 more (see mappings/fink-to-macports.csv)
+
+</details>
+
+## Same name, different homepage (churn queue)
+
+Confident `exact`/`normalized` rows whose homepages live on different domains. Most are benign (project site vs GitHub repo), but this list is where same-name collisions hide (e.g. `anubis`, `dash`, `dune`). Work it with:
+
+    python3 -m metamacpkg.cli lookup <manager> <type> <name>
+
+and record verdicts in `curated/no_equivalent.yaml`.
+
+- `1password-cli` (homebrew/cask -> 1password-cli): developer.1password.com vs support.1password.com
+- `4ti2` (macports/port -> 4ti2): 4ti2.github.io vs 4ti2.de
+- `4ti2` (fink/package -> 4ti2): 4ti2.de vs 4ti2.github.io
+- `6tunnel` (macports/port -> 6tunnel): github.com vs toxygen.net
+- `6tunnel` (fink/package -> 6tunnel): toxygen.net vs github.com
+- `ASFRecorder` (macports/port -> asfrecorder): asfrecorder.sourceforge.net vs sourceforge.net
+- `EMBOSS` (macports/port -> emboss): emboss.sourceforge.net vs hgmp.mrc.ac.uk
+- `ETL` (macports/port -> etl): synfig.org vs synfig.sourceforge.net
+- `Eterm` (macports/port -> eterm): web.archive.org vs eterm.org
+- `ImageMagick` (macports/port -> imagemagick): legacy.imagemagick.org vs imagemagick.org
+- `KeePassXC` (macports/port -> keepassxc): github.com vs keepassxc.org
+- `Maelstrom` (macports/port -> maelstrom): libsdl.org vs devolution.com
+- `NetBeans` (macports/port -> netbeans): netbeans.apache.org vs netbeans.org
+- `OpenBLAS` (macports/port -> openblas): github.com vs openblas.net
+- `R-magic` (macports/port -> rmagic): github.com vs reportmagic.org
+- `R-zip` (macports/port -> rzip): github.com vs rzip.samba.org
+- `SIDPLAY` (macports/port -> sidplay): sidmusic.org vs geocities.com
+- `SuiteSparse` (macports/port -> suitesparse): people.engr.tamu.edu vs cise.ufl.edu
+- `TeXShop` (macports/port -> texshop): pages.uoregon.edu vs uoregon.edu
+- `Xaw3d` (macports/port -> xaw3d): x.org vs ftp.x.org
+- `a52dec` (homebrew/formula -> a52dec): git.adelielinux.org vs liba52.sourceforge.net
+- `a52dec` (homebrew/formula -> a52dec): git.adelielinux.org vs liba52.sourceforge.net
+- `aamath` (homebrew/formula -> aamath): web.archive.org vs fuse.superglue.se
+- `abcde` (homebrew/formula -> abcde): abcde.einval.com vs hispalinux.es
+- `abcde` (macports/port -> abcde): abcde.einval.com vs hispalinux.es
+- `abcde` (fink/package -> abcde): hispalinux.es vs abcde.einval.com
+- `abduco` (homebrew/formula -> abduco): brain-dump.org vs github.com
+- `abiword` (macports/port -> abiword): abisource.com vs abiword.com
+- `abiword` (fink/package -> abiword): abiword.com vs abisource.com
+- `abook` (homebrew/formula -> abook): abook.sourceforge.io vs abook.sourceforge.net
+- `abook` (homebrew/formula -> abook): abook.sourceforge.io vs abook.sourceforge.net
+- `abseil` (homebrew/formula -> abseil): abseil.io vs github.com
+- `ack` (homebrew/formula -> ack): beyondgrep.com vs search.cpan.org
+- `ack` (macports/port -> ack): beyondgrep.com vs search.cpan.org
+- `ack` (fink/package -> ack): search.cpan.org vs beyondgrep.com
+- `acme` (homebrew/formula -> acme): sourceforge.net vs gnome.org
+- `acpica` (homebrew/formula -> acpica): github.com vs intel.com
+- `act` (homebrew/formula -> act): nektosact.com vs github.com
+- `actionlint` (homebrew/formula -> actionlint): rhysd.github.io vs github.com
+- `adplug` (homebrew/formula -> adplug): adplug.github.io vs github.com
+- `advancecomp` (homebrew/formula -> advancecomp): advancemame.it vs advancemame.sourceforge.net
+- `advancecomp` (macports/port -> advancecomp): advancemame.it vs advancemame.sourceforge.net
+- `advancecomp` (fink/package -> advancecomp): advancemame.sourceforge.net vs advancemame.it
+- `advancemame` (macports/port -> advancemame): advancemame.it vs advancemame.sourceforge.net
+- `advancemame` (fink/package -> advancemame): advancemame.sourceforge.net vs advancemame.it
+- `advancemenu` (macports/port -> advancemenu): macports.org vs advancemame.sourceforge.net
+- `advancescan` (homebrew/formula -> advancescan): advancemame.it vs advancemame.sourceforge.net
+- `advancescan` (homebrew/formula -> advancescan): advancemame.it vs advancemame.sourceforge.net
+- `adwaita-icon-theme` (homebrew/formula -> adwaita-icon-theme): developer.gnome.org vs gnome.org
+- `aee` (macports/port -> aee): web.archive.org vs mahon.cwx.net
+- `aee` (fink/package -> aee): mahon.cwx.net vs web.archive.org
+- `aerial` (homebrew/cask -> Aerial): aerialscreensaver.github.io vs github.com
+- `afio` (homebrew/formula -> afio): github.com vs packages.debian.org
+- `afio` (macports/port -> afio): github.com vs packages.debian.org
+- `afio` (fink/package -> afio): packages.debian.org vs github.com
+- `afl++` (homebrew/formula -> afl): aflplus.plus vs lcamtuf.coredump.cx
+- `age` (homebrew/formula -> age): github.com vs age-encryption.org
+- `agg` (homebrew/formula -> agg): docs.asciinema.org vs github.com
+- `agrep` (macports/port -> agrep): netbsd.org vs ftp.cs.arizona.edu
+- `agrep` (fink/package -> agrep): ftp.cs.arizona.edu vs netbsd.org
+- `aide` (homebrew/formula -> aide): aide.github.io vs github.com
+- `air` (homebrew/formula -> air): posit-dev.github.io vs github.com
+- `airspyhf` (homebrew/formula -> airspyhf): airspy.com vs github.com
+- `alac-decoder` (fink/package -> alac_decoder): craz.net vs web.archive.org
+- `alac_decoder` (macports/port -> alac-decoder): web.archive.org vs craz.net
+- `alcom` (homebrew/cask -> alcom): vrc-get.anatawa12.com vs github.com
+- `align` (homebrew/formula -> align): kinzler.com vs cs.indiana.edu
+- `alpine` (homebrew/formula -> alpine): alpineapp.email vs washington.edu
+- `alpine` (macports/port -> alpine): alpineapp.email vs washington.edu
+- `alpine` (fink/package -> alpine): washington.edu vs alpineapp.email
+- `amber` (homebrew/formula -> amber): amberframework.org vs github.com
+- `amule` (macports/port -> amule): amule-org.github.io vs amule.org
+- `amule` (fink/package -> amule): amule.org vs amule-org.github.io
+- `analog` (homebrew/formula -> analog): c-amie.co.uk vs analog.cx
+- `analog` (macports/port -> analog): c-amie.co.uk vs analog.cx
+- `analog` (fink/package -> analog): analog.cx vs c-amie.co.uk
+- `angband` (homebrew/formula -> angband): rephial.org vs thangorodrim.net
+- `angband` (macports/port -> angband): rephial.org vs thangorodrim.net
+- `angband` (fink/package -> angband): thangorodrim.net vs rephial.org
+- `anjuta` (macports/port -> anjuta): gitlab.gnome.org vs anjuta.sourceforge.net
+- `anjuta` (fink/package -> anjuta): anjuta.sourceforge.net vs gitlab.gnome.org
+- `ansible-lint` (homebrew/formula -> ansible-lint): ansible-lint.readthedocs.io vs github.com
+- `ant` (homebrew/formula -> ant): ant.apache.org vs jakarta.apache.org
+- `antlr` (homebrew/formula -> antlr): antlr.org vs antlr2.org
+- `antlr` (macports/port -> antlr): antlr2.org vs antlr.org
+- `antlr` (fink/package -> antlr): antlr.org vs antlr2.org
+- `antlr3` (macports/port -> antlr3): antlr3.org vs antlr.org
+- `antlr3` (fink/package -> antlr3): antlr.org vs antlr3.org
+- `antlr4-cpp-runtime` (homebrew/formula -> antlr4-cpp-runtime): antlr.org vs github.com
+- `apache-arrow` (homebrew/formula -> apache-arrow): arrow.apache.org vs github.com
+- `apache2` (macports/port -> apache2): httpd.apache.org vs apache.org
+- `apache2` (fink/package -> apache2): apache.org vs httpd.apache.org
+- `apbs` (macports/port -> apbs): poissonboltzmann.org vs apbs.sourceforge.net
+- `apbs` (fink/package -> apbs): apbs.sourceforge.net vs poissonboltzmann.org
+- `ape` (homebrew/cask -> ape): jorgensen.biology.utah.edu vs tddft.org
+- `apg` (macports/port -> apg): web.archive.org vs adel.nursat.kz
+- `apg` (fink/package -> apg): adel.nursat.kz vs web.archive.org
+- `apophenia` (homebrew/formula -> apophenia): github.com vs apophenia.info
+- `apt` (homebrew/formula -> apt): wiki.debian.org vs packages.qa.debian.org
+- `apt-dater` (homebrew/formula -> apt-dater): github.com vs ibh.de
+- `arc` (homebrew/cask -> arc): arc.net vs sourceforge.net
+- `arc` (macports/port -> arc): github.com vs sourceforge.net
+- `arc` (fink/package -> arc): sourceforge.net vs github.com
+- `argp-standalone` (homebrew/formula -> argp-standalone): github.com vs freshports.org
+- `argtable` (homebrew/formula -> argtable): argtable.sourceforge.io vs argtable.sourceforge.net
+- `argtable3` (homebrew/formula -> argtable3): argtable.org vs github.com
+- `argus` (homebrew/formula -> argus): openargus.org vs qosient.com
+- `argus` (homebrew/formula -> argus): openargus.org vs qosient.com
+- `argus-clients` (homebrew/formula -> argus-clients): openargus.org vs qosient.com
+- `argus-clients` (homebrew/formula -> argus-clients): openargus.org vs qosient.com
+- `aria2` (homebrew/formula -> aria2): aria2.github.io vs github.com
+- `aria2` (homebrew/formula -> aria2): aria2.github.io vs aria2.sourceforge.net
+- `aria2` (macports/port -> aria2): github.com vs aria2.sourceforge.net
+- `aria2` (fink/package -> aria2): aria2.sourceforge.net vs github.com
+- `armadillo` (homebrew/formula -> armadillo): arma.sourceforge.net vs arma.sf.net
+- `armagetronad` (macports/port -> armagetronad): armagetronad.org vs armagetronad.net
+- `armagetronad` (fink/package -> armagetronad): armagetronad.net vs armagetronad.org
+- `arora` (macports/port -> arora): github.com vs arora.googlecode.com
+- `arora` (fink/package -> arora): arora.googlecode.com vs github.com
+- `arpoison` (homebrew/formula -> arpoison): arpoison.net vs arpoison.sourceforge.net
+- `arpwatch` (macports/port -> arpwatch): ee.lbl.gov vs www-nrg.ee.lbl.gov
+- `arpwatch` (fink/package -> arpwatch): www-nrg.ee.lbl.gov vs ee.lbl.gov
+- `asciidoc` (homebrew/formula -> asciidoc): asciidoc-py.github.io vs methods.co.nz
+- `asciidoc` (macports/port -> asciidoc): asciidoc-py.github.io vs methods.co.nz
+- `asciidoc` (fink/package -> asciidoc): methods.co.nz vs asciidoc-py.github.io
+- `asciidoctorj` (homebrew/formula -> asciidoctorj): github.com vs asciidoctor.org
+- `asciiquarium` (homebrew/formula -> asciiquarium): robobunny.com vs kde-look.org
+- `asfrecorder` (fink/package -> ASFRecorder): sourceforge.net vs asfrecorder.sourceforge.net
+- `aspectj` (homebrew/formula -> aspectj): eclipse.dev vs eclipse.org
+- `aspectj` (homebrew/formula -> aspectj): eclipse.dev vs eclipse.org
+- `ast` (macports/port -> ast): github.com vs starlink.ac.uk
+- `ast` (fink/package -> ast): starlink.ac.uk vs github.com
+- `astyle` (homebrew/formula -> astyle): astyle.sourceforge.net vs sourceforge.net
+- `astyle` (macports/port -> astyle): astyle.sourceforge.net vs sourceforge.net
+- `astyle` (fink/package -> astyle): sourceforge.net vs astyle.sourceforge.net
+- `asymptote` (homebrew/formula -> asymptote): asymptote.sourceforge.io vs asymptote.sourceforge.net
+- `asymptote` (homebrew/formula -> asymptote): asymptote.sourceforge.io vs asymptote.sourceforge.net
+- `at-spi2-core` (homebrew/formula -> at-spi2-core): freedesktop.org vs a11y.org
+- `atlas` (homebrew/formula -> atlas): atlasgo.io vs math-atlas.sourceforge.net
+- `atool` (homebrew/formula -> atool): savannah.nongnu.org vs nongnu.org
+- `atool` (homebrew/formula -> atool): savannah.nongnu.org vs nongnu.org
+- `audiofile` (macports/port -> audiofile): audiofile.68k.org vs oss.sgi.com
+- `audiofile` (fink/package -> audiofile): oss.sgi.com vs audiofile.68k.org
+- `autobench` (homebrew/formula -> autobench): web.archive.org vs xenoclast.org
+- `autoconf-archive` (homebrew/formula -> autoconf-archive): savannah.gnu.org vs gnu.org
+- `autoconf-archive` (homebrew/formula -> autoconf-archive): savannah.gnu.org vs gnu.org
+- `autogen` (homebrew/formula -> autogen): autogen.sourceforge.net vs gnu.org
+- `autogen` (homebrew/formula -> autogen): autogen.sourceforge.net vs gnu.org
+- `autotrace` (homebrew/formula -> autotrace): autotrace.sourceforge.net vs github.com
+- `avfs` (homebrew/formula -> avfs): avf.sourceforge.net vs boomerangsworld.de
+- `avidemux` (homebrew/cask -> avidemux): avidemux.org vs avidemux.sourceforge.net
+- `avidemux` (homebrew/cask -> avidemux): avidemux.org vs fixounet.free.fr
+- `avidemux` (macports/port -> avidemux): avidemux.sourceforge.net vs fixounet.free.fr
+- `avidemux` (fink/package -> avidemux): fixounet.free.fr vs avidemux.sourceforge.net
+- `avr-libc` (macports/port -> avr-libc): avrdudes.github.io vs nongnu.org
+- `avr-libc` (fink/package -> avr-libc): nongnu.org vs avrdudes.github.io
+- `avrdude` (homebrew/formula -> avrdude): nongnu.org vs github.com
+- `avrdude` (homebrew/formula -> avrdude): nongnu.org vs savannah.nongnu.org
+- `avrdude` (macports/port -> avrdude): github.com vs savannah.nongnu.org
+- `avrdude` (fink/package -> avrdude): savannah.nongnu.org vs github.com
+- `axel` (homebrew/formula -> axel): github.com vs lintux.cx
+- `axel` (macports/port -> axel): github.com vs lintux.cx
+- `axel` (fink/package -> axel): lintux.cx vs github.com
+- `azure-cli` (homebrew/formula -> azure-cli): docs.microsoft.com vs github.com
+- `babel` (homebrew/formula -> babel): babeljs.io vs eyesopen.com
+- `bakery` (macports/port -> bakery): bakery.sf.net vs bakery.sourceforge.net
+- `bakery` (fink/package -> bakery): bakery.sourceforge.net vs bakery.sf.net
+- `balena-cli` (homebrew/formula -> balena-cli): docs.balena.io vs balena.io
+- `balsa` (macports/port -> balsa): pawsa.fedorapeople.org vs balsa.gnome.org
+- `balsa` (fink/package -> balsa): balsa.gnome.org vs pawsa.fedorapeople.org
+- `bam` (homebrew/formula -> bam): matricks.github.io vs github.com
+- `bandit` (homebrew/formula -> bandit): github.com vs bandit.readthedocs.io
+- `baobab` (homebrew/formula -> baobab): apps.gnome.org vs wiki.gnome.org
+- `barcode` (macports/port -> barcode): gnu.org vs ar.linux.it
+- `barcode` (fink/package -> barcode): ar.linux.it vs gnu.org
+- `barrage` (macports/port -> barrage): lgames.sourceforge.io vs lgames.sourceforge.net
+- `barrage` (fink/package -> barrage): lgames.sourceforge.net vs lgames.sourceforge.io
+- `base-64` (macports/port -> base64): josefsson.org vs fourmilab.ch
+- `bash-completion` (homebrew/formula -> bash-completion): salsa.debian.org vs github.com
+- `bash-completion` (homebrew/formula -> bash-completion): salsa.debian.org vs caliban.org
+- `bash-completion` (macports/port -> bash-completion): github.com vs caliban.org
+- `bash-completion` (fink/package -> bash-completion): caliban.org vs github.com
+- `bash_unit` (homebrew/formula -> bashunit): github.com vs bashunit.typeddevs.com
+- `basiliskii` (macports/port -> basiliskii): basilisk.cebix.net vs uni-mainz.de
+- `basiliskii` (fink/package -> basiliskii): uni-mainz.de vs basilisk.cebix.net
+- `bazaar` (macports/port -> bazaar): bazaar-vcs.org vs bazaar.canonical.com
+- `bazaar` (fink/package -> bazaar): bazaar.canonical.com vs bazaar-vcs.org
+- `bazel` (homebrew/formula -> bazel): bazel.build vs github.com
+- `bdftopcf` (homebrew/formula -> bdftopcf): gitlab.freedesktop.org vs x.org
+- `beanstalkd` (homebrew/formula -> beanstalkd): beanstalkd.github.io vs github.com
+- `beecrypt` (homebrew/formula -> beecrypt): beecrypt.sourceforge.net vs sourceforge.net
+- `bfast` (macports/port -> bfast): github.com vs bfast.sourceforge.net
+- `bfast` (fink/package -> bfast): bfast.sourceforge.net vs github.com
+- `bibclean` (homebrew/formula -> bibclean): math.utah.edu vs ftp.math.utah.edu
+- `bibclean` (macports/port -> bibclean): ftp.math.utah.edu vs math.utah.edu
+- `bibclean` (fink/package -> bibclean): math.utah.edu vs ftp.math.utah.edu
+- `bibtex2html` (homebrew/formula -> bibtex2html): usr.lmf.cnrs.fr vs github.com
+- `binaryen` (homebrew/formula -> binaryen): webassembly.org vs github.com
+- `bing` (macports/port -> bing): web.archive.org vs mygale.org
+- `bing` (fink/package -> bing): mygale.org vs web.archive.org
+- `bitchx` (homebrew/formula -> bitchx): bitchx.sourceforge.net vs sourceforge.net
+- `bitchx` (homebrew/formula -> bitchx): bitchx.sourceforge.net vs bitchx.com
+- `bitchx` (macports/port -> bitchx): sourceforge.net vs bitchx.com
+- `bitchx` (fink/package -> bitchx): bitchx.com vs sourceforge.net
+- `bittwist` (homebrew/formula -> bittwist): bittwist.sourceforge.io vs bittwist.sourceforge.net
+- `blackbox` (homebrew/formula -> blackbox): github.com vs blackboxwm.sourceforge.net
+- `blackbox` (macports/port -> blackbox): github.com vs blackboxwm.sourceforge.net
+- `blackbox` (fink/package -> blackbox): blackboxwm.sourceforge.net vs github.com
+- `bladeenc` (macports/port -> bladeenc): web.archive.org vs bladeenc.mp3.no
+- `bladeenc` (fink/package -> bladeenc): bladeenc.mp3.no vs web.archive.org
+- `blahtexml` (homebrew/formula -> blahtexml): github.com vs gva.noekeon.org
+- `blt` (macports/port -> blt): blt.sourceforge.net vs sourceforge.net
+- `blt` (fink/package -> blt): sourceforge.net vs blt.sourceforge.net
+- `blueprint-compiler` (homebrew/formula -> blueprint-compiler): gnome.pages.gitlab.gnome.org vs gitlab.gnome.org
+- `bmon` (homebrew/formula -> bmon): github.com vs people.suug.ch
+- `bmon` (macports/port -> bmon): github.com vs people.suug.ch
+- `bmon` (fink/package -> bmon): people.suug.ch vs github.com
+- `bochs` (homebrew/formula -> bochs): bochs.sourceforge.io vs bochs.sourceforge.net
+- `bodr` (macports/port -> bodr): sourceforge.net vs blueobelisk.org
+- `bodr` (fink/package -> bodr): blueobelisk.org vs sourceforge.net
+- `bogofilter` (homebrew/formula -> bogofilter): bogofilter.sourceforge.io vs bogofilter.sourceforge.net
+- `bogofilter` (macports/port -> bogofilter): bogofilter.sourceforge.io vs bogofilter.sourceforge.net
+- `bogofilter` (fink/package -> bogofilter): bogofilter.sourceforge.net vs bogofilter.sourceforge.io
+- `boo` (macports/port -> boo): boo.codehaus.org vs mono-project.com
+- `boo` (fink/package -> boo): mono-project.com vs boo.codehaus.org
+- `bossa` (homebrew/formula -> bossa): github.com vs shumatech.com
+- `bottom` (homebrew/formula -> bottom): clementtsang.github.io vs github.com
+- `bowtie` (homebrew/cask -> bowtie): bowtieapp.com vs bowtie-bio.sourceforge.net
+- `brook` (homebrew/formula -> brook): brook.app vs txthinking.com
+- `brs` (macports/port -> brs): mirrors.playboy.com vs bible.theverge.com
+- `brs` (fink/package -> brs): bible.theverge.com vs mirrors.playboy.com
+- `bstring` (homebrew/formula -> bstring): mike.steinert.ca vs github.com
+- `btpd` (homebrew/formula -> btpd): github.com vs murmeldjur.se
+- `btpd` (macports/port -> btpd): github.com vs murmeldjur.se
+- `btpd` (fink/package -> btpd): murmeldjur.se vs github.com
+- `btrfs-progs` (homebrew/formula -> btrfs-progs): btrfs.readthedocs.io vs btrfs.wiki.kernel.org
+- `bullet` (homebrew/formula -> bullet): pybullet.org vs bulletphysics.org
+- `bun` (homebrew/formula -> bun): bun.com vs bun.sh
+- `bwa` (homebrew/formula -> bwa): github.com vs bio-bwa.sourceforge.net
+- `bwidget` (homebrew/formula -> BWidget): core.tcl-lang.org vs sourceforge.net
+- `bwidget` (homebrew/formula -> bwidget): core.tcl-lang.org vs sourceforge.net
+- `bwping` (macports/port -> bwping): bwping.sourceforge.io vs bwping.sourceforge.net
+- `bwping` (fink/package -> bwping): bwping.sourceforge.net vs bwping.sourceforge.io
+- `byaccj` (macports/port -> byaccj): byaccj.sourceforge.net vs troi.lincom-asg.com
+- `byaccj` (fink/package -> byaccj): troi.lincom-asg.com vs byaccj.sourceforge.net
+- `bzip2` (homebrew/formula -> bzip2): sourceware.org vs sources.redhat.com
+- `bzip2` (macports/port -> bzip2): sourceware.org vs sources.redhat.com
+- `bzip2` (fink/package -> bzip2): sources.redhat.com vs sourceware.org
+- `c-kermit` (homebrew/formula -> ckermit): kermitproject.org vs columbia.edu
+- `ca-certificates` (homebrew/formula -> ca-certificates): curl.se vs packages.qa.debian.org
+- `cabal` (homebrew/cask -> cabal): cabal.chat vs haskell.org
+- `cabal-install` (homebrew/formula -> cabal-install): haskell.org vs hackage.haskell.org
+- `cabextract` (homebrew/formula -> cabextract): cabextract.org.uk vs kyz.uklinux.net
+- `cabextract` (macports/port -> cabextract): cabextract.org.uk vs kyz.uklinux.net
+- `cabextract` (fink/package -> cabextract): kyz.uklinux.net vs cabextract.org.uk
+- `cabocha` (homebrew/formula -> cabocha): taku910.github.io vs chasen.org
+- `cabocha` (macports/port -> cabocha): taku910.github.io vs chasen.org
+- `cabocha` (fink/package -> cabocha): chasen.org vs taku910.github.io
+- `camlimages` (macports/port -> camlimages): gitlab.com vs pauillac.inria.fr
+- `camlimages` (fink/package -> camlimages): pauillac.inria.fr vs gitlab.com
+- `camlp5` (homebrew/formula -> camlp5): camlp5.github.io vs pauillac.inria.fr
+- `camlp5` (macports/port -> camlp5): camlp5.github.io vs pauillac.inria.fr
+- `camlp5` (fink/package -> camlp5): pauillac.inria.fr vs camlp5.github.io
+- `cargo` (macports/port -> cargo): crates.io vs github.com
+- `cargo` (fink/package -> cargo): github.com vs crates.io
+- `cargo-deny` (homebrew/formula -> cargo-deny): github.com vs embarkstudios.github.io
+- `cargo-generate` (homebrew/formula -> cargo-generate): github.com vs crates.io
+- `carl` (homebrew/formula -> carl): codeberg.org vs github.com
+- `cask` (homebrew/formula -> cask): cask.readthedocs.io vs github.com
+- `cbmbasic` (homebrew/formula -> cbmbasic): github.com vs cbmbasic.sourceforge.net
+- `cc65` (homebrew/formula -> cc65): cc65.github.io vs cc65.org
+- `cc65` (macports/port -> cc65): cc65.github.io vs cc65.org
+- `cc65` (fink/package -> cc65): cc65.org vs cc65.github.io
+- `ccache` (homebrew/formula -> ccache): ccache.dev vs ccache.samba.org
+- `ccache` (macports/port -> ccache): ccache.dev vs ccache.samba.org
+- `ccache` (fink/package -> ccache): ccache.samba.org vs ccache.dev
+- `ccal` (homebrew/formula -> ccal): ccal.chinesebay.com vs jamiehillman.co.uk
+- `ccd2iso` (homebrew/formula -> ccd2iso): ccd2iso.sourceforge.net vs sourceforge.net
+- `ccd2iso` (homebrew/formula -> ccd2iso): ccd2iso.sourceforge.net vs sourceforge.net
+- `cd-discid` (homebrew/formula -> cd-discid): linukz.org vs lly.org
+- `cd-discid` (macports/port -> cd-discid): linukz.org vs lly.org
+- `cd-discid` (fink/package -> cd-discid): lly.org vs linukz.org
+- `cd-hit` (fink/package -> cdhit): weizhong-lab.ucsd.edu vs weizhongli-lab.org
+- `cdargs` (homebrew/formula -> cdargs): github.com vs skamphausen.de
+- `cdb` (homebrew/formula -> cdb): cdb.cr.yp.to vs cr.yp.to
+- `cddlib` (homebrew/formula -> cddlib): inf.ethz.ch vs github.com
+- `cdebug` (homebrew/formula -> cdebug): iximiuz.com vs github.com
+- `cdhit` (macports/port -> cd-hit): weizhongli-lab.org vs weizhong-lab.ucsd.edu
+- `cdrtools` (homebrew/formula -> cdrtools): cdrtools.sourceforge.net vs codeberg.org
+- `cdrtools` (homebrew/formula -> cdrtools): cdrtools.sourceforge.net vs fokus.gmd.de
+- `cdrtools` (macports/port -> cdrtools): codeberg.org vs fokus.gmd.de
+- `cdrtools` (fink/package -> cdrtools): fokus.gmd.de vs codeberg.org
+- `cdsclient` (homebrew/formula -> cdsclient): cdsarc.cds.unistra.fr vs cdsarc.u-strasbg.fr
+- `celt` (macports/port -> celt): ftp.osuosl.org vs celt-codec.org
+- `celt` (fink/package -> celt): celt-codec.org vs ftp.osuosl.org
+- `center-im` (homebrew/formula -> centerim): github.com vs centerim.org
+- `cereal` (homebrew/formula -> cereal): uscilab.github.io vs github.com
+- `certgraph` (homebrew/formula -> certgraph): lanrat.github.io vs github.com
+- `certsync` (homebrew/formula -> certsync): github.com vs macports.org
+- `cfengine` (homebrew/formula -> cfengine): cfengine.com vs cfengine.org
+- `cfv` (homebrew/formula -> cfv): github.com vs cfv.sourceforge.net
+- `cfv` (homebrew/formula -> cfv): github.com vs cfv.sourceforge.net
+- `chapel` (homebrew/formula -> chapel): chapel-lang.org vs chapel.cray.com
+- `chasen` (macports/port -> chasen): chasen-legacy.sourceforge.jp vs chasen.aist-nara.ac.jp
+- `chasen` (fink/package -> chasen): chasen.aist-nara.ac.jp vs chasen-legacy.sourceforge.jp
+- `chasen-base` (macports/port -> chasen-base): chasen-legacy.sourceforge.jp vs chasen.aist-nara.ac.jp
+- `chasen-base` (fink/package -> chasen-base): chasen.aist-nara.ac.jp vs chasen-legacy.sourceforge.jp
+- `chatty` (homebrew/cask -> Chatty): chatty.github.io vs gitlab.gnome.org
+- `check` (homebrew/formula -> check): libcheck.github.io vs check.sourceforge.net
+- `check` (macports/port -> check): libcheck.github.io vs check.sourceforge.net
+- `check` (fink/package -> check): check.sourceforge.net vs libcheck.github.io
+- `checkstyle` (homebrew/formula -> checkstyle): checkstyle.sourceforge.io vs checkstyle.org
+- `chemical-mime-data` (macports/port -> chemical-mime-data): github.com vs sourceforge.net
+- `chemical-mime-data` (fink/package -> chemical-mime-data): sourceforge.net vs github.com
+- `cherrytree` (homebrew/formula -> cherrytree): giuspen.com vs github.com
+- `chicken` (homebrew/formula -> chicken): call-cc.org vs call-with-current-continuation.org
+- `chicken` (macports/port -> chicken): call-cc.org vs call-with-current-continuation.org
+- `chicken` (fink/package -> chicken): call-with-current-continuation.org vs call-cc.org
+- `chipmunk` (homebrew/cask -> chipmunk): github.com vs chipmunk-physics.net
+- `chromium` (homebrew/cask -> chromium): chromium.org vs reptilelabour.com
+- `cidr` (homebrew/formula -> cidr): github.com vs geeksoul.com
+- `cidr` (macports/port -> cidr): github.com vs geeksoul.com
+- `cidr` (fink/package -> cidr): geeksoul.com vs github.com
+- `cksfv` (homebrew/formula -> cksfv): zakalwe.fi vs fodder.org
+- `cksfv` (macports/port -> cksfv): zakalwe.fi vs fodder.org
+- `cksfv` (fink/package -> cksfv): fodder.org vs zakalwe.fi
+- `class-dump` (macports/port -> class-dump): stevenygard.com vs omnigroup.com
+- `class-dump` (fink/package -> class-dump): omnigroup.com vs stevenygard.com
+- `clhep` (homebrew/formula -> clhep): proj-clhep.web.cern.ch vs wwwinfo.cern.ch
+- `clhep` (macports/port -> clhep): proj-clhep.web.cern.ch vs wwwinfo.cern.ch
+- `clhep` (fink/package -> clhep): wwwinfo.cern.ch vs proj-clhep.web.cern.ch
+- `cli11` (homebrew/formula -> CLI11): cliutils.github.io vs github.com
+- `clib` (homebrew/formula -> clib): github.com vs clibs.org
+- `cliclick` (homebrew/formula -> cliclick): bluem.net vs github.com
+- `clipper` (homebrew/formula -> clipper): github.com vs ysbl.york.ac.uk
+- `clisp` (homebrew/formula -> clisp): clisp.sourceforge.io vs clisp.sourceforge.net
+- `clisp` (macports/port -> clisp): clisp.sourceforge.io vs clisp.sourceforge.net
+- `clisp` (fink/package -> clisp): clisp.sourceforge.net vs clisp.sourceforge.io
+- `clive` (homebrew/formula -> clive): github.com vs sourceforge.net
+- `clog` (homebrew/formula -> clog): gothenburgbitfactory.org vs webgroupmedia.com
+- `clojure-lsp` (homebrew/formula -> clojure-lsp): clojure-lsp.io vs github.com
+- `cloog` (homebrew/formula -> cloog): github.com vs cloog.org
+- `cloog` (homebrew/formula -> cloog): github.com vs cloog.org
+- `clusterssh` (macports/port -> clusterssh): metacpan.org vs clusterssh.sourceforge.net
+- `clusterssh` (fink/package -> clusterssh): clusterssh.sourceforge.net vs metacpan.org
+- `cm3` (macports/port -> cm3): modula3.elegosoft.com vs m3.org
+- `cm3` (fink/package -> cm3): m3.org vs modula3.elegosoft.com
+- `cmark` (homebrew/formula -> cmark): commonmark.org vs github.com
+- `cmatrix` (homebrew/formula -> cmatrix): github.com vs asty.org
+- `cmatrix` (homebrew/formula -> cmatrix): github.com vs astyanax.org
+- `cmatrix` (macports/port -> cmatrix): asty.org vs astyanax.org
+- `cmatrix` (fink/package -> cmatrix): astyanax.org vs asty.org
+- `cminpack` (homebrew/formula -> cminpack): devernay.free.fr vs github.com
+- `coccinelle` (homebrew/formula -> coccinelle): coccinelle.gitlabpages.inria.fr vs github.com
+- `cockatrice` (homebrew/cask -> Cockatrice): cockatrice.github.io vs woogerworks.com
+- `cocoa-sharp` (macports/port -> cocoa-sharp): go-mono.org vs forge.novell.com
+- `cocoa-sharp` (fink/package -> cocoa-sharp): forge.novell.com vs go-mono.org
+- `cocogitto` (homebrew/formula -> cocogitto): docs.cocogitto.io vs github.com
+- `cog` (homebrew/formula -> cog): cog.run vs krakoa.dk
+- `colima` (homebrew/formula -> colima): colima.run vs github.com
+- `collada-dom` (homebrew/formula -> collada-dom): khronos.org vs collada.org
+- `colordiff` (homebrew/formula -> colordiff): colordiff.org vs colordiff.sourceforge.net
+- `colordiff` (macports/port -> colordiff): colordiff.org vs colordiff.sourceforge.net
+- `colordiff` (fink/package -> colordiff): colordiff.sourceforge.net vs colordiff.org
+- `commons-codec` (macports/port -> commons-codec): commons.apache.org vs jakarta.apache.org
+- `commons-codec` (fink/package -> commons-codec): jakarta.apache.org vs commons.apache.org
+- `commons-lang` (macports/port -> commons-lang): commons.apache.org vs jakarta.apache.org
+- `commons-lang` (fink/package -> commons-lang): jakarta.apache.org vs commons.apache.org
+- `commons-logging` (macports/port -> commons-logging): commons.apache.org vs jakarta.apache.org
+- `commons-logging` (fink/package -> commons-logging): jakarta.apache.org vs commons.apache.org
+- `commons-pool` (macports/port -> commons-pool): commons.apache.org vs jakarta.apache.org
+- `commons-pool` (fink/package -> commons-pool): jakarta.apache.org vs commons.apache.org
+- `compface` (macports/port -> compface): freecode.com vs freshmeat.net
+- `compface` (fink/package -> compface): freshmeat.net vs freecode.com
+- `config-file-validator` (homebrew/formula -> config-file-validator): boeing.github.io vs github.com
+- `confluent-cli` (homebrew/cask -> confluent-cli): docs.confluent.io vs github.com
+- `connect` (homebrew/formula -> connect): github.com vs zippo.taiyo.co.jp
+- `container` (homebrew/formula -> container): apple.github.io vs github.com
+- `converseen` (macports/port -> converseen): github.com vs converseen.fasterland.net
+- `converseen` (fink/package -> converseen): converseen.fasterland.net vs github.com
+- `corkscrew` (homebrew/formula -> corkscrew): packages.debian.org vs web.archive.org
+- `corkscrew` (homebrew/formula -> corkscrew): packages.debian.org vs agroman.net
+- `corkscrew` (macports/port -> corkscrew): web.archive.org vs agroman.net
+- `corkscrew` (fink/package -> corkscrew): agroman.net vs web.archive.org
+- `cowsay` (homebrew/formula -> cowsay): cowsay.diamonds vs github.com
+- `cowsay` (homebrew/formula -> cowsay): cowsay.diamonds vs nog.net
+- `cowsay` (macports/port -> cowsay): github.com vs nog.net
+- `cowsay` (fink/package -> cowsay): nog.net vs github.com
+- `cpmtools` (homebrew/formula -> cpmtools): moria.de vs cpm8680.com
+- `cpp-httplib` (homebrew/formula -> cpp-httplib): yhirose.github.io vs github.com
+- `cpp-peglib` (homebrew/formula -> cpp-peglib): yhirose.github.io vs github.com
+- `cppcheck` (homebrew/formula -> cppcheck): sourceforge.net vs github.com
+- `cppcheck` (homebrew/formula -> cppcheck): sourceforge.net vs cppcheck.sourceforge.net
+- `cppcheck` (macports/port -> cppcheck): github.com vs cppcheck.sourceforge.net
+- `cppcheck` (fink/package -> cppcheck): cppcheck.sourceforge.net vs github.com
+- `cppunit` (homebrew/formula -> cppunit): wiki.freedesktop.org vs freedesktop.org
+- `cpputest` (homebrew/formula -> cpputest): cpputest.github.io vs cpputest.org
+- `cpputest` (macports/port -> cpputest): cpputest.github.io vs cpputest.org
+- `cpputest` (fink/package -> cpputest): cpputest.org vs cpputest.github.io
+- `cppzmq` (homebrew/formula -> cppzmq): zeromq.org vs github.com
+- `cppzmq` (macports/port -> cppzmq): github.com vs zeromq.org
+- `cppzmq` (fink/package -> cppzmq): zeromq.org vs github.com
+- `crafty` (macports/port -> crafty): web.archive.org vs ftp.cis.uab.edu
+- `crafty` (fink/package -> crafty): ftp.cis.uab.edu vs web.archive.org
+- `creduce` (homebrew/formula -> creduce): github.com vs embed.cs.utah.edu
+- `croc` (homebrew/formula -> croc): github.com vs schollz.com
+- `crow` (homebrew/formula -> crow): crowcpp.org vs crow-designer.sourceforge.net
+- `crystal` (homebrew/formula -> crystal): crystal-lang.org vs kde-look.org
+- `crystal` (macports/port -> crystal): crystal-lang.org vs kde-look.org
+- `crystal` (fink/package -> crystal): kde-look.org vs crystal-lang.org
+- `csshx` (homebrew/formula -> csshX): github.com vs code.google.com
+- `csvtk` (homebrew/formula -> csvtk): bioinf.shenwei.me vs github.com
+- `ctop` (homebrew/formula -> ctop): bcicen.github.io vs ctop.sh
+- `ctorrent` (macports/port -> ctorrent): sourceforge.net vs rahul.net
+- `ctorrent` (fink/package -> ctorrent): rahul.net vs sourceforge.net
+- `ctpv` (homebrew/formula -> ctpv): nikitaivanov.com vs github.com
+- `curl` (homebrew/formula -> curl): curl.se vs curl.haxx.se
+- `curl` (macports/port -> curl): curl.se vs curl.haxx.se
+- `curl` (fink/package -> curl): curl.haxx.se vs curl.se
+- `curlie` (homebrew/formula -> curlie): rs.github.io vs curlie.io
+- `cvs` (homebrew/formula -> cvs): nongnu.org vs cvs.nongnu.org
+- `cvs` (homebrew/formula -> cvs): nongnu.org vs ccvs.cvshome.org
+- `cvs` (macports/port -> cvs): cvs.nongnu.org vs ccvs.cvshome.org
+- `cvs` (fink/package -> cvs): ccvs.cvshome.org vs cvs.nongnu.org
+- `cvs2svn` (macports/port -> cvs2svn): github.com vs cvs2svn.tigris.org
+- `cvs2svn` (fink/package -> cvs2svn): cvs2svn.tigris.org vs github.com
+- `cvsps` (macports/port -> cvsps): cvsps.sourceforge.net vs cobite.com
+- `cvsps` (fink/package -> cvsps): cobite.com vs cvsps.sourceforge.net
+- `cyan` (homebrew/formula -> cyan): github.com vs cyan.graphics
+- `cyrus-sasl2` (macports/port -> cyrus-sasl2): cyrusimap.org vs asg.web.cmu.edu
+- `cyrus-sasl2` (fink/package -> cyrus-sasl2): asg.web.cmu.edu vs cyrusimap.org
+- `daaplib` (macports/port -> daaplib): web.archive.org vs deleet.de
+- `daaplib` (fink/package -> daaplib): deleet.de vs web.archive.org
+- `daemonize` (homebrew/formula -> daemonize): software.clapper.org vs bmc.github.com
+- `dar` (homebrew/formula -> dar): dar.linux.free.fr vs dar.sourceforge.io
+- `dar` (macports/port -> dar): dar.sourceforge.io vs dar.linux.free.fr
+- `dar` (fink/package -> dar): dar.linux.free.fr vs dar.sourceforge.io
+- `darcs` (homebrew/formula -> darcs): darcs.net vs abridgegame.org
+- `darcs` (macports/port -> darcs): darcs.net vs abridgegame.org
+- `darcs` (fink/package -> darcs): abridgegame.org vs darcs.net
+- `darkstat` (homebrew/formula -> darkstat): unix4lyfe.org vs members.optushome.com.au
+- `darkstat` (macports/port -> darkstat): unix4lyfe.org vs members.optushome.com.au
+- `darkstat` (fink/package -> darkstat): members.optushome.com.au vs unix4lyfe.org
+- `dash` (homebrew/cask -> dash): kapeli.com vs gondor.apana.org.au
+- `dav1d` (homebrew/formula -> dav1d): code.videolan.org vs videolan.org
+- `dbacl` (homebrew/formula -> dbacl): dbacl.sourceforge.net vs lbreyer.com
+- `dblab` (homebrew/formula -> dblab): dblab.app vs github.com
+- `dbus` (homebrew/formula -> dbus): wiki.freedesktop.org vs freedesktop.org
+- `dbus` (homebrew/formula -> dbus): wiki.freedesktop.org vs dbus.freedesktop.org
+- `dbus` (macports/port -> dbus): freedesktop.org vs dbus.freedesktop.org
+- `dbus` (fink/package -> dbus): dbus.freedesktop.org vs freedesktop.org
+- `dbus-glib` (homebrew/formula -> dbus-glib): wiki.freedesktop.org vs freedesktop.org
+- `dbus-sharp` (macports/port -> dbus-sharp): ndesk.org vs dbus.freedesktop.org
+- `dbus-sharp` (fink/package -> dbus-sharp): dbus.freedesktop.org vs ndesk.org
+- `dc3dd` (homebrew/formula -> dc3dd): sourceforge.net vs dc3dd.sourceforge.net
+- `dc3dd` (macports/port -> dc3dd): sourceforge.net vs dc3dd.sourceforge.net
+- `dc3dd` (fink/package -> dc3dd): dc3dd.sourceforge.net vs sourceforge.net
+- `dcm2niix` (homebrew/formula -> dcm2niix): nitrc.org vs github.com
+- `dcmtk` (homebrew/formula -> dcmtk): dcmtk.org vs dicom.offis.de
+- `dcmtk` (homebrew/formula -> dcmtk): dcmtk.org vs dicom.offis.de
+- `dcraw` (homebrew/formula -> dcraw): dechifro.org vs cybercom.net
+- `dcraw` (macports/port -> dcraw): dechifro.org vs cybercom.net
+- `dcraw` (fink/package -> dcraw): cybercom.net vs dechifro.org
+- `dcw-gmt` (macports/port -> dcw-gmt): github.com vs gmt.soest.hawaii.edu
+- `dcw-gmt` (fink/package -> dcw-gmt): gmt.soest.hawaii.edu vs github.com
+- `ddclient` (homebrew/formula -> ddclient): ddclient.net vs ddclient.sourceforge.net
+- `ddclient` (macports/port -> ddclient): ddclient.net vs ddclient.sourceforge.net
+- `ddclient` (fink/package -> ddclient): ddclient.sourceforge.net vs ddclient.net
+- `ddrescue` (homebrew/formula -> ddrescue): gnu.org vs garloff.de
+- `ddrescue` (macports/port -> ddrescue): gnu.org vs garloff.de
+- `ddrescue` (fink/package -> ddrescue): garloff.de vs gnu.org
+- `debianutils` (homebrew/formula -> debianutils): tracker.debian.org vs packages.debian.org
+- `debianutils` (macports/port -> debianutils): tracker.debian.org vs packages.debian.org
+- `debianutils` (fink/package -> debianutils): packages.debian.org vs tracker.debian.org
+- `denemo` (homebrew/cask -> denemo): denemo.org vs denemo.sourceforge.net
+- `denemo` (macports/port -> denemo): denemo.org vs denemo.sourceforge.net
+- `denemo` (fink/package -> denemo): denemo.sourceforge.net vs denemo.org
+- `deno` (homebrew/formula -> deno): deno.com vs deno.land
+- `desktop-file-utils` (homebrew/formula -> desktop-file-utils): wiki.freedesktop.org vs freedesktop.org
+- `desktop-file-utils` (homebrew/formula -> desktop-file-utils): wiki.freedesktop.org vs gnome.org
+- `desktop-file-utils` (macports/port -> desktop-file-utils): freedesktop.org vs gnome.org
+- `desktop-file-utils` (fink/package -> desktop-file-utils): gnome.org vs freedesktop.org
+- `detach` (homebrew/formula -> detach): inglorion.net vs freshports.org
+- `detex` (macports/port -> detex): macports.org vs ftp.cs.purdue.edu
+- `detox` (homebrew/formula -> detox): detox.sourceforge.net vs github.com
+- `detox` (homebrew/formula -> detox): detox.sourceforge.net vs github.com
+- `devhelp` (macports/port -> devhelp): wiki.gnome.org vs gtk.org
+- `devhelp` (fink/package -> devhelp): gtk.org vs wiki.gnome.org
+- `dfu-programmer` (homebrew/formula -> dfu-programmer): github.com vs dfu-programmer.github.io
+- `dfu-programmer` (homebrew/formula -> dfu-programmer): github.com vs dfu-programmer.sourceforge.net
+- `dfu-programmer` (macports/port -> dfu-programmer): dfu-programmer.github.io vs dfu-programmer.sourceforge.net
+- `dfu-programmer` (fink/package -> dfu-programmer): dfu-programmer.sourceforge.net vs dfu-programmer.github.io
+- `di` (homebrew/formula -> di): diskinfo-di.sourceforge.io vs gnu.org
+- `di` (macports/port -> di): diskinfo-di.sourceforge.io vs gnu.org
+- `di` (fink/package -> di): gnu.org vs diskinfo-di.sourceforge.io
+- `dia` (macports/port -> dia): gitlab.gnome.org vs live.gnome.org
+- `dia` (fink/package -> dia): live.gnome.org vs gitlab.gnome.org
+- `dialog` (homebrew/formula -> dialog): invisible-island.net vs freshmeat.net
+- `dialog` (macports/port -> dialog): invisible-island.net vs freshmeat.net
+- `dialog` (fink/package -> dialog): freshmeat.net vs invisible-island.net
+- `difftastic` (homebrew/formula -> difftastic): difftastic.wilfred.me.uk vs github.com
+- `dillo` (homebrew/formula -> dillo): dillo-browser.github.io vs dillo-browser.org
+- `dillo` (homebrew/formula -> dillo): dillo-browser.github.io vs dillo.auriga.wearlab.de
+- `dillo` (macports/port -> dillo): dillo-browser.org vs dillo.auriga.wearlab.de
+- `dillo` (fink/package -> dillo): dillo.auriga.wearlab.de vs dillo-browser.org
+- `dirac` (homebrew/formula -> dirac): sourceforge.net vs diracvideo.org
+- `dirac` (macports/port -> dirac): sourceforge.net vs diracvideo.org
+- `dirac` (fink/package -> dirac): diracvideo.org vs sourceforge.net
+- `disk-jockey` (homebrew/cask -> DiskJockey): diskjockey.onegeekarmy.eu vs bluescsi.onegeekarmy.eu
+- `distcc` (homebrew/formula -> distcc): github.com vs distcc.samba.org
+- `distcc` (macports/port -> distcc): github.com vs distcc.samba.org
+- `distcc` (fink/package -> distcc): distcc.samba.org vs github.com
+- `ditaa` (homebrew/formula -> ditaa): ditaa.sourceforge.net vs github.com
+- `djview` (homebrew/cask -> djview): djvu.sourceforge.net vs djvuzone.org
+- `djview` (macports/port -> djview): djvu.sourceforge.net vs djvuzone.org
+- `djview` (fink/package -> djview): djvuzone.org vs djvu.sourceforge.net
+- `djvulibre` (homebrew/formula -> djvulibre): djvu.sourceforge.net vs djvuzone.org
+- `djvulibre` (macports/port -> djvulibre): djvu.sourceforge.net vs djvuzone.org
+- `djvulibre` (fink/package -> djvulibre): djvuzone.org vs djvu.sourceforge.net
+- `dns2tcp` (homebrew/formula -> dns2tcp): packages.debian.org vs web.archive.org
+- `dnstop` (homebrew/formula -> dnstop): dns.measurement-factory.com vs dnstop.measurement-factory.com
+- `dnstop` (macports/port -> dnstop): dns.measurement-factory.com vs dnstop.measurement-factory.com
+- `dnstop` (fink/package -> dnstop): dnstop.measurement-factory.com vs dns.measurement-factory.com
+- `docbook-utils` (macports/port -> docbook-utils): sourceware.org vs freshmeat.net
+- `docbook-utils` (fink/package -> docbook-utils): freshmeat.net vs sourceware.org
+- `docbook-xsl` (homebrew/formula -> docbook-xsl): github.com vs sourceforge.net
+- `docbook-xsl` (macports/port -> docbook-xsl): docbook.org vs sourceforge.net
+- `docbook-xsl-ns` (macports/port -> docbook-xsl-ns): docbook.org vs sourceforge.net
+- `docbook-xsl-ns` (fink/package -> docbook-xsl-ns): sourceforge.net vs docbook.org
+- `docker` (homebrew/formula -> docker): docker.com vs github.com
+- `docker-compose` (homebrew/formula -> docker-compose): docs.docker.com vs github.com
+- `docker-machine` (homebrew/formula -> docker-machine): docs.gitlab.com vs github.com
+- `doctl` (homebrew/formula -> doctl): docs.digitalocean.com vs github.com
+- `docutils` (homebrew/formula -> docutils): docutils.sourceforge.io vs docutils.sourceforge.net
+- `dog` (macports/port -> dog): dns.lookup.dog vs packages.debian.org
+- `dog` (fink/package -> dog): packages.debian.org vs dns.lookup.dog
+- `doge` (homebrew/formula -> doge): dog.ramfield.net vs github.com
+- `doggo` (homebrew/formula -> doggo): doggo.mrkaran.dev vs github.com
+- `dolphin` (homebrew/cask -> dolphin): dolphin-emu.org vs enzosworld.gmxhome.de
+- `dolt` (homebrew/formula -> dolt): dolthub.com vs github.com
+- `dom4j` (macports/port -> dom4j): dom4j.org vs jakarta.apache.org
+- `dom4j` (fink/package -> dom4j): jakarta.apache.org vs dom4j.org
+- `doodle` (macports/port -> doodle): grothoff.org vs gnunet.org
+- `doodle` (fink/package -> doodle): gnunet.org vs grothoff.org
+- `dopewars` (homebrew/formula -> dopewars): dopewars.sourceforge.io vs dopewars.sourceforge.net
+- `dopewars` (homebrew/formula -> dopewars): dopewars.sourceforge.io vs dopewars.sourceforge.net
+- `dos2unix` (homebrew/formula -> dos2unix): waterlander.net vs waterlan.home.xs4all.nl
+- `dos2unix` (homebrew/formula -> dos2unix): waterlander.net vs fresh.t-systems-sfr.com
+- `dos2unix` (macports/port -> dos2unix): waterlan.home.xs4all.nl vs fresh.t-systems-sfr.com
+- `dos2unix` (fink/package -> dos2unix): fresh.t-systems-sfr.com vs waterlan.home.xs4all.nl
+- `dosbox` (homebrew/cask -> dosbox): dosbox.com vs dosbox.sourceforge.net
+- `dosbox` (macports/port -> dosbox): dosbox.sourceforge.net vs dosbox.com
+- `dosbox` (fink/package -> dosbox): dosbox.com vs dosbox.sourceforge.net
+- `dosbox-staging` (homebrew/formula -> dosbox-staging): dosbox-staging.github.io vs github.com
+- `dotnet-sdk@8` (homebrew/cask -> dotnet-sdk-8): microsoft.com vs dotnet.microsoft.com
+- `dotnet-sdk@9` (homebrew/cask -> dotnet-sdk-9): microsoft.com vs dotnet.microsoft.com
+- `doxygen` (homebrew/formula -> doxygen): doxygen.nl vs doxygen.org
+- `doxygen` (macports/port -> doxygen): doxygen.nl vs doxygen.org
+- `doxygen` (fink/package -> doxygen): doxygen.org vs doxygen.nl
+- `dpkg` (homebrew/formula -> dpkg): wiki.debian.org vs packages.qa.debian.org
+- `dpkg` (macports/port -> dpkg): wiki.debian.org vs packages.qa.debian.org
+- `dpkg` (fink/package -> dpkg): packages.qa.debian.org vs wiki.debian.org
+- `driftctl` (homebrew/formula -> driftctl): github.com vs driftctl.com
+- `driftwood` (homebrew/formula -> driftwood): trufflesecurity.com vs github.com
+- `dspdfviewer` (homebrew/formula -> dspdfviewer): dspdfviewer.danny-edel.de vs github.com
+- `dtrx` (homebrew/formula -> dtrx): pypi.org vs github.com
+- `dub` (homebrew/formula -> dub): code.dlang.org vs github.com
+- `duff` (homebrew/formula -> duff): github.com vs duff.dreda.org
+- `duff` (homebrew/formula -> duff): github.com vs duff.sourceforge.net
+- `duff` (macports/port -> duff): duff.dreda.org vs duff.sourceforge.net
+- `duff` (fink/package -> duff): duff.sourceforge.net vs duff.dreda.org
+- `duktape` (homebrew/formula -> duktape): duktape.org vs github.com
+- `duplicity` (homebrew/formula -> duplicity): gitlab.com vs duplicity.nongnu.org
+- `duplicity` (macports/port -> duplicity): gitlab.com vs duplicity.nongnu.org
+- `duplicity` (fink/package -> duplicity): duplicity.nongnu.org vs gitlab.com
+- `duti` (homebrew/formula -> duti): github.com vs web.archive.org
+- `dvd+rw-tools` (homebrew/formula -> dvdrw-tools): en.wikipedia.org vs fy.chalmers.se
+- `dvd+rw-tools` (homebrew/formula -> dvd+rw-tools): en.wikipedia.org vs fy.chalmers.se
+- `dvdrtools` (homebrew/formula -> dvdrtools): savannah.nongnu.org vs web.archive.org
+- `dvisvgm` (homebrew/formula -> dvisvgm): dvisvgm.de vs github.com
+- `dynamips` (homebrew/formula -> dynamips): github.com vs ipflow.utc.fr
+- `dynamips` (macports/port -> dynamips): github.com vs ipflow.utc.fr
+- `dynamips` (fink/package -> dynamips): ipflow.utc.fr vs github.com
+- `dysk` (homebrew/formula -> dysk): dystroy.org vs github.com
+- `easy-tag` (homebrew/formula -> easytag): wiki.gnome.org vs easytag.sourceforge.net
+- `easytag` (macports/port -> easytag): wiki.gnome.org vs easytag.sourceforge.net
+- `easytag` (fink/package -> easytag): easytag.sourceforge.net vs wiki.gnome.org
+- `eb` (macports/port -> eb): green.ribbon.to vs sra.co.jp
+- `eb` (fink/package -> eb): sra.co.jp vs green.ribbon.to
+- `eboard` (macports/port -> eboard): github.com vs eboard.sourceforge.net
+- `eboard` (fink/package -> eboard): eboard.sourceforge.net vs github.com
+- `ebook-tools` (homebrew/formula -> ebook-tools): sourceforge.net vs ebook-tools.sourceforge.net
+- `ebook-tools` (macports/port -> ebook-tools): sourceforge.net vs ebook-tools.sourceforge.net
+- `ebook-tools` (fink/package -> ebook-tools): ebook-tools.sourceforge.net vs sourceforge.net
+- `ecl` (homebrew/formula -> ecl): ecl.common-lisp.dev vs ecls.sourceforge.net
+- `ecl` (macports/port -> ecl): ecl.common-lisp.dev vs ecls.sourceforge.net
+- `ecl` (fink/package -> ecl): ecls.sourceforge.net vs ecl.common-lisp.dev
+- `edb` (macports/port -> edb): enlightenment.org vs gnuvola.org
+- `edb` (fink/package -> edb): gnuvola.org vs enlightenment.org
+- `editorconfig-checker` (homebrew/formula -> editorconfig-checker): editorconfig-checker.github.io vs github.com
+- `ee` (macports/port -> ee): github.com vs users.qwest.net
+- `ee` (fink/package -> ee): users.qwest.net vs github.com
+- `efont-unicode` (macports/port -> efont-unicode): openlab.ring.gr.jp vs openlab.jp
+- `efont-unicode` (fink/package -> efont-unicode): openlab.jp vs openlab.ring.gr.jp
+- `eigen` (homebrew/formula -> eigen): gitlab.com vs eigen.tuxfamily.org
+- `eigen3` (macports/port -> eigen3): libeigen.gitlab.io vs eigen.tuxfamily.org
+- `eigen3` (fink/package -> eigen3): eigen.tuxfamily.org vs libeigen.gitlab.io
+- `eigen@3` (homebrew/formula -> eigen3): gitlab.com vs libeigen.gitlab.io
+- `eigen@3` (homebrew/formula -> eigen3): gitlab.com vs eigen.tuxfamily.org
+- `eiskaltdcpp` (homebrew/cask -> eiskaltdcpp): sourceforge.net vs github.com
+- `ejabberd` (homebrew/formula -> ejabberd): ejabberd.im vs process-one.net
+- `ejabberd` (homebrew/formula -> ejabberd): ejabberd.im vs ejabberd.jabber.ru
+- `ejabberd` (macports/port -> ejabberd): process-one.net vs ejabberd.jabber.ru
+- `ejabberd` (fink/package -> ejabberd): ejabberd.jabber.ru vs process-one.net
+- `emacs-app` (homebrew/cask -> emacs-app): emacsformacosx.com vs gnu.org
+- `emacs-w3m` (macports/port -> emacs-w3m): github.com vs emacs-w3m.namazu.org
+- `emacs-w3m` (fink/package -> emacs-w3m): emacs-w3m.namazu.org vs github.com
+- `emboss` (fink/package -> EMBOSS): hgmp.mrc.ac.uk vs emboss.sourceforge.net
+- `empathy` (macports/port -> empathy): wiki.gnome.org vs live.gnome.org
+- `empathy` (fink/package -> empathy): live.gnome.org vs wiki.gnome.org
+- `encfs` (homebrew/formula -> encfs): vgough.github.io vs arg0.net
+- `encfs` (macports/port -> encfs): vgough.github.io vs arg0.net
+- `encfs` (fink/package -> encfs): arg0.net vs vgough.github.io
+- `enchant` (homebrew/formula -> enchant): rrthomas.github.io vs abisource.com
+- `enchant` (homebrew/formula -> enchant): rrthomas.github.io vs abisource.com
+- `enigma` (homebrew/formula -> enigma): nongnu.org vs chiark.greenend.org.uk
+- `enigma` (macports/port -> enigma): nongnu.org vs chiark.greenend.org.uk
+- `enigma` (fink/package -> enigma): chiark.greenend.org.uk vs nongnu.org
+- `enscript` (homebrew/formula -> enscript): gnu.org vs people.ssh.fi
+- `enscript` (macports/port -> enscript): gnu.org vs people.ssh.fi
+- `enscript` (fink/package -> enscript): people.ssh.fi vs gnu.org
+- `eog` (macports/port -> eog): wiki.gnome.org vs gnome.org
+- `eog` (fink/package -> eog): gnome.org vs wiki.gnome.org
+- `epeg` (homebrew/formula -> epeg): github.com vs enlightenment.org
+- `epiphany` (macports/port -> epiphany): wiki.gnome.org vs gnome.org
+- `epiphany` (fink/package -> epiphany): gnome.org vs wiki.gnome.org
+- `epstool` (homebrew/formula -> epstool): ghostgum.com.au vs cs.wisc.edu
+- `epstool` (homebrew/formula -> epstool): ghostgum.com.au vs cs.wisc.edu
+- `epubcheck` (homebrew/formula -> epubcheck): w3.org vs github.com
+- `erc` (macports/port -> erc): savannah.gnu.org vs emacswiki.org
+- `erc` (fink/package -> erc): emacswiki.org vs savannah.gnu.org
+- `erofs-utils` (homebrew/formula -> erofs-utils): git.kernel.org vs erofs.docs.kernel.org
+- `esniper` (homebrew/formula -> esniper): sourceforge.net vs esniper.sourceforge.net
+- `esound` (macports/port -> esound): web.archive.org vs gnome.org
+- `esound` (fink/package -> esound): gnome.org vs web.archive.org
+- `espresso` (homebrew/cask -> espresso): espressoapp.com vs embedded.eecs.berkeley.edu
+- `esptool` (homebrew/formula -> esptool): docs.espressif.com vs github.com
+- `et` (homebrew/formula -> et): mistertea.github.io vs github.com
+- `eterm` (fink/package -> Eterm): eterm.org vs web.archive.org
+- `etl` (homebrew/formula -> etl): synfig.org vs synfig.sourceforge.net
+- `etl` (fink/package -> ETL): synfig.sourceforge.net vs synfig.org
+- `etsh` (homebrew/formula -> etsh): etsh.dev vs etsh.nl
+- `evans` (homebrew/formula -> evans): github.com vs evans.syfm.me
+- `evilwm` (macports/port -> evilwm): 6809.org.uk vs evilwm.sourceforge.net
+- `evilwm` (fink/package -> evilwm): evilwm.sourceforge.net vs 6809.org.uk
+- `evince` (homebrew/formula -> evince): apps.gnome.org vs wiki.gnome.org
+- `evince` (homebrew/formula -> evince): apps.gnome.org vs gnome.org
+- `evince` (macports/port -> evince): wiki.gnome.org vs gnome.org
+- `evince` (fink/package -> evince): gnome.org vs wiki.gnome.org
+- `evolution-data-server` (macports/port -> evolution-data-server): wiki.gnome.org vs novell.com
+- `evolution-data-server` (fink/package -> evolution-data-server): novell.com vs wiki.gnome.org
+- `exercism` (homebrew/formula -> exercism): exercism.io vs exercism.org
+- `exif` (homebrew/formula -> exif): libexif.github.io vs github.com
+- `expat` (homebrew/formula -> expat): libexpat.github.io vs expat.sourceforge.net
+- `expat` (macports/port -> expat): libexpat.github.io vs expat.sourceforge.net
+- `expat` (fink/package -> expat): expat.sourceforge.net vs libexpat.github.io
+- `expect` (homebrew/formula -> expect): core.tcl-lang.org vs expect.sourceforge.net
+- `expect` (homebrew/formula -> expect): core.tcl-lang.org vs expect.nist.gov
+- `expect` (macports/port -> expect): expect.sourceforge.net vs expect.nist.gov
+- `expect` (fink/package -> expect): expect.nist.gov vs expect.sourceforge.net
+- `expert` (homebrew/formula -> expert): expert-lsp.org vs github.com
+- `extra-cmake-modules` (homebrew/formula -> extra-cmake-modules): api.kde.org vs kde.org
+- `f3` (homebrew/formula -> f3): fight-flash-fraud.readthedocs.io vs oss.digirati.com.br
+- `faac` (homebrew/formula -> faac): sourceforge.net vs github.com
+- `faac` (homebrew/formula -> faac): sourceforge.net vs audiocoding.com
+- `faac` (macports/port -> faac): github.com vs audiocoding.com
+- `faac` (fink/package -> faac): audiocoding.com vs github.com
+- `faad2` (homebrew/formula -> faad2): sourceforge.net vs github.com
+- `fakeroot` (homebrew/formula -> fakeroot): tracker.debian.org vs wiki.debian.org
+- `fann` (homebrew/formula -> fann): sourceforge.net vs leenissen.dk
+- `fann` (homebrew/formula -> fann): sourceforge.net vs leenissen.dk
+- `fast_float` (homebrew/formula -> fast-float): fastfloat.github.io vs github.com
+- `fastjar` (homebrew/formula -> fastjar): savannah.nongnu.org vs fastjar.sourceforge.net
+- `fatal` (homebrew/formula -> fatal): facebook.com vs github.com
+- `fatsort` (homebrew/formula -> fatsort): fatsort.sourceforge.io vs fatsort.sourceforge.net
+- `faudio` (homebrew/formula -> FAudio): fna-xna.github.io vs github.com
+- `fcgi` (homebrew/formula -> fcgi): fastcgi-archives.github.io vs github.com
+- `fcgiwrap` (homebrew/formula -> fcgiwrap): nginx.com vs nginx.localdomain.pl
+- `fcl` (homebrew/formula -> fcl): flexible-collision-library.github.io vs github.com
+- `feh` (homebrew/formula -> feh): feh.finalrewind.org vs derf.homelinux.org
+- `feh` (macports/port -> feh): feh.finalrewind.org vs derf.homelinux.org
+- `feh` (fink/package -> feh): derf.homelinux.org vs feh.finalrewind.org
+- `fetchmail` (homebrew/formula -> fetchmail): fetchmail.info vs catb.org
+- `fetchmail` (macports/port -> fetchmail): fetchmail.info vs catb.org
+- `fetchmail` (fink/package -> fetchmail): catb.org vs fetchmail.info
+- `ffcall` (macports/port -> ffcall): gnu.org vs haible.de
+- `ffcall` (fink/package -> ffcall): haible.de vs gnu.org
+- `ffmpeg` (homebrew/formula -> ffmpeg): ffmpeg.org vs ffmpeg.mplayerhq.hu
+- `ffmpeg` (macports/port -> ffmpeg): ffmpeg.org vs ffmpeg.mplayerhq.hu
+- `ffmpeg` (fink/package -> ffmpeg): ffmpeg.mplayerhq.hu vs ffmpeg.org
+- `ffmpeg2theora` (homebrew/formula -> ffmpeg2theora): gitlab.xiph.org vs v2v.cc
+- `fig2dev` (homebrew/formula -> fig2dev): mcj.sourceforge.net vs sourceforge.net
+- `fig2dev` (macports/port -> fig2dev): mcj.sourceforge.net vs sourceforge.net
+- `fig2dev` (fink/package -> fig2dev): sourceforge.net vs mcj.sourceforge.net
+- `file-roller` (homebrew/formula -> file-roller): wiki.gnome.org vs gnome.org
+- `file-roller` (macports/port -> file-roller): wiki.gnome.org vs gnome.org
+- `file-roller` (fink/package -> file-roller): gnome.org vs wiki.gnome.org
+- `finch` (homebrew/cask -> finch): github.com vs pidgin.im
+- `fish` (homebrew/formula -> fish): fishshell.com vs fishshell.org
+- `fish` (macports/port -> fish): fishshell.com vs fishshell.org
+- `fish` (fink/package -> fish): fishshell.org vs fishshell.com
+- `flac` (homebrew/formula -> flac): xiph.org vs flac.sourceforge.net
+- `flac` (macports/port -> flac): xiph.org vs flac.sourceforge.net
+- `flac` (fink/package -> flac): flac.sourceforge.net vs xiph.org
+- `flamegraph` (homebrew/formula -> flamegraph): github.com vs brendangregg.com
+- `fldigi` (homebrew/cask -> fldigi): w1hkj.org vs w1hkj.com
+- `flex` (homebrew/formula -> flex): github.com vs gnu.org
+- `flex` (macports/port -> flex): github.com vs gnu.org
+- `flex` (fink/package -> flex): gnu.org vs github.com
+- `flite` (homebrew/formula -> flite): festvox.org vs cmuflite.org
+- `flite` (homebrew/formula -> flite): festvox.org vs cmuflite.org
+- `flow` (homebrew/formula -> flow): flow.org vs netlib.org
+- `flow-tools` (homebrew/formula -> flow-tools): code.google.com vs github.com
+- `flrig` (homebrew/cask -> flrig): w1hkj.org vs w1hkj.com
+- `flux` (homebrew/formula -> flux): influxdata.com vs fluxcd.io
+- `flyway` (homebrew/formula -> flyway): red-gate.com vs flywaydb.org
+- `font-manager` (macports/port -> font-manager): github.com vs font-manager.googlecode.com
+- `font-manager` (fink/package -> font-manager): font-manager.googlecode.com vs github.com
+- `fontconfig` (homebrew/formula -> fontconfig): wiki.freedesktop.org vs freedesktop.org
+- `fontforge` (homebrew/formula -> fontforge): fontforge.github.io vs fontforge.org
+- `fontforge` (homebrew/formula -> fontforge): fontforge.github.io vs fontforge.sourceforge.net
+- `fontforge` (macports/port -> fontforge): fontforge.org vs fontforge.sourceforge.net
+- `fontforge` (fink/package -> fontforge): fontforge.sourceforge.net vs fontforge.org
+- `fortran-stdlib` (homebrew/formula -> fortran-stdlib): stdlib.fortran-lang.org vs github.com
+- `fortune` (homebrew/formula -> fortune): ibiblio.org vs freebsd.org
+- `fping` (homebrew/formula -> fping): fping.org vs fping.com
+- `fping` (macports/port -> fping): fping.org vs fping.com
+- `fping` (fink/package -> fping): fping.com vs fping.org
+- `fpp` (homebrew/formula -> fpp): facebook.github.io vs netlib.org
+- `fprobe` (homebrew/formula -> fprobe): sourceforge.net vs fprobe.sourceforge.net
+- `freecad` (homebrew/cask -> freecad): freecad.org vs freecadweb.org
+- `freeimage` (homebrew/formula -> freeimage): sourceforge.net vs freeimage.sourceforge.io
+- `fribidi` (homebrew/formula -> fribidi): github.com vs fribidi.org
+- `fribidi` (homebrew/formula -> fribidi): github.com vs freedesktop.org
+- `fribidi` (macports/port -> fribidi): fribidi.org vs freedesktop.org
+- `fribidi` (fink/package -> fribidi): freedesktop.org vs fribidi.org
+- `fricas` (homebrew/formula -> fricas): fricas.github.io vs fricas.sourceforge.net
+- `frotz` (homebrew/formula -> frotz): 661.org vs davidgriffith.gitlab.io
+- `frotz` (homebrew/formula -> frotz): 661.org vs geocities.com
+- `frotz` (macports/port -> frotz): davidgriffith.gitlab.io vs geocities.com
+- `frotz` (fink/package -> frotz): geocities.com vs davidgriffith.gitlab.io
+- `fselect` (homebrew/formula -> fselect): fselect.rocks vs github.com
+- `ftgl` (homebrew/formula -> ftgl): sourceforge.net vs github.com
+- `ftidy` (macports/port -> ftidy): web.archive.org vs unb.ca
+- `ftidy` (fink/package -> ftidy): unb.ca vs web.archive.org
+- `ftxui` (homebrew/formula -> FTXUI): arthursonzogni.github.io vs github.com
+- `fuse` (homebrew/cask -> fuse): fuse-open.github.io vs code.google.com
+- `fuse-zip` (homebrew/formula -> fuse-zip): bitbucket.org vs code.google.com
+- `fuzz` (macports/port -> fuzz): fuzz.sourceforge.net vs sourceforge.net
+- `fuzz` (fink/package -> fuzz): sourceforge.net vs fuzz.sourceforge.net
+- `fvwm2` (macports/port -> fvwm2): github.com vs fvwm.org
+- `fvwm2` (fink/package -> fvwm2): fvwm.org vs github.com
+- `fzf` (homebrew/formula -> fzf): junegunn.github.io vs github.com
+- `g-wrap` (macports/port -> g-wrap): nongnu.org vs gnucash.org
+- `g-wrap` (fink/package -> g-wrap): gnucash.org vs nongnu.org
+- `gaa` (macports/port -> gaa): gaa.sf.net vs gaa.sourceforge.net
+- `gaa` (fink/package -> gaa): gaa.sourceforge.net vs gaa.sf.net
+- `gauche` (homebrew/formula -> gauche): practical-scheme.net vs shiro.dreamhost.com
+- `gauche` (macports/port -> gauche): practical-scheme.net vs shiro.dreamhost.com
+- `gauche` (fink/package -> gauche): shiro.dreamhost.com vs practical-scheme.net
+- `gcin` (macports/port -> gcin): cle.linux.org.tw vs csie.nctu.edu.tw
+- `gcin` (fink/package -> gcin): csie.nctu.edu.tw vs cle.linux.org.tw
+- `gcr` (homebrew/formula -> gcr): gitlab.gnome.org vs wiki.gnome.org
+- `gd` (homebrew/formula -> gd): libgd.github.io vs boutell.com
+- `gd2` (macports/port -> gd2): libgd.github.io vs boutell.com
+- `gd2` (fink/package -> gd2): boutell.com vs libgd.github.io
+- `gdbm` (homebrew/formula -> gdbm): gnu.org.ua vs gnu.org
+- `gdbm` (homebrew/formula -> gdbm): gnu.org.ua vs gnu.org
+- `gdcm` (homebrew/formula -> gdcm): sourceforge.net vs gdcm.sourceforge.net
+- `gdcm` (macports/port -> gdcm): sourceforge.net vs gdcm.sourceforge.net
+- `gdcm` (fink/package -> gdcm): gdcm.sourceforge.net vs sourceforge.net
+- `gdisk` (homebrew/cask -> gdisk): sourceforge.net vs rodsbooks.com
+- `gdk-pixbuf` (homebrew/formula -> gdk-pixbuf): gtk.org vs gnome.org
+- `gdl` (homebrew/formula -> gdl): gitlab.gnome.org vs anjuta.org
+- `gdl` (homebrew/formula -> gdl): gitlab.gnome.org vs gnudatalanguage.sf.net
+- `gdl` (macports/port -> gdl): anjuta.org vs gnudatalanguage.sf.net
+- `gdl` (fink/package -> gdl): gnudatalanguage.sf.net vs anjuta.org
+- `gdm` (macports/port -> gdm): wiki.gnome.org vs gnome.org
+- `gdm` (fink/package -> gdm): gnome.org vs wiki.gnome.org
+- `geany` (homebrew/cask -> geany): geany.org vs geany.uvena.de
+- `geany` (macports/port -> geany): geany.org vs geany.uvena.de
+- `geany` (fink/package -> geany): geany.uvena.de vs geany.org
+- `geckodriver` (homebrew/formula -> geckodriver): firefox-source-docs.mozilla.org vs github.com
+- `gecode` (homebrew/formula -> gecode): gecode.dev vs gecode.org
+- `geda-gaf` (macports/port -> geda-gaf): geda-project.org vs geda.seul.org
+- `geda-gaf` (fink/package -> geda-gaf): geda.seul.org vs geda-project.org
+- `gedit` (homebrew/formula -> gedit): gedit-technology.github.io vs wiki.gnome.org
+- `gedit` (homebrew/formula -> gedit): gedit-technology.github.io vs gedit.sourceforge.net
+- `gedit` (macports/port -> gedit): wiki.gnome.org vs gedit.sourceforge.net
+- `gedit` (fink/package -> gedit): gedit.sourceforge.net vs wiki.gnome.org
+- `gedit-plugins` (macports/port -> gedit-plugins): wiki.gnome.org vs gedit.sourceforge.net
+- `gedit-plugins` (fink/package -> gedit-plugins): gedit.sourceforge.net vs wiki.gnome.org
+- `geekcode` (macports/port -> geekcode): gushue.net vs geekcode.sourceforge.net
+- `geekcode` (fink/package -> geekcode): geekcode.sourceforge.net vs gushue.net
+- `geeqie` (homebrew/formula -> geeqie): geeqie.org vs geeqie.sourceforge.net
+- `geeqie` (macports/port -> geeqie): geeqie.org vs geeqie.sourceforge.net
+- `geeqie` (fink/package -> geeqie): geeqie.sourceforge.net vs geeqie.org
+- `gemmi` (homebrew/formula -> gemmi): project-gemmi.github.io vs github.com
+- `geocode-glib` (homebrew/formula -> geocode-glib): gitlab.gnome.org vs developer.gnome.org
+- `geoipupdate` (homebrew/formula -> geoipupdate): github.com vs dev.maxmind.com
+- `gerbv` (homebrew/formula -> gerbv): gerbv.github.io vs gerbv.geda-project.org
+- `gerbv` (homebrew/formula -> gerbv): gerbv.github.io vs gerbv.sourceforge.net
+- `gerbv` (macports/port -> gerbv): gerbv.geda-project.org vs gerbv.sourceforge.net
+- `gerbv` (fink/package -> gerbv): gerbv.sourceforge.net vs gerbv.geda-project.org
+- `getmail` (macports/port -> getmail): pyropus.ca. vs qcc.ca
+- `getmail` (fink/package -> getmail): qcc.ca vs pyropus.ca.
+- `gf` (homebrew/formula -> gf): goframe.org vs grammaticalframework.org
+- `gflags` (homebrew/formula -> gflags): gflags.github.io vs github.com
+- `gftp` (macports/port -> gftp): gftp.org vs gftp.seul.org
+- `gftp` (fink/package -> gftp): gftp.seul.org vs gftp.org
+- `ghidra` (homebrew/formula -> ghidra): github.com vs ghidra-sre.org
+- `ghostscript` (homebrew/formula -> ghostscript): ghostscript.com vs cs.wisc.edu
+- `ghostscript` (macports/port -> ghostscript): ghostscript.com vs cs.wisc.edu
+- `ghostscript` (fink/package -> ghostscript): cs.wisc.edu vs ghostscript.com
+- `gi-docgen` (homebrew/formula -> gi-docgen): gnome.pages.gitlab.gnome.org vs gitlab.gnome.org
+- `giblib` (macports/port -> giblib): web.archive.org vs linuxbrit.co.uk
+- `giblib` (fink/package -> giblib): linuxbrit.co.uk vs web.archive.org
+- `giflib` (homebrew/formula -> giflib): giflib.sourceforge.net vs sourceforge.net
+- `giflib` (homebrew/formula -> giflib): giflib.sourceforge.net vs prtr-13.ucsc.edu
+- `giflib` (macports/port -> giflib): sourceforge.net vs prtr-13.ucsc.edu
+- `giflib` (fink/package -> giflib): prtr-13.ucsc.edu vs sourceforge.net
+- `giggle` (macports/port -> giggle): wiki.gnome.org vs live.gnome.org
+- `giggle` (fink/package -> giggle): live.gnome.org vs wiki.gnome.org
+- `git-cliff` (homebrew/formula -> git-cliff): git-cliff.org vs github.com
+- `git-ftp` (homebrew/formula -> git-ftp): git-ftp.github.io vs github.com
+- `git-ftp` (homebrew/formula -> git-ftp): git-ftp.github.io vs github.com
+- `git-lfs` (homebrew/formula -> git-lfs): git-lfs.com vs git-lfs.github.com
+- `git-lfs` (homebrew/formula -> git-lfs): git-lfs.com vs git-lfs.github.com
+- `git-review` (homebrew/formula -> git-review): opendev.org vs docs.openstack.org
+- `git-secret` (homebrew/formula -> git-secret): sobolevn.me vs git-secret.io
+- `gitg` (homebrew/formula -> gitg): wiki.gnome.org vs gitlab.gnome.org
+- `github` (homebrew/cask -> github): desktop.github.com vs hub.github.com
+- `gitlab-runner` (homebrew/formula -> gitlab-runner): gitlab.com vs docs.gitlab.com
+- `gitleaks` (homebrew/formula -> gitleaks): gitleaks.io vs github.com
+- `gitup` (homebrew/formula -> GitUp): github.com vs gitup.co
+- `gitx` (homebrew/cask -> GitX): github.com vs gitx.frim.nl
+- `gjs` (homebrew/formula -> gjs): gitlab.gnome.org vs gjs-docs.gnome.org
+- `gkrellm` (homebrew/formula -> gkrellm): billw2.github.io vs gkrellm.srcbox.net
+- `gkrellm` (homebrew/formula -> gkrellm): billw2.github.io vs web.wt.net
+- `gkrellm` (macports/port -> gkrellm): gkrellm.srcbox.net vs web.wt.net
+- `gkrellm` (fink/package -> gkrellm): web.wt.net vs gkrellm.srcbox.net
+- `glade` (homebrew/formula -> glade): glade.gnome.org vs wiki.gnome.org
+- `glade` (macports/port -> glade): wiki.gnome.org vs glade.gnome.org
+- `glade` (fink/package -> glade): glade.gnome.org vs wiki.gnome.org
+- `glade3` (macports/port -> glade3): wiki.gnome.org vs glade.gnome.org
+- `glade3` (fink/package -> glade3): glade.gnome.org vs wiki.gnome.org
+- `glances` (homebrew/formula -> glances): nicolargo.github.io vs github.com
+- `glib` (homebrew/formula -> glib): docs.gtk.org vs gtk.org
+- `glib-networking` (homebrew/formula -> glib-networking): gitlab.gnome.org vs gnome.org
+- `glib2` (macports/port -> glib2): wiki.gnome.org vs gtk.org
+- `glib2` (fink/package -> glib2): gtk.org vs wiki.gnome.org
+- `glibmm` (homebrew/formula -> glibmm): gtkmm.gnome.org vs gtkmm.org
+- `glitz` (macports/port -> glitz): freedesktop.org vs cairographics.org
+- `glitz` (fink/package -> glitz): cairographics.org vs freedesktop.org
+- `glui` (homebrew/formula -> glui): github.com vs cs.unc.edu
+- `glui` (macports/port -> glui): github.com vs cs.unc.edu
+- `glui` (fink/package -> glui): cs.unc.edu vs github.com
+- `gmic` (homebrew/formula -> gmic): gmic.eu vs gmic.sourceforge.net
+- `gmic` (macports/port -> gmic): gmic.eu vs gmic.sourceforge.net
+- `gmic` (fink/package -> gmic): gmic.sourceforge.net vs gmic.eu
+- `gmime` (homebrew/formula -> gmime): github.com vs spruce.sourceforge.net
+- `gmm` (macports/port -> gmm): getfem.org vs home.gna.org
+- `gmm` (fink/package -> gmm): home.gna.org vs getfem.org
+- `gmp` (homebrew/formula -> gmp): gmplib.org vs swox.com
+- `gmp` (macports/port -> gmp): gmplib.org vs swox.com
+- `gmp` (fink/package -> gmp): swox.com vs gmplib.org
+- `gmp-ecm` (homebrew/formula -> gmp-ecm): gitlab.inria.fr vs gforge.inria.fr
+- `gmpc` (macports/port -> gmpc): gmpc.fandom.com vs mpd.wikia.com
+- `gmpc` (fink/package -> gmpc): mpd.wikia.com vs gmpc.fandom.com
+- `gmsh` (homebrew/formula -> gmsh): gmsh.info vs geuz.org
+- `gmsh` (macports/port -> gmsh): gmsh.info vs geuz.org
+- `gmsh` (fink/package -> gmsh): geuz.org vs gmsh.info
+- `gmt` (homebrew/formula -> gmt): generic-mapping-tools.org vs gmt.soest.hawaii.edu
+- `gmt5` (macports/port -> gmt5): generic-mapping-tools.org vs gmt.soest.hawaii.edu
+- `gmt5` (fink/package -> gmt5): gmt.soest.hawaii.edu vs generic-mapping-tools.org
+- `gnome-applets` (macports/port -> gnome-applets): wiki.gnome.org vs gnome.org
+- `gnome-applets` (fink/package -> gnome-applets): gnome.org vs wiki.gnome.org
+- `gnome-autoar` (homebrew/formula -> gnome-autoar): github.com vs git.gnome.org
+- `gnome-backgrounds` (macports/port -> gnome-backgrounds): gnome.org vs gtk.org
+- `gnome-backgrounds` (fink/package -> gnome-backgrounds): gtk.org vs gnome.org
+- `gnome-chess` (macports/port -> gnome-chess): wiki.gnome.org vs ftp.gnome.org
+- `gnome-chess` (fink/package -> gnome-chess): ftp.gnome.org vs wiki.gnome.org
+- `gnome-common` (macports/port -> gnome-common): wiki.gnome.org vs gnome.org
+- `gnome-common` (fink/package -> gnome-common): gnome.org vs wiki.gnome.org
+- `gnome-doc-utils` (macports/port -> gnome-doc-utils): wiki.gnome.org vs gnome.org
+- `gnome-doc-utils` (fink/package -> gnome-doc-utils): gnome.org vs wiki.gnome.org
+- `gnome-keyring` (macports/port -> gnome-keyring): wiki.gnome.org vs gnome.org
+- `gnome-keyring` (fink/package -> gnome-keyring): gnome.org vs wiki.gnome.org
+- `gnome-online-accounts` (homebrew/formula -> gnome-online-accounts): gitlab.gnome.org vs wiki.gnome.org
+- `gnome-panel` (macports/port -> gnome-panel): wiki.gnome.org vs gnome.org
+- `gnome-panel` (fink/package -> gnome-panel): gnome.org vs wiki.gnome.org
+- `gnome-session` (macports/port -> gnome-session): wiki.gnome.org vs gnome.org
+- `gnome-session` (fink/package -> gnome-session): gnome.org vs wiki.gnome.org
+- `gnome-system-monitor` (macports/port -> gnome-system-monitor): wiki.gnome.org vs gnome.org
+- `gnome-system-monitor` (fink/package -> gnome-system-monitor): gnome.org vs wiki.gnome.org
+- `gnome-terminal` (macports/port -> gnome-terminal): wiki.gnome.org vs gnome.org
+- `gnome-terminal` (fink/package -> gnome-terminal): gnome.org vs wiki.gnome.org
+- `gnome-themes-extra` (homebrew/formula -> gnome-themes-extra): gitlab.gnome.org vs gnome.org
+- `gnomint` (macports/port -> gnomint): gnomint.sourceforge.net vs sourceforge.net
+- `gnomint` (fink/package -> gnomint): sourceforge.net vs gnomint.sourceforge.net
+- `gnu-shogi` (homebrew/formula -> gnushogi): gnu.org vs cs.caltech.edu
+- `gnubg` (macports/port -> gnubg): gnu.org vs gnubg.sourceforge.net
+- `gnubg` (fink/package -> gnubg): gnubg.sourceforge.net vs gnu.org
+- `gnumeric` (homebrew/formula -> gnumeric): projects.gnome.org vs gnumeric.org
+- `gnumeric` (homebrew/formula -> gnumeric): projects.gnome.org vs gnome.org
+- `gnumeric` (macports/port -> gnumeric): gnumeric.org vs gnome.org
+- `gnumeric` (fink/package -> gnumeric): gnome.org vs gnumeric.org
+- `gnupg-pkcs11-scd` (homebrew/formula -> gnupg-pkcs11-scd): gnupg-pkcs11.sourceforge.net vs github.com
+- `gnuplot` (homebrew/formula -> gnuplot): gnuplot.info vs gnuplot.sourceforge.net
+- `gnuplot` (macports/port -> gnuplot): gnuplot.sourceforge.net vs gnuplot.info
+- `gnuplot` (fink/package -> gnuplot): gnuplot.info vs gnuplot.sourceforge.net
+- `gnushogi` (macports/port -> gnushogi): cs.caltech.edu vs gnu.org
+- `gnushogi` (fink/package -> gnushogi): gnu.org vs cs.caltech.edu
+- `go` (homebrew/formula -> go): go.dev vs golang.org
+- `go` (macports/port -> go): go.dev vs golang.org
+- `go` (fink/package -> go): golang.org vs go.dev
+- `go-jsonnet` (homebrew/formula -> go-jsonnet): jsonnet.org vs github.com
+- `gobby` (macports/port -> gobby): gobby.github.io vs gobby.0x539.de
+- `gobby` (fink/package -> gobby): gobby.0x539.de vs gobby.github.io
+- `gocr` (homebrew/formula -> gocr): wasd.urz.uni-magdeburg.de vs jocr.sourceforge.net
+- `gocr` (homebrew/formula -> gocr): wasd.urz.uni-magdeburg.de vs jocr.sourceforge.net
+- `goffice` (homebrew/formula -> goffice): gitlab.gnome.org vs gnumeric.org
+- `goku` (homebrew/formula -> goku): goku.observabilityinsight.com vs github.com
+- `gomplate` (homebrew/formula -> gomplate): gomplate.ca vs github.com
+- `goocanvas` (homebrew/formula -> goocanvas): wiki.gnome.org vs live.gnome.org
+- `goocanvas` (macports/port -> goocanvas): wiki.gnome.org vs live.gnome.org
+- `goocanvas` (fink/package -> goocanvas): live.gnome.org vs wiki.gnome.org
+- `goocanvasmm` (macports/port -> goocanvasmm): wiki.gnome.org vs sourceforge.net
+- `goocanvasmm` (fink/package -> goocanvasmm): sourceforge.net vs wiki.gnome.org
+- `google-benchmark` (homebrew/formula -> google-benchmark): github.com vs google.github.io
+- `google-ctemplate` (macports/port -> google-ctemplate): code.google.com vs google-ctemplate.googlecode.com
+- `google-ctemplate` (fink/package -> google-ctemplate): google-ctemplate.googlecode.com vs code.google.com
+- `google-sparsehash` (homebrew/formula -> google-sparsehash): github.com vs google-sparsehash.googlecode.com
+- `goose` (homebrew/formula -> goose): pressly.github.io vs github.com
+- `gopass-jsonapi` (homebrew/formula -> gopass-jsonapi): github.com vs gopass.pw
+- `gossip` (homebrew/formula -> gossip): github.com vs live.gnome.org
+- `goto` (homebrew/formula -> goto): iridakos.com vs github.com
+- `gourmet` (macports/port -> gourmet): thinkle.github.io vs grecipe-manager.sourceforge.net
+- `gourmet` (fink/package -> gourmet): grecipe-manager.sourceforge.net vs thinkle.github.io
+- `gpac` (homebrew/formula -> gpac): gpac.io vs gpac.wp.imt.fr
+- `gpatch` (homebrew/formula -> gpatch): savannah.gnu.org vs gnu.org
+- `gphoto2` (homebrew/formula -> gphoto2): gphoto.org vs gphoto.sourceforge.net
+- `gphoto2` (macports/port -> gphoto2): gphoto.org vs gphoto.sourceforge.net
+- `gphoto2` (fink/package -> gphoto2): gphoto.sourceforge.net vs gphoto.org
+- `gplcver` (homebrew/formula -> gplcver): gplcver.sourceforge.net vs sourceforge.net
+- `gpp` (homebrew/formula -> gpp): logological.org vs nothingisreal.com
+- `gpredict` (homebrew/formula -> gpredict): oz9aec.dk vs gpredict.oz9aec.net
+- `gpredict` (homebrew/formula -> gpredict): oz9aec.dk vs gpredict.oz9aec.net
+- `gprolog` (macports/port -> gprolog): gprolog.inria.fr vs gnu.org
+- `gprolog` (fink/package -> gprolog): gnu.org vs gprolog.inria.fr
+- `gpsd` (homebrew/formula -> gpsd): gpsd.gitlab.io vs gpsd.io
+- `gpsd` (homebrew/formula -> gpsd): gpsd.gitlab.io vs catb.org
+- `gpsd` (macports/port -> gpsd): gpsd.io vs catb.org
+- `gpsd` (fink/package -> gpsd): catb.org vs gpsd.io
+- `gputils` (homebrew/formula -> gputils): gputils.sourceforge.io vs gputils.sourceforge.net
+- `gputils` (homebrew/formula -> gputils): gputils.sourceforge.io vs gputils.sourceforge.net
+- `gq` (macports/port -> gq): web.archive.org vs diradmin.open-it.org
+- `gq` (fink/package -> gq): diradmin.open-it.org vs web.archive.org
+- `gradle-completion` (homebrew/formula -> gradle-completion): gradle.org vs github.com
+- `grads` (homebrew/cask -> grads): cola.gmu.edu vs grads.iges.org
+- `grads` (macports/port -> grads): cola.gmu.edu vs grads.iges.org
+- `grads` (fink/package -> grads): grads.iges.org vs cola.gmu.edu
+- `grails` (homebrew/formula -> grails): grails.apache.org vs grails.org
+- `gramps` (homebrew/cask -> gramps): gramps-project.org vs gramps.sourceforge.net
+- `gramps` (macports/port -> gramps): gramps-project.org vs gramps.sourceforge.net
+- `gramps` (fink/package -> gramps): gramps.sourceforge.net vs gramps-project.org
+- `graphicsmagick` (homebrew/formula -> GraphicsMagick): graphicsmagick.sourceforge.io vs graphicsmagick.org
+- `graphicsmagick` (homebrew/formula -> graphicsmagick): graphicsmagick.sourceforge.io vs graphicsmagick.org
+- `graphviz` (homebrew/formula -> graphviz): graphviz.org vs research.att.com
+- `graphviz` (macports/port -> graphviz): graphviz.org vs research.att.com
+- `graphviz` (fink/package -> graphviz): research.att.com vs graphviz.org
+- `gravity` (homebrew/formula -> gravity): gravity-lang.org vs marcobambini.github.io
+- `grc` (homebrew/formula -> grc): kassiopeia.juls.savba.sk vs github.com
+- `grc` (macports/port -> grc): github.com vs kassiopeia.juls.savba.sk
+- `grc` (fink/package -> grc): kassiopeia.juls.savba.sk vs github.com
+- `grex` (homebrew/formula -> grex): pemistahl.github.io vs github.com
+- `groovy` (homebrew/formula -> groovy): groovy-lang.org vs groovy.apache.org
+- `grpcurl` (homebrew/formula -> grpcurl): fullstory.com vs github.com
+- `gsettings-desktop-schemas` (homebrew/formula -> gsettings-desktop-schemas): download.gnome.org vs gnome.org
+- `gsmartcontrol` (homebrew/formula -> gsmartcontrol): gsmartcontrol.shaduri.dev vs gsmartcontrol.sourceforge.net
+- `gsmartcontrol` (homebrew/formula -> gsmartcontrol): gsmartcontrol.shaduri.dev vs gsmartcontrol.berlios.de
+- `gsmartcontrol` (macports/port -> gsmartcontrol): gsmartcontrol.sourceforge.net vs gsmartcontrol.berlios.de
+- `gsmartcontrol` (fink/package -> gsmartcontrol): gsmartcontrol.berlios.de vs gsmartcontrol.sourceforge.net
+- `gspell` (homebrew/formula -> gspell): gitlab.gnome.org vs wiki.gnome.org
+- `gssdp` (homebrew/formula -> gssdp): wiki.gnome.org vs gupnp.org
+- `gssdp` (macports/port -> gssdp): wiki.gnome.org vs gupnp.org
+- `gssdp` (fink/package -> gssdp): gupnp.org vs wiki.gnome.org
+- `gstreamer` (homebrew/formula -> gstreamer): gstreamer.freedesktop.org vs gstreamer.net
+- `gstreamer-0.10` (fink/package -> gstreamer010): gstreamer.net vs gstreamer.freedesktop.org
+- `gstreamer010` (macports/port -> gstreamer-0.10): gstreamer.freedesktop.org vs gstreamer.net
+- `gthumb` (macports/port -> gthumb): wiki.gnome.org vs gthumb.sourceforge.net
+- `gthumb` (fink/package -> gthumb): gthumb.sourceforge.net vs wiki.gnome.org
+- `gti` (homebrew/formula -> gti): r-wos.org vs github.com
+- `gtk-doc` (homebrew/formula -> gtk-doc): gitlab.gnome.org vs wiki.gnome.org
+- `gtk-doc` (homebrew/formula -> gtk-doc): gitlab.gnome.org vs gtk.org
+- `gtk-doc` (macports/port -> gtk-doc): wiki.gnome.org vs gtk.org
+- `gtk-doc` (fink/package -> gtk-doc): gtk.org vs wiki.gnome.org
+- `gtk-gnutella` (homebrew/formula -> gtk-gnutella): gtk-gnutella.sourceforge.io vs gtk-gnutella.sourceforge.net
+- `gtk-gnutella` (homebrew/formula -> gtk-gnutella): gtk-gnutella.sourceforge.io vs gtk-gnutella.sourceforge.net
+- `gtk-sharp2` (macports/port -> gtk-sharp2): mono-project.com vs gtk-sharp.sourceforge.net
+- `gtk-sharp2` (fink/package -> gtk-sharp2): gtk-sharp.sourceforge.net vs mono-project.com
+- `gtk-vnc` (homebrew/formula -> gtk-vnc): gitlab.gnome.org vs wiki.gnome.org
+- `gtk-vnc` (homebrew/formula -> gtk-vnc): gitlab.gnome.org vs gtk-vnc.sourceforge.net
+- `gtk-vnc` (macports/port -> gtk-vnc): wiki.gnome.org vs gtk-vnc.sourceforge.net
+- `gtk-vnc` (fink/package -> gtk-vnc): gtk-vnc.sourceforge.net vs wiki.gnome.org
+- `gtk4` (homebrew/formula -> gtk4): gtk.org vs gitlab.gnome.org
+- `gtkdatabox` (homebrew/formula -> gtkdatabox): sourceforge.net vs eudoxos.net
+- `gtkdatabox` (macports/port -> gtkdatabox): eudoxos.net vs sourceforge.net
+- `gtkdatabox` (fink/package -> gtkdatabox): sourceforge.net vs eudoxos.net
+- `gtkglarea2` (macports/port -> gtkglarea2): mono-project.com vs student.oulu.fi
+- `gtkglarea2` (fink/package -> gtkglarea2): student.oulu.fi vs mono-project.com
+- `gtkglext` (homebrew/formula -> gtkglext): gitlab.gnome.org vs sourceforge.net
+- `gtkglextmm` (macports/port -> gtkglextmm): sourceforge.net vs gtkglext.sourceforge.net
+- `gtkglextmm` (fink/package -> gtkglextmm): gtkglext.sourceforge.net vs sourceforge.net
+- `gtkmm` (homebrew/formula -> gtkmm): gtkmm.org vs gtkmm.sourceforge.net
+- `gtkmm` (macports/port -> gtkmm): gtkmm.org vs gtkmm.sourceforge.net
+- `gtkmm` (fink/package -> gtkmm): gtkmm.sourceforge.net vs gtkmm.org
+- `gtksourceview` (macports/port -> gtksourceview): wiki.gnome.org vs gnome.org
+- `gtksourceview` (fink/package -> gtksourceview): gnome.org vs wiki.gnome.org
+- `gtksourceview3` (homebrew/formula -> gtksourceview3): projects.gnome.org vs wiki.gnome.org
+- `gtksourceview4` (homebrew/formula -> gtksourceview4): projects.gnome.org vs wiki.gnome.org
+- `gtksourceview5` (homebrew/formula -> gtksourceview5): projects.gnome.org vs wiki.gnome.org
+- `gtksourceviewmm3` (homebrew/formula -> gtksourceviewmm3): gitlab.gnome.org vs projects.gnome.org
+- `gtranslator` (homebrew/formula -> gtranslator): wiki.gnome.org vs gtranslator.org
+- `gucharmap` (homebrew/formula -> gucharmap): wiki.gnome.org vs gnome.org
+- `gucharmap` (macports/port -> gucharmap): wiki.gnome.org vs gnome.org
+- `gucharmap` (fink/package -> gucharmap): gnome.org vs wiki.gnome.org
+- `guile` (macports/port -> guile): macports.org vs gnu.org
+- `guile-gnutls` (homebrew/formula -> guile-gnutls): codeberg.org vs gnutls.org
+- `guile18` (macports/port -> guile18): macports.org vs gnu.org
+- `gupnp` (homebrew/formula -> gupnp): gitlab.gnome.org vs wiki.gnome.org
+- `gupnp` (homebrew/formula -> gupnp): gitlab.gnome.org vs gupnp.org
+- `gupnp` (macports/port -> gupnp): wiki.gnome.org vs gupnp.org
+- `gupnp` (fink/package -> gupnp): gupnp.org vs wiki.gnome.org
+- `gupnp-tools` (homebrew/formula -> gupnp-tools): wiki.gnome.org vs gupnp.org
+- `gupnp-tools` (macports/port -> gupnp-tools): wiki.gnome.org vs gupnp.org
+- `gupnp-tools` (fink/package -> gupnp-tools): gupnp.org vs wiki.gnome.org
+- `gv` (macports/port -> gv): gnu.org vs wwwthep.physik.uni-mainz.de
+- `gv` (fink/package -> gv): wwwthep.physik.uni-mainz.de vs gnu.org
+- `gvfs` (macports/port -> gvfs): wiki.gnome.org vs gnome.org
+- `gvfs` (fink/package -> gvfs): gnome.org vs wiki.gnome.org
+- `gvpe` (macports/port -> gvpe): software.schmorp.de vs savannah.gnu.org
+- `gvpe` (fink/package -> gvpe): savannah.gnu.org vs software.schmorp.de
+- `gwenview` (macports/port -> gwenview): kde.org vs gwenview.sourceforge.net
+- `gwenview` (fink/package -> gwenview): gwenview.sourceforge.net vs kde.org
+- `gzip` (homebrew/formula -> gzip): gnu.org vs gzip.org
+- `gzip` (homebrew/formula -> gzip): gnu.org vs gzip.org
+- `h2o` (homebrew/formula -> h2o): github.com vs h2o.examp1e.net
+- `h3` (homebrew/formula -> h3): uber.github.io vs h3geo.org
+- `hackrf` (homebrew/formula -> hackrf): greatscottgadgets.com vs github.com
+- `halloy` (homebrew/cask -> halloy): halloy.chat vs github.com
+- `hamlib` (homebrew/formula -> hamlib): hamlib.org vs hamlib.github.io
+- `happy` (macports/port -> happy): github.com vs haskell.org
+- `happy` (fink/package -> happy): haskell.org vs github.com
+- `haproxy` (homebrew/formula -> haproxy): haproxy.org vs haproxy.1wt.eu
+- `haproxy` (macports/port -> haproxy): haproxy.org vs haproxy.1wt.eu
+- `haproxy` (fink/package -> haproxy): haproxy.1wt.eu vs haproxy.org
+- `harfbuzz` (homebrew/formula -> harfbuzz): github.com vs harfbuzz.github.io
+- `hatari` (homebrew/formula -> hatari): hatari-emu.org vs hatari.tuxfamily.org
+- `hdf5` (homebrew/formula -> hdf5): hdfgroup.org vs hdf.ncsa.uiuc.edu
+- `hdf5` (macports/port -> hdf5): hdfgroup.org vs hdf.ncsa.uiuc.edu
+- `hdf5` (fink/package -> hdf5): hdf.ncsa.uiuc.edu vs hdfgroup.org
+- `healpix` (homebrew/formula -> healpix): healpix.sourceforge.io vs healpix.jpl.nasa.gov
+- `heimdal` (homebrew/formula -> heimdal): github.com vs heimdal.software
+- `helmfile` (homebrew/formula -> helmfile): github.com vs helmfile.readthedocs.io
+- `hercules` (homebrew/formula -> hercules): sdl-hercules-390.github.io vs hercules-390.org
+- `hercules` (homebrew/formula -> hercules): sdl-hercules-390.github.io vs hercules-390.org
+- `herrie` (macports/port -> herrie): github.com vs herrie.info
+- `herrie` (fink/package -> herrie): herrie.info vs github.com
+- `hex-fiend` (homebrew/cask -> HexFiend): hexfiend.com vs github.com
+- `hexcurse` (homebrew/formula -> hexcurse): github.com vs jewfish.net
+- `hicolor-icon-theme` (homebrew/formula -> hicolor-icon-theme): wiki.freedesktop.org vs freedesktop.org
+- `hidapi` (homebrew/formula -> hidapi): libusb.info vs github.com
+- `highs` (homebrew/formula -> HiGHS): maths.ed.ac.uk vs ergo-code.github.io
+- `hivex` (homebrew/formula -> hivex): libguestfs.org vs github.com
+- `hmmer` (homebrew/formula -> hmmer): hmmer.org vs hmmer.wustl.edu
+- `hmmer` (macports/port -> hmmer): hmmer.org vs hmmer.wustl.edu
+- `hmmer` (fink/package -> hmmer): hmmer.wustl.edu vs hmmer.org
+- `hof` (homebrew/formula -> hof): hofstadter.io vs docs.hofstadter.io
+- `hscolour` (macports/port -> hscolour): hackage.haskell.org vs code.haskell.org
+- `hscolour` (fink/package -> hscolour): code.haskell.org vs hackage.haskell.org
+- `hspell` (homebrew/formula -> hspell): hspell.sourceforge.net vs ivrix.org.il
+- `hstr` (homebrew/formula -> hstr): github.com vs me.mindforger.com
+- `html2text` (homebrew/formula -> html2text): gitlab.com vs userpage.fu-berlin.de
+- `html2text` (macports/port -> html2text): gitlab.com vs userpage.fu-berlin.de
+- `html2text` (fink/package -> html2text): userpage.fu-berlin.de vs gitlab.com
+- `htmldoc` (homebrew/formula -> htmldoc): msweet.org vs github.com
+- `http-prompt` (homebrew/formula -> http-prompt): http-prompt.com vs github.com
+- `httperf` (homebrew/formula -> httperf): github.com vs hpl.hp.com
+- `httperf` (homebrew/formula -> httperf): github.com vs hpl.hp.com
+- `httping` (homebrew/formula -> httping): github.com vs vanheusden.com
+- `httping` (macports/port -> httping): github.com vs vanheusden.com
+- `httping` (fink/package -> httping): vanheusden.com vs github.com
+- `hub` (homebrew/formula -> hub): hub.github.com vs pypi.python.org
+- `hub` (macports/port -> hub): hub.github.com vs pypi.python.org
+- `hub` (fink/package -> hub): pypi.python.org vs hub.github.com
+- `hugo` (homebrew/formula -> hugo): gohugo.io vs github.com
+- `hunspell` (homebrew/formula -> hunspell): hunspell.github.io vs hunspell.sourceforge.net
+- `hunspell` (macports/port -> hunspell): hunspell.github.io vs hunspell.sourceforge.net
+- `hunspell` (fink/package -> hunspell): hunspell.sourceforge.net vs hunspell.github.io
+- `hut` (homebrew/formula -> hut): sr.ht vs git.sr.ht
+- `hyperestraier` (homebrew/formula -> hyperestraier): dbmx.net vs hyperestraier.sourceforge.net
+- `hyperestraier` (homebrew/formula -> hyperestraier): dbmx.net vs hyperestraier.sourceforge.net
+- `hyphen` (macports/port -> hyphen): hunspell.sf.net vs sourceforge.net
+- `hyphen` (fink/package -> hyphen): sourceforge.net vs hunspell.sf.net
+- `hypre` (homebrew/formula -> hypre): computing.llnl.gov vs github.com
+- `hysteria` (homebrew/formula -> hysteria): hysteria.network vs github.com
+- `iat` (homebrew/formula -> iat): sourceforge.net vs iat.berlios.de
+- `ice` (homebrew/formula -> Ice): zeroc.com vs icemenubar.app
+- `icon` (homebrew/formula -> icon): www2.cs.arizona.edu vs cs.arizona.edu
+- `icon` (homebrew/formula -> icon): www2.cs.arizona.edu vs cs.arizona.edu
+- `icon-naming-utils` (homebrew/formula -> icon-naming-utils): specifications.freedesktop.org vs tango.freedesktop.org
+- `icon-naming-utils` (homebrew/formula -> icon-naming-utils): specifications.freedesktop.org vs tango.freedesktop.org
+- `id3tool` (homebrew/formula -> id3tool): nekohako.xware.cx vs kitsumi.xware.cx
+- `id3tool` (macports/port -> id3tool): nekohako.xware.cx vs kitsumi.xware.cx
+- `id3tool` (fink/package -> id3tool): kitsumi.xware.cx vs nekohako.xware.cx
+- `idnits` (homebrew/formula -> idnits): author-tools.ietf.org vs tools.ietf.org
+- `iftop` (homebrew/formula -> iftop): pdw.ex-parrot.com vs ex-parrot.com
+- `iftop` (homebrew/formula -> iftop): pdw.ex-parrot.com vs ex-parrot.com
+- `iir1` (homebrew/formula -> iir1): berndporr.github.io vs github.com
+- `ike-scan` (homebrew/formula -> ike-scan): github.com vs nta-monitor.com
+- `ike-scan` (macports/port -> ike-scan): github.com vs nta-monitor.com
+- `ike-scan` (fink/package -> ike-scan): nta-monitor.com vs github.com
+- `imagemagick` (homebrew/formula -> ImageMagick): imagemagick.org vs legacy.imagemagick.org
+- `imagemagick` (fink/package -> ImageMagick): imagemagick.org vs legacy.imagemagick.org
+- `imake` (homebrew/formula -> imake): xorg.freedesktop.org vs x.org
+- `imlib2` (homebrew/formula -> imlib2): sourceforge.net vs docs.enlightenment.org
+- `imlib2` (homebrew/formula -> imlib2): sourceforge.net vs enlightenment.org
+- `imlib2` (macports/port -> imlib2): docs.enlightenment.org vs enlightenment.org
+- `imlib2` (fink/package -> imlib2): enlightenment.org vs docs.enlightenment.org
+- `include-what-you-use` (homebrew/formula -> include-what-you-use): include-what-you-use.org vs github.com
+- `inform` (homebrew/cask -> inform): ganelson.github.io vs inform-fiction.org
+- `inform` (homebrew/cask -> inform): ganelson.github.io vs inform-fiction.org
+- `iniparser` (homebrew/formula -> iniparser): gitlab.com vs github.com
+- `intltool` (homebrew/formula -> intltool): wiki.freedesktop.org vs launchpad.net
+- `intltool` (homebrew/formula -> intltool): wiki.freedesktop.org vs gnome.org
+- `intltool` (macports/port -> intltool): launchpad.net vs gnome.org
+- `intltool` (fink/package -> intltool): gnome.org vs launchpad.net
+- `iowow` (homebrew/formula -> iowow): github.com vs iowow.softmotions.com
+- `iperf` (homebrew/formula -> iperf): sourceforge.net vs dast.nlanr.net
+- `iperf3` (homebrew/formula -> iperf3): github.com vs software.es.net
+- `iperf3` (macports/port -> iperf3): github.com vs software.es.net
+- `iperf3` (fink/package -> iperf3): software.es.net vs github.com
+- `ipmitool` (homebrew/formula -> ipmitool): codeberg.org vs ipmitool.sourceforge.net
+- `ipmitool` (macports/port -> ipmitool): codeberg.org vs ipmitool.sourceforge.net
+- `ipmitool` (fink/package -> ipmitool): ipmitool.sourceforge.net vs codeberg.org
+- `ipsumdump` (homebrew/formula -> ipsumdump): read.seas.harvard.edu vs cs.ucla.edu
+- `iqtree3` (homebrew/formula -> iqtree3): iqtree.org vs iqtree.github.io
+- `ircii` (homebrew/formula -> ircii): eterna23.net vs eterna.com.au
+- `ircii` (macports/port -> ircii): eterna23.net vs eterna.com.au
+- `ircii` (fink/package -> ircii): eterna.com.au vs eterna23.net
+- `irssi` (homebrew/formula -> irssi): irssi.org vs real.irssi.org
+- `irssi` (macports/port -> irssi): irssi.org vs real.irssi.org
+- `irssi` (fink/package -> irssi): real.irssi.org vs irssi.org
+- `isl` (homebrew/formula -> isl): libisl.sourceforge.io vs cloog.org
+- `isl` (macports/port -> isl): libisl.sourceforge.io vs cloog.org
+- `isl` (fink/package -> isl): cloog.org vs libisl.sourceforge.io
+- `iso-codes` (homebrew/formula -> iso-codes): salsa.debian.org vs alioth.debian.org
+- `iso-codes` (macports/port -> iso-codes): salsa.debian.org vs alioth.debian.org
+- `iso-codes` (fink/package -> iso-codes): alioth.debian.org vs salsa.debian.org
+- `ispc` (homebrew/formula -> ispc): ispc.github.io vs github.com
+- `ispell` (homebrew/formula -> ispell): cs.hmc.edu vs ficus-www.cs.ucla.edu
+- `ispell` (macports/port -> ispell): cs.hmc.edu vs ficus-www.cs.ucla.edu
+- `ispell` (fink/package -> ispell): ficus-www.cs.ucla.edu vs cs.hmc.edu
+- `isync` (homebrew/formula -> isync): isync.sourceforge.io vs isync.sourceforge.net
+- `isync` (homebrew/formula -> isync): isync.sourceforge.io vs isync.sourceforge.net
+- `itk` (homebrew/formula -> itk): itk.org vs incrtcl.sourceforge.net
+- `itk` (homebrew/formula -> itk): itk.org vs incrtcl.sourceforge.net
+- `itpp` (homebrew/formula -> itpp): itpp.sourceforge.net vs sourceforge.net
+- `iverilog` (macports/port -> iverilog): iverilog.icarus.com vs icarus.com
+- `iverilog` (fink/package -> iverilog): icarus.com vs iverilog.icarus.com
+- `ivtools` (homebrew/formula -> ivtools): github.com vs ivtools.sourceforge.net
+- `ivtools` (homebrew/formula -> ivtools): github.com vs ivtools.sourceforge.net
+- `ivy` (homebrew/formula -> ivy): ant.apache.org vs github.com
+- `ivykis` (homebrew/formula -> ivykis): sourceforge.net vs github.com
+- `jabber` (macports/port -> jabber): jabberd.org vs jabber.org
+- `jabber` (fink/package -> jabber): jabber.org vs jabberd.org
+- `jack` (homebrew/formula -> jack): jackaudio.org vs jackit.sourceforge.net
+- `jack` (macports/port -> jack): jackaudio.org vs jackit.sourceforge.net
+- `jack` (fink/package -> jack): jackit.sourceforge.net vs jackaudio.org
+- `jags` (homebrew/formula -> jags): mcmc-jags.sourceforge.io vs mcmc-jags.sourceforge.net
+- `jags` (homebrew/formula -> jags): mcmc-jags.sourceforge.io vs jags.sourceforge.net
+- `jags` (macports/port -> jags): mcmc-jags.sourceforge.net vs jags.sourceforge.net
+- `jags` (fink/package -> jags): jags.sourceforge.net vs mcmc-jags.sourceforge.net
+- `jasper` (homebrew/formula -> jasper): ece.engr.uvic.ca vs ece.uvic.ca
+- `javacc` (homebrew/formula -> javacc): javacc.github.io vs javacc.org
+- `javacc` (homebrew/formula -> javacc): javacc.github.io vs javacc.dev.java.net
+- `javacc` (macports/port -> javacc): javacc.org vs javacc.dev.java.net
+- `javacc` (fink/package -> javacc): javacc.dev.java.net vs javacc.org
+- `jbig2dec` (homebrew/formula -> jbig2dec): github.com vs jbig2dec.com
+- `jbig2dec` (homebrew/formula -> jbig2dec): github.com vs jbig2dec.sourceforge.net
+- `jbig2dec` (macports/port -> jbig2dec): jbig2dec.com vs jbig2dec.sourceforge.net
+- `jbig2dec` (fink/package -> jbig2dec): jbig2dec.sourceforge.net vs jbig2dec.com
+- `jc` (homebrew/formula -> jc): github.com vs pypi.org
+- `jed` (homebrew/formula -> jed): jedsoft.org vs space.mit.edu
+- `jed` (macports/port -> jed): jedsoft.org vs space.mit.edu
+- `jed` (fink/package -> jed): space.mit.edu vs jedsoft.org
+- `jello` (homebrew/formula -> jello): github.com vs kellyjonbrazil.github.io
+- `jenkins-cli` (homebrew/formula -> jenkins-cli): github.com vs jcli.jenkins-zh.cn
+- `jenv` (homebrew/formula -> jenv): github.com vs jenv.be
+- `jetty` (homebrew/formula -> jetty): jetty.org vs mortbay.org
+- `jgraph` (macports/port -> jgraph): cs.utk.edu vs jgrapht.sourceforge.net
+- `jgraph` (fink/package -> jgraph): jgrapht.sourceforge.net vs cs.utk.edu
+- `jhead` (homebrew/formula -> jhead): github.com vs sentex.net
+- `jhead` (homebrew/formula -> jhead): github.com vs sentex.net
+- `jigdo` (homebrew/formula -> jigdo): einval.com vs atterer.org
+- `jjui` (homebrew/formula -> jjui): idursun.github.io vs github.com
+- `jless` (homebrew/formula -> jless): jless.io vs pauljuliusmartinez.github.io
+- `jless` (homebrew/formula -> jless): jless.io vs www25.big.jp
+- `jless` (macports/port -> jless): pauljuliusmartinez.github.io vs www25.big.jp
+- `jless` (fink/package -> jless): www25.big.jp vs pauljuliusmartinez.github.io
+- `jnethack` (homebrew/formula -> jnethack): github.com vs jnethack.sourceforge.jp
+- `jo` (homebrew/formula -> jo): github.com vs jpmens.net
+- `joe` (homebrew/formula -> joe): joe-editor.sourceforge.io vs sourceforge.net
+- `joe` (homebrew/formula -> joe): joe-editor.sourceforge.io vs sourceforge.net
+- `jove` (homebrew/formula -> jove): directory.fsf.org vs cs.toronto.edu
+- `jove` (homebrew/formula -> jove): directory.fsf.org vs cs.toronto.edu
+- `jp` (homebrew/formula -> jp): github.com vs jmespath.org
+- `jpegoptim` (homebrew/formula -> jpegoptim): github.com vs kokkonen.net
+- `jpegoptim` (homebrew/formula -> jpegoptim): github.com vs cc.jyu.fi
+- `jpegoptim` (macports/port -> jpegoptim): kokkonen.net vs cc.jyu.fi
+- `jpegoptim` (fink/package -> jpegoptim): cc.jyu.fi vs kokkonen.net
+- `jq` (homebrew/formula -> jq): jqlang.github.io vs stedolan.github.io
+- `jq` (macports/port -> jq): jqlang.github.io vs stedolan.github.io
+- `jq` (fink/package -> jq): stedolan.github.io vs jqlang.github.io
+- `jql` (homebrew/formula -> jql): github.com vs crates.io
+- `jshon` (homebrew/formula -> jshon): github.com vs kmkeen.com
+- `json-c` (homebrew/formula -> json-c): github.com vs oss.metaparadigm.com
+- `json-c` (macports/port -> json-c): github.com vs oss.metaparadigm.com
+- `json-c` (fink/package -> json-c): oss.metaparadigm.com vs github.com
+- `jump` (homebrew/formula -> jump): github.com vs gsamokovarov.com
+- `junkbuster` (macports/port -> junkbuster): f2.org vs internet.junkbuster.com
+- `junkbuster` (fink/package -> junkbuster): internet.junkbuster.com vs f2.org
+- `just` (homebrew/formula -> just): just.systems vs github.com
+- `jxrlib` (homebrew/formula -> jxrlib): tracker.debian.org vs github.com
+- `kakoune` (homebrew/formula -> kakoune): github.com vs kakoune.org
+- `kalign` (homebrew/formula -> kalign): github.com vs ebi.ac.uk
+- `kalker` (homebrew/formula -> kalker): kalker.strct.net vs github.com
+- `kanif` (homebrew/formula -> kanif): packages.debian.org vs taktuk.gforge.inria.fr
+- `kapp` (homebrew/formula -> kapp): carvel.dev vs get-kapp.io
+- `kchmviewer` (macports/port -> kchmviewer): sourceforge.net vs kchmviewer.net
+- `kchmviewer` (fink/package -> kchmviewer): kchmviewer.net vs sourceforge.net
+- `kdash` (homebrew/formula -> kdash): kdash-rs.github.io vs kdash.cli.rs
+- `kdiff3` (homebrew/cask -> kdiff3): invent.kde.org vs kdiff3.sourceforge.net
+- `kdiff3` (homebrew/cask -> kdiff3): invent.kde.org vs sourceforge.net
+- `kdiff3` (macports/port -> kdiff3): kdiff3.sourceforge.net vs sourceforge.net
+- `kdiff3` (fink/package -> kdiff3): sourceforge.net vs kdiff3.sourceforge.net
+- `kdoctools` (homebrew/formula -> kdoctools): l10n.kde.org vs kde.org
+- `keep` (macports/port -> keep): keep.sourceforge.net vs jr.falleri.free.fr
+- `keep` (fink/package -> keep): jr.falleri.free.fr vs keep.sourceforge.net
+- `keepassxc` (homebrew/cask -> KeePassXC): keepassxc.org vs github.com
+- `keepassxc` (fink/package -> KeePassXC): keepassxc.org vs github.com
+- `keka` (homebrew/cask -> keka): keka.io vs kekaosx.com
+- `keybase` (homebrew/cask -> keybase): keybase.io vs github.com
+- `keychain` (homebrew/formula -> keychain): funtoo.org vs gentoo.org
+- `keychain` (macports/port -> keychain): funtoo.org vs gentoo.org
+- `keychain` (fink/package -> keychain): gentoo.org vs funtoo.org
+- `keystone` (homebrew/formula -> keystone): github.com vs keystone-engine.org
+- `kgpg` (macports/port -> kgpg): utils.kde.org vs developer.kde.org
+- `kgpg` (fink/package -> kgpg): developer.kde.org vs utils.kde.org
+- `kid3` (homebrew/cask -> kid3): kid3.kde.org vs kid3.sourceforge.net
+- `kid3` (macports/port -> kid3): kid3.kde.org vs kid3.sourceforge.net
+- `kid3` (fink/package -> kid3): kid3.sourceforge.net vs kid3.kde.org
+- `kitty` (homebrew/cask -> kitty): github.com vs sw.kovidgoyal.net
+- `klatexformula` (homebrew/cask -> klatexformula): klatexformula.sourceforge.io vs klatexformula.sourceforge.net
+- `klavaro` (homebrew/formula -> klavaro): klavaro.sourceforge.io vs klavaro.sourceforge.net
+- `klavaro` (homebrew/formula -> klavaro): klavaro.sourceforge.io vs klavaro.sourceforge.net
+- `knock` (homebrew/formula -> knock): github.com vs zeroflux.org
+- `kokkos` (homebrew/formula -> kokkos): kokkos.org vs github.com
+- `kompose` (homebrew/formula -> kompose): kompose.io vs kompose.berlios.de
+- `kompose` (macports/port -> kompose): kompose.io vs kompose.berlios.de
+- `kompose` (fink/package -> kompose): kompose.berlios.de vs kompose.io
+- `kops` (homebrew/formula -> kops): kops.sigs.k8s.io vs github.com
+- `krep` (homebrew/formula -> krep): github.com vs staerk.de
+- `krep` (macports/port -> krep): github.com vs staerk.de
+- `krep` (fink/package -> krep): staerk.de vs github.com
+- `krew` (homebrew/formula -> krew): sigs.k8s.io vs github.com
+- `krusader` (macports/port -> krusader): krusader.org vs krusader.sourceforge.net
+- `krusader` (fink/package -> krusader): krusader.sourceforge.net vs krusader.org
+- `kstars` (homebrew/cask -> kstars): kstars.kde.org vs edu.kde.org
+- `ksudoku` (macports/port -> ksudoku): games.kde.org vs ksudoku.sourceforge.net
+- `ksudoku` (fink/package -> ksudoku): ksudoku.sourceforge.net vs games.kde.org
+- `ktlint` (homebrew/formula -> ktlint): ktlint.github.io vs pinterest.github.io
+- `kube-linter` (homebrew/formula -> kube-linter): docs.kubelinter.io vs github.com
+- `kubecolor` (homebrew/formula -> kubecolor): kubecolor.github.io vs github.com
+- `kubescape` (homebrew/formula -> kubescape): kubescape.io vs github.com
+- `kubetail` (homebrew/formula -> kubetail): kubetail.com vs github.com
+- `kubie` (homebrew/formula -> kubie): sbstp.ca vs blog.sbstp.ca
+- `kustomize` (homebrew/formula -> kustomize): github.com vs kustomize.io
+- `kyoto-cabinet` (homebrew/formula -> kyotocabinet): dbmx.net vs fallabs.com
+- `kyoto-tycoon` (homebrew/formula -> kyototycoon): dbmx.net vs fallabs.com
+- `lablgtk2` (macports/port -> lablgtk2): garrigue.github.io vs lablgtk.forge.ocamlcore.org
+- `lablgtk2` (fink/package -> lablgtk2): lablgtk.forge.ocamlcore.org vs garrigue.github.io
+- `lagrange` (homebrew/cask -> lagrange): gmi.skyjake.fi vs codeberg.org
+- `lame` (homebrew/formula -> lame): lame.sourceforge.io vs lame.sourceforge.net
+- `lame` (homebrew/formula -> lame): lame.sourceforge.io vs mp3dev.org
+- `lame` (macports/port -> lame): lame.sourceforge.net vs mp3dev.org
+- `lame` (fink/package -> lame): mp3dev.org vs lame.sourceforge.net
+- `lasi` (homebrew/formula -> lasi): unifont.org vs lasi.sourceforge.net
+- `latex-mk` (macports/port -> latexmk): latex-mk.sourceforge.net vs phys.psu.edu
+- `latex2html` (homebrew/formula -> latex2html): latex2html.org vs ctan.org
+- `latex2html` (macports/port -> latex2html): ctan.org vs latex2html.org
+- `latex2html` (fink/package -> latex2html): latex2html.org vs ctan.org
+- `latexdiff` (homebrew/formula -> latexdiff): ctan.org vs bullard.esc.cam.ac.uk
+- `latexdiff` (macports/port -> latexdiff): ctan.org vs bullard.esc.cam.ac.uk
+- `latexdiff` (fink/package -> latexdiff): bullard.esc.cam.ac.uk vs ctan.org
+- `latexit` (homebrew/cask -> LaTeXiT): chachatelier.fr vs pierre.chachatelier.fr
+- `latexmk` (macports/port -> latexmk): cantab.net vs phys.psu.edu
+- `latexmk` (fink/package -> latexmk): phys.psu.edu vs cantab.net
+- `latexml` (homebrew/formula -> LaTeXML): math.nist.gov vs dlmf.nist.gov
+- `launch` (homebrew/formula -> launch): sabi.net vs web.sabi.net
+- `launch` (macports/port -> launch): sabi.net vs web.sabi.net
+- `launch` (fink/package -> launch): web.sabi.net vs sabi.net
+- `ldc` (homebrew/formula -> ldc): wiki.dlang.org vs github.com
+- `le` (homebrew/formula -> le): github.com vs freecode.com
+- `leaf` (homebrew/formula -> leaf): pkg.go.dev vs github.com
+- `leafnode` (macports/port -> leafnode): leafnode.sourceforge.net vs leafnode.org
+- `leafnode` (fink/package -> leafnode): leafnode.org vs leafnode.sourceforge.net
+- `ledger` (homebrew/formula -> ledger): ledger-cli.org vs newartisans.com
+- `ledger` (macports/port -> ledger): ledger-cli.org vs newartisans.com
+- `ledger` (fink/package -> ledger): newartisans.com vs ledger-cli.org
+- `ledit` (homebrew/formula -> ledit): pauillac.inria.fr vs github.com
+- `ledit` (macports/port -> ledit): github.com vs pauillac.inria.fr
+- `ledit` (fink/package -> ledit): pauillac.inria.fr vs github.com
+- `lefthook` (homebrew/formula -> lefthook): github.com vs lefthook.dev
+- `legcord` (homebrew/cask -> Legcord): legcord.app vs github.com
+- `legit` (homebrew/formula -> legit): frostming.github.io vs github.com
+- `leiningen` (homebrew/formula -> leiningen): codeberg.org vs leiningen.org
+- `lens` (homebrew/cask -> lens): lenshq.io vs k8slens.dev
+- `lensfun` (homebrew/formula -> lensfun): lensfun.github.io vs developer.berlios.de
+- `lensfun` (macports/port -> lensfun): lensfun.github.io vs developer.berlios.de
+- `lensfun` (fink/package -> lensfun): developer.berlios.de vs lensfun.github.io
+- `leptonica` (homebrew/formula -> leptonica): leptonica.org vs github.com
+- `lesspipe` (homebrew/formula -> lesspipe): lesspipe.org vs github.com
+- `lesspipe` (homebrew/formula -> lesspipe): lesspipe.org vs desy.de
+- `lesspipe` (macports/port -> lesspipe): github.com vs desy.de
+- `lesspipe` (fink/package -> lesspipe): desy.de vs github.com
+- `lf` (homebrew/formula -> lf): godoc.org vs github.com
+- `lgeneral` (homebrew/formula -> lgeneral): lgames.sourceforge.io vs lgames.sourceforge.net
+- `lha` (macports/port -> lha): lha.osdn.jp vs sourceforge.jp
+- `lha` (fink/package -> lha): sourceforge.jp vs lha.osdn.jp
+- `lhasa` (homebrew/formula -> lhasa): fragglet.github.io vs github.com
+- `lhasa` (macports/port -> lhasa): github.com vs fragglet.github.io
+- `lhasa` (fink/package -> lhasa): fragglet.github.io vs github.com
+- `lib3ds` (homebrew/formula -> lib3ds): code.google.com vs lib3ds.sourceforge.net
+- `lib3ds` (homebrew/formula -> lib3ds): code.google.com vs lib3ds.sourceforge.net
+- `libadwaita` (homebrew/formula -> libadwaita): gnome.pages.gitlab.gnome.org vs gnome.org
+- `libagg` (homebrew/formula -> libagg): agg.sourceforge.net vs antigrain.com
+- `libarchive` (homebrew/formula -> libarchive): libarchive.org vs people.freebsd.org
+- `libarchive` (macports/port -> libarchive): libarchive.org vs people.freebsd.org
+- `libarchive` (fink/package -> libarchive): people.freebsd.org vs libarchive.org
+- `libatomic-ops` (fink/package -> libatomic_ops): hpl.hp.com vs github.com
+- `libatomic_ops` (homebrew/formula -> libatomic-ops): github.com vs hpl.hp.com
+- `libatomic_ops` (macports/port -> libatomic-ops): github.com vs hpl.hp.com
+- `libbinio` (homebrew/formula -> libbinio): adplug.github.io vs github.com
+- `libcdio` (homebrew/formula -> libcdio): savannah.gnu.org vs gnu.org
+- `libcdio-paranoia` (homebrew/formula -> libcdio-paranoia): github.com vs gnu.org
+- `libconfig` (homebrew/formula -> libconfig): hyperrealm.github.io vs rkeene.org
+- `libdatrie` (homebrew/formula -> libdatrie): github.com vs linux.thai.net
+- `libdatrie` (homebrew/formula -> libdatrie): github.com vs linux.thai.net
+- `libdc1394` (homebrew/formula -> libdc1394): damien.douxchamps.net vs sourceforge.net
+- `libdc1394` (macports/port -> libdc1394): damien.douxchamps.net vs sourceforge.net
+- `libdc1394` (fink/package -> libdc1394): sourceforge.net vs damien.douxchamps.net
+- `libdivecomputer` (homebrew/formula -> libdivecomputer): libdivecomputer.org vs divesoftware.org
+- `libdmtx` (homebrew/formula -> libdmtx): libdmtx.sourceforge.net vs github.com
+- `libdnet` (homebrew/formula -> libdnet): github.com vs libdnet.sourceforge.net
+- `libdnet` (macports/port -> libdnet): github.com vs libdnet.sourceforge.net
+- `libdnet` (fink/package -> libdnet): libdnet.sourceforge.net vs github.com
+- `libdrizzle` (macports/port -> libdrizzle): launchpad.net vs drizzleproject.org
+- `libdrizzle` (fink/package -> libdrizzle): drizzleproject.org vs launchpad.net
+- `libdvdnav` (homebrew/formula -> libdvdnav): videolan.org vs dvdnav.mplayerhq.hu
+- `libdvdnav` (homebrew/formula -> libdvdnav): videolan.org vs dvd.sourceforge.net
+- `libdvdnav` (macports/port -> libdvdnav): dvdnav.mplayerhq.hu vs dvd.sourceforge.net
+- `libdvdnav` (fink/package -> libdvdnav): dvd.sourceforge.net vs dvdnav.mplayerhq.hu
+- `libdvdread` (homebrew/formula -> libdvdread): videolan.org vs dvdnav.mplayerhq.hu
+- `libebml` (homebrew/formula -> libebml): matroska.org vs dl.matroska.org
+- `libebml` (macports/port -> libebml): matroska.org vs dl.matroska.org
+- `libebml` (fink/package -> libebml): dl.matroska.org vs matroska.org
+- `libelf` (homebrew/formula -> libelf): fossies.org vs web.archive.org
+- `libelf` (homebrew/formula -> libelf): fossies.org vs directory.fsf.org
+- `libelf` (macports/port -> libelf): web.archive.org vs directory.fsf.org
+- `libelf` (fink/package -> libelf): directory.fsf.org vs web.archive.org
+- `libesmtp` (macports/port -> libesmtp): github.com vs stafford.uklinux.net
+- `libesmtp` (fink/package -> libesmtp): stafford.uklinux.net vs github.com
+- `libetonyek` (homebrew/formula -> libetonyek): wiki.documentfoundation.org vs freedesktop.org
+- `libetonyek` (macports/port -> libetonyek): wiki.documentfoundation.org vs freedesktop.org
+- `libetonyek` (fink/package -> libetonyek): freedesktop.org vs wiki.documentfoundation.org
+- `libetpan` (homebrew/formula -> libetpan): etpan.org vs github.com
+- `libetpan` (homebrew/formula -> libetpan): etpan.org vs libetpan.sourceforge.net
+- `libetpan` (macports/port -> libetpan): github.com vs libetpan.sourceforge.net
+- `libetpan` (fink/package -> libetpan): libetpan.sourceforge.net vs github.com
+- `libevent1` (macports/port -> libevent1): libevent.org vs monkey.org
+- `libevent1` (fink/package -> libevent1): monkey.org vs libevent.org
+- `libexif` (homebrew/formula -> libexif): libexif.github.io vs github.com
+- `libexif` (homebrew/formula -> libexif): libexif.github.io vs home.bawue.de
+- `libexif` (macports/port -> libexif): github.com vs home.bawue.de
+- `libexif` (fink/package -> libexif): home.bawue.de vs github.com
+- `libgcrypt` (homebrew/formula -> libgcrypt): gnupg.org vs directory.fsf.org
+- `libgcrypt` (macports/port -> libgcrypt): gnupg.org vs directory.fsf.org
+- `libgcrypt` (fink/package -> libgcrypt): directory.fsf.org vs gnupg.org
+- `libgee` (homebrew/formula -> libgee): gitlab.gnome.org vs live.gnome.org
+- `libgee` (macports/port -> libgee): gitlab.gnome.org vs live.gnome.org
+- `libgee` (fink/package -> libgee): live.gnome.org vs gitlab.gnome.org
+- `libgeotiff` (homebrew/formula -> libgeotiff): github.com vs geotiff.osgeo.org
+- `libgeotiff` (homebrew/formula -> libgeotiff): github.com vs trac.osgeo.org
+- `libgeotiff` (macports/port -> libgeotiff): geotiff.osgeo.org vs trac.osgeo.org
+- `libgeotiff` (fink/package -> libgeotiff): trac.osgeo.org vs geotiff.osgeo.org
+- `libgfshare` (homebrew/formula -> libgfshare): github.com vs digital-scurf.org
+- `libghemical` (macports/port -> libghemical): bioinformatics.org vs uku.fi
+- `libghemical` (fink/package -> libghemical): uku.fi vs bioinformatics.org
+- `libgit2` (homebrew/formula -> libgit2): libgit2.org vs libgit2.github.com
+- `libgit2` (macports/port -> libgit2): libgit2.org vs libgit2.github.com
+- `libgit2` (fink/package -> libgit2): libgit2.github.com vs libgit2.org
+- `libgnomecups` (macports/port -> libgnomecups): levien.com vs gnome.org
+- `libgnomecups` (fink/package -> libgnomecups): gnome.org vs levien.com
+- `libgnugetopt` (macports/port -> libgnugetopt): ftp.freebsd.org vs freebsd.org
+- `libgnugetopt` (fink/package -> libgnugetopt): freebsd.org vs ftp.freebsd.org
+- `libgsf` (homebrew/formula -> libgsf): gitlab.gnome.org vs gnome.org
+- `libgsf` (homebrew/formula -> libgsf): gitlab.gnome.org vs gnumeric.org
+- `libgsf` (macports/port -> libgsf): gnome.org vs gnumeric.org
+- `libgsf` (fink/package -> libgsf): gnumeric.org vs gnome.org
+- `libgtop` (homebrew/formula -> libgtop): gitlab.gnome.org vs gnome.org
+- `libgtop` (homebrew/formula -> libgtop): gitlab.gnome.org vs gnome.org
+- `libgweather` (homebrew/formula -> libgweather): wiki.gnome.org vs gnome.org
+- `libgweather` (macports/port -> libgweather): wiki.gnome.org vs gnome.org
+- `libgweather` (fink/package -> libgweather): gnome.org vs wiki.gnome.org
+- `libharu` (homebrew/formula -> libharu): github.com vs libharu.org
+- `libheif` (homebrew/formula -> libheif): libde265.org vs github.com
+- `libical` (homebrew/formula -> libical): libical.github.io vs github.com
+- `libical` (homebrew/formula -> libical): libical.github.io vs sourceforge.net
+- `libical` (macports/port -> libical): github.com vs sourceforge.net
+- `libical` (fink/package -> libical): sourceforge.net vs github.com
+- `libicns` (homebrew/formula -> libicns): icns.sourceforge.io vs icns.sourceforge.net
+- `libid3tag` (homebrew/formula -> libid3tag): codeberg.org vs tenacityaudio.org
+- `libid3tag` (homebrew/formula -> libid3tag): codeberg.org vs mars.org
+- `libid3tag` (macports/port -> libid3tag): tenacityaudio.org vs mars.org
+- `libid3tag` (fink/package -> libid3tag): mars.org vs tenacityaudio.org
+- `libidl` (homebrew/formula -> libidl): download.gnome.org vs andrewtv.org
+- `libigloo` (homebrew/formula -> libigloo): icecast.org vs gitlab.xiph.org
+- `libinfinity` (macports/port -> libinfinity): github.com vs releases.0x539.de
+- `libinfinity` (fink/package -> libinfinity): releases.0x539.de vs github.com
+- `libint` (homebrew/formula -> libint): github.com vs sourceforge.net
+- `libiodbc` (homebrew/formula -> libiodbc): iodbc.org vs github.com
+- `libiodbc` (homebrew/formula -> libiodbc): iodbc.org vs mysql.com
+- `libiodbc` (macports/port -> libiodbc): github.com vs mysql.com
+- `libiodbc` (fink/package -> libiodbc): mysql.com vs github.com
+- `libisofs` (homebrew/formula -> libisofs): dev.lovelyhq.com vs libburnia-project.org
+- `libjwt` (homebrew/formula -> libjwt): libjwt.io vs github.com
+- `libkdcraw` (macports/port -> libkdcraw): kde.org vs extragear.kde.org
+- `libkdcraw` (fink/package -> libkdcraw): extragear.kde.org vs kde.org
+- `libkexiv2` (macports/port -> libkexiv2): kde.org vs extragear.kde.org
+- `libkexiv2` (fink/package -> libkexiv2): extragear.kde.org vs kde.org
+- `libkipi` (macports/port -> libkipi): kde.org vs extragear.kde.org
+- `libkipi` (fink/package -> libkipi): extragear.kde.org vs kde.org
+- `liblouis` (homebrew/formula -> liblouis): liblouis.io vs code.google.com
+- `liblouis` (homebrew/formula -> liblouis): liblouis.io vs liblouis.googlecode.com
+- `liblouis` (macports/port -> liblouis): code.google.com vs liblouis.googlecode.com
+- `liblouis` (fink/package -> liblouis): liblouis.googlecode.com vs code.google.com
+- `libmaa` (homebrew/formula -> libmaa): dict.org vs sourceforge.net
+- `libmad` (macports/port -> libmad): tenacityaudio.org vs mars.org
+- `libmad` (fink/package -> libmad): mars.org vs tenacityaudio.org
+- `libmatio` (homebrew/formula -> libmatio): matio.sourceforge.net vs sourceforge.net
+- `libmatroska` (homebrew/formula -> libmatroska): matroska.org vs dl.matroska.org
+- `libmatroska` (macports/port -> libmatroska): matroska.org vs dl.matroska.org
+- `libmatroska` (fink/package -> libmatroska): dl.matroska.org vs matroska.org
+- `libmcs` (macports/port -> libmcs): github.com vs atheme.org
+- `libmcs` (fink/package -> libmcs): atheme.org vs github.com
+- `libmikmod` (homebrew/formula -> libmikmod): mikmod.sourceforge.net vs mikmod.org
+- `libmikmod` (macports/port -> libmikmod): mikmod.sourceforge.net vs mikmod.org
+- `libmikmod` (fink/package -> libmikmod): mikmod.org vs mikmod.sourceforge.net
+- `libmms` (homebrew/formula -> libmms): sourceforge.net vs libmms.sourceforge.net
+- `libmng` (homebrew/formula -> libmng): sourceforge.net vs libmng.sourceforge.net
+- `libmongo-client` (macports/port -> libmongo-client): web.archive.org vs algernon.github.io
+- `libmongo-client` (fink/package -> libmongo-client): algernon.github.io vs web.archive.org
+- `libmowgli` (homebrew/formula -> libmowgli): github.com vs atheme.org
+- `libmowgli` (macports/port -> libmowgli): github.com vs atheme.org
+- `libmowgli` (fink/package -> libmowgli): atheme.org vs github.com
+- `libmpd` (homebrew/formula -> libmpd): gmpc.fandom.com vs gmpclient.org
+- `libmpd` (homebrew/formula -> libmpd): gmpc.fandom.com vs mpd.wikia.com
+- `libmpd` (macports/port -> libmpd): gmpclient.org vs mpd.wikia.com
+- `libmpd` (fink/package -> libmpd): mpd.wikia.com vs gmpclient.org
+- `libmpdclient` (homebrew/formula -> libmpdclient): musicpd.org vs mpd.wikia.com
+- `libmpdclient` (macports/port -> libmpdclient): musicpd.org vs mpd.wikia.com
+- `libmpdclient` (fink/package -> libmpdclient): mpd.wikia.com vs musicpd.org
+- `libmpeg2` (homebrew/formula -> libmpeg2): libmpeg2.sourceforge.io vs libmpeg2.sourceforge.net
+- `libmrss` (homebrew/formula -> libmrss): github.com vs autistici.org
+- `libnatpmp` (homebrew/formula -> libnatpmp): miniupnp.tuxfamily.org vs miniupnp.free.fr
+- `libnet` (homebrew/formula -> libnet): codedocs.xyz vs github.com
+- `libnet` (homebrew/formula -> libnet): codedocs.xyz vs packetfactory.net
+- `libnet` (macports/port -> libnet): github.com vs packetfactory.net
+- `libnet` (fink/package -> libnet): packetfactory.net vs github.com
+- `libnet11` (macports/port -> libnet1.1): macports.org vs packetfactory.net
+- `libnfc` (homebrew/formula -> libnfc): github.com vs libnfc.org
+- `libnfc` (homebrew/formula -> libnfc): github.com vs libnfc.org
+- `libnice` (homebrew/formula -> libnice): wiki.freedesktop.org vs libnice.freedesktop.org
+- `libnice` (homebrew/formula -> libnice): wiki.freedesktop.org vs nice.freedesktop.org
+- `libnice` (macports/port -> libnice): libnice.freedesktop.org vs nice.freedesktop.org
+- `libnice` (fink/package -> libnice): nice.freedesktop.org vs libnice.freedesktop.org
+- `libnotify` (homebrew/formula -> libnotify): gitlab.gnome.org vs galago-project.org
+- `libnotify` (macports/port -> libnotify): gitlab.gnome.org vs galago-project.org
+- `libnotify` (fink/package -> libnotify): galago-project.org vs gitlab.gnome.org
+- `libnxml` (homebrew/formula -> libnxml): github.com vs www2.autistici.org
+- `liboauth` (homebrew/formula -> liboauth): sourceforge.net vs liboauth.sourceforge.net
+- `libodfgen` (homebrew/formula -> libodfgen): sourceforge.net vs libwpd.sourceforge.net
+- `libodfgen` (homebrew/formula -> libodfgen): sourceforge.net vs libwpd.sourceforge.net
+- `libofx` (homebrew/formula -> libofx): github.com vs libofx.sourceforge.net
+- `libogg` (homebrew/formula -> libogg): xiph.org vs vorbis.com
+- `libogg` (homebrew/formula -> libogg): xiph.org vs vorbis.com
+- `liboggz` (macports/port -> liboggz): xiph.org vs annodex.net
+- `liboggz` (fink/package -> liboggz): annodex.net vs xiph.org
+- `liboglappth` (macports/port -> liboglappth): bioinformatics.org vs uku.fi
+- `liboglappth` (fink/package -> liboglappth): uku.fi vs bioinformatics.org
+- `liboil` (homebrew/formula -> liboil): wiki.freedesktop.org vs liboil.freedesktop.org
+- `liboping` (homebrew/formula -> liboping): noping.cc vs verplant.org
+- `liboping` (macports/port -> liboping): noping.cc vs verplant.org
+- `liboping` (fink/package -> liboping): verplant.org vs noping.cc
+- `libosip2` (macports/port -> libosip2): gnu.org vs linphone.org
+- `libosip2` (fink/package -> libosip2): linphone.org vs gnu.org
+- `libotf` (macports/port -> libotf): nongnu.org vs m17n.org
+- `libotf` (fink/package -> libotf): m17n.org vs nongnu.org
+- `libotr` (homebrew/formula -> libotr): otr.cypherpunks.ca vs cypherpunks.ca
+- `libotr` (homebrew/formula -> libotr): otr.cypherpunks.ca vs cypherpunks.ca
+- `libpar2` (macports/port -> libpar2): parchive.sourceforge.net vs sourceforge.net
+- `libpar2` (fink/package -> libpar2): sourceforge.net vs parchive.sourceforge.net
+- `libpcl` (homebrew/formula -> libpcl): xmailserver.org vs pointclouds.org
+- `libpipeline` (homebrew/formula -> libpipeline): libpipeline.gitlab.io vs libpipeline.nongnu.org
+- `libplacebo` (homebrew/formula -> libplacebo): code.videolan.org vs libplacebo.org
+- `libpointing` (homebrew/formula -> libpointing): github.com vs libpointing.org
+- `libpoker-eval` (homebrew/formula -> libpoker-eval): pokersource.sourceforge.net vs pokersource.org
+- `libpqxx` (homebrew/formula -> libpqxx): pqxx.org vs gborg.postgresql.org
+- `libpqxx` (macports/port -> libpqxx): pqxx.org vs gborg.postgresql.org
+- `libpqxx` (fink/package -> libpqxx): gborg.postgresql.org vs pqxx.org
+- `libproplist` (macports/port -> libproplist): windowmaker.org vs windowmaker.info
+- `libproplist` (fink/package -> libproplist): windowmaker.info vs windowmaker.org
+- `libpsl` (homebrew/formula -> libpsl): rockdaboot.github.io vs github.com
+- `libqalculate` (homebrew/formula -> libqalculate): qalculate.github.io vs github.com
+- `libraqm` (homebrew/formula -> libraqm): github.com vs host-oman.github.io
+- `librep` (macports/port -> librep): sawfish.wikia.com vs librep.sourceforge.net
+- `librep` (fink/package -> librep): librep.sourceforge.net vs sawfish.wikia.com
+- `librsvg` (homebrew/formula -> librsvg): wiki.gnome.org vs gnome.org
+- `librsvg` (macports/port -> librsvg): wiki.gnome.org vs gnome.org
+- `librsvg` (fink/package -> librsvg): gnome.org vs wiki.gnome.org
+- `librsync` (homebrew/formula -> librsync): librsync.github.io vs librsync.sourceforge.net
+- `librsync` (macports/port -> librsync): librsync.github.io vs librsync.sourceforge.net
+- `librsync` (fink/package -> librsync): librsync.sourceforge.net vs librsync.github.io
+- `librttopo` (homebrew/formula -> librttopo): git.osgeo.org vs strk.kbt.io
+- `libsamplerate` (homebrew/formula -> libsamplerate): github.com vs libsndfile.github.io
+- `libsass` (homebrew/formula -> libsass): github.com vs sass-lang.com
+- `libsexy` (macports/port -> libsexy): web.archive.org vs chipx86.com
+- `libsexy` (fink/package -> libsexy): chipx86.com vs web.archive.org
+- `libshout` (homebrew/formula -> libshout): icecast.org vs web.archive.org
+- `libshout` (homebrew/formula -> libshout): icecast.org vs developer.icecast.org
+- `libshout` (macports/port -> libshout): web.archive.org vs developer.icecast.org
+- `libshout` (fink/package -> libshout): developer.icecast.org vs web.archive.org
+- `libshumate` (homebrew/formula -> libshumate): gitlab.gnome.org vs gnome.org
+- `libsigc++` (homebrew/formula -> libsigc++): libsigcplusplus.github.io vs libsigc.sourceforge.net
+- `libsigc++@2` (homebrew/formula -> libsigc++2): libsigcplusplus.github.io vs libsigc.sourceforge.net
+- `libsigsegv` (homebrew/formula -> libsigsegv): gnu.org vs libsigsegv.sourceforge.net
+- `libsigsegv` (macports/port -> libsigsegv): gnu.org vs libsigsegv.sourceforge.net
+- `libsigsegv` (fink/package -> libsigsegv): libsigsegv.sourceforge.net vs gnu.org
+- `libsodium` (homebrew/formula -> libsodium): libsodium.org vs github.com
+- `libspectre` (homebrew/formula -> libspectre): wiki.freedesktop.org vs freedesktop.org
+- `libsql` (homebrew/formula -> libsql): turso.tech vs libsql.org
+- `libsrtp` (macports/port -> libsrtp): github.com vs srtp.sourceforge.net
+- `libsrtp` (fink/package -> libsrtp): srtp.sourceforge.net vs github.com
+- `libtar` (homebrew/formula -> libtar): repo.or.cz vs github.com
+- `libtar` (homebrew/formula -> libtar): repo.or.cz vs feep.net
+- `libtar` (macports/port -> libtar): github.com vs feep.net
+- `libtar` (fink/package -> libtar): feep.net vs github.com
+- `libtiff` (homebrew/formula -> libtiff): libtiff.gitlab.io vs libtiff.org
+- `libunicode` (homebrew/formula -> libunicode): github.com vs sourceforge.net
+- `libunique` (macports/port -> libunique): wiki.gnome.org vs live.gnome.org
+- `libunique` (fink/package -> libunique): live.gnome.org vs wiki.gnome.org
+- `libunwind` (homebrew/formula -> libunwind): nongnu.org vs blog.llvm.org
+- `libunwind-headers` (homebrew/formula -> libunwind-headers): opensource.apple.com vs blog.llvm.org
+- `libupnp` (homebrew/formula -> libupnp): pupnp.sourceforge.io vs github.com
+- `libusb` (homebrew/formula -> libusb): libusb.info vs libusb.sourceforge.net
+- `libusb` (macports/port -> libusb): libusb.info vs libusb.sourceforge.net
+- `libusb` (fink/package -> libusb): libusb.sourceforge.net vs libusb.info
+- `libusbmuxd` (homebrew/formula -> libusbmuxd): libimobiledevice.org vs github.com
+- `libusrsctp` (homebrew/formula -> libusrsctp): github.com vs sctp.fh-muenster.de
+- `libwmf` (homebrew/formula -> libwmf): github.com vs wvware.com
+- `libwmf` (macports/port -> libwmf): github.com vs wvware.com
+- `libwmf` (fink/package -> libwmf): wvware.com vs github.com
+- `libwww` (macports/port -> libwww): w3.org vs w3c.org
+- `libwww` (fink/package -> libwww): w3c.org vs w3.org
+- `libxc` (homebrew/formula -> libxc): libxc.gitlab.io vs tddft.org
+- `libxml` (macports/port -> libxml): xmlsoft.org vs gnome.org
+- `libxml` (fink/package -> libxml): gnome.org vs xmlsoft.org
+- `libxml++` (homebrew/formula -> libxml): libxmlplusplus.sourceforge.net vs xmlsoft.org
+- `libxml++` (homebrew/formula -> libxml): libxmlplusplus.sourceforge.net vs gnome.org
+- `libxml++2` (fink/package -> libxml2): libxmlplusplus.sourceforge.net vs gitlab.gnome.org
+- `libxml2` (homebrew/formula -> libxml2): xmlsoft.org vs gitlab.gnome.org
+- `libxml2` (macports/port -> libxml2): gitlab.gnome.org vs xmlsoft.org
+- `libxml2` (fink/package -> libxml2): xmlsoft.org vs gitlab.gnome.org
+- `libxo` (homebrew/formula -> libxo): juniper.github.io vs github.com
+- `libyaml` (homebrew/formula -> libyaml): github.com vs pyyaml.org
+- `libyaml` (homebrew/formula -> libyaml): github.com vs pyyaml.org
+- `libyubikey` (homebrew/formula -> libyubikey): yubico.github.io vs github.com
+- `lifelines` (homebrew/formula -> lifelines): lifelines.github.io vs lifelines.sourceforge.net
+- `lifelines` (homebrew/formula -> lifelines): lifelines.github.io vs lifelines.sourceforge.net
+- `liferea` (macports/port -> liferea): lzone.de vs liferea.sourceforge.net
+- `liferea` (fink/package -> liferea): liferea.sourceforge.net vs lzone.de
+- `link-grammar` (homebrew/formula -> link-grammar): github.com vs opencog.github.io
+- `linkchecker` (macports/port -> linkchecker): pypi.python.org vs linkchecker.sourceforge.net
+- `linkchecker` (fink/package -> linkchecker): linkchecker.sourceforge.net vs pypi.python.org
+- `links` (homebrew/formula -> links): links.twibright.com vs artax.karlin.mff.cuni.cz
+- `links` (macports/port -> links): links.twibright.com vs artax.karlin.mff.cuni.cz
+- `links` (fink/package -> links): artax.karlin.mff.cuni.cz vs links.twibright.com
+- `liteide` (homebrew/cask -> liteide): github.com vs liteide.org
+- `llama.cpp` (homebrew/formula -> llama.cpp): llama.app vs github.com
+- `llvm-3.5` (macports/port -> llvm35): macports.org vs llvm.org
+- `lndir` (homebrew/formula -> lndir): gitlab.freedesktop.org vs x.org
+- `log4cplus` (homebrew/formula -> log4cplus): sourceforge.net vs log4cplus.sourceforge.net
+- `log4shib` (homebrew/formula -> log4shib): wiki.shibboleth.net vs shibboleth.net
+- `logcheck` (homebrew/formula -> logcheck): packages.debian.org vs psionic.com
+- `logrotate` (homebrew/formula -> logrotate): github.com vs packages.debian.org
+- `logrotate` (macports/port -> logrotate): github.com vs packages.debian.org
+- `logrotate` (fink/package -> logrotate): packages.debian.org vs github.com
+- `loudmouth` (homebrew/formula -> loudmouth): mcabber.com vs github.com
+- `loudmouth` (homebrew/formula -> loudmouth): mcabber.com vs loudmouth-project.org
+- `loudmouth` (macports/port -> loudmouth): github.com vs loudmouth-project.org
+- `loudmouth` (fink/package -> loudmouth): loudmouth-project.org vs github.com
+- `lout` (homebrew/formula -> lout): savannah.nongnu.org vs lout.sourceforge.net
+- `lout` (macports/port -> lout): savannah.nongnu.org vs lout.sourceforge.net
+- `lout` (fink/package -> lout): lout.sourceforge.net vs savannah.nongnu.org
+- `lp_solve` (homebrew/formula -> lp_solve): lp-solve.github.io vs lpsolve.sourceforge.net
+- `lpairs` (macports/port -> lpairs): macports.org vs lgames.sourceforge.net
+- `lpc21isp` (homebrew/formula -> lpc21isp): lpc21isp.sourceforge.net vs sourceforge.net
+- `lrzip` (homebrew/formula -> lrzip): github.com vs ck.kolivas.org
+- `lrzip` (homebrew/formula -> lrzip): github.com vs lrzip.kolivas.org
+- `lrzip` (macports/port -> lrzip): ck.kolivas.org vs lrzip.kolivas.org
+- `lrzip` (fink/package -> lrzip): lrzip.kolivas.org vs ck.kolivas.org
+- `lsdvd` (homebrew/formula -> lsdvd): sourceforge.net vs untrepid.com
+- `lsdvd` (macports/port -> lsdvd): sourceforge.net vs untrepid.com
+- `lsdvd` (fink/package -> lsdvd): untrepid.com vs sourceforge.net
+- `lua-language-server` (homebrew/formula -> lua-language-server): luals.github.io vs github.com
+- `luarocks` (homebrew/formula -> luarocks): luarocks.org vs luaforge.net
+- `luarocks` (macports/port -> luarocks): macports.org vs luaforge.net
+- `luminance-hdr` (homebrew/cask -> luminance-hdr): qtpfsgui.sourceforge.io vs qtpfsgui.sourceforge.net
+- `lv` (homebrew/formula -> lv): salsa.debian.org vs ff.iij4u.or.jp
+- `lv` (homebrew/formula -> lv): salsa.debian.org vs ff.iij4u.or.jp
+- `lxsplit` (homebrew/formula -> lxsplit): lxsplit.sourceforge.net vs freebyte.com
+- `lxsplit` (macports/port -> lxsplit): lxsplit.sourceforge.net vs freebyte.com
+- `lxsplit` (fink/package -> lxsplit): freebyte.com vs lxsplit.sourceforge.net
+- `lychee` (homebrew/formula -> lychee): lychee.cli.rs vs github.com
+- `lynx` (homebrew/formula -> lynx): invisible-island.net vs lynx.invisible-island.net
+- `lynx` (homebrew/formula -> lynx): invisible-island.net vs lynx.browser.org
+- `lynx` (macports/port -> lynx): lynx.invisible-island.net vs lynx.browser.org
+- `lynx` (fink/package -> lynx): lynx.browser.org vs lynx.invisible-island.net
+- `lz4` (homebrew/formula -> lz4): lz4.github.io vs lz4.org
+- `lz4` (homebrew/formula -> lz4): lz4.github.io vs github.com
+- `lz4` (macports/port -> lz4): lz4.org vs github.com
+- `lz4` (fink/package -> lz4): github.com vs lz4.org
+- `lzma` (macports/port -> lzma): 7-zip.org vs tukaani.org
+- `lzma` (fink/package -> lzma): tukaani.org vs 7-zip.org
+- `lzop` (homebrew/formula -> lzop): lzop.org vs oberhumer.com
+- `lzop` (macports/port -> lzop): lzop.org vs oberhumer.com
+- `lzop` (fink/package -> lzop): oberhumer.com vs lzop.org
+- `m4` (homebrew/formula -> m4): gnu.org vs seindal.dk
+- `m4` (macports/port -> m4): gnu.org vs seindal.dk
+- `m4` (fink/package -> m4): seindal.dk vs gnu.org
+- `m4ri` (homebrew/formula -> m4ri): github.com vs bitbucket.org
+- `m4ri` (macports/port -> m4ri): github.com vs bitbucket.org
+- `m4ri` (fink/package -> m4ri): bitbucket.org vs github.com
+- `macchanger` (homebrew/formula -> macchanger): github.com vs acrogenesis.com
+- `macpass` (homebrew/cask -> MacPass): macpass.github.io vs macpassapp.org
+- `madplay` (homebrew/formula -> madplay): underbit.com vs mars.org
+- `madplay` (homebrew/formula -> madplay): underbit.com vs mars.org
+- `maelstrom` (homebrew/cask -> maelstrom): libsdl.org vs devolution.com
+- `maelstrom` (fink/package -> Maelstrom): devolution.com vs libsdl.org
+- `maestral` (homebrew/cask -> maestral): maestral.app vs github.com
+- `mairix` (homebrew/formula -> mairix): github.com vs rc0.org.uk
+- `makeicns` (homebrew/formula -> makeicns): amnoid.de vs web.archive.org
+- `makeicns` (homebrew/formula -> makeicns): amnoid.de vs bitbucket.org
+- `makeicns` (macports/port -> makeicns): web.archive.org vs bitbucket.org
+- `makeicns` (fink/package -> makeicns): bitbucket.org vs web.archive.org
+- `mallet` (homebrew/formula -> mallet): mimno.github.io vs mallet.cs.umass.edu
+- `man-db` (homebrew/formula -> man-db): man-db.gitlab.io vs man-db.nongnu.org
+- `man2html` (homebrew/formula -> man2html): savannah.nongnu.org vs oac.uci.edu
+- `marble` (homebrew/cask -> marble): marble.kde.org vs kde.org
+- `mars` (homebrew/cask -> mars): computerscience.missouristate.edu vs dpetersanderson.github.io
+- `mathomatic` (macports/port -> mathomatic): web.archive.org vs mathomatic.orgserve.de
+- `mathomatic` (fink/package -> mathomatic): mathomatic.orgserve.de vs web.archive.org
+- `maxima` (homebrew/formula -> maxima): maxima.sourceforge.io vs maxima.sourceforge.net
+- `maxima` (macports/port -> maxima): maxima.sourceforge.io vs maxima.sourceforge.net
+- `maxima` (fink/package -> maxima): maxima.sourceforge.net vs maxima.sourceforge.io
+- `maxwell` (homebrew/formula -> maxwell): maxwells-daemon.io vs maxwell.sourceforge.net
+- `mbedtls` (homebrew/formula -> mbedtls): trustedfirmware.org vs tls.mbed.org
+- `mbedtls@3` (homebrew/formula -> mbedtls3): trustedfirmware.org vs tls.mbed.org
+- `mc` (macports/port -> mc): midnight-commander.org vs gnome.org
+- `mc` (fink/package -> mc): gnome.org vs midnight-commander.org
+- `mcabber` (homebrew/formula -> mcabber): mcabber.com vs lilotux.net
+- `mcabber` (macports/port -> mcabber): mcabber.com vs lilotux.net
+- `mcabber` (fink/package -> mcabber): lilotux.net vs mcabber.com
+- `md5deep` (homebrew/formula -> md5deep): github.com vs md5deep.sourceforge.net
+- `md5deep` (macports/port -> md5deep): github.com vs md5deep.sourceforge.net
+- `md5deep` (fink/package -> md5deep): md5deep.sourceforge.net vs github.com
+- `mdate` (macports/port -> mdate): github.com vs mdate.sourceforge.net
+- `mdate` (fink/package -> mdate): mdate.sourceforge.net vs github.com
+- `mdcat` (homebrew/formula -> mdcat): github.com vs crates.io
+- `mdds` (homebrew/formula -> mdds): gitlab.com vs code.google.com
+- `mdds` (macports/port -> mdds): macports.org vs code.google.com
+- `mdz` (homebrew/formula -> mdz): github.com vs jwm-art.net
+- `mecab` (homebrew/formula -> mecab): taku910.github.io vs mecab.sourceforge.net
+- `mecab` (macports/port -> mecab): taku910.github.io vs mecab.sourceforge.net
+- `mecab` (fink/package -> mecab): mecab.sourceforge.net vs taku910.github.io
+- `mecab-ipadic` (homebrew/formula -> mecab-ipadic): taku910.github.io vs mecab.sourceforge.jp
+- `mecab-ipadic` (macports/port -> mecab-ipadic): taku910.github.io vs mecab.sourceforge.jp
+- `mecab-ipadic` (fink/package -> mecab-ipadic): mecab.sourceforge.jp vs taku910.github.io
+- `mednafen` (homebrew/formula -> mednafen): mednafen.github.io vs mednafen.sourceforge.net
+- `mednafen` (macports/port -> mednafen): mednafen.github.io vs mednafen.sourceforge.net
+- `mednafen` (fink/package -> mednafen): mednafen.sourceforge.net vs mednafen.github.io
+- `medusa` (homebrew/formula -> medusa): secure-contracts.com vs foofus.net
+- `megatools` (homebrew/formula -> megatools): xff.cz vs megatools.megous.com
+- `meld` (homebrew/cask -> meld): gitlab.com vs meldmerge.org
+- `meld` (homebrew/cask -> meld): gitlab.com vs meldmerge.org
+- `melonds` (homebrew/cask -> melonds): melonds.kuribo64.net vs github.com
+- `memcached` (homebrew/formula -> memcached): memcached.org vs danga.com
+- `memcached` (macports/port -> memcached): memcached.org vs danga.com
+- `memcached` (fink/package -> memcached): danga.com vs memcached.org
+- `memtester` (homebrew/formula -> memtester): pyropus.ca vs pyropus.ca.
+- `memtester` (macports/port -> memtester): pyropus.ca. vs pyropus.ca
+- `memtester` (fink/package -> memtester): pyropus.ca vs pyropus.ca.
+- `menumeters` (homebrew/cask -> MenuMeters): member.ipmu.jp vs github.com
+- `mercurial` (homebrew/formula -> mercurial): mercurial-scm.org vs mercurial.selenic.com
+- `mercurial` (macports/port -> mercurial): mercurial-scm.org vs mercurial.selenic.com
+- `mercurial` (fink/package -> mercurial): mercurial.selenic.com vs mercurial-scm.org
+- `mesa` (homebrew/formula -> mesa): mesa3d.org vs mesa3d.sourceforge.net
+- `mesa` (macports/port -> mesa): mesa3d.org vs mesa3d.sourceforge.net
+- `mesa` (fink/package -> mesa): mesa3d.sourceforge.net vs mesa3d.org
+- `metacity` (macports/port -> metacity): wiki.gnome.org vs people.redhat.com
+- `metacity` (fink/package -> metacity): people.redhat.com vs wiki.gnome.org
+- `metis` (homebrew/formula -> metis): papers.karypis.org vs github.com
+- `metview` (homebrew/formula -> metview): metview.readthedocs.io vs confluence.ecmwf.int
+- `mfoc` (homebrew/formula -> mfoc): github.com vs nethemba.com
+- `mftrace` (homebrew/formula -> mftrace): lilypond.org vs xs4all.nl
+- `mftrace` (macports/port -> mftrace): lilypond.org vs xs4all.nl
+- `mftrace` (fink/package -> mftrace): xs4all.nl vs lilypond.org
+- `micro` (homebrew/formula -> micro): github.com vs micro-editor.github.io
+- `midori` (macports/port -> midori): midori-browser.org vs twotoasts.de
+- `midori` (fink/package -> midori): twotoasts.de vs midori-browser.org
+- `mikmod` (homebrew/formula -> mikmod): mikmod.sourceforge.net vs mikmod.raphnet.net
+- `mikmod` (macports/port -> mikmod): mikmod.sourceforge.net vs mikmod.raphnet.net
+- `mikmod` (fink/package -> mikmod): mikmod.raphnet.net vs mikmod.sourceforge.net
+- `milkytracker` (homebrew/cask -> milkytracker): milkytracker.org vs milkytracker.net
+- `miller` (homebrew/formula -> miller): github.com vs johnkerl.org
+- `mingw-w64` (homebrew/formula -> mingw-w64): sourceforge.net vs mingw-w64.sourceforge.net
+- `mini-vmac` (homebrew/cask -> minivmac): gryphel.com vs gryphel.org
+- `minicom` (homebrew/formula -> minicom): packages.debian.org vs salsa.debian.org
+- `minicom` (homebrew/formula -> minicom): packages.debian.org vs clinet.fi
+- `minicom` (macports/port -> minicom): salsa.debian.org vs clinet.fi
+- `minicom` (fink/package -> minicom): clinet.fi vs salsa.debian.org
+- `minify` (homebrew/formula -> minify): go.tacodewolff.nl vs github.com
+- `minimodem` (homebrew/formula -> minimodem): whence.com vs github.com
+- `minio` (homebrew/formula -> minio): min.io vs minio.io
+- `minisat` (homebrew/formula -> minisat): github.com vs minisat.se
+- `minizip` (homebrew/formula -> minizip): winimage.com vs zlib.net
+- `mise` (homebrew/formula -> mise): mise.jdx.dev vs github.com
+- `mjpegtools` (homebrew/formula -> mjpegtools): mjpeg.sourceforge.io vs mjpeg.sourceforge.net
+- `mjpegtools` (homebrew/formula -> mjpegtools): mjpeg.sourceforge.io vs mjpeg.sourceforge.net
+- `mksh` (homebrew/formula -> mksh): mbsd.evolvis.org vs mirbsd.org
+- `mksh` (homebrew/formula -> mksh): mbsd.evolvis.org vs mirbsd.de
+- `mksh` (macports/port -> mksh): mirbsd.org vs mirbsd.de
+- `mksh` (fink/package -> mksh): mirbsd.de vs mirbsd.org
+- `mktorrent` (homebrew/formula -> mktorrent): github.com vs mktorrent.sourceforge.net
+- `mktorrent` (macports/port -> mktorrent): github.com vs mktorrent.sourceforge.net
+- `mktorrent` (fink/package -> mktorrent): mktorrent.sourceforge.net vs github.com
+- `mlx` (homebrew/formula -> mlx): ml-explore.github.io vs github.com
+- `mlx-c` (homebrew/formula -> mlx-c): ml-explore.github.io vs github.com
+- `mm-common` (homebrew/formula -> mm-common): gtkmm.org vs gnome.org
+- `mm-common` (homebrew/formula -> mm-common): gtkmm.org vs gtkmm.gnome.org
+- `mm-common` (macports/port -> mm-common): gnome.org vs gtkmm.gnome.org
+- `mm-common` (fink/package -> mm-common): gtkmm.gnome.org vs gnome.org
+- `mmtabbarview` (homebrew/formula -> MMTabBarView): mimo42.github.io vs github.com
+- `mmv` (homebrew/formula -> mmv): github.com vs web.archive.org
+- `mockery` (homebrew/formula -> mockery): vektra.github.io vs github.com
+- `modglue` (macports/port -> modglue): cadabra.phi-sci.com vs aei.mpg.de
+- `modglue` (fink/package -> modglue): aei.mpg.de vs cadabra.phi-sci.com
+- `molden` (macports/port -> molden): theochem.ru.nl vs cmbi.ru.nl
+- `molden` (fink/package -> molden): cmbi.ru.nl vs theochem.ru.nl
+- `mole` (homebrew/formula -> mole): mole.fit vs davrodpin.github.io
+- `monarch` (homebrew/cask -> monarch): monarchlauncher.com vs sourceforge.net
+- `mongo-c-driver` (homebrew/formula -> mongo-c-driver): github.com vs mongoc.org
+- `mongocli` (homebrew/formula -> mongocli): mongodb.com vs github.com
+- `mongodb` (macports/port -> mongodb): mongodb.com vs mongodb.org
+- `mongodb` (fink/package -> mongodb): mongodb.org vs mongodb.com
+- `mongoose` (homebrew/formula -> mongoose): mongoose.ws vs code.google.com
+- `mono-addins` (macports/port -> mono-addins): mono-project.com vs mono-project.org
+- `mono-addins` (fink/package -> mono-addins): mono-project.org vs mono-project.com
+- `monotone` (macports/port -> monotone): monotone.ca vs venge.net
+- `monotone` (fink/package -> monotone): venge.net vs monotone.ca
+- `moon-buggy` (homebrew/formula -> moon-buggy): seehuhn.de vs github.com
+- `moria` (macports/port -> moria): www-math.bgsu.edu vs piratehaven.org
+- `moria` (fink/package -> moria): piratehaven.org vs www-math.bgsu.edu
+- `moscow-ml` (homebrew/cask -> moscow-ml): mosml.org vs dina.kvl.dk
+- `mosh` (homebrew/formula -> mosh): mosh.org vs mosh.mit.edu
+- `mosh` (macports/port -> mosh): mosh.org vs mosh.mit.edu
+- `mosh` (fink/package -> mosh): mosh.mit.edu vs mosh.org
+- `mox` (homebrew/formula -> mox): xmox.nl vs github.com
+- `mp3blaster` (homebrew/formula -> mp3blaster): mp3blaster.sourceforge.io vs mp3blaster.org
+- `mp3blaster` (homebrew/formula -> mp3blaster): mp3blaster.sourceforge.io vs mp3blaster.sourceforge.net
+- `mp3blaster` (macports/port -> mp3blaster): mp3blaster.org vs mp3blaster.sourceforge.net
+- `mp3blaster` (fink/package -> mp3blaster): mp3blaster.sourceforge.net vs mp3blaster.org
+- `mp3check` (homebrew/formula -> mp3_check): code.google.com vs mp3check.sourceforge.net
+- `mp3unicode` (homebrew/formula -> mp3unicode): mp3unicode.sourceforge.net vs github.com
+- `mp4tools` (homebrew/cask -> MP4Tools): emmgunn.com vs mp4joiner.org
+- `mp4v2` (homebrew/formula -> mp4v2): mp4v2.org vs github.com
+- `mpack` (macports/port -> mpack): en.wikipedia.org vs ftp.andrew.cmu.edu
+- `mpack` (fink/package -> mpack): ftp.andrew.cmu.edu vs en.wikipedia.org
+- `mpck` (homebrew/formula -> mpck): checkmate.gissen.nl vs mpck.linuxonly.nl
+- `mpd` (homebrew/formula -> mpd): musicpd.org vs mpd.wikia.com
+- `mpd` (macports/port -> mpd): musicpd.org vs mpd.wikia.com
+- `mpd` (fink/package -> mpd): mpd.wikia.com vs musicpd.org
+- `mpdscribble` (homebrew/formula -> mpdscribble): musicpd.org vs mpd.wikia.com
+- `mpop` (homebrew/formula -> mpop): marlam.de vs mpop.sourceforge.net
+- `mpv` (homebrew/formula -> mpv): mpv.io vs github.com
+- `mpv` (macports/port -> mpv): mpv.io vs github.com
+- `mpv` (fink/package -> mpv): github.com vs mpv.io
+- `mrtg` (homebrew/formula -> mrtg): oss.oetiker.ch vs mrtg.org
+- `mrtg` (macports/port -> mrtg): mrtg.org vs oss.oetiker.ch
+- `mrtg` (fink/package -> mrtg): oss.oetiker.ch vs mrtg.org
+- `mruby` (homebrew/formula -> mruby): mruby.org vs github.com
+- `msp430-binutils` (macports/port -> msp430-binutils): gnu.org vs mspgcc4.sourceforge.net
+- `msp430-binutils` (fink/package -> msp430-binutils): mspgcc4.sourceforge.net vs gnu.org
+- `msp430-gcc` (macports/port -> msp430-gcc): mspgcc.sourceforge.net vs gcc.gnu.org
+- `msp430-gcc` (fink/package -> msp430-gcc): gcc.gnu.org vs mspgcc.sourceforge.net
+- `msp430-gdb` (macports/port -> msp430-gdb): gnu.org vs mspgcc4.sourceforge.net
+- `msp430-gdb` (fink/package -> msp430-gdb): mspgcc4.sourceforge.net vs gnu.org
+- `mspdebug` (homebrew/formula -> mspdebug): dlbeer.co.nz vs mspdebug.sourceforge.net
+- `mspdebug` (macports/port -> mspdebug): dlbeer.co.nz vs mspdebug.sourceforge.net
+- `mspdebug` (fink/package -> mspdebug): mspdebug.sourceforge.net vs dlbeer.co.nz
+- `mtools` (homebrew/formula -> mtools): gnu.org vs mtools.linux.lu
+- `mtools` (macports/port -> mtools): gnu.org vs mtools.linux.lu
+- `mtools` (fink/package -> mtools): mtools.linux.lu vs gnu.org
+- `multimarkdown` (homebrew/formula -> multimarkdown): fletcher.github.io vs fletcherpenney.net
+- `multitail` (homebrew/formula -> multitail): vanheusden.com vs web.archive.org
+- `multitail` (macports/port -> multitail): web.archive.org vs vanheusden.com
+- `multitail` (fink/package -> multitail): vanheusden.com vs web.archive.org
+- `muparser` (homebrew/formula -> muparser): github.com vs beltoforion.de
+- `muparser` (homebrew/formula -> muparser): github.com vs muparser.sourceforge.net
+- `muparser` (macports/port -> muparser): beltoforion.de vs muparser.sourceforge.net
+- `muparser` (fink/package -> muparser): muparser.sourceforge.net vs beltoforion.de
+- `mysql` (homebrew/formula -> mysql): github.com vs mysql.com
+- `mysql++` (homebrew/formula -> mysql): tangentsoft.com vs mysql.com
+- `nagios-plugins` (homebrew/formula -> nagios-plugins): nagios-plugins.org vs nagios.org
+- `naim` (macports/port -> naim): code.google.com vs naim.googlecode.com
+- `naim` (fink/package -> naim): naim.googlecode.com vs code.google.com
+- `nautilus` (macports/port -> nautilus): wiki.gnome.org vs nautilus.eazel.com
+- `nautilus` (fink/package -> nautilus): nautilus.eazel.com vs wiki.gnome.org
+- `nauty` (homebrew/formula -> nauty): pallini.di.uniroma1.it vs users.cecs.anu.edu.au
+- `ncarg` (macports/port -> ncarg): ncl.ucar.edu vs ngwww.ucar.edu
+- `ncarg` (fink/package -> ncarg): ngwww.ucar.edu vs ncl.ucar.edu
+- `ncmpc` (homebrew/formula -> ncmpc): musicpd.org vs mpd.wikia.com
+- `ncmpc` (macports/port -> ncmpc): musicpd.org vs mpd.wikia.com
+- `ncmpc` (fink/package -> ncmpc): mpd.wikia.com vs musicpd.org
+- `ncmpcpp` (homebrew/formula -> ncmpcpp): rybczak.net vs unkart.ovh.org
+- `ncmpcpp` (macports/port -> ncmpcpp): rybczak.net vs unkart.ovh.org
+- `ncmpcpp` (fink/package -> ncmpcpp): unkart.ovh.org vs rybczak.net
+- `ncompress` (homebrew/formula -> ncompress): vapier.github.io vs github.com
+- `ncurses` (homebrew/formula -> ncurses): invisible-island.net vs gnu.org
+- `ncurses` (macports/port -> ncurses): invisible-island.net vs gnu.org
+- `ncurses` (fink/package -> ncurses): gnu.org vs invisible-island.net
+- `ncview` (homebrew/formula -> ncview): cirrus.ucsd.edu vs meteora.ucsd.edu
+- `ncview` (macports/port -> ncview): cirrus.ucsd.edu vs meteora.ucsd.edu
+- `ncview` (fink/package -> ncview): meteora.ucsd.edu vs cirrus.ucsd.edu
+- `nedit` (homebrew/formula -> nedit): sourceforge.net vs nedit.org
+- `nedit` (macports/port -> nedit): sourceforge.net vs nedit.org
+- `nedit` (fink/package -> nedit): nedit.org vs sourceforge.net
+- `nemesis` (macports/port -> nemesis): packetfactory.openwall.net vs packetfactory.net
+- `nemesis` (fink/package -> nemesis): packetfactory.net vs packetfactory.openwall.net
+- `neocmakelsp` (homebrew/formula -> neocmakelsp): neocmakelsp.github.io vs github.com
+- `neohtop` (homebrew/cask -> neohtop): abdenasser.github.io vs github.com
+- `nerdlog` (homebrew/formula -> nerdlog): dmitryfrank.com vs github.com
+- `nesc` (homebrew/formula -> nesc): github.com vs nescc.sourceforge.net
+- `nessus` (homebrew/cask -> nessus): tenable.com vs nessus.org
+- `net-snmp` (homebrew/formula -> net-snmp): net-snmp.org vs net-snmp.sourceforge.net
+- `netbeans` (homebrew/cask -> netbeans): netbeans.apache.org vs netbeans.org
+- `netbeans` (fink/package -> NetBeans): netbeans.org vs netbeans.apache.org
+- `netcat` (homebrew/formula -> netcat): netcat.sourceforge.net vs l0pht.com
+- `netcdf-fortran` (homebrew/formula -> netcdf-fortran): unidata.ucar.edu vs github.com
+- `netdata` (homebrew/formula -> netdata): netdata.cloud vs github.com
+- `netris` (homebrew/formula -> netris): packages.debian.org vs netris.org
+- `nexus` (homebrew/formula -> nexus): sonatype.com vs nexus.sonatype.org
+- `nginx` (homebrew/formula -> nginx): nginx.org vs nginx.net
+- `nginx` (macports/port -> nginx): nginx.org vs nginx.net
+- `nginx` (fink/package -> nginx): nginx.net vs nginx.org
+- `ngspice` (homebrew/formula -> ngspice): ngspice.sourceforge.io vs ngspice.sourceforge.net
+- `ngspice` (homebrew/formula -> ngspice): ngspice.sourceforge.io vs ngspice.sourceforge.net
+- `nheko` (homebrew/cask -> nheko): nheko-reborn.github.io vs github.com
+- `nightfall` (homebrew/cask -> nightfall): github.com vs lsw.uni-heidelberg.de
+- `ninja` (homebrew/formula -> ninja): ninja-build.org vs martine.github.com
+- `ninja` (macports/port -> ninja): ninja-build.org vs martine.github.com
+- `ninja` (fink/package -> ninja): martine.github.com vs ninja-build.org
+- `nip2` (macports/port -> nip2): libvips.github.io vs vips.ecs.soton.ac.uk
+- `nip2` (fink/package -> nip2): vips.ecs.soton.ac.uk vs libvips.github.io
+- `nkf` (homebrew/formula -> nkf): github.com vs osdn.net
+- `nkf` (homebrew/formula -> nkf): github.com vs sourceforge.jp
+- `nkf` (macports/port -> nkf): osdn.net vs sourceforge.jp
+- `nkf` (fink/package -> nkf): sourceforge.jp vs osdn.net
+- `nlohmann-json` (homebrew/formula -> nlohmann-json): json.nlohmann.me vs github.com
+- `nmap` (homebrew/formula -> nmap): nmap.org vs insecure.org
+- `nmap` (macports/port -> nmap): nmap.org vs insecure.org
+- `nmap` (fink/package -> nmap): insecure.org vs nmap.org
+- `nmh` (homebrew/formula -> nmh): nongnu.org vs mhost.com
+- `normalize` (homebrew/formula -> normalize): nongnu.org vs normalize.nongnu.org
+- `normalize` (homebrew/formula -> normalize): nongnu.org vs cs.columbia.edu
+- `normalize` (macports/port -> normalize): normalize.nongnu.org vs cs.columbia.edu
+- `normalize` (fink/package -> normalize): cs.columbia.edu vs normalize.nongnu.org
+- `notcurses` (homebrew/formula -> notcurses): nick-black.com vs notcurses.com
+- `noweb` (homebrew/formula -> noweb): cs.tufts.edu vs eecs.harvard.edu
+- `nsis` (macports/port -> nsis): nsis.sourceforge.io vs nsis.sourceforge.net
+- `nsis` (fink/package -> nsis): nsis.sourceforge.net vs nsis.sourceforge.io
+- `nspr` (homebrew/formula -> nspr): hg.mozilla.org vs mozilla.org
+- `nspr` (homebrew/formula -> nspr): hg.mozilla.org vs mozilla.org
+- `nss` (homebrew/formula -> nss): firefox-source-docs.mozilla.org vs developer.mozilla.org
+- `ntfs-3g` (homebrew/formula -> ntfs-3g): tuxera.com vs ntfs-3g.org
+- `ntfs-3g` (macports/port -> ntfs-3g): tuxera.com vs ntfs-3g.org
+- `ntfs-3g` (fink/package -> ntfs-3g): ntfs-3g.org vs tuxera.com
+- `ntl` (homebrew/formula -> ntl): libntl.org vs shoup.net
+- `nvi` (homebrew/formula -> nvi): repo.or.cz vs bostic.com
+- `nylon` (homebrew/formula -> nylon): github.com vs monkey.org
+- `nzbget` (homebrew/formula -> nzbget): nzbget.com vs nzbget.net
+- `oak` (homebrew/formula -> oak): oaklang.org vs oak.space
+- `oath-toolkit` (homebrew/formula -> oath-toolkit): oath-toolkit.codeberg.page vs nongnu.org
+- `ocaml` (homebrew/formula -> ocaml): ocaml.org vs caml.inria.fr
+- `ocaml` (macports/port -> ocaml): ocaml.org vs caml.inria.fr
+- `ocaml` (fink/package -> ocaml): caml.inria.fr vs ocaml.org
+- `ocaml-extlib` (macports/port -> ocaml-extlib): github.com vs code.google.com
+- `ocaml-extlib` (fink/package -> ocaml-extlib): code.google.com vs github.com
+- `ocaml-findlib` (homebrew/formula -> ocaml-findlib): projects.camlcity.org vs github.com
+- `ocaml-findlib` (homebrew/formula -> ocaml-findlib): projects.camlcity.org vs ocaml-programming.de
+- `ocaml-findlib` (macports/port -> ocaml-findlib): github.com vs ocaml-programming.de
+- `ocaml-findlib` (fink/package -> ocaml-findlib): ocaml-programming.de vs github.com
+- `ocaml-gsl` (macports/port -> ocaml-gsl): mmottl.github.io vs oandrieu.nerim.net
+- `ocaml-gsl` (fink/package -> ocaml-gsl): oandrieu.nerim.net vs mmottl.github.io
+- `ocaml-pcre` (macports/port -> ocaml-pcre): mmottl.github.io vs ocaml.info
+- `ocaml-pcre` (fink/package -> ocaml-pcre): ocaml.info vs mmottl.github.io
+- `oci-cli` (homebrew/formula -> oci-cli): docs.cloud.oracle.com vs docs.oracle.com
+- `ocp` (homebrew/formula -> ocp): stian.cubic.org vs github.com
+- `ocp` (macports/port -> ocp): github.com vs stian.cubic.org
+- `ocp` (fink/package -> ocp): stian.cubic.org vs github.com
+- `ocrmypdf` (homebrew/formula -> ocrmypdf): ocrmypdf.readthedocs.io vs github.com
+- `octave` (homebrew/formula -> octave): octave.org vs gnu.org
+- `octave` (macports/port -> octave): gnu.org vs octave.org
+- `octave` (fink/package -> octave): octave.org vs gnu.org
+- `offlineimap` (homebrew/formula -> offlineimap): github.com vs offlineimap.org
+- `offlineimap` (homebrew/formula -> offlineimap): github.com vs offlineimap.org
+- `oinkmaster` (macports/port -> oinkmaster): oinkmaster.sourceforge.net vs oinkmaster.sf.net
+- `oinkmaster` (fink/package -> oinkmaster): oinkmaster.sf.net vs oinkmaster.sourceforge.net
+- `omake` (homebrew/formula -> omake): projects.camlcity.org vs omake.metaprl.org
+- `omake` (macports/port -> omake): projects.camlcity.org vs omake.metaprl.org
+- `omake` (fink/package -> omake): omake.metaprl.org vs projects.camlcity.org
+- `omega` (homebrew/formula -> Omega): xapian.org vs web.cecs.pdx.edu
+- `ondir` (homebrew/formula -> ondir): swapoff.org vs ondir.sourceforge.net
+- `ondir` (macports/port -> ondir): swapoff.org vs ondir.sourceforge.net
+- `ondir` (fink/package -> ondir): ondir.sourceforge.net vs swapoff.org
+- `onedpl` (homebrew/formula -> onedpl): github.com vs intel.com
+- `onefetch` (homebrew/formula -> onefetch): onefetch.dev vs github.com
+- `oniguruma` (homebrew/formula -> oniguruma): github.com vs geocities.jp
+- `onioncat` (homebrew/formula -> onioncat): github.com vs onioncat.org
+- `onyx` (homebrew/cask -> onyx): titanium-software.fr vs canonware.com
+- `open-babel` (homebrew/formula -> openbabel): github.com vs openbabel.org
+- `open-babel` (homebrew/formula -> openbabel): github.com vs openbabel.sourceforge.net
+- `open-code-review` (homebrew/formula -> open-code-review): github.com vs open-codereview.ai
+- `open-ocd` (homebrew/formula -> openocd): openocd.org vs openocd.sourceforge.net
+- `open-ocd` (homebrew/formula -> openocd): openocd.org vs openocd.sourceforge.net
+- `open-scene-graph` (homebrew/formula -> OpenSceneGraph): github.com vs openscenegraph.org
+- `openbabel` (macports/port -> openbabel): openbabel.org vs openbabel.sourceforge.net
+- `openbabel` (fink/package -> openbabel): openbabel.sourceforge.net vs openbabel.org
+- `openblas` (homebrew/formula -> OpenBLAS): openblas.net vs github.com
+- `openblas` (fink/package -> OpenBLAS): openblas.net vs github.com
+- `openbox` (macports/port -> openbox): openbox.org vs icculus.org
+- `openbox` (fink/package -> openbox): icculus.org vs openbox.org
+- `opencascade` (homebrew/formula -> opencascade): dev.opencascade.org vs github.com
+- `opencc` (homebrew/formula -> opencc): opencc.byvoid.com vs github.com
+- `openh264` (homebrew/formula -> openh264): openh264.org vs github.com
+- `openimageio` (homebrew/formula -> openimageio): openimageio.readthedocs.io vs github.com
+- `openlogi` (homebrew/cask -> openlogi): openlogi.org vs github.com
+- `openni` (macports/port -> openni): github.com vs openni.org
+- `openni` (fink/package -> openni): openni.org vs github.com
+- `openrct2` (homebrew/cask -> openrct2): openrct2.io vs github.com
+- `opensaml` (homebrew/formula -> opensaml): wiki.shibboleth.net vs opensaml.org
+- `openssh` (homebrew/formula -> openssh): openssh.com vs openbsd.org
+- `openssh` (macports/port -> openssh): openbsd.org vs openssh.com
+- `openssh` (fink/package -> openssh): openssh.com vs openbsd.org
+- `opensubdiv` (homebrew/formula -> opensubdiv): opensubdiv.org vs graphics.pixar.com
+- `openttd-opengfx` (macports/port -> openttd-opengfx): github.com vs openttd.org
+- `openttd-opengfx` (fink/package -> openttd-opengfx): openttd.org vs github.com
+- `openttd-openmsx` (macports/port -> openttd-openmsx): github.com vs openttd.org
+- `openttd-openmsx` (fink/package -> openttd-openmsx): openttd.org vs github.com
+- `openttd-opensfx` (macports/port -> openttd-opensfx): github.com vs openttd.org
+- `openttd-opensfx` (fink/package -> openttd-opensfx): openttd.org vs github.com
+- `openvpn` (macports/port -> openvpn): macports.org vs openvpn.net
+- `operator-sdk` (homebrew/formula -> operator-sdk): sdk.operatorframework.io vs github.com
+- `ophcrack` (homebrew/formula -> ophcrack): ophcrack.sourceforge.io vs ophcrack.sourceforge.net
+- `ophcrack` (macports/port -> ophcrack): ophcrack.sourceforge.io vs ophcrack.sourceforge.net
+- `ophcrack` (fink/package -> ophcrack): ophcrack.sourceforge.net vs ophcrack.sourceforge.io
+- `opkssh` (homebrew/formula -> opkssh): eprint.iacr.org vs github.com
+- `oq` (homebrew/formula -> oq): blacksmoke16.github.io vs github.com
+- `orbit` (homebrew/cask -> orbit): orbitformac.com vs gnome.org
+- `orbit2` (macports/port -> orbit2): gnome.org vs labs.redhat.com
+- `orbit2` (fink/package -> orbit2): labs.redhat.com vs gnome.org
+- `orca` (homebrew/cask -> orca): github.com vs projects.gnome.org
+- `orca` (macports/port -> orca): 100r.co vs projects.gnome.org
+- `orca` (fink/package -> orca): projects.gnome.org vs 100r.co
+- `oregano` (macports/port -> oregano): github.com vs oregano.gforge.lug.fi.uba.ar
+- `oregano` (fink/package -> oregano): oregano.gforge.lug.fi.uba.ar vs github.com
+- `ormolu` (homebrew/formula -> ormolu): ormolu-live.tweag.io vs github.com
+- `ortep3` (macports/port -> ortep3): ornl-ndav.github.io vs ornl.gov
+- `ortep3` (fink/package -> ortep3): ornl.gov vs ornl-ndav.github.io
+- `ortp` (homebrew/formula -> ortp): linphone.org vs github.com
+- `osc` (homebrew/formula -> osc): openbuildservice.org vs en.opensuse.org
+- `osh` (macports/port -> osh): macports.org vs v6shell.org
+- `osm-gps-map` (homebrew/formula -> osm-gps-map): github.com vs nzjrs.github.io
+- `osmosis` (homebrew/formula -> osmosis): wiki.openstreetmap.org vs github.com
+- `othello` (macports/port -> othello): web.archive.org vs david.weekly.org
+- `othello` (fink/package -> othello): david.weekly.org vs web.archive.org
+- `ouch` (homebrew/formula -> ouch): github.com vs crates.io
+- `outguess` (homebrew/cask -> outguess): rbcafe.com vs github.com
+- `ov` (homebrew/formula -> ov): noborus.github.io vs github.com
+- `p11-kit` (homebrew/formula -> p11-kit): p11-glue.github.io vs github.com
+- `p7zip` (homebrew/formula -> p7zip): github.com vs p7zip.sourceforge.net
+- `p7zip` (homebrew/formula -> p7zip): github.com vs p7zip.sourceforge.net
+- `pacparser` (homebrew/formula -> pacparser): github.com vs pacparser.manugarg.com
+- `pacparser` (homebrew/formula -> pacparser): github.com vs code.google.com
+- `pacparser` (macports/port -> pacparser): pacparser.manugarg.com vs code.google.com
+- `pacparser` (fink/package -> pacparser): code.google.com vs pacparser.manugarg.com
+- `paintbrush` (homebrew/cask -> Paintbrush): paintbrush.sourceforge.io vs paintbrush.sourceforge.net
+- `pan` (homebrew/formula -> pan): gitlab.gnome.org vs pan.rebelbase.com
+- `pandoc` (homebrew/formula -> pandoc): pandoc.org vs johnmacfarlane.net
+- `pandoc` (macports/port -> pandoc): pandoc.org vs johnmacfarlane.net
+- `pandoc` (fink/package -> pandoc): johnmacfarlane.net vs pandoc.org
+- `pango` (homebrew/formula -> pango): gtk.org vs pango.org
+- `pangolin` (homebrew/cask -> Pangolin): pangolin.net vs github.com
+- `pangomm` (homebrew/formula -> pangomm): gtk.org vs gtkmm.org
+- `papilo` (homebrew/formula -> papilo): scipopt.org vs github.com
+- `par` (homebrew/formula -> par): nicemice.net vs parchive.sourceforge.net
+- `par` (macports/port -> par): nicemice.net vs parchive.sourceforge.net
+- `par` (fink/package -> par): parchive.sourceforge.net vs nicemice.net
+- `par2` (homebrew/formula -> par2): parchive.github.io vs github.com
+- `par2` (homebrew/formula -> par2): parchive.github.io vs parchive.sourceforge.net
+- `par2` (macports/port -> par2): github.com vs parchive.sourceforge.net
+- `par2` (fink/package -> par2): parchive.sourceforge.net vs github.com
+- `parallel` (homebrew/formula -> parallel): savannah.gnu.org vs gnu.org
+- `parallel` (homebrew/formula -> parallel): savannah.gnu.org vs gnu.org
+- `partio` (homebrew/formula -> partio): disneyanimation.com vs partio.us
+- `pascal-p5` (macports/port -> pascal-p5): standardpascal.org vs standardpascal.com
+- `pascal-p5` (fink/package -> pascal-p5): standardpascal.com vs standardpascal.org
+- `pasdoc` (macports/port -> pasdoc): pasdoc.github.io vs pasdoc.sipsolutions.net
+- `pasdoc` (fink/package -> pasdoc): pasdoc.sipsolutions.net vs pasdoc.github.io
+- `pasdoc-gui` (macports/port -> pasdoc-gui): pasdoc.github.io vs pasdoc.sipsolutions.net
+- `pasdoc-gui` (fink/package -> pasdoc-gui): pasdoc.sipsolutions.net vs pasdoc.github.io
+- `pass-import` (homebrew/formula -> pass-import): passwordstore.org vs github.com
+- `pastebinit` (homebrew/formula -> pastebinit): github.com vs stgraber.org
+- `pbzip2` (homebrew/formula -> pbzip2): compression.great-site.net vs compression.ca
+- `pbzip2` (homebrew/formula -> pbzip2): compression.great-site.net vs compression.ca
+- `pcb` (homebrew/formula -> pcb): pcb.geda-project.org vs pcb.sourceforge.net
+- `pcb` (macports/port -> pcb): pcb.geda-project.org vs pcb.sourceforge.net
+- `pcb` (fink/package -> pcb): pcb.sourceforge.net vs pcb.geda-project.org
+- `pci-ids` (fink/package -> pciids): pciids.sourceforge.net vs pci-ids.ucw.cz
+- `pciids` (macports/port -> pci-ids): pci-ids.ucw.cz vs pciids.sourceforge.net
+- `pciutils` (homebrew/formula -> pciutils): github.com vs mj.ucw.cz
+- `pcsc-lite` (homebrew/formula -> pcsc-lite): pcsclite.apdu.fr vs alioth.debian.org
+- `pdb2pqr` (macports/port -> pdb2pqr): github.com vs pdb2pqr.sourceforge.net
+- `pdb2pqr` (fink/package -> pdb2pqr): pdb2pqr.sourceforge.net vs github.com
+- `pdfcpu` (homebrew/formula -> pdfcpu): pdfcpu.io vs github.com
+- `pdfjam` (macports/port -> pdfjam): github.com vs warwick.ac.uk
+- `pdfjam` (fink/package -> pdfjam): warwick.ac.uk vs github.com
+- `pdfposter` (macports/port -> pdfposter): pdfposter.readthedocs.io vs gitorious.org
+- `pdfposter` (fink/package -> pdfposter): gitorious.org vs pdfposter.readthedocs.io
+- `pdftk` (macports/port -> pdftk): macports.org vs pdfhacks.com
+- `pdsh` (homebrew/formula -> pdsh): github.com vs sourceforge.net
+- `pdsh` (macports/port -> pdsh): github.com vs sourceforge.net
+- `pdsh` (fink/package -> pdsh): sourceforge.net vs github.com
+- `pear` (homebrew/formula -> PEAR): docs.pears.com vs exelixis-lab.org
+- `peco` (homebrew/formula -> peco): github.com vs peco.github.io
+- `petsc` (homebrew/formula -> petsc): petsc.org vs mcs.anl.gov
+- `pftp` (macports/port -> pftp): pftp.sourceforge.net vs pftpmew.tanesha.net
+- `pftp` (fink/package -> pftp): pftpmew.tanesha.net vs pftp.sourceforge.net
+- `pgf` (macports/port -> pgf): macports.org vs latex-beamer.sourceforge.net
+- `pgformatter` (homebrew/formula -> pgFormatter): sqlformat.darold.net vs github.com
+- `pgroll` (homebrew/formula -> pgroll): pgroll.com vs xata.io
+- `phantom` (homebrew/formula -> phantom): github.com vs vanheusden.com
+- `php5` (macports/port -> php5): macports.org vs php.net
+- `phpunit` (homebrew/formula -> php-unit): phpunit.de vs github.com
+- `pianobar` (homebrew/formula -> pianobar): 6xq.net vs github.com
+- `pianobar` (macports/port -> pianobar): github.com vs 6xq.net
+- `pianobar` (fink/package -> pianobar): 6xq.net vs github.com
+- `picocom` (homebrew/formula -> picocom): github.com vs gitlab.com
+- `picocom` (homebrew/formula -> picocom): github.com vs code.google.com
+- `picocom` (macports/port -> picocom): gitlab.com vs code.google.com
+- `picocom` (fink/package -> picocom): code.google.com vs gitlab.com
+- `pika` (homebrew/cask -> pika): superhighfives.com vs github.com
+- `pinfo` (homebrew/formula -> pinfo): packages.debian.org vs github.com
+- `pinfo` (homebrew/formula -> pinfo): packages.debian.org vs pinfo.alioth.debian.org
+- `pinfo` (macports/port -> pinfo): github.com vs pinfo.alioth.debian.org
+- `pinfo` (fink/package -> pinfo): pinfo.alioth.debian.org vs github.com
+- `pipenv` (homebrew/formula -> pipenv): github.com vs pipenv.pypa.io
+- `pipx` (homebrew/formula -> pipx): pipx.pypa.io vs github.com
+- `pixie` (homebrew/formula -> pixie): px.dev vs pixie.sourceforge.net
+- `pkgconfig` (macports/port -> pkgconfig): pkg-config.freedesktop.org vs gnome.org
+- `pkgconfig` (fink/package -> pkgconfig): gnome.org vs pkg-config.freedesktop.org
+- `pkl` (homebrew/formula -> pkl): pkl-lang.org vs github.com
+- `planner` (macports/port -> planner): wiki.gnome.org vs live.gnome.org
+- `planner` (fink/package -> planner): live.gnome.org vs wiki.gnome.org
+- `pms` (homebrew/formula -> pms): kimtore.github.io vs pms.sourceforge.net
+- `pmw` (macports/port -> pmw): philiphazel.github.io vs pmw.sourceforge.net
+- `pmw` (fink/package -> pmw): pmw.sourceforge.net vs philiphazel.github.io
+- `png2ico` (homebrew/formula -> png2ico): freshports.org vs winterdrache.de
+- `png2ico` (homebrew/formula -> png2ico): freshports.org vs winterdrache.de
+- `pngcheck` (homebrew/formula -> pngcheck): github.com vs libpng.org
+- `pngcrush` (homebrew/formula -> pngcrush): pmt.sourceforge.io vs pmt.sourceforge.net
+- `pngcrush` (homebrew/formula -> pngcrush): pmt.sourceforge.io vs pmt.sourceforge.net
+- `po4a` (homebrew/formula -> po4a): po4a.org vs po4a.alioth.debian.org
+- `po4a` (macports/port -> po4a): po4a.org vs po4a.alioth.debian.org
+- `po4a` (fink/package -> po4a): po4a.alioth.debian.org vs po4a.org
+- `podman` (homebrew/formula -> podman): podman.io vs github.com
+- `podofo` (homebrew/formula -> podofo): github.com vs podofo.sourceforge.net
+- `podofo` (macports/port -> podofo): github.com vs podofo.sourceforge.net
+- `podofo` (fink/package -> podofo): podofo.sourceforge.net vs github.com
+- `poi` (homebrew/cask -> poi): poi.moe vs poi.apache.org
+- `poi` (homebrew/cask -> poi): poi.moe vs jakarta.apache.org
+- `poi` (macports/port -> poi): poi.apache.org vs jakarta.apache.org
+- `poi` (fink/package -> poi): jakarta.apache.org vs poi.apache.org
+- `popt` (homebrew/formula -> popt): github.com vs openhub.net
+- `portmidi` (homebrew/formula -> portmidi): github.com vs portmedia.sourceforge.net
+- `portmidi` (macports/port -> portmidi): github.com vs portmedia.sourceforge.net
+- `portmidi` (fink/package -> portmidi): portmedia.sourceforge.net vs github.com
+- `poster` (homebrew/formula -> poster): schrfr.github.io vs blogs.kde.org
+- `powershell` (homebrew/formula -> powershell): github.com vs microsoft.com
+- `ppl` (homebrew/formula -> ppl): bugseng.com vs cs.unipr.it
+- `ppl` (macports/port -> ppl): bugseng.com vs cs.unipr.it
+- `ppl` (fink/package -> ppl): cs.unipr.it vs bugseng.com
+- `pre-commit` (homebrew/formula -> pre-commit): pre-commit.com vs github.com
+- `presenterm` (homebrew/formula -> presenterm): mfontanini.github.io vs github.com
+- `primesieve` (homebrew/formula -> primesieve): github.com vs primesieve.org
+- `prips` (homebrew/formula -> prips): devel.ringlet.net vs gitlab.com
+- `procmail` (homebrew/formula -> procmail): github.com vs procmail.org
+- `procmail` (macports/port -> procmail): github.com vs procmail.org
+- `procmail` (fink/package -> procmail): procmail.org vs github.com
+- `proctools` (homebrew/formula -> proctools): proctools.sourceforge.net vs sourceforge.net
+- `proctools` (macports/port -> proctools): sourceforge.net vs proctools.sourceforge.net
+- `proctools` (fink/package -> proctools): proctools.sourceforge.net vs sourceforge.net
+- `proguard` (homebrew/formula -> proguard): guardsquare.com vs proguard.sourceforge.net
+- `proguard` (macports/port -> proguard): guardsquare.com vs proguard.sourceforge.net
+- `proguard` (fink/package -> proguard): proguard.sourceforge.net vs guardsquare.com
+- `proj` (homebrew/formula -> proj): proj.org vs remotesensing.org
+- `proj` (macports/port -> proj): proj.org vs remotesensing.org
+- `proj` (fink/package -> proj): remotesensing.org vs proj.org
+- `proof-general` (homebrew/formula -> ProofGeneral): proofgeneral.github.io vs proofgeneral.inf.ed.ac.uk
+- `proof-general` (homebrew/formula -> proofgeneral): proofgeneral.github.io vs proofgeneral.inf.ed.ac.uk
+- `proselint` (homebrew/formula -> proselint): github.com vs proselint.com
+- `protobuf` (homebrew/formula -> protobuf): protobuf.dev vs code.google.com
+- `protobuf` (macports/port -> protobuf): protobuf.dev vs code.google.com
+- `protobuf` (fink/package -> protobuf): code.google.com vs protobuf.dev
+- `protobuf-c` (homebrew/formula -> protobuf-c): github.com vs code.google.com
+- `protobuf-c` (macports/port -> protobuf-c): github.com vs code.google.com
+- `protobuf-c` (fink/package -> protobuf-c): code.google.com vs github.com
+- `proxify` (homebrew/formula -> proxify): projectdiscovery.io vs github.com
+- `proxytunnel` (homebrew/formula -> proxytunnel): github.com vs proxytunnel.sourceforge.net
+- `ps2eps` (homebrew/formula -> ps2eps): github.com vs ctan.org
+- `ps2eps` (homebrew/formula -> ps2eps): github.com vs tm.uka.de
+- `ps2eps` (macports/port -> ps2eps): ctan.org vs tm.uka.de
+- `ps2eps` (fink/package -> ps2eps): tm.uka.de vs ctan.org
+- `pstree` (homebrew/formula -> pstree): github.com vs thp.uni-duisburg.de
+- `pstree` (macports/port -> pstree): github.com vs thp.uni-duisburg.de
+- `pstree` (fink/package -> pstree): thp.uni-duisburg.de vs github.com
+- `psutils` (homebrew/formula -> psutils): github.com vs knackered.org
+- `psutils` (homebrew/formula -> psutils): github.com vs dcs.ed.ac.uk
+- `psutils` (macports/port -> psutils): knackered.org vs dcs.ed.ac.uk
+- `psutils` (fink/package -> psutils): dcs.ed.ac.uk vs knackered.org
+- `ptex` (homebrew/formula -> ptex): ptex.us vs github.com
+- `pugixml` (homebrew/formula -> pugixml): pugixml.org vs github.com
+- `pulseaudio` (homebrew/formula -> pulseaudio): wiki.freedesktop.org vs freedesktop.org
+- `pup` (homebrew/formula -> pup): datadoghq.com vs github.com
+- `pure` (homebrew/formula -> pure): github.com vs agraef.github.io
+- `putty` (homebrew/formula -> putty): putty.software vs chiark.greenend.org.uk
+- `pv` (homebrew/formula -> pv): ivarch.com vs pipeviewer.sf.net
+- `pv` (macports/port -> pv): ivarch.com vs pipeviewer.sf.net
+- `pv` (fink/package -> pv): pipeviewer.sf.net vs ivarch.com
+- `pwgen` (homebrew/formula -> pwgen): pwgen.sourceforge.net vs github.com
+- `pwgen` (homebrew/formula -> pwgen): pwgen.sourceforge.net vs sourceforge.net
+- `pwgen` (macports/port -> pwgen): github.com vs sourceforge.net
+- `pwgen` (fink/package -> pwgen): sourceforge.net vs github.com
+- `pwsafe` (homebrew/formula -> pwsafe): github.com vs nsd.dyndns.org
+- `py3c` (macports/port -> py3c): py3c.readthedocs.io vs github.com
+- `py3c` (fink/package -> py3c): github.com vs py3c.readthedocs.io
+- `pycodestyle` (homebrew/formula -> py-codestyle): pycodestyle.pycqa.org vs pycodestyle.readthedocs.io
+- `pygobject3` (homebrew/formula -> py-gobject3): pygobject.gnome.org vs pygobject.readthedocs.io
+- `pyinstaller` (homebrew/formula -> py-installer): pyinstaller.org vs installer.readthedocs.io
+- `pymol` (homebrew/formula -> pymol): pymol.org vs pymol.sourceforge.net
+- `pymol` (macports/port -> pymol): pymol.org vs pymol.sourceforge.net
+- `pymol` (fink/package -> pymol): pymol.sourceforge.net vs pymol.org
+- `pythia` (homebrew/formula -> pythia): pythia.org vs home.thep.lu.se
+- `q` (homebrew/formula -> q): github.com vs q-lang.sourceforge.net
+- `qalculate-gtk` (homebrew/formula -> qalculate-gtk): qalculate.github.io vs github.com
+- `qalculate-qt` (homebrew/formula -> qalculate-qt): qalculate.github.io vs github.com
+- `qbs` (homebrew/formula -> qbs): wiki.qt.io vs qbs.io
+- `qca` (homebrew/formula -> qca): userbase.kde.org vs delta.affinix.com
+- `qca` (macports/port -> qca): userbase.kde.org vs delta.affinix.com
+- `qca` (fink/package -> qca): delta.affinix.com vs userbase.kde.org
+- `qcachegrind` (homebrew/formula -> qcachegrind): apps.kde.org vs kcachegrind.github.io
+- `qdbm` (homebrew/formula -> qdbm): dbmx.net vs fallabs.com
+- `qemu` (homebrew/formula -> qemu): qemu.org vs wiki.qemu.org
+- `qemu` (macports/port -> qemu): qemu.org vs wiki.qemu.org
+- `qemu` (fink/package -> qemu): wiki.qemu.org vs qemu.org
+- `qepcad` (macports/port -> qepcad): github.com vs usna.edu
+- `qepcad` (fink/package -> qepcad): usna.edu vs github.com
+- `qgit` (macports/port -> qgit): github.com vs digilander.libero.it
+- `qgit` (fink/package -> qgit): digilander.libero.it vs github.com
+- `qhull` (homebrew/formula -> qhull): qhull.org vs thesa.com
+- `qhull` (macports/port -> qhull): qhull.org vs thesa.com
+- `qhull` (fink/package -> qhull): thesa.com vs qhull.org
+- `qjackctl` (homebrew/formula -> qjackctl): qjackctl.sourceforge.io vs qjackctl.sourceforge.net
+- `qlstephen` (homebrew/cask -> QLStephen): whomwah.github.io vs github.com
+- `qodem` (homebrew/formula -> qodem): qodem.sourceforge.io vs qodem.sourceforge.net
+- `qpdf` (homebrew/formula -> qpdf): qpdf.sourceforge.io vs qpdf.sourceforge.net
+- `qrtool` (homebrew/formula -> qrtool): sorairolake.github.io vs github.com
+- `qrupdate` (homebrew/formula -> qrupdate): gitlab.mpi-magdeburg.mpg.de vs sourceforge.net
+- `qscintilla` (macports/port -> qscintilla): riverbankcomputing.com vs riverbankcomputing.co.uk
+- `qscintilla` (fink/package -> qscintilla): riverbankcomputing.co.uk vs riverbankcomputing.com
+- `qstat` (homebrew/formula -> qstat): github.com vs sourceforge.net
+- `qt3` (macports/port -> qt3): qt.io vs trolltech.com
+- `qt3` (fink/package -> qt3): trolltech.com vs qt.io
+- `qt3-mac` (macports/port -> qt3mac): qt.io vs trolltech.com
+- `qt3mac` (fink/package -> qt3-mac): trolltech.com vs qt.io
+- `qt4-mac` (macports/port -> qt4-mac): qt.io vs trolltech.com
+- `qt4-mac` (fink/package -> qt4-mac): trolltech.com vs qt.io
+- `qt4pas` (macports/port -> qt4pas): wiki.lazarus.freepascal.org vs users.telenet.be
+- `qt4pas` (fink/package -> qt4pas): users.telenet.be vs wiki.lazarus.freepascal.org
+- `qtiplot` (macports/port -> qtiplot): qtiplot.com vs soft.proindependent.com
+- `qtiplot` (fink/package -> qtiplot): soft.proindependent.com vs qtiplot.com
+- `qtplay` (macports/port -> qtplay): web.archive.org vs rainbowflight.googlepages.com
+- `qtplay` (fink/package -> qtplay): rainbowflight.googlepages.com vs web.archive.org
+- `quartz-wm` (homebrew/formula -> quartz-wm): gitlab.freedesktop.org vs xquartz.org
+- `quesoglc` (macports/port -> quesoglc): quesoglc.sourceforge.net vs sourceforge.net
+- `quesoglc` (fink/package -> quesoglc): sourceforge.net vs quesoglc.sourceforge.net
+- `quodlibet` (homebrew/cask -> quodlibet): quodlibet.readthedocs.io vs github.com
+- `quotatool` (homebrew/formula -> quotatool): quotatool.ekenberg.se vs github.com
+- `qwt` (homebrew/formula -> qwt): qwt.sourceforge.io vs qwt.sourceforge.net
+- `qwt-qt5` (homebrew/formula -> qwt-qt5): qwt.sourceforge.io vs qwt.sourceforge.net
+- `qxmledit` (homebrew/cask -> qxmledit): qxmledit.org vs code.google.com
+- `qxmpp` (homebrew/formula -> qxmpp): invent.kde.org vs github.com
+- `r-app` (homebrew/cask -> R-app): r-project.org vs r.research.att.com
+- `radlib` (macports/port -> radlib): web.archive.org vs radlib.teel.ws
+- `radlib` (fink/package -> radlib): radlib.teel.ws vs web.archive.org
+- `radvd` (homebrew/formula -> radvd): radvd.litech.org vs litech.org
+- `rage` (homebrew/formula -> rage): str4d.xyz vs github.com
+- `ranger` (homebrew/formula -> ranger): ranger.github.io vs ranger.fm
+- `rasmol` (macports/port -> rasmol): rasmol.org vs openrasmol.org
+- `rasmol` (fink/package -> rasmol): openrasmol.org vs rasmol.org
+- `rats` (homebrew/formula -> rats): security.web.cern.ch vs code.google.com
+- `ratty` (homebrew/formula -> ratty): ratty-term.org vs github.com
+- `rbenv` (homebrew/formula -> rbenv): rbenv.org vs github.com
+- `rc` (macports/port -> rc): tobold.org vs rc-shell.slackmatic.org
+- `rc` (fink/package -> rc): rc-shell.slackmatic.org vs tobold.org
+- `rdate` (homebrew/formula -> R-date): aelius.com vs cran.r-project.org
+- `rdiff-backup` (homebrew/formula -> rdiff-backup): rdiff-backup.net vs nongnu.org
+- `rdiff-backup` (macports/port -> rdiff-backup): rdiff-backup.net vs nongnu.org
+- `rdiff-backup` (fink/package -> rdiff-backup): nongnu.org vs rdiff-backup.net
+- `re2c` (homebrew/formula -> re2c): re2c.org vs re2c.sourceforge.net
+- `re2c` (macports/port -> re2c): re2c.org vs re2c.sourceforge.net
+- `re2c` (fink/package -> re2c): re2c.sourceforge.net vs re2c.org
+- `readline` (homebrew/formula -> readline): tiswww.case.edu vs cnswww.cns.cwru.edu
+- `readline` (macports/port -> readline): tiswww.case.edu vs cnswww.cns.cwru.edu
+- `readline` (fink/package -> readline): cnswww.cns.cwru.edu vs tiswww.case.edu
+- `rebar3` (homebrew/formula -> rebar3): rebar3.org vs github.com
+- `recode` (homebrew/formula -> recode): github.com vs iro.umontreal.ca
+- `recode` (macports/port -> recode): github.com vs iro.umontreal.ca
+- `recode` (fink/package -> recode): iro.umontreal.ca vs github.com
+- `redir` (homebrew/formula -> redir): github.com vs sammy.net
+- `redo` (homebrew/formula -> redo): redo.rtfd.io vs apenwarr.ca
+- `reflex` (homebrew/formula -> reflex): github.com vs invisible-island.net
+- `retroarch` (homebrew/cask -> retroarch): retroarch.com vs github.com
+- `rex` (homebrew/formula -> rex): rexify.org vs metacpan.org
+- `rhino` (homebrew/formula -> rhino): mozilla.github.io vs mozilla.org
+- `rhino` (homebrew/formula -> rhino): mozilla.github.io vs mozilla.org
+- `rio` (homebrew/cask -> rio): github.com vs rioterm.com
+- `rke` (homebrew/formula -> rke): rke.docs.rancher.com vs github.com
+- `rlog` (homebrew/formula -> rlog): github.com vs arg0.net
+- `rlog` (homebrew/formula -> rlog): github.com vs arg0.net
+- `rlwrap` (homebrew/formula -> rlwrap): github.com vs utopia.knoware.nl
+- `rlwrap` (macports/port -> rlwrap): github.com vs utopia.knoware.nl
+- `rlwrap` (fink/package -> rlwrap): utopia.knoware.nl vs github.com
+- `rmagic` (fink/package -> R-magic): reportmagic.org vs github.com
+- `rmlint` (homebrew/formula -> rmlint): rmlint.readthedocs.io vs rmlint.rtfd.org
+- `rmtrash` (homebrew/formula -> rmtrash): github.com vs web.archive.org
+- `rnnoise` (homebrew/cask -> rnnoise): github.com vs jmvalin.ca
+- `rnp` (homebrew/formula -> R-np): rnpgp.org vs github.com
+- `roadrunner` (homebrew/formula -> roadrunner): docs.roadrunner.dev vs web.archive.org
+- `robodoc` (homebrew/formula -> robodoc): rfsber.home.xs4all.nl vs xs4all.nl
+- `robodoc` (homebrew/formula -> robodoc): rfsber.home.xs4all.nl vs xs4all.nl
+- `rofi` (homebrew/formula -> rofi): davatorium.github.io vs github.com
+- `rogue` (homebrew/formula -> rogue): sourceforge.net vs rogue.rogueforge.net
+- `rpg-cli` (homebrew/formula -> rpg-cli): olano.dev vs github.com
+- `rpl` (homebrew/formula -> rpl): github.com vs laffeycomputer.com
+- `rpl` (homebrew/formula -> rpl): github.com vs laffeycomputer.com
+- `rpm2cpio` (homebrew/formula -> rpm2cpio): svnweb.freebsd.org vs rpm.org
+- `rrdtool` (homebrew/formula -> rrdtool): oss.oetiker.ch vs people.ee.ethz.ch
+- `rrdtool` (macports/port -> rrdtool): oss.oetiker.ch vs people.ee.ethz.ch
+- `rrdtool` (fink/package -> rrdtool): people.ee.ethz.ch vs oss.oetiker.ch
+- `rsql` (homebrew/formula -> R-SQL): theseus-rs.github.io vs cran.r-project.org
+- `rtaudio` (homebrew/formula -> rtaudio): github.com vs music.mcgill.ca
+- `rtf2latex2e` (homebrew/formula -> rtf2latex2e): rtf2latex2e.sourceforge.net vs sourceforge.net
+- `rtf2latex2e` (macports/port -> rtf2latex2e): rtf2latex2e.sourceforge.net vs sourceforge.net
+- `rtf2latex2e` (fink/package -> rtf2latex2e): sourceforge.net vs rtf2latex2e.sourceforge.net
+- `rtptools` (homebrew/formula -> rtptools): github.com vs cs.columbia.edu
+- `rttr` (homebrew/formula -> R-TTR): rttr.org vs github.com
+- `rubber` (macports/port -> rubber): gitlab.com vs launchpad.net
+- `rubber` (fink/package -> rubber): launchpad.net vs gitlab.com
+- `ruby-build` (homebrew/formula -> ruby-build): rbenv.org vs github.com
+- `ruff` (homebrew/formula -> ruff): docs.astral.sh vs astral.sh
+- `run` (homebrew/formula -> run): github.com vs run.esubalew.et
+- `rune` (homebrew/formula -> rune): rune-rs.github.io vs github.com
+- `rush` (homebrew/formula -> rush): gnu.org.ua vs github.com
+- `rustic` (homebrew/formula -> rustic): rustic.cli.rs vs github.com
+- `rustup` (homebrew/formula -> rustup): rust-lang.github.io vs github.com
+- `rxvt` (macports/port -> rxvt): rxvt.sourceforge.net vs rxvt.org
+- `rxvt` (fink/package -> rxvt): rxvt.org vs rxvt.sourceforge.net
+- `rye` (homebrew/formula -> rye): rye.astral.sh vs rye-up.com
+- `s-lang` (homebrew/formula -> slang): jedsoft.org vs s-lang.org
+- `s-lang` (homebrew/formula -> slang): jedsoft.org vs space.mit.edu
+- `s2geometry` (homebrew/formula -> s2geometry): github.com vs s2geometry.io
+- `saga` (macports/port -> saga): saga-gis.sourceforge.io vs qgis.org
+- `saga` (fink/package -> saga): qgis.org vs saga-gis.sourceforge.io
+- `sakura` (homebrew/cask -> sakura): natfrp.com vs pleyades.net
+- `sakura` (macports/port -> sakura): launchpad.net vs pleyades.net
+- `sakura` (fink/package -> sakura): pleyades.net vs launchpad.net
+- `salt` (homebrew/cask -> salt): saltproject.io vs saltstack.com
+- `samtools` (homebrew/formula -> samtools): htslib.org vs samtools.sourceforge.net
+- `samtools` (macports/port -> samtools): htslib.org vs samtools.sourceforge.net
+- `samtools` (fink/package -> samtools): samtools.sourceforge.net vs htslib.org
+- `sawfish` (macports/port -> sawfish): sawfish.tuxfamily.org vs sawmill.sourceforge.net
+- `sawfish` (fink/package -> sawfish): sawmill.sourceforge.net vs sawfish.tuxfamily.org
+- `saxon` (homebrew/formula -> saxon): github.com vs saxon.sourceforge.net
+- `saxon` (homebrew/formula -> saxon): github.com vs saxon.sourceforge.net
+- `scamper` (homebrew/formula -> scamper): caida.org vs wand.net.nz
+- `scamper` (macports/port -> scamper): caida.org vs wand.net.nz
+- `scamper` (fink/package -> scamper): wand.net.nz vs caida.org
+- `scdoc` (homebrew/formula -> scdoc): sr.ht vs git.sr.ht
+- `schism-tracker` (homebrew/cask -> schismtracker): github.com vs schismtracker.org
+- `schism-tracker` (homebrew/cask -> schismtracker): github.com vs schismtracker.org
+- `schroedinger` (homebrew/formula -> schroedinger): launchpad.net vs diracvideo.org
+- `scilab` (homebrew/cask -> scilab): scilab.org vs www-rocq.inria.fr
+- `scribus` (homebrew/cask -> scribus): scribus.net vs web2.altmuehlnet.de
+- `scribus` (macports/port -> scribus): scribus.net vs web2.altmuehlnet.de
+- `scribus` (fink/package -> scribus): web2.altmuehlnet.de vs scribus.net
+- `scsh` (macports/port -> scsh): scsh.net vs scsh.sourceforge.net
+- `scsh` (fink/package -> scsh): scsh.sourceforge.net vs scsh.net
+- `scummvm-tools` (homebrew/formula -> scummvm-tools): scummvm.org vs scummvm.sourceforge.net
+- `sdl12-compat` (homebrew/formula -> sdl12-compat): github.com vs libsdl.org
+- `seahorse` (macports/port -> seahorse): wiki.gnome.org vs seahorse.sourceforge.net
+- `seahorse` (fink/package -> seahorse): seahorse.sourceforge.net vs wiki.gnome.org
+- `seamonkey` (homebrew/cask -> seamonkey): seamonkey-project.org vs mozilla.org
+- `semgrep` (homebrew/formula -> semgrep): semgrep.dev vs github.com
+- `senpai` (homebrew/formula -> senpai): sr.ht vs git.sr.ht
+- `sextractor` (homebrew/formula -> sextractor): astromatic.net vs astromatic.iap.fr
+- `sfcgal` (homebrew/formula -> sfcgal): sfcgal.gitlab.io vs sfcgal.org
+- `shadowsocks-rust` (homebrew/formula -> shadowsocks-rust): shadowsocks.org vs github.com
+- `shared-desktop-ontologies` (macports/port -> shared-desktop-ontologies): oscaf.sourceforge.net vs sourceforge.net
+- `shared-desktop-ontologies` (fink/package -> shared-desktop-ontologies): sourceforge.net vs oscaf.sourceforge.net
+- `shared-mime-info` (homebrew/formula -> shared-mime-info): wiki.freedesktop.org vs freedesktop.org
+- `shared-mime-info` (homebrew/formula -> shared-mime-info): wiki.freedesktop.org vs gnome.org
+- `shared-mime-info` (macports/port -> shared-mime-info): freedesktop.org vs gnome.org
+- `shared-mime-info` (fink/package -> shared-mime-info): gnome.org vs freedesktop.org
+- `shc` (homebrew/formula -> shc): neurobin.github.io vs github.com
+- `shellcheck` (homebrew/formula -> shellcheck): shellcheck.net vs github.com
+- `shmux` (homebrew/formula -> shmux): github.com vs web.taranis.org
+- `shmux` (macports/port -> shmux): github.com vs web.taranis.org
+- `shmux` (fink/package -> shmux): web.taranis.org vs github.com
+- `shntool` (homebrew/formula -> shntool): shnutils.freeshell.org vs etree.org
+- `shntool` (homebrew/formula -> shntool): shnutils.freeshell.org vs etree.org
+- `sidplay` (fink/package -> SIDPLAY): geocities.com vs sidmusic.org
+- `sigil` (homebrew/cask -> sigil): sigil-ebook.com vs github.com
+- `silo` (homebrew/cask -> silo): nevercenter.com vs wci.llnl.gov
+- `simde` (homebrew/formula -> simde): simd-everywhere.github.io vs github.com
+- `simdutf` (homebrew/formula -> simdutf): simdutf.github.io vs github.com
+- `sitecopy` (macports/port -> sitecopy): manyfish.co.uk vs lyra.org
+- `sitecopy` (fink/package -> sitecopy): lyra.org vs manyfish.co.uk
+- `sketch` (homebrew/cask -> sketch): sketch.com vs sketch4latex.sourceforge.net
+- `skhd` (macports/port -> skhd): github.com vs koekeishiya.github.io
+- `skhd` (fink/package -> skhd): koekeishiya.github.io vs github.com
+- `skim` (homebrew/cask -> skim): skim-app.sourceforge.io vs github.com
+- `sl` (homebrew/formula -> sl): github.com vs home.hiroshima-u.ac.jp
+- `sl` (macports/port -> sl): github.com vs home.hiroshima-u.ac.jp
+- `sl` (fink/package -> sl): home.hiroshima-u.ac.jp vs github.com
+- `slang` (macports/port -> slang): s-lang.org vs space.mit.edu
+- `slang` (fink/package -> slang): space.mit.edu vs s-lang.org
+- `slib` (macports/port -> slib): people.csail.mit.edu vs www-swiss.ai.mit.edu
+- `slib` (fink/package -> slib): www-swiss.ai.mit.edu vs people.csail.mit.edu
+- `slrn` (homebrew/formula -> slrn): slrn.info vs slrn.sourceforge.net
+- `slrn` (homebrew/formula -> slrn): slrn.info vs slrn.sourceforge.net
+- `slurm` (homebrew/formula -> slurm): github.com vs wormulon.net
+- `slurm` (macports/port -> slurm): github.com vs wormulon.net
+- `slurm` (fink/package -> slurm): wormulon.net vs github.com
+- `smake` (homebrew/formula -> smake): codeberg.org vs sourceforge.net
+- `smake` (macports/port -> smake): codeberg.org vs sourceforge.net
+- `smake` (fink/package -> smake): sourceforge.net vs codeberg.org
+- `smartmontools` (homebrew/formula -> smartmontools): smartmontools.org vs smartmontools.sourceforge.net
+- `smartmontools` (macports/port -> smartmontools): smartmontools.org vs smartmontools.sourceforge.net
+- `smartmontools` (fink/package -> smartmontools): smartmontools.sourceforge.net vs smartmontools.org
+- `smpeg` (homebrew/formula -> smpeg): icculus.org vs lokigames.com
+- `smpeg` (macports/port -> smpeg): icculus.org vs lokigames.com
+- `smpeg` (fink/package -> smpeg): lokigames.com vs icculus.org
+- `smpeg2` (homebrew/formula -> smpeg2): icculus.org vs lokigames.com
+- `smultron` (homebrew/cask -> Smultron): peterborgapps.com vs smultron.sourceforge.net
+- `snes9x` (homebrew/cask -> snes9x): snes9x.com vs snes9x.ipherswipsite.com
+- `sniffnet` (homebrew/formula -> sniffnet): sniffnet.net vs sniffnet.app
+- `snownews` (homebrew/formula -> snownews): sourceforge.net vs kiza.kcore.de
+- `snownews` (macports/port -> snownews): sourceforge.net vs kiza.kcore.de
+- `snownews` (fink/package -> snownews): kiza.kcore.de vs sourceforge.net
+- `socket` (macports/port -> socket): jnickelsen.de vs de.freebsd.org
+- `socket` (fink/package -> socket): de.freebsd.org vs jnickelsen.de
+- `socnetv` (macports/port -> socnetv): socnetv.org vs socnetv.sourceforge.net
+- `socnetv` (fink/package -> socnetv): socnetv.sourceforge.net vs socnetv.org
+- `solfege` (macports/port -> solfege): gnu.org vs solfege.org
+- `solfege` (fink/package -> solfege): solfege.org vs gnu.org
+- `solid` (homebrew/formula -> solid): github.com vs dtecta.com
+- `sops` (homebrew/formula -> sops): getsops.io vs github.com
+- `sound-touch` (homebrew/formula -> soundtouch): surina.net vs codeberg.org
+- `soundtouch` (macports/port -> soundtouch): codeberg.org vs surina.net
+- `soundtouch` (fink/package -> soundtouch): surina.net vs codeberg.org
+- `spamprobe` (macports/port -> spamprobe): sourceforge.net vs spamprobe.sourceforge.net
+- `spamprobe` (fink/package -> spamprobe): spamprobe.sourceforge.net vs sourceforge.net
+- `spark` (homebrew/formula -> spark): zachholman.com vs github.com
+- `spglib` (homebrew/formula -> spglib): spglib.readthedocs.io vs spglib.github.io
+- `spidermonkey` (homebrew/formula -> spidermonkey): spidermonkey.dev vs developer.mozilla.org
+- `spidermonkey` (homebrew/formula -> spidermonkey): spidermonkey.dev vs mozilla.org
+- `spidermonkey` (macports/port -> spidermonkey): developer.mozilla.org vs mozilla.org
+- `spidermonkey` (fink/package -> spidermonkey): mozilla.org vs developer.mozilla.org
+- `spim` (homebrew/formula -> spim): spimsimulator.sourceforge.net vs pages.cs.wisc.edu
+- `spim` (macports/port -> spim): spimsimulator.sourceforge.net vs pages.cs.wisc.edu
+- `spim` (fink/package -> spim): pages.cs.wisc.edu vs spimsimulator.sourceforge.net
+- `spirv-headers` (homebrew/formula -> spirv-headers): github.com vs vulkan.lunarg.com
+- `spirv-tools` (homebrew/formula -> spirv-tools): github.com vs vulkan.lunarg.com
+- `spot` (homebrew/formula -> spot): spot.lre.epita.fr vs spot.lrde.epita.fr
+- `sqlitecpp` (homebrew/formula -> sqlitecpp): srombauts.github.io vs github.com
+- `srt` (homebrew/formula -> srt): srtalliance.org vs github.com
+- `ssed` (homebrew/formula -> ssed): packages.debian.org vs sed.sourceforge.net
+- `ssed` (homebrew/formula -> ssed): packages.debian.org vs sed.sourceforge.net
+- `ssh-copy-id` (homebrew/formula -> ssh-copy-id): openssh.com vs openbsd.org
+- `ssh3` (homebrew/formula -> ssh3): arxiv.org vs github.com
+- `sshfs` (homebrew/formula -> sshfs): github.com vs fuse.sourceforge.net
+- `sshfs` (macports/port -> sshfs): github.com vs fuse.sourceforge.net
+- `sshfs` (fink/package -> sshfs): fuse.sourceforge.net vs github.com
+- `sshuttle` (homebrew/formula -> sshuttle): github.com vs sshuttle.readthedocs.io
+- `ssldump` (homebrew/formula -> ssldump): adulau.github.io vs ssldump.sourceforge.net
+- `ssss` (homebrew/formula -> ssss): point-at-infinity.org vs github.com
+- `sstp-client` (homebrew/formula -> sstp-client): gitlab.com vs sstp-client.sourceforge.net
+- `stanc3` (homebrew/formula -> stanc3): github.com vs mc-stan.org
+- `star` (homebrew/formula -> star): codeberg.org vs cdrecord.berlios.de
+- `star` (macports/port -> star): codeberg.org vs cdrecord.berlios.de
+- `star` (fink/package -> star): cdrecord.berlios.de vs codeberg.org
+- `stardict` (macports/port -> stardict): stardict-4.sourceforge.net vs stardict.sourceforge.net
+- `stardict` (fink/package -> stardict): stardict.sourceforge.net vs stardict-4.sourceforge.net
+- `startup-notification` (homebrew/formula -> startup-notification): freedesktop.org vs gnome.org
+- `startup-notification` (macports/port -> startup-notification): freedesktop.org vs gnome.org
+- `startup-notification` (fink/package -> startup-notification): gnome.org vs freedesktop.org
+- `staticcheck` (homebrew/formula -> staticcheck): staticcheck.dev vs staticcheck.io
+- `stella` (homebrew/formula -> stella): stella-emu.github.io vs stella.sourceforge.net
+- `stellarium` (homebrew/cask -> stellarium): stellarium.org vs stellarium.free.fr
+- `stellarium` (macports/port -> stellarium): stellarium.org vs stellarium.free.fr
+- `stellarium` (fink/package -> stellarium): stellarium.free.fr vs stellarium.org
+- `step` (homebrew/formula -> step): smallstep.com vs kde.org
+- `stgit` (homebrew/formula -> stgit): stacked-git.github.io vs gna.org
+- `stgit` (macports/port -> stgit): stacked-git.github.io vs gna.org
+- `stgit` (fink/package -> stgit): gna.org vs stacked-git.github.io
+- `stiff` (macports/port -> stiff): astromatic.net vs astromatic.iap.fr
+- `stiff` (fink/package -> stiff): astromatic.iap.fr vs astromatic.net
+- `stone` (homebrew/formula -> stone): gcd.org vs sourceforge.jp
+- `stow` (homebrew/formula -> stow): gnu.org vs metacpan.org
+- `stow` (macports/port -> stow): metacpan.org vs gnu.org
+- `stow` (fink/package -> stow): gnu.org vs metacpan.org
+- `stress-ng` (homebrew/formula -> stress-ng): wiki.ubuntu.com vs github.com
+- `stripe-cli` (homebrew/formula -> stripe-cli): docs.stripe.com vs stripe.com
+- `subsurface` (homebrew/cask -> subsurface): subsurface-divelog.org vs subsurface.hohndel.org
+- `suite-sparse` (homebrew/formula -> suitesparse): people.engr.tamu.edu vs cise.ufl.edu
+- `suitesparse` (fink/package -> SuiteSparse): cise.ufl.edu vs people.engr.tamu.edu
+- `sunclock` (macports/port -> sunclock): web.archive.org vs frmas.free.fr
+- `sunclock` (fink/package -> sunclock): frmas.free.fr vs web.archive.org
+- `sundials` (homebrew/formula -> sundials): computing.llnl.gov vs computation.llnl.gov
+- `sundials` (macports/port -> sundials): macports.org vs computation.llnl.gov
+- `sunwait` (macports/port -> sunwait): github.com vs risacher.org
+- `sunwait` (fink/package -> sunwait): risacher.org vs github.com
+- `superfile` (homebrew/formula -> superfile): superfile.dev vs github.com
+- `supertuxkart` (homebrew/cask -> supertuxkart): supertuxkart.net vs supertuxkart.sourceforge.net
+- `supertuxkart` (macports/port -> supertuxkart): supertuxkart.net vs supertuxkart.sourceforge.net
+- `supertuxkart` (fink/package -> supertuxkart): supertuxkart.sourceforge.net vs supertuxkart.net
+- `surf` (macports/port -> surf): surf.suckless.org vs surf.sourceforge.net
+- `surf` (fink/package -> surf): surf.sourceforge.net vs surf.suckless.org
+- `surfer` (homebrew/formula -> surfer): surfer-project.org vs imaginary2008.de
+- `surfraw` (homebrew/formula -> surfraw): gitlab.com vs surfraw.sourceforge.net
+- `surfraw` (macports/port -> surfraw): gitlab.com vs surfraw.sourceforge.net
+- `surfraw` (fink/package -> surfraw): surfraw.sourceforge.net vs gitlab.com
+- `swftools` (homebrew/formula -> swftools): github.com vs swftools.org
+- `swish-e` (macports/port -> swish-e): web.archive.org vs swish-e.org
+- `swish-e` (fink/package -> swish-e): swish-e.org vs web.archive.org
+- `syck` (macports/port -> syck): github.com vs whytheluckystiff.net
+- `syck` (fink/package -> syck): whytheluckystiff.net vs github.com
+- `symengine` (homebrew/formula -> symengine): sympy.org vs github.com
+- `synergy` (macports/port -> synergy): symless.com vs synergy2.sourceforge.net
+- `synergy` (fink/package -> synergy): synergy2.sourceforge.net vs symless.com
+- `sysdig` (homebrew/formula -> sysdig): sysdig.com vs sysdig.org
+- `szip` (macports/port -> szip): docs.hdfgroup.org vs hdfgroup.org
+- `szip` (fink/package -> szip): hdfgroup.org vs docs.hdfgroup.org
+- `t-rec` (homebrew/formula -> t-rec): github.com vs crates.io
+- `taglib` (homebrew/formula -> taglib): taglib.org vs ktown.kde.org
+- `taglib` (macports/port -> taglib): taglib.org vs ktown.kde.org
+- `taglib` (fink/package -> taglib): ktown.kde.org vs taglib.org
+- `taglib-sharp` (macports/port -> taglib-sharp): banshee.fm vs taglib-sharp.com
+- `taglib-sharp` (fink/package -> taglib-sharp): taglib-sharp.com vs banshee.fm
+- `tailor` (homebrew/formula -> tailor): sleekbyte.github.io vs wiki.darcs.net
+- `taktuk` (homebrew/formula -> taktuk): taktuk.gitlabpages.inria.fr vs taktuk.gforge.inria.fr
+- `taskopen` (homebrew/formula -> taskopen): codeberg.org vs github.com
+- `tasksh` (homebrew/formula -> tasksh): github.com vs gothenburgbitfactory.org
+- `taskwarrior-tui` (homebrew/formula -> taskwarrior-tui): kdheepak.com vs github.com
+- `tbb` (homebrew/formula -> tbb): uxlfoundation.github.io vs threadingbuildingblocks.org
+- `tcl-tk` (homebrew/formula -> tcltk): tcl-lang.org vs tcl.activestate.com
+- `tcllib` (macports/port -> tcllib): tcllib.sf.net vs tcllib.sourceforge.net
+- `tcllib` (fink/package -> tcllib): tcllib.sourceforge.net vs tcllib.sf.net
+- `tcpflow` (homebrew/formula -> tcpflow): github.com vs circlemud.org
+- `tcpflow` (macports/port -> tcpflow): github.com vs circlemud.org
+- `tcpflow` (fink/package -> tcpflow): circlemud.org vs github.com
+- `tcping` (homebrew/formula -> tcping): github.com vs vanheusden.com
+- `tcpkali` (homebrew/formula -> tcpkali): web.archive.org vs github.com
+- `tcpreplay` (homebrew/formula -> tcpreplay): tcpreplay.appneta.com vs tcpreplay.sourceforge.net
+- `tcpreplay` (macports/port -> tcpreplay): tcpreplay.appneta.com vs tcpreplay.sourceforge.net
+- `tcpreplay` (fink/package -> tcpreplay): tcpreplay.sourceforge.net vs tcpreplay.appneta.com
+- `tcptrace` (macports/port -> tcptrace): tcptrace.org vs jarok.cs.ohiou.edu
+- `tcptrace` (fink/package -> tcptrace): jarok.cs.ohiou.edu vs tcptrace.org
+- `tcptraceroute` (homebrew/formula -> tcptraceroute): github.com vs michael.toren.net
+- `tcptraceroute` (macports/port -> tcptraceroute): github.com vs michael.toren.net
+- `tcptraceroute` (fink/package -> tcptraceroute): michael.toren.net vs github.com
+- `tcsh` (homebrew/formula -> tcsh): tcsh.org vs dubois.ws
+- `tcsh` (macports/port -> tcsh): tcsh.org vs dubois.ws
+- `tcsh` (fink/package -> tcsh): dubois.ws vs tcsh.org
+- `tea` (homebrew/formula -> tea): gitea.com vs tea.ourproject.org
+- `tea` (homebrew/formula -> tea): gitea.com vs tea-editor.sourceforge.net
+- `tea` (macports/port -> tea): tea.ourproject.org vs tea-editor.sourceforge.net
+- `tea` (fink/package -> tea): tea-editor.sourceforge.net vs tea.ourproject.org
+- `teg` (macports/port -> teg): github.com vs sourceforge.net
+- `teg` (fink/package -> teg): sourceforge.net vs github.com
+- `telegraf` (homebrew/formula -> telegraf): influxdata.com vs docs.influxdata.com
+- `teleport` (homebrew/formula -> teleport): goteleport.com vs gravitational.com
+- `tellico` (macports/port -> tellico): tellico-project.org vs periapsis.org
+- `tellico` (fink/package -> tellico): periapsis.org vs tellico-project.org
+- `tempo` (macports/port -> tempo): tempo.sourceforge.net vs code.google.com
+- `tempo` (fink/package -> tempo): code.google.com vs tempo.sourceforge.net
+- `tenfourfox` (macports/port -> tenfourfox): github.com vs tenfourfox.com
+- `tenfourfox` (fink/package -> tenfourfox): tenfourfox.com vs github.com
+- `termcolor` (homebrew/formula -> termcolor): termcolor.readthedocs.io vs github.com
+- `terminator` (homebrew/formula -> terminator): gnome-terminator.org vs gnometerminator.blogspot.com
+- `terminator` (homebrew/formula -> terminator): gnome-terminator.org vs tenshu.net
+- `terminator` (macports/port -> terminator): gnometerminator.blogspot.com vs tenshu.net
+- `terminator` (fink/package -> terminator): tenshu.net vs gnometerminator.blogspot.com
+- `termscp` (homebrew/formula -> termscp): termscp.rs vs termscp.veeso.dev
+- `terraform` (macports/port -> terraform): terraform.io vs terraform.sourceforge.net
+- `terrascan` (homebrew/formula -> terrascan): runterrascan.io vs docs.accurics.com
+- `tesseract` (homebrew/formula -> tesseract): tesseract-ocr.github.io vs github.com
+- `tesseract` (homebrew/formula -> tesseract): tesseract-ocr.github.io vs code.google.com
+- `tesseract` (macports/port -> tesseract): github.com vs code.google.com
+- `tesseract` (fink/package -> tesseract): code.google.com vs github.com
+- `tetgen` (macports/port -> tetgen): wias-berlin.de vs tetgen.berlios.de
+- `tetgen` (fink/package -> tetgen): tetgen.berlios.de vs wias-berlin.de
+- `texi2html` (homebrew/formula -> texi2html): nongnu.org vs mathematik.uni-kl.de
+- `texi2html` (macports/port -> texi2html): nongnu.org vs mathematik.uni-kl.de
+- `texi2html` (fink/package -> texi2html): mathematik.uni-kl.de vs nongnu.org
+- `texshop` (homebrew/cask -> texshop): pages.uoregon.edu vs uoregon.edu
+- `texshop` (fink/package -> TeXShop): uoregon.edu vs pages.uoregon.edu
+- `texworks` (homebrew/cask -> texworks): tug.org vs github.com
+- `tf` (macports/port -> tf): tinyfugue.sourceforge.net vs tf.tcp.com
+- `tf` (fink/package -> tf): tf.tcp.com vs tinyfugue.sourceforge.net
+- `tfsec` (homebrew/formula -> tfsec): aquasecurity.github.io vs github.com
+- `tgif` (homebrew/formula -> tgif): sourceforge.net vs bourbon.usc.edu
+- `tgif` (homebrew/formula -> tgif): sourceforge.net vs bourbon.usc.edu
+- `tidy` (macports/port -> tidy): html-tidy.org vs tidy.sourceforge.net
+- `tidy` (fink/package -> tidy): tidy.sourceforge.net vs html-tidy.org
+- `tig` (homebrew/formula -> tig): jonas.github.io vs jonas.nitro.dk
+- `tig` (macports/port -> tig): jonas.github.io vs jonas.nitro.dk
+- `tig` (fink/package -> tig): jonas.nitro.dk vs jonas.github.io
+- `time-out` (homebrew/cask -> timeout): dejal.com vs porcupine.org
+- `tinyca2` (macports/port -> tinyca2): salsa.debian.org vs tinyca.sm-zone.net
+- `tinyca2` (fink/package -> tinyca2): tinyca.sm-zone.net vs salsa.debian.org
+- `tinyproxy` (homebrew/formula -> tinyproxy): tinyproxy.github.io vs banu.com
+- `tinyproxy` (macports/port -> tinyproxy): tinyproxy.github.io vs banu.com
+- `tinyproxy` (fink/package -> tinyproxy): banu.com vs tinyproxy.github.io
+- `tinyxml2` (homebrew/formula -> tinyxml2): leethomason.github.io vs github.com
+- `tkcvs` (macports/port -> tkcvs): tkcvs.sourceforge.io vs twobarleycorns.net
+- `tkcvs` (fink/package -> tkcvs): twobarleycorns.net vs tkcvs.sourceforge.io
+- `tkdiff` (homebrew/formula -> tkdiff): tkdiff.sourceforge.io vs tkdiff.sourceforge.net
+- `tklib` (macports/port -> tklib): core.tcl-lang.org vs tcllib.sourceforge.net
+- `tklib` (fink/package -> tklib): tcllib.sourceforge.net vs core.tcl-lang.org
+- `tl-expected` (homebrew/formula -> tl-expected): tl.tartanllama.xyz vs github.com
+- `tlrc` (homebrew/formula -> tlrc): tldr.sh vs github.com
+- `tlswrap` (macports/port -> tlswrap): tlswrap.com vs tlswrap.sunsite.dk
+- `tlswrap` (fink/package -> tlswrap): tlswrap.sunsite.dk vs tlswrap.com
+- `tmate` (homebrew/formula -> tmate): tmate.io vs github.com
+- `tmpreaper` (homebrew/formula -> tmpreaper): packages.debian.org vs tracker.debian.org
+- `tmux` (homebrew/formula -> tmux): tmux.github.io vs tmux.sourceforge.net
+- `tmux` (macports/port -> tmux): tmux.github.io vs tmux.sourceforge.net
+- `tmux` (fink/package -> tmux): tmux.sourceforge.net vs tmux.github.io
+- `tnef` (homebrew/formula -> tnef): github.com vs tnef.sourceforge.net
+- `tnftp` (homebrew/formula -> tnftp): cdn.netbsd.org vs ftp.netbsd.org
+- `tnftp` (homebrew/formula -> tnftp): cdn.netbsd.org vs ftp.netbsd.org
+- `tnftpd` (homebrew/formula -> tnftpd): cdn.netbsd.org vs ftp.netbsd.org
+- `tofrodos` (homebrew/formula -> tofrodos): github.com vs thefreecountry.com
+- `toilet` (homebrew/formula -> toilet): caca.zoy.org vs libcaca.zoy.org
+- `toilet` (macports/port -> toilet): libcaca.zoy.org vs caca.zoy.org
+- `toilet` (fink/package -> toilet): caca.zoy.org vs libcaca.zoy.org
+- `tokyo-cabinet` (homebrew/formula -> tokyocabinet): dbmx.net vs fallabs.com
+- `tokyo-cabinet` (homebrew/formula -> tokyocabinet): dbmx.net vs tokyocabinet.sourceforge.net
+- `tokyocabinet` (macports/port -> tokyocabinet): fallabs.com vs tokyocabinet.sourceforge.net
+- `tokyocabinet` (fink/package -> tokyocabinet): tokyocabinet.sourceforge.net vs fallabs.com
+- `tombi` (homebrew/formula -> tombi): github.com vs tombi-toml.github.io
+- `topgrade` (homebrew/formula -> topgrade): github.com vs topgrade-rs.github.io
+- `tophat` (macports/port -> tophat): ccb.jhu.edu vs tophat.cbcb.umd.edu
+- `tophat` (fink/package -> tophat): tophat.cbcb.umd.edu vs ccb.jhu.edu
+- `torsocks` (homebrew/formula -> torsocks): gitlab.torproject.org vs gitweb.torproject.org
+- `torsocks` (macports/port -> torsocks): gitlab.torproject.org vs gitweb.torproject.org
+- `torsocks` (fink/package -> torsocks): gitweb.torproject.org vs gitlab.torproject.org
+- `tortoisehg` (homebrew/cask -> tortoisehg): tortoisehg.bitbucket.io vs foss.heptapod.net
+- `totem` (macports/port -> totem): wiki.gnome.org vs gnome.org
+- `totem` (fink/package -> totem): gnome.org vs wiki.gnome.org
+- `totp-cli` (homebrew/formula -> totp-cli): yitsushi.github.io vs github.com
+- `tradcpp` (homebrew/formula -> tradcpp): netbsd.org vs ftp.netbsd.org
+- `tradcpp` (homebrew/formula -> tradcpp): netbsd.org vs ftp.netbsd.org
+- `traefik` (homebrew/formula -> traefik): traefik.io vs github.com
+- `transcode` (macports/port -> transcode): packages.gentoo.org vs transcoding.org
+- `transcode` (fink/package -> transcode): transcoding.org vs packages.gentoo.org
+- `translate-toolkit` (homebrew/formula -> translate-toolkit): toolkit.translatehouse.org vs translate.sourceforge.net
+- `translate-toolkit` (macports/port -> translate-toolkit): toolkit.translatehouse.org vs translate.sourceforge.net
+- `translate-toolkit` (fink/package -> translate-toolkit): translate.sourceforge.net vs toolkit.translatehouse.org
+- `trash` (homebrew/formula -> trash): hasseg.org vs github.com
+- `trdsql` (homebrew/formula -> trdsql): noborus.github.io vs github.com
+- `tre` (homebrew/formula -> tre): github.com vs laurikari.net
+- `tre` (homebrew/formula -> tre): github.com vs laurikari.net
+- `tree` (homebrew/formula -> tree): oldmanprogrammer.net vs mama.indstate.edu
+- `tree` (macports/port -> tree): oldmanprogrammer.net vs mama.indstate.edu
+- `tree` (fink/package -> tree): mama.indstate.edu vs oldmanprogrammer.net
+- `treecc` (homebrew/formula -> treecc): gnu.org vs southern-storm.com.au
+- `treecc` (macports/port -> treecc): gnu.org vs southern-storm.com.au
+- `treecc` (fink/package -> treecc): southern-storm.com.au vs gnu.org
+- `treeline` (macports/port -> treeline): treeline.bellz.org vs pdb.finkproject.org
+- `treeline` (fink/package -> treeline): pdb.finkproject.org vs treeline.bellz.org
+- `trex` (homebrew/cask -> t-rex): github.com vs t-rex.tileserver.ch
+- `triangle` (homebrew/formula -> triangle): github.com vs cs.cmu.edu
+- `triangle` (homebrew/formula -> triangle): github.com vs www-2.cs.cmu.edu
+- `triangle` (macports/port -> triangle): cs.cmu.edu vs www-2.cs.cmu.edu
+- `triangle` (fink/package -> triangle): www-2.cs.cmu.edu vs cs.cmu.edu
+- `trivy` (homebrew/formula -> trivy): trivy.dev vs github.com
+- `trojan-go` (homebrew/formula -> trojan-go): p4gefau1t.github.io vs github.com
+- `trufflehog` (homebrew/formula -> trufflehog): trufflesecurity.com vs github.com
+- `tsung` (homebrew/formula -> tsung): github.com vs tsung.erlang-projects.org
+- `ttf2eot` (homebrew/formula -> ttf2eot): github.com vs code.google.com
+- `ttf2eot` (macports/port -> ttf2eot): github.com vs code.google.com
+- `ttf2eot` (fink/package -> ttf2eot): code.google.com vs github.com
+- `tth` (homebrew/formula -> tth): silas.psfc.mit.edu vs hutchinson.belmont.ma.us
+- `tth` (homebrew/formula -> tth): silas.psfc.mit.edu vs hutchinson.belmont.ma.us
+- `ttyrec` (homebrew/formula -> ttyrec): 0xcc.net vs namazu.org
+- `ttyrec` (macports/port -> ttyrec): 0xcc.net vs namazu.org
+- `ttyrec` (fink/package -> ttyrec): namazu.org vs 0xcc.net
+- `tuist` (homebrew/cask -> tuist): tuist.io vs github.com
+- `turbovnc-viewer` (homebrew/cask -> turbovnc-viewer): turbovnc.org vs github.com
+- `tweak` (homebrew/formula -> tweak): chiark.greenend.org.uk vs smileaf.org
+- `twine` (homebrew/formula -> twine): github.com vs twine.readthedocs.io
+- `twm` (homebrew/formula -> twm): gitlab.freedesktop.org vs x.org
+- `two-lame` (homebrew/formula -> twolame): twolame.org vs twolame.sourceforge.net
+- `twolame` (macports/port -> twolame): twolame.sourceforge.net vs twolame.org
+- `twolame` (fink/package -> twolame): twolame.org vs twolame.sourceforge.net
+- `txt2man` (homebrew/formula -> txt2man): github.com vs mvertes.free.fr
+- `txt2man` (macports/port -> txt2man): github.com vs mvertes.free.fr
+- `txt2man` (fink/package -> txt2man): mvertes.free.fr vs github.com
+- `u-boot-tools` (homebrew/formula -> uboot-tools): denx.de vs github.com
+- `ubertooth` (homebrew/formula -> ubertooth): greatscottgadgets.com vs ubertooth.readthedocs.io
+- `ucblogo` (macports/port -> ucblogo): people.eecs.berkeley.edu vs http.cs.berkeley.edu
+- `ucblogo` (fink/package -> ucblogo): http.cs.berkeley.edu vs people.eecs.berkeley.edu
+- `udis86` (homebrew/formula -> udis86): sourceforge.net vs udis86.sourceforge.net
+- `udptunnel` (homebrew/formula -> udptunnel): cs.columbia.edu vs www1.cs.columbia.edu
+- `udunits` (homebrew/formula -> udunits): docs.unidata.ucar.edu vs unidata.ucar.edu
+- `udunits` (homebrew/formula -> udunits): docs.unidata.ucar.edu vs unidata.ucar.edu
+- `ugrep` (homebrew/formula -> ugrep): ugrep.com vs github.com
+- `uhd` (homebrew/formula -> uhd): files.ettus.com vs kb.ettus.com
+- `uisp` (macports/port -> uisp): nongnu.org vs savannah.nongnu.org
+- `uisp` (fink/package -> uisp): savannah.nongnu.org vs nongnu.org
+- `unalz` (macports/port -> unalz): kippler.com vs kipple.pe.kr
+- `unalz` (fink/package -> unalz): kipple.pe.kr vs kippler.com
+- `unbound` (homebrew/formula -> unbound): unbound.net vs nlnetlabs.nl
+- `unbound` (macports/port -> unbound): nlnetlabs.nl vs unbound.net
+- `unbound` (fink/package -> unbound): unbound.net vs nlnetlabs.nl
+- `unclutter` (homebrew/cask -> unclutter): unclutterapp.com vs ibiblio.org
+- `unifdef` (homebrew/formula -> unifdef): dotat.at vs freshmeat.net
+- `unifdef` (macports/port -> unifdef): dotat.at vs freshmeat.net
+- `unifdef` (fink/package -> unifdef): freshmeat.net vs dotat.at
+- `unisonlang` (homebrew/formula -> unison-lang): unison-lang.org vs unisonweb.org
+- `unp` (homebrew/formula -> unp): tracker.debian.org vs salsa.debian.org
+- `unpaper` (homebrew/formula -> unpaper): flameeyes.com vs flameeyes.eu
+- `unshield` (homebrew/formula -> unshield): github.com vs synce.sourceforge.net
+- `unshield` (macports/port -> unshield): github.com vs synce.sourceforge.net
+- `unshield` (fink/package -> unshield): synce.sourceforge.net vs github.com
+- `unzip` (homebrew/formula -> unzip): infozip.sourceforge.net vs info-zip.org
+- `unzip` (macports/port -> unzip): infozip.sourceforge.net vs info-zip.org
+- `unzip` (fink/package -> unzip): info-zip.org vs infozip.sourceforge.net
+- `unzoo` (macports/port -> unzoo): freecode.com vs archives.math.utk.edu
+- `unzoo` (fink/package -> unzoo): archives.math.utk.edu vs freecode.com
+- `uptimed` (homebrew/formula -> uptimed): github.com vs unixcode.org
+- `uptimed` (macports/port -> uptimed): github.com vs unixcode.org
+- `uptimed` (fink/package -> uptimed): unixcode.org vs github.com
+- `urlview` (homebrew/formula -> urlview): packages.debian.org vs mutt.org
+- `urlview` (macports/port -> urlview): packages.debian.org vs mutt.org
+- `urlview` (fink/package -> urlview): mutt.org vs packages.debian.org
+- `urw-fonts` (macports/port -> urw-fonts): ftp.gnome.ru vs ghostscript.com
+- `urw-fonts` (fink/package -> urw-fonts): ghostscript.com vs ftp.gnome.ru
+- `usbmuxd` (macports/port -> usbmuxd): github.com vs libimobiledevice.org
+- `usbmuxd` (fink/package -> usbmuxd): libimobiledevice.org vs github.com
+- `usbutils` (homebrew/formula -> usbutils): linux-usb.org vs linux-usb.sourceforge.net
+- `ushare` (macports/port -> ushare): macports.org vs ushare.geexbox.org
+- `ushare` (fink/package -> ushare): ushare.geexbox.org vs macports.org
+- `util-macros` (homebrew/formula -> util-macros): x.org vs cgit.freedesktop.org
+- `uv` (homebrew/formula -> uv): docs.astral.sh vs github.com
+- `vala` (homebrew/formula -> vala): wiki.gnome.org vs vala.dev
+- `vala` (homebrew/formula -> vala): wiki.gnome.org vs live.gnome.org
+- `vala` (macports/port -> vala): vala.dev vs live.gnome.org
+- `vala` (fink/package -> vala): live.gnome.org vs vala.dev
+- `vale` (homebrew/formula -> vale): vale.sh vs github.com
+- `vampire` (homebrew/formula -> vampire): vprover.github.io vs github.com
+- `vapor` (homebrew/formula -> vapor): vapor.codes vs vapor.ucar.edu
+- `vapoursynth` (homebrew/formula -> vapoursynth): vapoursynth.com vs github.com
+- `varnish` (homebrew/formula -> varnish): varnish-cache.org vs varnish.projects.linpro.no
+- `varnish` (macports/port -> varnish): varnish-cache.org vs varnish.projects.linpro.no
+- `varnish` (fink/package -> varnish): varnish.projects.linpro.no vs varnish-cache.org
+- `vcdimager` (homebrew/formula -> vcdimager): gnu.org vs vcdimager.org
+- `vcdimager` (macports/port -> vcdimager): vcdimager.org vs gnu.org
+- `vcdimager` (fink/package -> vcdimager): gnu.org vs vcdimager.org
+- `vcftools` (homebrew/formula -> vcftools): vcftools.github.io vs vcftools.sourceforge.net
+- `vcftools` (macports/port -> vcftools): vcftools.github.io vs vcftools.sourceforge.net
+- `vcftools` (fink/package -> vcftools): vcftools.sourceforge.net vs vcftools.github.io
+- `vcs` (homebrew/formula -> vcs): web.archive.org vs p.outlyer.net
+- `vectorscan` (homebrew/formula -> vectorscan): github.com vs vectorcamp.gr
+- `veracrypt` (homebrew/cask -> VeraCrypt): veracrypt.io vs veracrypt.fr
+- `verilator` (homebrew/formula -> verilator): veripool.org vs github.com
+- `vice` (homebrew/formula -> vice): sourceforge.net vs viceteam.org
+- `vifm` (homebrew/formula -> vifm): vifm.info vs vifm.sourceforge.net
+- `vifm` (macports/port -> vifm): vifm.info vs vifm.sourceforge.net
+- `vifm` (fink/package -> vifm): vifm.sourceforge.net vs vifm.info
+- `vigra` (macports/port -> vigra): ukoethe.github.io vs kogs-www.informatik.uni-hamburg.de
+- `vigra` (fink/package -> vigra): kogs-www.informatik.uni-hamburg.de vs ukoethe.github.io
+- `viking` (macports/port -> viking): viking.sourceforge.net vs sourceforge.net
+- `viking` (fink/package -> viking): sourceforge.net vs viking.sourceforge.net
+- `vine-server` (homebrew/cask -> vineserver): github.com vs testplant.com
+- `vino` (macports/port -> vino): wiki.gnome.org vs gnome.org
+- `vino` (fink/package -> vino): gnome.org vs wiki.gnome.org
+- `vips` (homebrew/formula -> vips): github.com vs libvips.github.io
+- `vips` (homebrew/formula -> vips): github.com vs vips.ecs.soton.ac.uk
+- `vips` (macports/port -> vips): libvips.github.io vs vips.ecs.soton.ac.uk
+- `vips` (fink/package -> vips): vips.ecs.soton.ac.uk vs libvips.github.io
+- `vit` (homebrew/formula -> vit): github.com vs taskwarrior.org
+- `vnote` (homebrew/cask -> vnote): docs.vnote.fun vs vnotex.github.io
+- `vobcopy` (macports/port -> vobcopy): web.archive.org vs lpn.rnbhq.org
+- `vobcopy` (fink/package -> vobcopy): lpn.rnbhq.org vs web.archive.org
+- `volta` (homebrew/formula -> volta): volta.sh vs bitbucket.org
+- `vorbis-tools` (homebrew/formula -> vorbis-tools): github.com vs vorbis.com
+- `vorbis-tools` (homebrew/formula -> vorbis-tools): github.com vs xiph.org
+- `vorbis-tools` (macports/port -> vorbis-tools): vorbis.com vs xiph.org
+- `vorbis-tools` (fink/package -> vorbis-tools): xiph.org vs vorbis.com
+- `vowpal-wabbit` (homebrew/formula -> vowpal_wabbit): vowpalwabbit.org vs hunch.net
+- `vpcs` (homebrew/formula -> vpcs): vpcs.sourceforge.net vs wiki.freecode.com.cn
+- `vramsteg` (homebrew/formula -> vramsteg): gothenburgbitfactory.org vs tasktools.org
+- `vramsteg` (macports/port -> vramsteg): gothenburgbitfactory.org vs tasktools.org
+- `vramsteg` (fink/package -> vramsteg): tasktools.org vs gothenburgbitfactory.org
+- `vte` (macports/port -> vte): gitlab.gnome.org vs gnome.org
+- `vte` (fink/package -> vte): gnome.org vs gitlab.gnome.org
+- `vtwm` (macports/port -> vtwm): vtwm.org vs visi.com
+- `vtwm` (fink/package -> vtwm): visi.com vs vtwm.org
+- `vulkan-headers` (homebrew/formula -> vulkan-headers): vulkan.org vs vulkan.lunarg.com
+- `vulkan-loader` (homebrew/formula -> vulkan-loader): github.com vs vulkan.lunarg.com
+- `vulkan-tools` (homebrew/formula -> vulkan-tools): github.com vs vulkan.lunarg.com
+- `vulkan-utility-libraries` (homebrew/formula -> vulkan-utility-libraries): github.com vs vulkan.lunarg.com
+- `vulkan-validationlayers` (homebrew/formula -> vulkan-validationlayers): github.com vs vulkan.lunarg.com
+- `w-calc` (homebrew/formula -> wcalc): w-calc.sourceforge.net vs wcalc.sourceforge.net
+- `w3m` (homebrew/formula -> w3m): w3m.sourceforge.net vs github.com
+- `w3m` (macports/port -> w3m): github.com vs w3m.sourceforge.net
+- `w3m` (fink/package -> w3m): w3m.sourceforge.net vs github.com
+- `wally` (homebrew/formula -> wally): wally.run vs becrux.com
+- `wandio` (homebrew/formula -> wandio): github.com vs research.wand.net.nz
+- `waon` (homebrew/formula -> waon): kichiki.github.io vs waon.sourceforge.net
+- `wasm-component-ld` (homebrew/formula -> wasm-component-ld): wasi.dev vs github.com
+- `wasm-pack` (homebrew/formula -> wasm-pack): wasm-bindgen.github.io vs github.com
+- `wasm3` (homebrew/formula -> wasm3): twitter.com vs github.com
+- `watch` (homebrew/formula -> watch): gitlab.com vs procps.sourceforge.net
+- `watch` (macports/port -> watch): gitlab.com vs procps.sourceforge.net
+- `watch` (fink/package -> watch): procps.sourceforge.net vs gitlab.com
+- `watchman` (homebrew/formula -> watchman): facebook.github.io vs github.com
+- `watchman` (homebrew/formula -> watchman): facebook.github.io vs github.com
+- `watson` (homebrew/formula -> watson): jazzband.github.io vs tailordev.github.io
+- `wayland` (homebrew/formula -> wayland): wayland.freedesktop.org vs github.com
+- `wcalc` (macports/port -> wcalc): wcalc.sourceforge.net vs w-calc.sourceforge.net
+- `wcalc` (fink/package -> wcalc): w-calc.sourceforge.net vs wcalc.sourceforge.net
+- `websocketd` (homebrew/formula -> websocketd): websocketd.com vs github.com
+- `websocketpp` (homebrew/formula -> websocketpp): zaphoyd.com vs github.com
+- `weka` (homebrew/cask -> weka): ml.cms.waikato.ac.nz vs cs.waikato.ac.nz
+- `weka` (homebrew/cask -> weka): ml.cms.waikato.ac.nz vs cs.waikato.ac.nz
+- `wezterm` (homebrew/cask -> wezterm): wezterm.org vs wezfurlong.org
+- `when` (homebrew/formula -> when): lightandmatter.com vs github.com
+- `wine-stable` (homebrew/cask -> wine-stable): wiki.winehq.org vs winehq.org
+- `wine-stable` (homebrew/cask -> wine-stable): wiki.winehq.org vs winehq.org
+- `wine@devel` (homebrew/cask -> wine-devel): wiki.winehq.org vs winehq.org
+- `wine@staging` (homebrew/cask -> wine-staging): wiki.winehq.org vs winehq.org
+- `winetricks` (homebrew/formula -> winetricks): github.com vs winetricks.org
+- `winetricks` (homebrew/formula -> winetricks): github.com vs wiki.winehq.org
+- `winetricks` (macports/port -> winetricks): winetricks.org vs wiki.winehq.org
+- `winetricks` (fink/package -> winetricks): wiki.winehq.org vs winetricks.org
+- `wire` (homebrew/cask -> wire): wire.com vs wired.read-write.fr
+- `wmcalclock` (macports/port -> wmcalclock): jmpacquet.free.fr vs nis-www.lanl.gov
+- `wmcalclock` (fink/package -> wmcalclock): nis-www.lanl.gov vs jmpacquet.free.fr
+- `wmctrl` (homebrew/formula -> wmctrl): packages.debian.org vs sweb.cz
+- `wren-cli` (homebrew/formula -> wren-cli): github.com vs wren.io
+- `writerperfect` (homebrew/formula -> writerperfect): sourceforge.net vs libwpd.sourceforge.net
+- `wtf` (homebrew/formula -> wtf): sourceforge.net vs cvsweb.netbsd.org
+- `wwwoffle` (homebrew/formula -> wwwoffle): gedanken.org.uk vs gedanken.demon.co.uk
+- `wxlua` (homebrew/formula -> wxLua): github.com vs wxlua.sourceforge.net
+- `wxmaxima` (homebrew/formula -> wxMaxima): wxmaxima-developers.github.io vs github.com
+- `x265` (homebrew/formula -> x265): github.com vs videolan.org
+- `x2goclient` (homebrew/cask -> x2goclient): wiki.x2go.org vs x2go.org
+- `xaos` (homebrew/cask -> xaos): xaos-project.github.io vs gnu.org
+- `xaos` (macports/port -> xaos): xaos-project.github.io vs gnu.org
+- `xaos` (fink/package -> xaos): gnu.org vs xaos-project.github.io
+- `xar` (macports/port -> xar): github.com vs xar.googlecode.com
+- `xar` (fink/package -> xar): xar.googlecode.com vs github.com
+- `xaw3d` (fink/package -> Xaw3d): ftp.x.org vs x.org
+- `xbitmaps` (homebrew/formula -> xbitmaps): xcb.freedesktop.org vs x.org
+- `xboard` (homebrew/formula -> xboard): gnu.org vs tim-mann.org
+- `xboard` (macports/port -> xboard): gnu.org vs tim-mann.org
+- `xboard` (fink/package -> xboard): tim-mann.org vs gnu.org
+- `xchm` (macports/port -> xchm): github.com vs xchm.sourceforge.net
+- `xchm` (fink/package -> xchm): xchm.sourceforge.net vs github.com
+- `xclip` (homebrew/formula -> xclip): github.com vs sourceforge.net
+- `xclip` (macports/port -> xclip): github.com vs sourceforge.net
+- `xclip` (fink/package -> xclip): sourceforge.net vs github.com
+- `xcursorgen` (homebrew/formula -> xcursorgen): gitlab.freedesktop.org vs x.org
+- `xdelta` (homebrew/formula -> xdelta): github.com vs sourceforge.net
+- `xdelta` (macports/port -> xdelta): github.com vs sourceforge.net
+- `xdelta` (fink/package -> xdelta): sourceforge.net vs github.com
+- `xephem` (macports/port -> xephem): xephem.github.io vs clearskyinstitute.com
+- `xephem` (fink/package -> xephem): clearskyinstitute.com vs xephem.github.io
+- `xerces-c` (homebrew/formula -> xerces-c): xerces.apache.org vs xml.apache.org
+- `xerces-j` (fink/package -> xercesj): xml.apache.org vs xerces.apache.org
+- `xercesj` (macports/port -> xerces-j): xerces.apache.org vs xml.apache.org
+- `xeyes` (homebrew/formula -> xeyes): gitlab.freedesktop.org vs x.org
+- `xfce4-appfinder` (macports/port -> xfce4-appfinder): docs.xfce.org vs xfce.org
+- `xfce4-appfinder` (fink/package -> xfce4-appfinder): xfce.org vs docs.xfce.org
+- `xfce4-panel` (macports/port -> xfce4-panel): docs.xfce.org vs xfce.org
+- `xfce4-panel` (fink/package -> xfce4-panel): xfce.org vs docs.xfce.org
+- `xfig` (homebrew/formula -> xfig): mcj.sourceforge.net vs xfig.org
+- `xfig` (macports/port -> xfig): mcj.sourceforge.net vs xfig.org
+- `xfig` (fink/package -> xfig): xfig.org vs mcj.sourceforge.net
+- `xforms` (macports/port -> xforms): xforms-toolkit.org vs world.std.com
+- `xforms` (fink/package -> xforms): world.std.com vs xforms-toolkit.org
+- `xinit` (homebrew/formula -> xinit): gitlab.freedesktop.org vs x.org
+- `xinput` (homebrew/formula -> xinput): gitlab.freedesktop.org vs x.org
+- `xkeyboard-config` (homebrew/formula -> xkeyboard-config): freedesktop.org vs x.org
+- `xlispstat` (homebrew/formula -> xlispstat): homepage.stat.uiowa.edu vs stat.uiowa.edu
+- `xlsclients` (homebrew/formula -> xlsclients): gitlab.freedesktop.org vs x.org
+- `xml2` (macports/port -> xml2): dan.egnor.name vs ofb.net
+- `xml2` (fink/package -> xml2): ofb.net vs dan.egnor.name
+- `xml2rfc` (homebrew/formula -> xml2rfc): xml2rfc.tools.ietf.org vs github.com
+- `xmlindent` (macports/port -> xmlindent): xmlindent.sourceforge.net vs sourceforge.net
+- `xmlindent` (fink/package -> xmlindent): sourceforge.net vs xmlindent.sourceforge.net
+- `xmlrpc-c` (homebrew/formula -> xmlrpc-c): xmlrpc-c.sourceforge.io vs xmlrpc-c.sourceforge.net
+- `xmlto` (homebrew/formula -> xmlto): codeberg.org vs pagure.io
+- `xmlto` (homebrew/formula -> xmlto): codeberg.org vs cyberelk.net
+- `xmlto` (macports/port -> xmlto): pagure.io vs cyberelk.net
+- `xmlto` (fink/package -> xmlto): cyberelk.net vs pagure.io
+- `xmltv` (macports/port -> xmltv): xmltv.org vs membled.com
+- `xmltv` (fink/package -> xmltv): membled.com vs xmltv.org
+- `xmms2` (macports/port -> xmms2): github.com vs xmms2.org
+- `xmms2` (fink/package -> xmms2): xmms2.org vs github.com
+- `xmodmap` (homebrew/formula -> xmodmap): gitlab.freedesktop.org vs x.org
+- `xonsh` (homebrew/formula -> xonsh): xon.sh vs github.com
+- `xorg` (macports/port -> xorg): x.org vs xorg.freedesktop.org
+- `xorg` (fink/package -> xorg): xorg.freedesktop.org vs x.org
+- `xournal++` (homebrew/cask -> xournal): github.com vs xournal.sourceforge.net
+- `xournal++` (homebrew/cask -> xournal): github.com vs xournal.sourceforge.net
+- `xpad` (macports/port -> xpad): launchpad.net vs xpad.sourceforge.net
+- `xpad` (fink/package -> xpad): xpad.sourceforge.net vs launchpad.net
+- `xpdf` (homebrew/formula -> xpdf): xpdfreader.com vs foolabs.com
+- `xpdf` (macports/port -> xpdf): xpdfreader.com vs foolabs.com
+- `xpdf` (fink/package -> xpdf): foolabs.com vs xpdfreader.com
+- `xprop` (homebrew/formula -> xprop): gitlab.freedesktop.org vs x.org
+- `xrdb` (homebrew/formula -> xrdb): gitlab.freedesktop.org vs x.org
+- `xrg` (homebrew/cask -> xrg): gaucho.software vs gauchosoft.com
+- `xsane` (homebrew/formula -> xsane): gitlab.com vs openhub.net
+- `xscope` (homebrew/cask -> xscope): xscopeapp.com vs x.org
+- `xscorch` (macports/port -> xscorch): xscorch.org vs chaos2.org
+- `xscorch` (fink/package -> xscorch): chaos2.org vs xscorch.org
+- `xsel` (homebrew/formula -> xsel): vergenet.net vs kfish.org
+- `xtail` (macports/port -> xtail): web.archive.org vs unicom.com
+- `xtail` (fink/package -> xtail): unicom.com vs web.archive.org
+- `xwininfo` (homebrew/formula -> xwininfo): gitlab.freedesktop.org vs x.org
+- `xxdiff` (macports/port -> xxdiff): furius.ca vs xxdiff.sourceforge.net
+- `xxdiff` (fink/package -> xxdiff): xxdiff.sourceforge.net vs furius.ca
+- `xxhash` (homebrew/formula -> xxhash): xxhash.com vs github.com
+- `yafc` (homebrew/formula -> yafc): github.com vs yafc.sourceforge.net
+- `yafc` (macports/port -> yafc): github.com vs yafc.sourceforge.net
+- `yafc` (fink/package -> yafc): yafc.sourceforge.net vs github.com
+- `yap` (homebrew/formula -> yap): github.com vs dcc.fc.up.pt
+- `yap` (homebrew/formula -> yap): github.com vs yap.sourceforge.net
+- `yap` (macports/port -> yap): dcc.fc.up.pt vs yap.sourceforge.net
+- `yap` (fink/package -> yap): yap.sourceforge.net vs dcc.fc.up.pt
+- `yara` (homebrew/formula -> yara): virustotal.github.io vs github.com
+- `yaws` (homebrew/formula -> yaws): erlyaws.github.io vs yaws.hyber.org
+- `yaz` (homebrew/formula -> yaz): indexdata.com vs indexdata.dk
+- `yaz` (macports/port -> yaz): indexdata.com vs indexdata.dk
+- `yaz` (fink/package -> yaz): indexdata.dk vs indexdata.com
+- `yazpp` (homebrew/formula -> yazpp): indexdata.com vs ftp.indexdata.dk
+- `yazpp` (macports/port -> yazpp): indexdata.com vs ftp.indexdata.dk
+- `yazpp` (fink/package -> yazpp): ftp.indexdata.dk vs indexdata.com
+- `yelp` (macports/port -> yelp): wiki.gnome.org vs gnome.org
+- `yelp` (fink/package -> yelp): gnome.org vs wiki.gnome.org
+- `yelp-tools` (homebrew/formula -> yelp-tools): gitlab.gnome.org vs wiki.gnome.org
+- `yelp-xsl` (homebrew/formula -> yelp-xsl): gitlab.gnome.org vs wiki.gnome.org
+- `yorick` (macports/port -> yorick): software.llnl.gov vs ftp-icf.llnl.gov
+- `yorick` (fink/package -> yorick): ftp-icf.llnl.gov vs software.llnl.gov
+- `yorick-mpeg` (macports/port -> yorick-mpeg): github.com vs yorick.sourceforge.net
+- `yorick-mpeg` (fink/package -> yorick-mpeg): yorick.sourceforge.net vs github.com
+- `yorick-z` (macports/port -> yorick-z): maumae.net vs yorick.sourceforge.net
+- `yorick-z` (fink/package -> yorick-z): yorick.sourceforge.net vs maumae.net
+- `youtube-dl` (macports/port -> youtube-dl): ytdl-org.github.io vs rg3.github.com
+- `youtube-dl` (fink/package -> youtube-dl): rg3.github.com vs ytdl-org.github.io
+- `yq` (homebrew/formula -> yq): github.com vs mikefarah.gitbook.io
+- `ytalk` (macports/port -> ytalk): impul.se vs iagora.com
+- `ytalk` (fink/package -> ytalk): iagora.com vs impul.se
+- `yui-compressor` (fink/package -> yuicompressor): yuilibrary.com vs github.com
+- `yuicompressor` (homebrew/formula -> yuicompressor): yui.github.io vs github.com
+- `yuicompressor` (homebrew/formula -> yui-compressor): yui.github.io vs yuilibrary.com
+- `yuicompressor` (macports/port -> yui-compressor): github.com vs yuilibrary.com
+- `zbar` (homebrew/formula -> zbar): linuxtv.org vs github.com
+- `zbar` (homebrew/formula -> zbar): linuxtv.org vs zbar.sourceforge.net
+- `zbar` (macports/port -> zbar): github.com vs zbar.sourceforge.net
+- `zbar` (fink/package -> zbar): zbar.sourceforge.net vs github.com
+- `zebra` (homebrew/formula -> zebra): indexdata.com vs zebra.org
+- `zebra` (macports/port -> zebra): indexdata.com vs zebra.org
+- `zebra` (fink/package -> zebra): zebra.org vs indexdata.com
+- `zed` (homebrew/cask -> zed): zed.dev vs zed.brimdata.io
+- `zeitgeist` (homebrew/cask -> zeitgeist): zeitgeist.daneden.me vs zeitgeist.freedesktop.org
+- `zenity` (homebrew/formula -> zenity): gitlab.gnome.org vs wiki.gnome.org
+- `zenity` (homebrew/formula -> zenity): gitlab.gnome.org vs gnome.org
+- `zenity` (macports/port -> zenity): wiki.gnome.org vs gnome.org
+- `zenity` (fink/package -> zenity): gnome.org vs wiki.gnome.org
+- `zile` (homebrew/formula -> zile): gnu.org vs savannah.gnu.org
+- `zile` (macports/port -> zile): gnu.org vs savannah.gnu.org
+- `zile` (fink/package -> zile): savannah.gnu.org vs gnu.org
+- `zint` (homebrew/formula -> zint): zint.org.uk vs github.com
+- `zip` (homebrew/formula -> zip): infozip.sourceforge.net vs info-zip.org
+- `zip` (macports/port -> zip): infozip.sourceforge.net vs info-zip.org
+- `zip` (fink/package -> zip): info-zip.org vs infozip.sourceforge.net
+- `zizmor` (homebrew/formula -> zizmor): docs.zizmor.sh vs github.com
+- `zlint` (homebrew/formula -> zlint): zmap.io vs github.com
+- `zmqpp` (homebrew/formula -> zmqpp): zeromq.github.io vs github.com
+- `znc` (homebrew/formula -> znc): wiki.znc.in vs znc.in
+- `znc` (macports/port -> znc): znc.in vs wiki.znc.in
+- `znc` (fink/package -> znc): wiki.znc.in vs znc.in
+- `zsh` (homebrew/formula -> zsh): zsh.org vs zsh.sunsite.dk
+- `zsh` (macports/port -> zsh): zsh.org vs zsh.sunsite.dk
+- `zsh` (fink/package -> zsh): zsh.sunsite.dk vs zsh.org
+- `zstd` (homebrew/formula -> zstd): facebook.github.io vs github.com
+- `zvbi` (homebrew/formula -> zvbi): github.com vs zapping.sourceforge.net
+
+2977 rows to review.

@@ -1,0 +1,8 @@
+# Extra known aliases for packages whose metadata omits them.
+# Keyed by "manager/type/name"; values are additional alias strings.
+# (Homebrew aliases/oldnames and MacPorts replaced_by are already read
+# from the snapshots, so only add what the metadata misses.)
+
+# Example:
+# homebrew/formula/qt:
+#   - qt6

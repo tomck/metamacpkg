@@ -1,0 +1,16 @@
+# Hand-confirmed equivalences the pipeline cannot prove on its own.
+# Pair keys: brew-formula-to-macports, brew-cask-to-macports,
+#            brew-formula-to-fink, brew-cask-to-fink,
+#            macports-to-fink, fink-to-macports.
+# Names are native (homebrew: gtk+3, python@3.14; macports: gtk3, python314).
+# Every entry needs a comment with the evidence (shared upstream URL,
+# vendor docs, etc.). Entries override the pipeline at confidence 1.0.
+
+# Verified against the 2026-09-06 snapshots (muse verification run).
+brew-formula-to-macports:
+  - from: sphinx-doc
+    to: py-sphinx
+    comment: brew alias 'sphinx' collides with MacPorts' unrelated Sphinx search engine (sphinxsearch.com); the doc generator lives in py-sphinx (same sphinx-doc.org homepage)
+  - from: gdk-pixbuf
+    to: gdk-pixbuf2
+    comment: same upstream (gtk.org); MacPorts carries the versioned port name only, so the pipeline leaves it needs-review
