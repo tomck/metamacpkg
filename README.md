@@ -63,6 +63,23 @@ Every row lands in exactly one state: `confident`, `needs-review`
 (human churn queue with evidence + lookalikes), or `missing`
 (confirmed absent, e.g. `muse-code` on MacPorts).
 
+## Crowdsourced review site
+
+Uncertain mappings are outsourced to humans at
+<https://tomck.github.io/metamacpkg/> (static site, served from `docs/`
+via GitHub Pages — no server to run). Each card shows the package, why
+the pipeline is unsure, and the lookalikes; a verdict opens a
+pre-filled `mapping-review` GitHub issue. Import them with:
+
+```sh
+python3 -m metamacpkg.cli import-issues        # -> curated/pending.yaml
+python3 -m metamacpkg.cli import-issues --close # also thank + close issues
+```
+
+`pending.yaml` is deliberately never read by the build — promote
+reviewed entries into `curated/` by hand. Refresh the site data with
+`make webdata` (then commit + push).
+
 ## Churning through the queue
 
 ```sh
