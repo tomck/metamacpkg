@@ -111,6 +111,54 @@ class TestRoundTripAndValidation(unittest.TestCase):
         self.assertTrue((maps / "checksums.txt").exists())
         tmp.cleanup()
 
+    def test_two_accepts_per_file_survive_reload_and_build(self):
+        """Luna's regression test: two accepted decisions for the same pair
+        must both survive reload and the next build — for relations and
+        no-equivalents. This is the exact curated-loss failure mode."""
+        import tempfile as _tf
+        from metamacpkg.curated import load_curated
+        from metamacpkg.db import build as _build
+        from metamacpkg.triage import append_no_equivalent, append_relation
+        tmp = _tf.TemporaryDirectory()
+        root = Path(tmp.name)
+        curdir = root / "curated"
+        curdir.mkdir()
+        pair = "brew-formula-to-macports"
+        append_relation(pair, "s1", "t1", "first", curdir=curdir)
+        append_relation(pair, "s1b", "t1b", "second", curdir=curdir)
+        append_no_equivalent(pair, "s3", "gone1", curdir=curdir)
+        append_no_equivalent(pair, "s3b", "gone2", curdir=curdir)
+        cur = load_curated(curdir)
+        self.assertEqual(set(cur.relations[pair]), {"s1", "s1b"})
+        self.assertEqual(set(cur.no_equiv[pair]), {"s3", "s3b"})
+        raw = root / "raw"
+        raw.mkdir()
+        (raw / "brew.json").write_text(json.dumps([
+            rec("homebrew", "formula", "s1"),
+            rec("homebrew", "formula", "s1b"),
+            rec("homebrew", "formula", "s3"),
+            rec("homebrew", "formula", "s3b"),
+        ]) + "\n")
+        (raw / "mp.json").write_text(json.dumps([
+            rec("macports", "port", "t1"),
+            rec("macports", "port", "t1b"),
+        ]) + "\n")
+        (raw / "fink.json").write_text(json.dumps([]) + "\n")
+        maps = root / "mappings"
+        _build(rawdir=raw, mapdir=maps, db_path=root / "c.sqlite",
+               catalog_path=root / "c.json", curated=cur,
+               check_sources=False)
+        import csv as _csv
+        rows = {r["source"]: r for r in _csv.DictReader(
+            open(maps / "brew-formula-to-macports.csv"))}
+        for s, t in (("s1", "t1"), ("s1b", "t1b")):
+            self.assertEqual((rows[s]["target"], rows[s]["method"],
+                              rows[s]["status"]), (t, "curated", "confident"))
+        for s in ("s3", "s3b"):
+            self.assertEqual((rows[s]["method"], rows[s]["status"]),
+                             ("curated", "missing"))
+        tmp.cleanup()
+
     def test_collapsed_source_fails(self):
         import tempfile as _tf
         from metamacpkg.db import build as _build

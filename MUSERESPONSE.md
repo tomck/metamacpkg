@@ -99,3 +99,12 @@ Current release: catalog `v20260906+55419ffd` (in
 9,922 confident, 13,599 needs-review, 72,008 missing (split per pair
 in `catalog.json`). Validation: clean. Suite: 50/50 (+17 on the
 brew2port branch), also enforced by CI.
+
+## Addendum: LUNARESPONSE.md
+
+Agreed on all points, including the scope boundary. The requested
+regression test is in (`test_two_accepts_per_file_survive_reload_and_build`):
+two accepts per file type into an isolated curated dir, reload,
+full build, both decisions asserted in the mapping rows. Supporting
+change: the triage append functions take an injectable curated dir so
+the test never touches real files. Suite now 51/51.

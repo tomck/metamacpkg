@@ -19,7 +19,7 @@ import re
 import subprocess
 from pathlib import Path
 
-from .curated import load_curated
+from .curated import CURATED, load_curated, validate_curated
 from .issues import parse_body
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -159,8 +159,8 @@ def insert_entry(text, pair, entry_lines):
     return "".join(lines[:end] + entry_lines + lines[end:])
 
 
-def _texts():
-    d = ROOT / "curated"
+def _texts(curdir=None):
+    d = Path(curdir) if curdir else ROOT / "curated"
     out = []
     for name in ("relations.yaml", "no_equivalent.yaml"):
         p = d / name
@@ -168,26 +168,29 @@ def _texts():
     return out
 
 
-def _write_validated(path, pair, entry_lines):
+def _write_validated(path, pair, entry_lines, curdir=None):
     text = path.read_text() if path.exists() else ""
     path.write_text(insert_entry(text, pair, entry_lines))
-    from .curated import load_curated, validate_curated
-    cur = load_curated()  # raises on duplicate pair keys
-    validate_curated(cur, _texts())  # raises on dup sources/conflicts
+    cur = load_curated(curdir or CURATED)  # raises on duplicate pair keys
+    validate_curated(cur, _texts(curdir))  # raises on dup sources/conflicts
     return cur
 
 
-def append_relation(pair, source, target, comment):
+def append_relation(pair, source, target, comment, curdir=None):
     _write_validated(
-        ROOT / "curated" / "relations.yaml", pair,
+        (Path(curdir) if curdir else ROOT / "curated") / "relations.yaml",
+        pair,
         [f"  - from: {_q(source)}\n", f"    to: {_q(target)}\n",
-         f"    comment: {_q(comment)}\n"])
+         f"    comment: {_q(comment)}\n"],
+        curdir=curdir)
 
 
-def append_no_equivalent(pair, source, comment):
+def append_no_equivalent(pair, source, comment, curdir=None):
     _write_validated(
-        ROOT / "curated" / "no_equivalent.yaml", pair,
-        [f"  - name: {_q(source)}\n", f"    comment: {_q(comment)}\n"])
+        (Path(curdir) if curdir else ROOT / "curated") / "no_equivalent.yaml",
+        pair,
+        [f"  - name: {_q(source)}\n", f"    comment: {_q(comment)}\n"],
+        curdir=curdir)
 
 
 def drop_queue_card(pair, source):
