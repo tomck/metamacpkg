@@ -89,6 +89,31 @@ class TestValidate(unittest.TestCase):
         self.assertTrue(validate_curated(cur, []))
 
 
+class TestConflict(unittest.TestCase):
+    def _issue(self, body, labels=None):
+        return {"number": 997, "author": {"login": "someone"},
+                "labels": [{"name": l} for l in (labels or [])],
+                "body": body}
+
+    def test_contradiction_gets_conflict_label(self):
+        issue = self._issue(
+            '<!-- metamacpkg-proposal {"pair": "brew-formula-to-macports", '
+            '"source": "anubis", "decision": "confirm", "target": "anubis"} -->')
+        with mock.patch.object(T, "_gh") as gh:
+            self.assertEqual(T.triage_issue(issue)[0], "conflict")
+            calls = " ".join(str(c) for c in gh.call_args_list)
+            self.assertIn("conflict", calls)
+
+    def test_labeled_conflict_is_not_recommented(self):
+        issue = self._issue(
+            '<!-- metamacpkg-proposal {"pair": "brew-formula-to-macports", '
+            '"source": "anubis", "decision": "confirm", "target": "anubis"} -->',
+            labels=["conflict"])
+        with mock.patch.object(T, "_gh") as gh:
+            self.assertEqual(T.triage_issue(issue)[0], "conflict")
+            gh.assert_not_called()
+
+
 class TestTargetExists(unittest.TestCase):
     def test_true(self):
         self.assertTrue(T.target_exists("macports", "port", "wget",

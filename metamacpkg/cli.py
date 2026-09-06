@@ -65,6 +65,19 @@ def cmd_triage_issues(args):
     triage_all(dry_run=args.dry_run, limit=args.limit)
 
 
+def cmd_validate(_):
+    import csv
+    from .db import validate_rows
+    bad = 0
+    for path in sorted((ROOT / "mappings").glob("*.csv")):
+        errs = validate_rows(list(csv.DictReader(open(path))))
+        for e in errs:
+            print(f"{path.name}: {e}")
+        bad += len(errs)
+    print(f"validation: {'clean' if not bad else f'{bad} errors'}")
+    return 1 if bad else 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="metamacpkg")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -91,12 +104,14 @@ def main(argv=None):
                        help="accept/wait/conflict mapping-review issues")
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--limit", type=int, default=100)
+    sub.add_parser("validate", help="validate committed mapping CSVs")
     args = ap.parse_args(argv)
     return {"build": cmd_build, "lookup": cmd_lookup, "search": cmd_search,
             "review": cmd_review, "report": cmd_report,
             "export-web": cmd_export_web,
             "import-issues": cmd_import_issues,
-            "triage-issues": cmd_triage_issues}[args.cmd](args)
+            "triage-issues": cmd_triage_issues,
+            "validate": cmd_validate}[args.cmd](args)
 
 
 if __name__ == "__main__":

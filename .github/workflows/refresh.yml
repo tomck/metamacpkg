@@ -1,0 +1,39 @@
+name: weekly-refresh
+
+on:
+  schedule:
+    - cron: "37 6 * * 1"  # Mondays 06:37 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Any failed fetch/build/validation below fails the job before
+      # anything is committed: sources unavailable, collapsed counts,
+      # duplicate identities, dangling relations, and weak automatic
+      # rows all raise inside `make build`.
+      - run: make fetch
+      - run: make build
+      - run: make report
+      - run: make webdata
+      - run: python3 -m unittest discover -s tests
+      - name: Commit refreshed artifacts
+        run: |
+          git add mappings docs/data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            VER=$(python3 -c 'import json; print(json.load(open("data/catalog.json"))["catalog_version"])')
+            git -c user.name="github-actions[bot]" \
+                -c user.email="github-actions[bot]@users.noreply.github.com" \
+                commit -m "Weekly catalog refresh: $VER"
+            git push
+          fi

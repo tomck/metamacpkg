@@ -1,0 +1,6 @@
+95947a92cbdb247ecfe2ad28baa96ebaa3adf23edfff83e578b0dc91c68e5e94  brew-cask-to-fink.csv
+adaeb686ec32a256f115829f9787e0edc312ec21d1b7d45188007d63b19e07df  brew-cask-to-macports.csv
+eadcfaace64a6b708d99268bfc78c722159c0b2738fe08c7f3ca076c6bf827cb  brew-formula-to-fink.csv
+83ccf95a5db9b6f0d26781e64787dd8adcba408a11b48c1b48510b058eef1e81  brew-formula-to-macports.csv
+abca8c439000b0ff6894873fd3581ed94eb9aba26883358f207e63f83b4a01a0  fink-to-macports.csv
+ed842521452c5d1b94cb0f636c7838f9bff2e36f623c56b8b8f1894229335c74  macports-to-fink.csv

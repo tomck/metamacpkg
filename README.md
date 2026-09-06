@@ -125,6 +125,30 @@ everything else `needs-review`, and validates the target port still
 exists locally before planning. See `brew2port/BRANCH.md` there.
 It is deliberately never merged back to its `main`.
 
+## Trust model
+
+Six levels, strongest first. Never confuse a lower one for a higher one:
+
+1. **Source metadata** — the three repositories' own records (names,
+   descriptions, homepages, aliases, versions). Assumed honest, may be
+   stale or terse.
+2. **Generated candidates** — pipeline output rows (`needs-review`,
+   `missing`) with evidence and lookalikes. Suggestions, not answers.
+3. **Automatic relationships** — `confident` rows. Only strong methods
+   (curated/exact/normalized/alias/replaced-by/homepage+version); every
+   one carries evidence and passes `validate` in build and CI.
+4. **Human review suggestions** — review-site verdicts as
+   `mapping-review` issues, and `curated/pending.yaml`. Untrusted.
+5. **Accepted human decisions** — triage-accepted issues written to
+   `curated/` (maintainer authorship/vote, or community votes).
+6. **Explicit no-equivalent** — reviewed confirmation of absence
+   (e.g. `muse-code` on MacPorts). Stronger than "no match found".
+
+GitHub Pages is static hosting: it serves snapshots and queues but
+cannot do transactional voting, concurrent writes, or server queries.
+Issues + Actions are the coordination layer; the versioned catalog
+(`mappings/`, stamped `catalog_version`) is the result.
+
 ## Sources & provenance
 
 - Homebrew formulae/casks: `https://formulae.brew.sh/api/{formula,cask}.json`
