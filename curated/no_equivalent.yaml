@@ -92,3 +92,6 @@ brew-cask-to-macports:
 #   lookalikes mmencode/gecode are unrelated)
 # - brew-cask-to-macports / macs-fan-control: no such port (verified absent;
 #   lookalike qmail-spamcontrol is a mail filter)
+brew-cask-to-macports:
+  - name: "vscodium"
+    comment: "Accepted from #3 by @tomck (maintainer approval): verified absent; fuzzy lookalikes (R-sodium) are unrelated"
