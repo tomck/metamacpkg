@@ -1,0 +1,27 @@
+name: triage-mapping-reviews
+
+on:
+  issues:
+    types: [opened, edited]
+  schedule:
+    - cron: "7,37 * * * *"  # votes don't webhook; poll twice hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  triage:
+    if: >-
+      github.event_name != 'issues' ||
+      contains(github.event.issue.labels.*.name, 'mapping-review')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m metamacpkg.cli triage-issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

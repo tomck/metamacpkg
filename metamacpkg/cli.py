@@ -60,6 +60,11 @@ def cmd_import_issues(args):
     import_issues(close=args.close, limit=args.limit)
 
 
+def cmd_triage_issues(args):
+    from .triage import triage_all
+    triage_all(dry_run=args.dry_run, limit=args.limit)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="metamacpkg")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -82,11 +87,16 @@ def main(argv=None):
     p.add_argument("--close", action="store_true",
                    help="comment on and close imported issues")
     p.add_argument("--limit", type=int, default=100)
+    p = sub.add_parser("triage-issues",
+                       help="accept/wait/conflict mapping-review issues")
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--limit", type=int, default=100)
     args = ap.parse_args(argv)
     return {"build": cmd_build, "lookup": cmd_lookup, "search": cmd_search,
             "review": cmd_review, "report": cmd_report,
             "export-web": cmd_export_web,
-            "import-issues": cmd_import_issues}[args.cmd](args)
+            "import-issues": cmd_import_issues,
+            "triage-issues": cmd_triage_issues}[args.cmd](args)
 
 
 if __name__ == "__main__":

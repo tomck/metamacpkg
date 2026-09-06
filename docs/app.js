@@ -47,6 +47,39 @@ function homepage(link, text) {
   return `<a href="${esc(link)}" rel="noopener">${esc(text || link)}</a>`;
 }
 
+function parseProposal(body) {
+  const m = String(body || "").match(/<!--\s*metamacpkg-proposal\s*(\{.*?\})\s*-->/s);
+  if (!m) return null;
+  try {
+    const p = JSON.parse(m[1]);
+    if (!p.pair || !p.source || !p.decision) return null;
+    return p;
+  } catch { return null; }
+}
+
+function findExisting(card, proposals) {
+  return proposals.filter(p => p.pair === card.pair && p.source === card.source);
+}
+
+// Identical verdicts already on file: point at the issue instead of
+// opening a duplicate. Returns banner html plus the set of targets
+// (and no-equivalent flag) that should be locked on this card.
+function existingState(card, existing) {
+  const locked = new Set(), noeq = { locked: false };
+  const items = existing.map(p => {
+    if ((p.decision === "confirm" || p.decision === "propose") && p.target)
+      locked.add(p.target);
+    if (p.decision === "no-equivalent") noeq.locked = true;
+    const what = p.decision === "no-equivalent" ? "no equivalent" : `→ ${p.target || "?"}`;
+    return `<li><a href="https://github.com/${REPO}/issues/${p.number}">#${p.number}</a> ` +
+      `${esc(what)} by @${esc(p.user)}</li>`;
+  }).join("");
+  if (!existing.length) return { html: "", locked, noeqLocked: false };
+  return { html: `<div class="card existing"><strong>Already proposed:</strong><ul>${items}</ul>
+    <p class="meta">Add a 👍 reaction on the issue to approve it instead of opening a duplicate.</p></div>`,
+    locked, noeqLocked: noeq.locked };
+}
+
 function render() {
   while (idx < queue.length && isSeen(queue[idx])) idx++;
   progressEl.textContent =
@@ -59,13 +92,17 @@ function render() {
   }
   proposed = null;
   const c = queue[idx];
-  const cands = c.lookalikes.map((l, i) => `
+  const st = existingState(c, findExisting(c, openProposals));
+  const cands = c.lookalikes.map((l, i) => {
+    const dup = st.locked.has(l.target);
+    return `
     <div class="cand">
       <div class="row"><strong>${esc(l.target)}</strong>
-        <button class="confirm" data-i="${i}">Confirm [${i + 1}]</button></div>
+        ${dup ? `<span class="meta">proposed — vote on the issue above</span>`
+              : `<button class="confirm" data-i="${i}">Confirm [${i + 1}]</button>`}</div>
       <div class="meta">${homepage(l.homepage)}${l.version ? " · v" + esc(l.version) : ""}</div>
       <p class="desc">${esc(l.desc) || "<span class='meta'>no description</span>"}</p>
-    </div>`).join("");
+    </div>`; }).join("");
   main.innerHTML = `
     <div class="card">
       <h2>${esc(c.source)}</h2>
@@ -75,9 +112,12 @@ function render() {
       <p class="desc">${esc(c.desc) || "<span class='meta'>no description</span>"}</p>
       <div class="meta">${homepage(c.homepage)}</div>
       <details><summary>Why is this uncertain?</summary><p>${esc(c.evidence)}</p></details>
+      ${st.html}
       ${cands || "<p class='meta'>No lookalikes found — check search before confirming anything.</p>"}
       <div class="actions">
-        <button class="danger" id="noeq">No equivalent [0]</button>
+        ${st.noeqLocked
+          ? `<span class="meta">No-equivalent already proposed — vote on the issue above.</span>`
+          : `<button class="danger" id="noeq">No equivalent [0]</button>`}
         <button id="skip">Skip [→]</button>
         <button id="other">Propose different…</button>
       </div>
@@ -91,7 +131,9 @@ function render() {
     </div>`;
   main.querySelectorAll("button.confirm[data-i]").forEach(b =>
     b.addEventListener("click", () => submit(c, "confirm", c.lookalikes[+b.dataset.i].target)));
-  document.getElementById("noeq").addEventListener("click", () => submit(c, "no-equivalent", ""));
+  const noeqBtn = document.getElementById("noeq");
+  if (noeqBtn) noeqBtn.addEventListener("click", () => submit(c, "no-equivalent", ""));
+  window.__current = { card: c, locked: st.locked, noeqLocked: st.noeqLocked };
   document.getElementById("skip").addEventListener("click", () => { idx++; render(); });
   document.getElementById("other").addEventListener("click", () => {
     const box = document.getElementById("searchbox");
@@ -147,30 +189,50 @@ async function load() {
   render();
 }
 
-async function submittedCount() {
+let openProposals = [];
+
+async function fetchOpenProposals() {
+  openProposals = [];
   try {
-    const r = await fetch(
-      `https://api.github.com/search/issues?q=repo:${REPO}+label:${LABEL}+state:open&per_page=1`);
-    const n = (await r.json()).total_count;
+    let url = `https://api.github.com/search/issues` +
+      `?q=repo:${REPO}+label:${LABEL}+state:open&per_page=100`;
+    for (let page = 0; page < 3 && url; page++) {
+      const r = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
+      const data = await r.json();
+      for (const issue of data.items || []) {
+        const p = parseProposal(issue.body);
+        if (p) openProposals.push({ ...p, number: issue.number,
+                                    user: (issue.user || {}).login || "?" });
+      }
+      const link = r.headers.get("Link") || "";
+      const m = link.match(/<([^>]+)>;\s*rel="next"/);
+      url = m ? m[1] : null;
+    }
+    const n = openProposals.length;
     document.getElementById("submitted").textContent =
-      `${n} proposal${n === 1 ? "" : "s"} awaiting maintainer review.`;
+      `${n} proposal${n === 1 ? "" : "s"} awaiting review — votes decide.`;
   } catch { /* offline-friendly: skip */ }
+  render();
 }
 
 document.addEventListener("keydown", e => {
   if (e.target.matches("input, select, textarea")) return;
   if (idx >= queue.length) return;
-  const c = queue[idx];
+  const cur = window.__current;
+  if (!cur) return;
+  const c = cur.card;
   if (e.key >= "1" && e.key <= "8") {
     const i = +e.key - 1;
-    if (c.lookalikes[i]) submit(c, "confirm", c.lookalikes[i].target);
+    const t = c.lookalikes[i] && c.lookalikes[i].target;
+    if (t && !cur.locked.has(t)) submit(c, "confirm", t);
   } else if (e.key === "0") {
-    submit(c, "no-equivalent", "");
+    if (!cur.noeqLocked) submit(c, "no-equivalent", "");
   } else if (e.key === "ArrowRight") {
     idx++; render();
   }
 });
 pairSel.addEventListener("change", load);
 load();
-submittedCount();
-if (typeof window !== "undefined") window.__review = { issueUrl };
+fetchOpenProposals();
+if (typeof window !== "undefined")
+  window.__review = { issueUrl, parseProposal, findExisting, existingState };
