@@ -80,6 +80,15 @@ python3 -m metamacpkg.cli import-issues --close # also thank + close issues
 reviewed entries into `curated/` by hand. Refresh the site data with
 `make webdata` (then commit + push).
 
+A triage workflow (`.github/workflows/triage-issues.yml`) handles
+`mapping-review` issues automatically: your authorship or 👍 accepts
+immediately, two community 👍 accepts, duplicates close, conflicts get
+labeled. Votes don't webhook, so a schedule rechecks twice hourly.
+Accepting writes `curated/`, drops the card from the site queue, and
+commits. The site shows already-proposed verdicts with issue links so
+votes gather instead of duplicates. Tune via `TRIAGE_REQUIRED_VOTES`;
+dry-run locally with `python3 -m metamacpkg.cli triage-issues --dry-run`.
+
 ## Churning through the queue
 
 ```sh
