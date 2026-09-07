@@ -26,7 +26,27 @@ CREATE TABLE relations (
 """
 
 STRONG_METHODS = ("curated", "exact", "normalized", "alias", "replaced-by",
-                  "homepage")
+                  "homepage", "version")
+
+
+def validate_rows(rows):
+    """Every automatic relationship needs a strong method and evidence."""
+    errors = []
+    for r in rows:
+        if r["status"] == "confident":
+            if r["method"] not in STRONG_METHODS:
+                errors.append(f"{r['source']}: weak method {r['method']!r}")
+            if not (r["evidence"] or "").strip():
+                errors.append(f"{r['source']}: empty evidence")
+        elif r["status"] == "near-hit":
+            if r["method"] != "near-hit":
+                errors.append(f"{r['source']}: near-hit with method "
+                              f"{r['method']!r}")
+            if not r["target"]:
+                errors.append(f"{r['source']}: near-hit without a target")
+            if not (r["evidence"] or "").strip():
+                errors.append(f"{r['source']}: empty evidence")
+    return errors
 
 # Collapse guards: a source below its floor means a failed fetch, not a
 # smaller ecosystem. Fail before writing anything.
@@ -49,17 +69,6 @@ def catalog_version(rawdir=RAW):
         pass
     return f"v{date}+{h.hexdigest()[:8]}"
 
-
-def validate_rows(rows):
-    """Every automatic relationship needs a strong method and evidence."""
-    errors = []
-    for r in rows:
-        if r["status"] == "confident":
-            if r["method"] not in STRONG_METHODS:
-                errors.append(f"{r['source']}: weak method {r['method']!r}")
-            if not (r["evidence"] or "").strip():
-                errors.append(f"{r['source']}: empty evidence")
-    return errors
 
 # Directed pairs that get mapping tables. (from-tag, to-tag)
 PAIRS = [

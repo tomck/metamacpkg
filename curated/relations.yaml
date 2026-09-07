@@ -17,3 +17,9 @@ brew-formula-to-macports:
   - from: "ansible@10"
     to: "ansible"
     comment: "Accepted from #1 by @tomck (maintainer approval)"
+  - from: node
+    to: nodejs26
+    comment: "same program, same version 26.8.1, same nodejs.org homepage; kills the node->ode fuzzy suggestion (ode is the unrelated physics engine)"
+  - from: awscli
+    to: py-awscli2
+    comment: "same program, same AWS CLI v2 line (brew 2.36.40 vs py-awscli2 2.36.23), same aws.amazon.com/cli homepage"

@@ -31,12 +31,25 @@ def generate(db_path=None, out_path=None):
             " AND to_manager=? AND to_type=? ORDER BY from_name",
             (frm[0], frm[1], to[0], to[1])).fetchall()
         n_conf = sum(1 for r in rows if r[4] == "confident")
+        n_hit = sum(1 for r in rows if r[4] == "near-hit")
         n_rev = sum(1 for r in rows if r[4] == "needs-review")
         n_mis = sum(1 for r in rows if r[4] == "missing")
         lines += [f"## {title}",
                   f"{len(rows)} source packages: "
-                  f"{n_conf} confident, {n_rev} need review, {n_mis} missing.",
+                  f"{n_conf} confident, {n_hit} near-hit, "
+                  f"{n_rev} need review, {n_mis} missing.",
                   ""]
+        near = [r for r in rows if r[4] == "near-hit"]
+        if near:
+            lines.append("<details><summary>"
+                         f"Near-hit suggestions ({len(near)})</summary>")
+            lines.append("")
+            for r in near[:200]:
+                lines.append(f"- `{r[0]}` -> `{r[1]}` ({r[5]})")
+            if len(near) > 200:
+                lines.append(f"- ... and {len(near) - 200} more "
+                             f"(see mappings/{a}-to-{b}.csv)")
+            lines += ["", "</details>", ""]
         missing = [r for r in rows if r[4] == "missing"]
         if missing:
             lines.append("<details><summary>"
@@ -50,7 +63,7 @@ def generate(db_path=None, out_path=None):
             lines += ["", "</details>", ""]
     lines += ["## Same name, different homepage (churn queue)",
               "",
-              "Confident `exact`/`normalized` rows whose homepages live on "
+              "Confident `exact`/`normalized`/`version` rows whose homepages live on "
               "different domains. Most are benign (project site vs GitHub "
               "repo), but this list is where same-name collisions hide "
               "(e.g. `anubis`, `dash`, `dune`). Work it with:",
@@ -66,7 +79,8 @@ def generate(db_path=None, out_path=None):
         "  AND s.name=r.from_name"
         " JOIN packages t ON t.manager=r.to_manager AND t.type=r.to_type"
         "  AND t.name=r.to_name"
-        " WHERE r.status='confident' AND r.method IN ('exact','normalized')"
+        " WHERE r.status='confident'"
+        " AND r.method IN ('exact','normalized','version')"
         " ORDER BY r.from_name").fetchall()
     n = 0
     for fm, ft, fn, tn, sh, th in flag:
