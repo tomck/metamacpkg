@@ -1,7 +1,7 @@
 # metamacpkg migration report
 
 ## Homebrew formulae -> MacPorts ports
-8590 source packages: 3564 confident, 53 near-hit, 1853 need review, 3120 missing.
+8590 source packages: 3566 confident, 53 near-hit, 1854 need review, 3117 missing.
 
 <details><summary>Near-hit suggestions (53)</summary>
 
@@ -61,7 +61,7 @@
 
 </details>
 
-<details><summary>Missing in macports (3120)</summary>
+<details><summary>Missing in macports (3117)</summary>
 
 - `abi-dumper`
 - `abi3audit`
@@ -263,12 +263,12 @@
 - `awsume`
 - `awww`
 - `azcopy`
-- ... and 2920 more (see mappings/brew-formula-to-macports.csv)
+- ... and 2917 more (see mappings/brew-formula-to-macports.csv)
 
 </details>
 
 ## Homebrew casks -> MacPorts ports
-7724 source packages: 329 confident, 3 near-hit, 1066 need review, 6326 missing.
+7725 source packages: 329 confident, 3 near-hit, 1064 need review, 6329 missing.
 
 <details><summary>Near-hit suggestions (3)</summary>
 
@@ -278,7 +278,7 @@
 
 </details>
 
-<details><summary>Missing in macports (6326)</summary>
+<details><summary>Missing in macports (6329)</summary>
 
 - `0-ad`
 - `115browser`
@@ -480,12 +480,12 @@
 - `appvolume`
 - `appzapper`
 - `aptakube`
-- ... and 6126 more (see mappings/brew-cask-to-macports.csv)
+- ... and 6129 more (see mappings/brew-cask-to-macports.csv)
 
 </details>
 
 ## Homebrew formulae -> Fink packages
-8590 source packages: 1184 confident, 37 near-hit, 1431 need review, 5938 missing.
+8590 source packages: 1184 confident, 37 near-hit, 1430 need review, 5939 missing.
 
 <details><summary>Near-hit suggestions (37)</summary>
 
@@ -529,7 +529,7 @@
 
 </details>
 
-<details><summary>Missing in fink (5938)</summary>
+<details><summary>Missing in fink (5939)</summary>
 
 - `aamath`
 - `ab-av1`
@@ -731,14 +731,14 @@
 - `arturo`
 - `arx-libertatis`
 - `arxiv_latex_cleaner`
-- ... and 5738 more (see mappings/brew-formula-to-fink.csv)
+- ... and 5739 more (see mappings/brew-formula-to-fink.csv)
 
 </details>
 
 ## Homebrew casks -> Fink packages
-7724 source packages: 93 confident, 0 near-hit, 498 need review, 7133 missing.
+7725 source packages: 93 confident, 0 near-hit, 498 need review, 7134 missing.
 
-<details><summary>Missing in fink (7133)</summary>
+<details><summary>Missing in fink (7134)</summary>
 
 - `0-ad`
 - `010-editor`
@@ -940,12 +940,12 @@
 - `anydesk`
 - `anydo`
 - `anylist`
-- ... and 6933 more (see mappings/brew-cask-to-fink.csv)
+- ... and 6934 more (see mappings/brew-cask-to-fink.csv)
 
 </details>
 
 ## MacPorts ports -> Fink packages
-52671 source packages: 3021 confident, 62 near-hit, 5665 need review, 43923 missing.
+52680 source packages: 3021 confident, 62 near-hit, 5666 need review, 43931 missing.
 
 <details><summary>Near-hit suggestions (62)</summary>
 
@@ -1014,7 +1014,7 @@
 
 </details>
 
-<details><summary>Missing in fink (43923)</summary>
+<details><summary>Missing in fink (43931)</summary>
 
 - `1password-cli`
 - `2048.c`
@@ -1216,7 +1216,7 @@
 - `OpenCSG`
 - `OpenCoarrays`
 - `OpenIPMI`
-- ... and 43723 more (see mappings/macports-to-fink.csv)
+- ... and 43731 more (see mappings/macports-to-fink.csv)
 
 </details>
 
@@ -3641,6 +3641,7 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `openbox` (fink/package -> openbox): icculus.org vs openbox.org
 - `opencascade` (homebrew/formula -> opencascade): dev.opencascade.org vs github.com
 - `opencc` (homebrew/formula -> opencc): opencc.byvoid.com vs github.com
+- `opencl-headers` (homebrew/formula -> opencl-headers): khronos.org vs github.com
 - `openh264` (homebrew/formula -> openh264): openh264.org vs github.com
 - `openimageio` (homebrew/formula -> openimageio): openimageio.readthedocs.io vs github.com
 - `openlogi` (homebrew/cask -> openlogi): openlogi.org vs github.com
@@ -3807,6 +3808,7 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `po4a` (homebrew/formula -> po4a): po4a.org vs po4a.alioth.debian.org
 - `po4a` (macports/port -> po4a): po4a.org vs po4a.alioth.debian.org
 - `po4a` (fink/package -> po4a): po4a.alioth.debian.org vs po4a.org
+- `pocl` (homebrew/formula -> pocl): portablecl.org vs github.com
 - `podman` (homebrew/formula -> podman): podman.io vs github.com
 - `podofo` (homebrew/formula -> podofo): github.com vs podofo.sourceforge.net
 - `podofo` (macports/port -> podofo): github.com vs podofo.sourceforge.net
@@ -4669,4 +4671,4 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `zstd` (homebrew/formula -> zstd): facebook.github.io vs github.com
 - `zvbi` (homebrew/formula -> zvbi): github.com vs zapping.sourceforge.net
 
-3117 rows to review.
+3119 rows to review.
