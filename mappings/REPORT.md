@@ -1,7 +1,7 @@
 # metamacpkg migration report
 
 ## Homebrew formulae -> MacPorts ports
-8721 source packages: 3606 confident, 50 near-hit, 1905 need review, 3160 missing.
+8732 source packages: 3609 confident, 50 near-hit, 1908 need review, 3165 missing.
 
 <details><summary>Near-hit suggestions (50)</summary>
 
@@ -14,16 +14,16 @@
 - `chardet` -> `py315-chardet` (nearest same-program port: 7.7.0 vs py315-chardet 7.7.0 (same major, port older); siblings: py314-chardet, py313-chardet, py312-chardet, py311-chardet, py310-chardet, py-chardet)
 - `cryptography` -> `py315-cryptography` (nearest same-program port: 50.0.2 vs py315-cryptography 48.0.0 (2 majors older); siblings: py314-cryptography, py313-cryptography, py312-cryptography, py311-cryptography, py310-cryptography, py-cryptography)
 - `eye-d3` -> `py314-eyed3` (nearest same-program port: 0.9.9 vs py314-eyed3 0.9.9 (same major, port older); siblings: py313-eyed3, py-eyed3, py39-eyed3, py38-eyed3, py37-eyed3)
-- `faiss` -> `py310-faiss` (nearest same-program port: 1.15.1 vs py310-faiss 1.7.3 (same major, port older); siblings: py39-faiss, py38-faiss, py37-faiss)
-- `faker` -> `py314-Faker` (nearest same-program port: 40.44.0 vs py314-Faker 40.43.0 (same major, port older); siblings: py313-Faker, py312-Faker, py311-Faker, py310-Faker, py-Faker, py39-Faker)
-- `fastapi` -> `py314-fastapi` (nearest same-program port: 0.162.2 vs py314-fastapi 0.136.3 (same major, port older); siblings: py313-fastapi, py312-fastapi, py311-fastapi, py310-fastapi, py-fastapi, py39-fastapi, py38-fastapi, py37-fastapi)
-- `flexget` -> `py-FlexGet` (nearest same-program port: 3.22.10 vs py-FlexGet 1.2.183 (2 majors older))
+- `faiss` -> `py310-faiss` (nearest same-program port: 1.16.0 vs py310-faiss 1.7.3 (same major, port older); siblings: py39-faiss, py38-faiss, py37-faiss)
+- `faker` -> `py314-Faker` (nearest same-program port: 40.54.0 vs py314-Faker 40.43.0 (same major, port older); siblings: py313-Faker, py312-Faker, py311-Faker, py310-Faker, py-Faker, py39-Faker)
+- `fastapi` -> `py314-fastapi` (nearest same-program port: 0.163.1 vs py314-fastapi 0.136.3 (same major, port older); siblings: py313-fastapi, py312-fastapi, py311-fastapi, py310-fastapi, py-fastapi, py39-fastapi, py38-fastapi, py37-fastapi)
+- `flexget` -> `py-FlexGet` (nearest same-program port: 3.22.12 vs py-FlexGet 1.2.183 (2 majors older))
 - `flit` -> `py313-flit` (nearest same-program port: 4.2.0 vs py313-flit 3.9.0 (1 major older); siblings: py312-flit, py311-flit, py310-flit, py39-flit, py38-flit, py37-flit, py-flit)
 - `fypp` -> `py311-fypp` (nearest same-program port: 3.3 vs py311-fypp 3.2 (same major, port older); siblings: py310-fypp, py39-fypp, py-fypp)
 - `honcho` -> `py310-honcho` (nearest same-program port: 2.0.0 vs py310-honcho 1.1.0 (1 major older); siblings: py39-honcho, py38-honcho, py37-honcho, py-honcho, py36-honcho, py35-honcho)
-- `httpx2` -> `py314-httpx2` (nearest same-program port: 2.16.0 vs py314-httpx2 2.16.0 (same major, port older); siblings: py313-httpx2, py312-httpx2, py311-httpx2, py-httpx2, py310-httpx2)
+- `httpx2` -> `py315-httpx2` (nearest same-program port: 2.16.0 vs py315-httpx2 2.16.2 (same major, port newer); siblings: py314-httpx2, py313-httpx2, py312-httpx2, py311-httpx2, py-httpx2)
 - `hy` -> `py314-hy` (nearest same-program port: 1.3.1 vs py314-hy 1.3.1 (same major, port older); siblings: py313-hy, py312-hy, py311-hy, py310-hy, py-hy, py39-hy, py38-hy)
-- `ipython` -> `py314-ipython` (nearest same-program port: 9.18.1 vs py314-ipython 8.31.0 (1 major older); siblings: py313-ipython, py312-ipython, py311-ipython, py310-ipython, py-ipython, py39-ipython, py38-ipython)
+- `ipython` -> `py315-ipython` (nearest same-program port: 9.18.1 vs py315-ipython 8.31.0 (1 major older); siblings: py314-ipython, py313-ipython, py312-ipython, py311-ipython, py310-ipython, py-ipython, py39-ipython, py38-ipython)
 - `isort` -> `py315-isort` (nearest same-program port: 9.0.2 vs py315-isort 9.0.2 (same major, port older); siblings: py314-isort, py313-isort, py312-isort, py311-isort, py310-isort, py-isort)
 - `jsbeautifier` -> `py313-jsbeautifier` (nearest same-program port: 2.0.3 vs py313-jsbeautifier 1.15.4 (1 major older); siblings: py-jsbeautifier, py312-jsbeautifier, py38-jsbeautifier, py37-jsbeautifier)
 - `jupytext` -> `py312-jupytext` (nearest same-program port: 1.19.6 vs py312-jupytext 1.16.1 (same major, port older); siblings: py311-jupytext, py310-jupytext, py39-jupytext, py38-jupytext, py-jupytext, py37-jupytext, py36-jupytext)
@@ -45,8 +45,8 @@
 - `pythran` -> `py315-pythran` (nearest same-program port: 0.19.0 vs py315-pythran 0.19.0 (same major, port older); siblings: py314-pythran, py313-pythran, py312-pythran, py311-pythran, py310-pythran, py-pythran, py39-pythran, py38-pythran, py37-pythran)
 - `rasterio` -> `py315-rasterio` (nearest same-program port: 1.5.2 vs py315-rasterio 1.5.2 (same major, port older); siblings: py314-rasterio, py313-rasterio, py312-rasterio, py-rasterio, py311-rasterio, py310-rasterio, py39-rasterio, py38-rasterio)
 - `redis@6.2` -> `redis7` (nearest same-program port: 6.2.18 vs redis7 7.4.11 (1 major newer))
-- `rpds-py` -> `py314-rpds-py` (nearest same-program port: 2026.9.1 vs py314-rpds-py 2026.6.3 (same major, port older); siblings: py313-rpds-py, py312-rpds-py, py311-rpds-py, py-rpds-py)
-- `sip` -> `py315-sip` (nearest same-program port: 6.17.2 vs py315-sip 6.17.2 (same major, port older); siblings: py314-sip, py313-sip, py312-sip, py311-sip, py310-sip, py-sip, py39-sip, py38-sip, py37-sip, py36-sip)
+- `rpds-py` -> `py315-rpds-py` (nearest same-program port: 2026.9.1 vs py315-rpds-py 2026.6.3 (same major, port older); siblings: py314-rpds-py, py313-rpds-py, py312-rpds-py, py311-rpds-py, py-rpds-py)
+- `sip` -> `py315-sip` (nearest same-program port: 6.17.3 vs py315-sip 6.17.2 (same major, port older); siblings: py314-sip, py313-sip, py312-sip, py311-sip, py310-sip, py-sip, py39-sip, py38-sip, py37-sip, py36-sip)
 - `sqlparse` -> `py314-sqlparse` (nearest same-program port: 0.6.1 vs py314-sqlparse 0.5.3 (same major, port older); siblings: py313-sqlparse, py312-sqlparse, py311-sqlparse, py310-sqlparse, py39-sqlparse, py38-sqlparse, py-sqlparse, py37-sqlparse, py36-sqlparse, py35-sqlparse)
 - `tmuxp` -> `py314-tmuxp` (nearest same-program port: 1.76.0 vs py314-tmuxp 1.74.0 (same major, port older); siblings: py313-tmuxp, py312-tmuxp, py311-tmuxp, py310-tmuxp, py-tmuxp, py39-tmuxp, py38-tmuxp, py37-tmuxp, py36-tmuxp)
 - `torchvision` -> `py314-torchvision` (nearest same-program port: 0.29.2 vs py314-torchvision 0.25.0 (same major, port older); siblings: py313-torchvision, py312-torchvision, py311-torchvision, py310-torchvision, py-torchvision, py39-torchvision, py38-torchvision, py37-torchvision)
@@ -58,7 +58,7 @@
 
 </details>
 
-<details><summary>Missing in macports (3160)</summary>
+<details><summary>Missing in macports (3165)</summary>
 
 - `abi-dumper`
 - `abi3audit`
@@ -90,7 +90,6 @@
 - `aftman`
 - `agda`
 - `agedu`
-- `agent-browser`
 - `ahcpd`
 - `ahoy`
 - `aiac`
@@ -260,22 +259,23 @@
 - `awsdac`
 - `awsume`
 - `awww`
-- ... and 2960 more (see mappings/brew-formula-to-macports.csv)
+- `azcopy`
+- ... and 2965 more (see mappings/brew-formula-to-macports.csv)
 
 </details>
 
 ## Homebrew casks -> MacPorts ports
-7822 source packages: 346 confident, 3 near-hit, 1123 need review, 6350 missing.
+7832 source packages: 347 confident, 3 near-hit, 1128 need review, 6354 missing.
 
 <details><summary>Near-hit suggestions (3)</summary>
 
-- `go64` -> `go-1.27` (nearest same-program port: 1.5.1 vs go-1.27 1.27.3 (same major, port newer); siblings: go-1.26, go-1.25, go-1.24, go-1.23, go-1.22, go-1.20, go-1.17)
+- `go64` -> `go-1.27` (nearest same-program port: 1.5.1 vs go-1.27 1.27.4 (same major, port newer); siblings: go-1.26, go-1.25, go-1.24, go-1.23, go-1.22, go-1.20, go-1.17)
 - `mitmproxy` -> `py313-mitmproxy` (nearest same-program port: 12.3.1 vs py313-mitmproxy 11.0.2 (1 major older); siblings: py312-mitmproxy, py311-mitmproxy, py310-mitmproxy, py-mitmproxy)
 - `multimc` -> `MultiMC5` (nearest same-program port: 0.7.0 vs MultiMC5 0.6.12 (same major, port older))
 
 </details>
 
-<details><summary>Missing in macports (6350)</summary>
+<details><summary>Missing in macports (6354)</summary>
 
 - `0-ad`
 - `115browser`
@@ -350,7 +350,6 @@
 - `advancedrestclient`
 - `advantagescope`
 - `aerial@beta`
-- `aexol-remote-mouse`
 - `affinity-designer`
 - `affinity-designer@1`
 - `affinity-photo`
@@ -477,12 +476,13 @@
 - `approf`
 - `apptivate`
 - `appvolume`
-- ... and 6150 more (see mappings/brew-cask-to-macports.csv)
+- `appzapper`
+- ... and 6154 more (see mappings/brew-cask-to-macports.csv)
 
 </details>
 
 ## Homebrew formulae -> Fink packages
-8721 source packages: 1176 confident, 37 near-hit, 1445 need review, 6063 missing.
+8732 source packages: 1176 confident, 37 near-hit, 1444 need review, 6075 missing.
 
 <details><summary>Near-hit suggestions (37)</summary>
 
@@ -496,7 +496,7 @@
 - `gtkmm3` -> `gtkmm2.4` (nearest same-program port: 3.24.11 vs gtkmm2.4 2.18.2 (1 major older); siblings: gtkmm2)
 - `gtkmm4` -> `gtkmm2` (nearest same-program port: 4.24.0 vs gtkmm2 2.2.12 (2 majors older))
 - `gtkspell3` -> `gtkspell2` (nearest same-program port: 3.0.10 vs gtkspell2 2.0.4 (1 major older))
-- `gwenhywfar` -> `gwenhywfar60` (nearest same-program port: 5.14.1 vs gwenhywfar60 4.3.2 (1 major older))
+- `gwenhywfar` -> `gwenhywfar60` (nearest same-program port: 5.14.3 vs gwenhywfar60 4.3.2 (1 major older))
 - `libcerf` -> `libcerf1` (nearest same-program port: 3.9 vs libcerf1 1.4 (2 majors older))
 - `libgit2@1.7` -> `libgit2.28` (nearest same-program port: 1.7.2 vs libgit2.28 0.28.5 (1 major older); siblings: libgit2.27, libgit2.21)
 - `libgit2@1.8` -> `libgit2.27` (nearest same-program port: 1.8.7 vs libgit2.27 0.27.10 (1 major older); siblings: libgit2.21)
@@ -508,7 +508,7 @@
 - `libsamplerate` -> `libsamplerate0` (nearest same-program port: 0.2.2 vs libsamplerate0 0.1.9 (same major, port older))
 - `libwpd` -> `libwpd-0.9` (nearest same-program port: 0.10.3 vs libwpd-0.9 0.9.9 (same major, port older); siblings: libwpd-0.8, libwpd-1)
 - `libxml++@3` -> `libxml++2` (nearest same-program port: 3.2.6 vs libxml++2 2.34.2 (1 major older); siblings: libxml2.16)
-- `libxml++@4` -> `libxml2.16` (nearest same-program port: 4.4.1 vs libxml2.16 2.15.2 (2 majors older))
+- `libxml++@4` -> `libxml2.16` (nearest same-program port: 4.4.1 vs libxml2.16 2.15.4 (2 majors older))
 - `log4cplus` -> `log4cplus1.1.7` (nearest same-program port: 2.2.1 vs log4cplus1.1.7 1.1.1 (1 major older))
 - `neon` -> `neon27` (nearest same-program port: 0.37.1 vs neon27 0.33.0 (same major, port older); siblings: neon26, neon25, neon24, neon23)
 - `nettle@3` -> `nettle4` (nearest same-program port: 3.10.2 vs nettle4 2.4 (1 major older))
@@ -520,13 +520,13 @@
 - `qt@5` -> `qt3` (nearest same-program port: 5.15.19 vs qt3 3.3.8 (2 majors older))
 - `samba` -> `samba3` (nearest same-program port: 4.25.1 vs samba3 3.6.25 (1 major older))
 - `sdl3` -> `sdl2` (nearest same-program port: 3.4.20 vs sdl2 2.32.10 (1 major older))
-- `tomcat@9` -> `tomcat8` (nearest same-program port: 9.0.123 vs tomcat8 8.0.53 (1 major older))
+- `tomcat@9` -> `tomcat8` (nearest same-program port: 9.0.124 vs tomcat8 8.0.53 (1 major older))
 - `vte3` -> `vte` (nearest same-program port: 0.84.1 vs vte 0.11.10 (same major, port older))
 - `yajl` -> `yajl1` (nearest same-program port: 2.1.0 vs yajl1 1.0.12 (1 major older))
 
 </details>
 
-<details><summary>Missing in fink (6063)</summary>
+<details><summary>Missing in fink (6075)</summary>
 
 - `aamath`
 - `ab-av1`
@@ -728,14 +728,14 @@
 - `arm-optimized-routines`
 - `armadillo`
 - `arp-scan`
-- ... and 5863 more (see mappings/brew-formula-to-fink.csv)
+- ... and 5875 more (see mappings/brew-formula-to-fink.csv)
 
 </details>
 
 ## Homebrew casks -> Fink packages
-7822 source packages: 92 confident, 0 near-hit, 504 need review, 7226 missing.
+7832 source packages: 92 confident, 0 near-hit, 505 need review, 7235 missing.
 
-<details><summary>Missing in fink (7226)</summary>
+<details><summary>Missing in fink (7235)</summary>
 
 - `0-ad`
 - `010-editor`
@@ -817,7 +817,6 @@
 - `aegisub`
 - `aerial`
 - `aerial@beta`
-- `aexol-remote-mouse`
 - `affine`
 - `affinity`
 - `affinity-designer`
@@ -937,17 +936,18 @@
 - `antigravity-ide`
 - `antinote`
 - `anybar`
-- ... and 7026 more (see mappings/brew-cask-to-fink.csv)
+- `anydesk`
+- ... and 7035 more (see mappings/brew-cask-to-fink.csv)
 
 </details>
 
 ## MacPorts ports -> Fink packages
-53714 source packages: 3081 confident, 62 near-hit, 5731 need review, 44840 missing.
+53902 source packages: 3087 confident, 62 near-hit, 5739 need review, 45014 missing.
 
 <details><summary>Near-hit suggestions (62)</summary>
 
 - `InsightToolkit` -> `insighttoolkit44` (nearest same-program port: 5.4.4 vs insighttoolkit44 4.4.1 (1 major older))
-- `SDL3` -> `sdl2` (nearest same-program port: 3.4.18 vs sdl2 2.32.10 (1 major older))
+- `SDL3` -> `sdl2` (nearest same-program port: 3.4.20 vs sdl2 2.32.10 (1 major older))
 - `audacious` -> `audacious2` (nearest same-program port: 4.6.2 vs audacious2 2.2 (2 majors older))
 - `botan2` -> `botan1.10` (nearest same-program port: 2.19.5 vs botan1.10 1.10.17 (1 major older))
 - `db53` -> `db43` (nearest same-program port: 5.3.28 vs db43 4.3.29 (1 major older); siblings: db42, db41, db4)
@@ -958,13 +958,13 @@
 - `goocanvasmm2` -> `goocanvasmm1.0.5` (nearest same-program port: 1.90.11 vs goocanvasmm1.0.5 0.15.2 (1 major older); siblings: goocanvasmm0.1.5, goocanvasmm0.1.3)
 - `gpgme` -> `gpgme11` (nearest same-program port: 2.2.0 vs gpgme11 1.1.8 (1 major older))
 - `grass` -> `grass62` (nearest same-program port: 8.5.0 vs grass62 6.2.3 (2 majors older))
-- `gstreamer1` -> `gstreamer` (nearest same-program port: 1.28.8 vs gstreamer 0.8.12 (1 major older))
+- `gstreamer1` -> `gstreamer` (nearest same-program port: 1.28.9 vs gstreamer 0.8.12 (1 major older))
 - `gtk3` -> `gtk+` (nearest same-program port: 3.24.52 vs gtk+ 1.2.10 (2 majors older))
 - `gtkmm3` -> `gtkmm2.4` (nearest same-program port: 3.24.11 vs gtkmm2.4 2.18.2 (1 major older); siblings: gtkmm2)
 - `gtkmm4` -> `gtkmm2` (nearest same-program port: 4.22.0 vs gtkmm2 2.2.12 (2 majors older))
 - `gtksourceview-sharp2` -> `gtksourceview-sharp` (nearest same-program port: 0.12 vs gtksourceview-sharp 2.0 (2 majors newer))
 - `guile-3.0` -> `guile20` (nearest same-program port: 3.0.10 vs guile20 2.0.14 (1 major older))
-- `gwenhywfar5` -> `gwenhywfar47` (nearest same-program port: 5.14.1 vs gwenhywfar47 3.8.2 (2 majors older))
+- `gwenhywfar5` -> `gwenhywfar47` (nearest same-program port: 5.14.3 vs gwenhywfar47 3.8.2 (2 majors older))
 - `kdeartwork` -> `kdeartwork3` (nearest same-program port: 4.14.3 vs kdeartwork3 3.5.10 (1 major older))
 - `kdeedu4` -> `kdeedu3` (nearest same-program port: 4.14.3 vs kdeedu3 3.5.10 (1 major older))
 - `kdegraphics4` -> `kdegraphics3` (nearest same-program port: 4.14.3 vs kdegraphics3 3.5.10 (1 major older))
@@ -984,7 +984,7 @@
 - `libmusicbrainz5` -> `libmusicbrainz4.3` (nearest same-program port: 5.1.0 vs libmusicbrainz4.3 4.0.3 (1 major older))
 - `libofx` -> `libofx5` (nearest same-program port: 0.10.4 vs libofx5 0.9.6 (same major, port older); siblings: libofx4, libofx3)
 - `libpaper` -> `libpaper1` (nearest same-program port: 2.3.0 vs libpaper1 1.1.29 (1 major older))
-- `libpixman` -> `libpixman1` (nearest same-program port: 0.46.0 vs libpixman1 0.1.6 (same major, port older))
+- `libpixman` -> `libpixman1` (nearest same-program port: 0.46.4 vs libpixman1 0.1.6 (same major, port older))
 - `libsamplerate` -> `libsamplerate0` (nearest same-program port: 0.2.2 vs libsamplerate0 0.1.9 (same major, port older))
 - `libtasn1` -> `libtasn1-3` (nearest same-program port: 4.21.0 vs libtasn1-3 2.14 (2 majors older))
 - `libunistring` -> `libunistring2` (nearest same-program port: 1.5 vs libunistring2 0.9.5 (1 major older); siblings: libunistring0)
@@ -994,7 +994,7 @@
 - `neon` -> `neon27` (nearest same-program port: 0.37.1 vs neon27 0.33.0 (same major, port older); siblings: neon26, neon25, neon24, neon23)
 - `postgresql80` -> `postgresql73` (nearest same-program port: 8.0.26 vs postgresql73 7.3.7 (1 major older); siblings: postgresql)
 - `py-gdbm` -> `gdbm4` (nearest same-program port: 2.4.6 vs gdbm4 1.11 (1 major older); siblings: gdbm3)
-- `py-libxml2` -> `libxml2.16` (nearest same-program port: 2.15.4 vs libxml2.16 2.15.2 (same major, port older))
+- `py-libxml2` -> `libxml2.16` (nearest same-program port: 2.15.4 vs libxml2.16 2.15.4 (same major, port older))
 - `py-ode` -> `ode3` (nearest same-program port: 1.2.1 vs ode3 0.12 (1 major older); siblings: ode1)
 - `py-orbit` -> `orbit` (nearest same-program port: 2.24.0 vs orbit 0.5.17 (2 majors older))
 - `py-pil` -> `pil` (nearest same-program port: 1.1.7 vs pil 1.1.2 (same major, port older))
@@ -1011,7 +1011,7 @@
 
 </details>
 
-<details><summary>Missing in fink (44840)</summary>
+<details><summary>Missing in fink (45014)</summary>
 
 - `1password-cli`
 - `2048.c`
@@ -1213,14 +1213,14 @@
 - `OpenCSG`
 - `OpenCoarrays`
 - `OpenIPMI`
-- ... and 44640 more (see mappings/macports-to-fink.csv)
+- ... and 44814 more (see mappings/macports-to-fink.csv)
 
 </details>
 
 ## Fink packages -> MacPorts ports
-10238 source packages: 2057 confident, 109 near-hit, 2541 need review, 5531 missing.
+10239 source packages: 2060 confident, 108 near-hit, 2542 need review, 5529 missing.
 
-<details><summary>Near-hit suggestions (109)</summary>
+<details><summary>Near-hit suggestions (108)</summary>
 
 - `allegro4` -> `allegro` (nearest same-program port: 4.4.1.1 vs allegro 4.4.3.1 (same major, port newer))
 - `aqbanking33` -> `aqbanking5` (nearest same-program port: 5.0.23 vs aqbanking5 5.8.2 (same major, port newer))
@@ -1245,14 +1245,14 @@
 - `goocanvasmm0.1.3` -> `goocanvasmm2` (nearest same-program port: 0.12.0 vs goocanvasmm2 1.90.11 (1 major newer))
 - `gpgme11` -> `gpgme` (nearest same-program port: 1.1.8 vs gpgme 2.2.0 (1 major newer))
 - `grass62` -> `grass` (nearest same-program port: 6.2.3 vs grass 8.5.0 (2 majors newer))
-- `gstreamer` -> `gstreamer1` (nearest same-program port: 0.8.12 vs gstreamer1 1.28.8 (1 major newer))
+- `gstreamer` -> `gstreamer1` (nearest same-program port: 0.8.12 vs gstreamer1 1.28.9 (1 major newer))
 - `gtest0` -> `gtest` (nearest same-program port: 1.5.0 vs gtest 1.18.0 (same major, port newer))
 - `gtk+` -> `gtk3` (nearest same-program port: 1.2.10 vs gtk3 3.24.52 (2 majors newer))
 - `gtk-engines` -> `gtk-engines2` (nearest same-program port: 0.12 vs gtk-engines2 2.20.2 (2 majors newer))
 - `gtksourceview-sharp` -> `gtksourceview-sharp2` (nearest same-program port: 2.0 vs gtksourceview-sharp2 0.12 (2 majors older))
 - `gtksourceviewmm` -> `gtksourceviewmm2` (nearest same-program port: 2.2.0 vs gtksourceviewmm2 2.10.3 (same major, port newer))
 - `guile16` -> `guile-3.0` (nearest same-program port: 1.6.7 vs guile-3.0 3.0.10 (2 majors newer))
-- `gwenhywfar47` -> `gwenhywfar5` (nearest same-program port: 3.8.2 vs gwenhywfar5 5.14.1 (2 majors newer))
+- `gwenhywfar47` -> `gwenhywfar5` (nearest same-program port: 3.8.2 vs gwenhywfar5 5.14.3 (2 majors newer))
 - `gwenhywfar60` -> `gwenhywfar4` (nearest same-program port: 4.3.2 vs gwenhywfar4 4.20.2 (same major, port newer))
 - `hdf` -> `hdf4` (nearest same-program port: 4.2r4 vs hdf4 4.2.15 (same major, port newer))
 - `kdeadmin3` -> `kdeadmin` (nearest same-program port: 3.5.10 vs kdeadmin 4.14.3 (1 major newer))
@@ -1286,7 +1286,7 @@
 - `libnxml0` -> `libnxml` (nearest same-program port: 0.18.3 vs libnxml 0.18.5 (same major, port newer))
 - `libofx3` -> `libofx` (nearest same-program port: 0.8.3 vs libofx 0.10.4 (same major, port newer))
 - `libpaper1` -> `libpaper` (nearest same-program port: 1.1.29 vs libpaper 2.3.0 (1 major newer))
-- `libpixman1` -> `libpixman` (nearest same-program port: 0.1.6 vs libpixman 0.46.0 (same major, port newer))
+- `libpixman1` -> `libpixman` (nearest same-program port: 0.1.6 vs libpixman 0.46.4 (same major, port newer))
 - `libpng14` -> `libpng` (nearest same-program port: 1.4.16 vs libpng 1.6.59 (same major, port newer))
 - `libpqxx2` -> `libpqxx26` (nearest same-program port: 2.6.8 vs libpqxx26 2.6.9 (same major, port newer))
 - `libquicktime0` -> `libquicktime` (nearest same-program port: 0.9.2rel vs libquicktime 1.2.4 (1 major newer))
@@ -1297,7 +1297,6 @@
 - `libunistring0` -> `libunistring` (nearest same-program port: 0.9.3 vs libunistring 1.5 (1 major newer))
 - `libwpd-0.8` -> `libwpd-0.10` (nearest same-program port: 0.8.14 vs libwpd-0.10 0.10.3 (same major, port newer))
 - `libxklavier16` -> `libxklavier` (nearest same-program port: 5.0 vs libxklavier 5.2.1 (same major, port newer))
-- `libxml2.16` -> `py314-libxml2` (nearest same-program port: 2.15.2 vs py314-libxml2 2.15.4 (same major, port newer); siblings: py313-libxml2, py312-libxml2, py311-libxml2, py310-libxml2, py-libxml2)
 - `magic74` -> `magic` (nearest same-program port: 7.4.59 vs magic 8.3.508 (1 major newer))
 - `ndmanager` -> `ndmanager2` (nearest same-program port: 1.2.1 vs ndmanager2 2.0.0 (1 major newer))
 - `neon23` -> `neon` (nearest same-program port: 0.23.9 vs neon 0.37.1 (same major, port newer))
@@ -1325,7 +1324,7 @@
 - `python24` -> `python315` (nearest same-program port: 2.4.4 vs python315 3.15.2 (1 major newer); siblings: python314, python313, python312, python311, python310, python39, python38, python37, python36, python35, python34, python33, python32)
 - `root4` -> `root6` (nearest same-program port: 4.04.02g vs root6 6.40.04 (2 majors newer))
 - `rpm5` -> `rpm54` (nearest same-program port: 5.0.3 vs rpm54 5.4.15 (same major, port newer))
-- `sdl2` -> `SDL3` (nearest same-program port: 2.32.10 vs SDL3 3.4.18 (1 major newer))
+- `sdl2` -> `SDL3` (nearest same-program port: 2.32.10 vs SDL3 3.4.20 (1 major newer))
 - `stunnel4` -> `stunnel` (nearest same-program port: 5.75 vs stunnel 5.82 (same major, port newer))
 - `t1lib5` -> `t1lib` (nearest same-program port: 5.1.1 vs t1lib 5.1.2 (same major, port newer))
 - `xerces-c31` -> `xercesc3` (nearest same-program port: 3.1.1 vs xercesc3 3.3.0 (same major, port newer))
@@ -1334,7 +1333,7 @@
 
 </details>
 
-<details><summary>Missing in macports (5531)</summary>
+<details><summary>Missing in macports (5529)</summary>
 
 - `0verkill`
 - `2mandvd`
@@ -1536,7 +1535,7 @@
 - `beediff`
 - `beediff-aqua`
 - `beep-media-player`
-- ... and 5331 more (see mappings/fink-to-macports.csv)
+- ... and 5329 more (see mappings/fink-to-macports.csv)
 
 </details>
 
@@ -1783,7 +1782,6 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `boo` (fink/package -> boo): mono-project.com vs boo.codehaus.org
 - `bossa` (homebrew/formula -> bossa): github.com vs shumatech.com
 - `bottom` (homebrew/formula -> bottom): clementtsang.github.io vs github.com
-- `bowtie` (homebrew/cask -> bowtie): bowtieapp.com vs bowtie-bio.sourceforge.net
 - `brook` (homebrew/formula -> brook): brook.app vs txthinking.com
 - `brs` (macports/port -> brs): mirrors.playboy.com vs bible.theverge.com
 - `brs` (fink/package -> brs): bible.theverge.com vs mirrors.playboy.com
@@ -1978,6 +1976,7 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `curl` (homebrew/formula -> curl): curl.se vs curl.haxx.se
 - `curl` (macports/port -> curl): curl.se vs curl.haxx.se
 - `curl` (fink/package -> curl): curl.haxx.se vs curl.se
+- `curl-impersonate` (homebrew/formula -> curl-impersonate): curl-impersonate.readthedocs.io vs github.com
 - `curlie` (homebrew/formula -> curlie): rs.github.io vs curlie.io
 - `cvs` (homebrew/formula -> cvs): nongnu.org vs cvs.nongnu.org
 - `cvs` (homebrew/formula -> cvs): nongnu.org vs ccvs.cvshome.org
@@ -2115,7 +2114,8 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `dosbox` (fink/package -> dosbox): dosbox.com vs dosbox.sourceforge.net
 - `dosbox-staging` (homebrew/formula -> dosbox-staging): dosbox-staging.github.io vs github.com
 - `dotnet-runtime` (homebrew/cask -> dotnet-runtime-10): microsoft.com vs dotnet.microsoft.com
-- `dotnet-sdk` (homebrew/cask -> dotnet-sdk-10): microsoft.com vs dotnet.microsoft.com
+- `dotnet-sdk` (homebrew/cask -> dotnet-sdk-11): microsoft.com vs dotnet.microsoft.com
+- `dotnet-sdk@10` (homebrew/cask -> dotnet-sdk-10): microsoft.com vs dotnet.microsoft.com
 - `dotnet-sdk@8` (homebrew/cask -> dotnet-sdk-8): microsoft.com vs dotnet.microsoft.com
 - `dotnet-sdk@9` (homebrew/cask -> dotnet-sdk-9): microsoft.com vs dotnet.microsoft.com
 - `doxygen` (homebrew/formula -> doxygen): doxygen.nl vs doxygen.org
@@ -2230,7 +2230,6 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `expat` (homebrew/formula -> expat): libexpat.github.io vs expat.sourceforge.net
 - `expat` (macports/port -> expat): libexpat.github.io vs expat.sourceforge.net
 - `expat` (fink/package -> expat): expat.sourceforge.net vs libexpat.github.io
-- `expat1` (fink/package -> expat): expat.sourceforge.net vs libexpat.github.io
 - `expect` (homebrew/formula -> expect): core.tcl-lang.org vs expect.sourceforge.net
 - `expect` (homebrew/formula -> expect): core.tcl-lang.org vs expect.nist.gov
 - `expect` (macports/port -> expect): expect.sourceforge.net vs expect.nist.gov
@@ -2379,7 +2378,6 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `gedit` (macports/port -> gedit): gitlab.gnome.org vs gedit.sourceforge.net
 - `gedit` (fink/package -> gedit): gedit.sourceforge.net vs gitlab.gnome.org
 - `gedit-plugins` (macports/port -> gedit-plugins): macports.org vs gedit.sourceforge.net
-- `gedit-plugins` (fink/package -> gedit-plugins): gedit.sourceforge.net vs macports.org
 - `geekcode` (macports/port -> geekcode): gushue.net vs geekcode.sourceforge.net
 - `geekcode` (fink/package -> geekcode): geekcode.sourceforge.net vs gushue.net
 - `geeqie` (homebrew/formula -> geeqie): geeqie.org vs geeqie.sourceforge.net
@@ -3212,7 +3210,6 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `libsquish` (homebrew/formula -> libsquish0): sourceforge.net vs code.google.com
 - `libsrtp` (macports/port -> libsrtp): github.com vs srtp.sourceforge.net
 - `libsrtp` (fink/package -> libsrtp): srtp.sourceforge.net vs github.com
-- `libsrtp1` (macports/port -> libsrtp): github.com vs srtp.sourceforge.net
 - `libtar` (homebrew/formula -> libtar): repo.or.cz vs github.com
 - `libtar` (homebrew/formula -> libtar): repo.or.cz vs feep.net
 - `libtar` (macports/port -> libtar): github.com vs feep.net
@@ -3247,9 +3244,10 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `libxml++` (homebrew/formula -> libxml): libxmlplusplus.sourceforge.net vs xmlsoft.org
 - `libxml++` (homebrew/formula -> libxml): libxmlplusplus.sourceforge.net vs gnome.org
 - `libxml++2` (fink/package -> libxml2): libxmlplusplus.sourceforge.net vs gitlab.gnome.org
-- `libxml2` (homebrew/formula -> libxml2): xmlsoft.org vs gitlab.gnome.org
+- `libxml2` (homebrew/formula -> libxml2): gitlab.gnome.org vs xmlsoft.org
 - `libxml2` (macports/port -> libxml2): gitlab.gnome.org vs xmlsoft.org
 - `libxml2` (fink/package -> libxml2): xmlsoft.org vs gitlab.gnome.org
+- `libxml2.16` (fink/package -> libxml2): xmlsoft.org vs gitlab.gnome.org
 - `libxo` (homebrew/formula -> libxo): juniper.github.io vs github.com
 - `libyaml` (homebrew/formula -> libyaml): github.com vs pyyaml.org
 - `libyaml` (homebrew/formula -> libyaml): github.com vs pyyaml.org
@@ -3388,6 +3386,7 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `mesa` (homebrew/formula -> mesa): mesa3d.org vs mesa3d.sourceforge.net
 - `mesa` (macports/port -> mesa): mesa3d.org vs mesa3d.sourceforge.net
 - `mesa` (fink/package -> mesa): mesa3d.sourceforge.net vs mesa3d.org
+- `meta-package-manager` (homebrew/formula -> meta-package-manager): kdeldycke.github.io vs mpm.run
 - `metacity` (macports/port -> metacity): wiki.gnome.org vs people.redhat.com
 - `metacity` (fink/package -> metacity): people.redhat.com vs wiki.gnome.org
 - `metis` (homebrew/formula -> metis): papers.karypis.org vs github.com
@@ -3622,7 +3621,6 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `ondir` (macports/port -> ondir): swapoff.org vs ondir.sourceforge.net
 - `ondir` (fink/package -> ondir): ondir.sourceforge.net vs swapoff.org
 - `onedpl` (homebrew/formula -> onedpl): github.com vs intel.com
-- `onefetch` (homebrew/formula -> onefetch): onefetch.dev vs github.com
 - `oniguruma` (homebrew/formula -> oniguruma): github.com vs geocities.jp
 - `oniguruma5` (macports/port -> oniguruma): github.com vs geocities.jp
 - `onioncat` (homebrew/formula -> onioncat): github.com vs onioncat.org
@@ -4506,6 +4504,7 @@ and record verdicts in `curated/no_equivalent.yaml`.
 - `watchman` (homebrew/formula -> watchman): facebook.github.io vs github.com
 - `watson` (homebrew/formula -> watson): jazzband.github.io vs tailordev.github.io
 - `wayland` (homebrew/formula -> wayland): wayland.freedesktop.org vs github.com
+- `wayland-protocols` (homebrew/formula -> wayland-protocols): wayland.freedesktop.org vs gitlab.freedesktop.org
 - `wcalc` (macports/port -> wcalc): wcalc.sourceforge.net vs w-calc.sourceforge.net
 - `wcalc` (fink/package -> wcalc): w-calc.sourceforge.net vs wcalc.sourceforge.net
 - `websocketd` (homebrew/formula -> websocketd): websocketd.com vs github.com
